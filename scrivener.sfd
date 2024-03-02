@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1709349575
+ModificationTime: 1709350050
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -142,7 +142,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 64 16 7
+WinInfo: 48 16 7
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
@@ -154,6 +154,9 @@ StemSnapH 24 [40 42 43 56 89 136 145]
 StemSnapV 31 [62 65 66 67 68 80 100 151 237]
 EndPrivate
 Grid
+-1000 542.875 m 0
+ 2000 542.875 l 1024
+  Named: "short-ascender"
 -1000 299.444661458 m 0
  2000 299.444661458 l 1024
   Named: "x-height"
@@ -165,7 +168,7 @@ StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 500
 GlyphClass: 1
-Flags: MW
+Flags: HMW
 HStem: 0 50<100 400 100 450> 383 50<100 400 100 100>
 VStem: 50 50<50 50 50 383> 400 50<50 383 383 383>
 LayerCount: 2
@@ -188,7 +191,7 @@ StartChar: novianDecorationRight
 Encoding: 0 0 1
 Width: 810
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -242,7 +245,7 @@ Encoding: 32 32 2
 AltUni2: 00200a.ffffffff.0 002009.ffffffff.0 002008.ffffffff.0 002007.ffffffff.0 002006.ffffffff.0 002005.ffffffff.0 002004.ffffffff.0 002003.ffffffff.0 002002.ffffffff.0 00200a.ffffffff.0 002009.ffffffff.0 002008.ffffffff.0 002007.ffffffff.0 002006.ffffffff.0 002005.ffffffff.0 002004.ffffffff.0 002003.ffffffff.0 002002.ffffffff.0
 Width: 291
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -250,7 +253,7 @@ StartChar: uni002C
 Encoding: 44 44 3
 Width: 221
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -76.5442 145.798
 VStem: 98.4963 66.3538
 LayerCount: 2
@@ -274,7 +277,7 @@ StartChar: uni002E
 Encoding: 46 46 4
 Width: 213
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -20.6535 89.9077
 VStem: 57.1141 100.374
 LayerCount: 2
@@ -294,7 +297,7 @@ StartChar: uni005B
 Encoding: 91 91 5
 Width: 162
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 570.089 43.7138
 VStem: 45.2635 66.3538
 LayerCount: 2
@@ -324,7 +327,7 @@ StartChar: uni005D
 Encoding: 93 93 6
 Width: 162
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -185.084 43.3959 570.848 42.17
 VStem: 131.378 66.3584
 LayerCount: 2
@@ -354,7 +357,7 @@ StartChar: uni0061
 Encoding: 97 97 7
 Width: 401
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -20.9414 42.9277<55.1099 131.13> 279.856 42.9277<62.9858 144.738>
 VStem: 20.1494 66.3545<60.1255 72.2627>
 LayerCount: 2
@@ -408,7 +411,7 @@ StartChar: uni0062
 Encoding: 98 98 8
 Width: 366
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.6877 42.9282 279.832 42.9282 648.654 20G
 VStem: 28.3656 66.3538 38.1445 80.1184 276.577 66.3538
 LayerCount: 2
@@ -565,7 +568,7 @@ StartChar: uni0065
 Encoding: 101 101 11
 Width: 394
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4639 42.9277<125.636 203.871> 279.856 42.9277<173.748 283.719>
 VStem: 32.167 66.3535<148.685 150.255>
 LayerCount: 2
@@ -614,10 +617,19 @@ StartChar: uni0066
 Encoding: 102 102 12
 Width: 225
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 290.471 42.9467 521.611 42.9282
 VStem: 47.4132 66.1732
 LayerCount: 2
+Back
+SplineSet
+27 296 m 1
+ 217 312 l 1025
+275 479 m 1
+ 262 500 214 542.875 165 542.875 c 3
+ 128 542.875 82 538.173828125 82 466 c 3
+ 82 222.331054688 86 -100 39 -162 c 1025
+EndSplineSet
 Fore
 SplineSet
 182.258789062 564.5390625 m 0
@@ -654,7 +666,7 @@ StartChar: uni0067
 Encoding: 103 103 13
 Width: 428
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -337.379 42.9287<141.141 216.091> -21.4639 42.9277<133.552 218.247> 279.856 42.9277 281.704 43.4385
 VStem: 13.4824 66.3535<-257.31 -202.387> 43.9512 66.3545<129.513 142.336> 152.865 66.3545<-81.1152 -38.292> 316.692 66.3545<-222.315 -175.673> 324.103 66.3535<180.735 194.568>
 LayerCount: 2
@@ -719,7 +731,7 @@ StartChar: uni0068
 Encoding: 104 104 14
 Width: 382
 GlyphClass: 2
-Flags: MWO
+Flags: HMW
 HStem: 274.761 42.9282 648.654 20G
 VStem: 38.9071 66.3538 51.6706 62.1838 289.434 66.3538
 LayerCount: 2
@@ -766,7 +778,7 @@ StartChar: uni0069
 Encoding: 105 105 15
 Width: 151
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -20.6535 42.9282 302.784 20G 352.346 89.9077
 VStem: 25.6604 100.374 47.7324 66.3538 59.8559 66.3538
 LayerCount: 2
@@ -807,7 +819,7 @@ StartChar: uni006A
 Encoding: 106 106 16
 Width: 148
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 302.784 20G 352.987 89.9077
 VStem: 27.6565 100.374 58.187 66.3538
 LayerCount: 2
@@ -843,7 +855,7 @@ StartChar: uni006B
 Encoding: 107 107 17
 Width: 370
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -356.804 21G<9.56152 9.56152> -21.4639 42.9277<254.779 353.035> 279.856 42.9277<256.611 318.768> 648.653 20G<118.129 118.129>
 VStem: 41.1582 68.1992
 LayerCount: 2
@@ -880,7 +892,7 @@ StartChar: uni006C
 Encoding: 108 108 18
 Width: 149
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -19.7275 42.9287 648.653 20G<120.37 120.37>
 VStem: 32.3301 66.3545<14.3486 49.3545> 43.4004 62.8721
 LayerCount: 2
@@ -917,7 +929,7 @@ StartChar: uni006D
 Encoding: 109 109 19
 Width: 602
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 275.211 42.9282 302.784 20G
 VStem: 19.66 66.3538 30.9995 66.3505 269.408 66.3538 501.22 66.3538
 LayerCount: 2
@@ -971,7 +983,7 @@ StartChar: uni006E
 Encoding: 110 110 20
 Width: 387
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 275.211 42.9282 302.784 20G
 VStem: 45.8377 66.3538 57.1775 66.3504 295.507 66.3538
 LayerCount: 2
@@ -1008,7 +1020,7 @@ StartChar: uni006F
 Encoding: 111 111 21
 Width: 433
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.0713 42.9277<154.751 248.412> 279.856 42.9277<175.395 269.056>
 VStem: 27.4863 66.3545<151.901 163.798> 329.967 66.3545<136.915 148.812>
 LayerCount: 2
@@ -1041,7 +1053,7 @@ StartChar: uni0070
 Encoding: 112 112 22
 Width: 432
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -356.804 21G -22.0715 42.9282 279.856 42.9282
 VStem: 40.0985 66.129 51.6189 66.2947 325.381 66.3538
 LayerCount: 2
@@ -1087,7 +1099,7 @@ StartChar: uni0071
 Encoding: 113 113 23
 Width: 410
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -356.804 21G -21.4641 42.9282 279.856 42.9282
 VStem: 44.1541 66.3538 283.049 66.3538
 LayerCount: 2
@@ -1129,7 +1141,7 @@ StartChar: uni0072
 Encoding: 114 114 24
 Width: 325
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 279.856 42.9282 302.784 20G
 VStem: 44.1483 66.3538 55.6687 66.3538 230.883 66.3538
 LayerCount: 2
@@ -1176,7 +1188,7 @@ StartChar: uni0073
 Encoding: 115 115 25
 Width: 414
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -18.2248 42.9282 279.856 42.9282
 VStem: 44.1541 66.3538 309.639 66.3538
 LayerCount: 2
@@ -1218,7 +1230,7 @@ StartChar: uni0074
 Encoding: 116 116 26
 Width: 423
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4639 42.9277<129.013 213.707> 273.438 42.9287<31.7798 131.341> 282.215 40.4932
 VStem: 39.4121 66.3535<129.513 142.498>
 LayerCount: 2
@@ -1258,7 +1270,7 @@ StartChar: uni0075
 Encoding: 117 117 27
 Width: 381
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4639 42.9277<92.6899 180.435> 303.677 20G<99.5864 107.119>
 VStem: 37.208 66.3535<110.035 125.799> 57.8525 66.3535<239.822 292.377> 267.945 66.1855<34.1211 101.526> 276.558 66.3535<230.399 238.122>
 LayerCount: 2
@@ -1308,7 +1320,7 @@ StartChar: uni0076
 Encoding: 118 118 28
 Width: 400
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4639 42.9277<98.5859 183.408> 303.677 20G<105.482 113.015>
 VStem: 43.1035 66.3535<110.035 125.799> 63.749 66.3535<239.822 292.377> 302.626 66.3535<232.445 235.97>
 LayerCount: 2
@@ -1353,7 +1365,7 @@ StartChar: uni0077
 Encoding: 119 119 29
 Width: 622
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4639 42.9277<89.2456 175.166> 303.677 20G<96.1426 103.675 327.803 335.335>
 VStem: 33.7627 66.3535<110.036 125.8> 54.4082 66.3545<239.823 292.378> 265.423 66.3535<110.036 125.8> 286.068 66.3545<239.823 292.378> 524.946 66.3535<232.446 235.97>
 LayerCount: 2
@@ -1416,7 +1428,7 @@ StartChar: uni0078
 Encoding: 120 120 30
 Width: 525
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -181.317 42.9287<-68.521 6.39111> -21.4639 42.9277<406.064 481.852> 279.856 42.9277
 VStem: 19.6299 66.3535<237.509 269.749>
 LayerCount: 2
@@ -1469,7 +1481,7 @@ StartChar: uni0079
 Encoding: 121 121 31
 Width: 380
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -356.804 21G -21.4641 42.9282 303.677 20G
 VStem: 40.5331 66.3538 61.1783 66.3538 259.246 66.3538 279.994 66.3538
 LayerCount: 2
@@ -1517,7 +1529,7 @@ StartChar: uni007A
 Encoding: 122 122 32
 Width: 420
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -19.6572 42.9287<226.323 296.592> 273.721 42.9287<107.346 240.418>
 VStem: 320.196 66.3535<77.916 127.548>
 LayerCount: 2
@@ -1560,7 +1572,7 @@ StartChar: uni00FE
 Encoding: 254 254 33
 Width: 387
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -356.804 21G 279.052 42.9282 648.654 20G
 VStem: 51.02 62.6707 279.362 66.3538
 LayerCount: 2
@@ -1598,7 +1610,7 @@ StartChar: uni0131
 Encoding: 305 305 34
 Width: 151
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -20.6535 42.9282 302.784 20G
 VStem: 35.7564 66.3538 47.8799 66.3538
 LayerCount: 2
@@ -1632,7 +1644,7 @@ StartChar: uni017F
 Encoding: 383 383 35
 Width: 224
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 521.611 42.9282
 VStem: 49.2518 66.1949
 LayerCount: 2
@@ -1668,7 +1680,7 @@ StartChar: uni01BF
 Encoding: 447 447 36
 Width: 397
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -356.804 21G 279.052 42.9282
 VStem: 48.1981 66.0305 59.7189 66.3538 290.708 66.3538
 LayerCount: 2
@@ -1716,7 +1728,7 @@ StartChar: uni0237
 Encoding: 567 567 37
 Width: 148
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 302.784 20G
 VStem: 44.2149 66.3538
 LayerCount: 2
@@ -1745,7 +1757,7 @@ StartChar: uni25CC
 Encoding: 775 775 38
 Width: 213
 GlyphClass: 4
-Flags: MW
+Flags: HMW
 HStem: 351.346 89.9077
 VStem: 54.6844 100.374
 LayerCount: 2
@@ -1765,7 +1777,7 @@ StartChar: uni0323
 Encoding: 803 803 39
 Width: 213
 GlyphClass: 4
-Flags: MW
+Flags: HMW
 HStem: -124.654 89.9077
 VStem: 57.1141 100.374
 LayerCount: 2
@@ -1785,7 +1797,7 @@ StartChar: runeFeoh
 Encoding: 5792 5792 40
 Width: 454
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 59.9735 65.2696 195.501 66.3538 331.455 66.3538
 LayerCount: 2
 Fore
@@ -1819,7 +1831,7 @@ StartChar: runeUr
 Encoding: 5794 5794 41
 Width: 503
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 59.9735 66.3538 379.935 66.3538
 LayerCount: 2
 Fore
@@ -1846,7 +1858,7 @@ StartChar: runeYr
 Encoding: 5795 5795 42
 Width: 503
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 59.9735 65.4942 211.443 66.3538 379.935 66.3538
 LayerCount: 2
 Fore
@@ -1883,7 +1895,7 @@ StartChar: runeThorn
 Encoding: 5798 5798 43
 Width: 391
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5428 66.5622
 LayerCount: 2
 Fore
@@ -1915,7 +1927,7 @@ StartChar: runeOs
 Encoding: 5801 5801 44
 Width: 531
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5428 66.3538
 LayerCount: 2
 Fore
@@ -1948,7 +1960,7 @@ StartChar: runeAs
 Encoding: 5802 5802 45
 Width: 531
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5428 66.3538
 LayerCount: 2
 Fore
@@ -1978,7 +1990,7 @@ StartChar: uni0105
 Encoding: 5803 5803 46
 Width: 449
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5428 66.3538
 LayerCount: 2
 Fore
@@ -2005,7 +2017,7 @@ StartChar: runeRad
 Encoding: 5809 5809 47
 Width: 427
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.9031 66.3538
 LayerCount: 2
 Fore
@@ -2036,7 +2048,7 @@ StartChar: runeKauna
 Encoding: 5810 5810 48
 Width: 549
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2062,7 +2074,7 @@ StartChar: runeCen
 Encoding: 5811 5811 49
 Width: 449
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 59.9735 66.3538
 LayerCount: 2
 Fore
@@ -2089,7 +2101,7 @@ StartChar: runeKaun
 Encoding: 5812 5812 50
 Width: 454
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5428 67.4 331.455 66.3538
 LayerCount: 2
 Fore
@@ -2116,7 +2128,7 @@ StartChar: runeGyfu
 Encoding: 5815 5815 51
 Width: 640
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2144,7 +2156,7 @@ StartChar: runeGar
 Encoding: 5816 5816 52
 Width: 636
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2204,7 +2216,7 @@ StartChar: runeWynn
 Encoding: 5817 5817 53
 Width: 391
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.9031 66.3538
 LayerCount: 2
 Fore
@@ -2234,7 +2246,7 @@ StartChar: runeHaegl
 Encoding: 5819 5819 54
 Width: 544
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 55.1136 66.3538 423.314 66.3538
 LayerCount: 2
 Fore
@@ -2281,7 +2293,7 @@ StartChar: runeNyd
 Encoding: 5822 5822 55
 Width: 449
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 191.193 66.3538
 LayerCount: 2
 Fore
@@ -2310,7 +2322,7 @@ StartChar: runeIs
 Encoding: 5825 5825 56
 Width: 181
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5433 66.3538
 LayerCount: 2
 Fore
@@ -2331,7 +2343,7 @@ StartChar: runeGer
 Encoding: 5828 5828 57
 Width: 602
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 268.503 66.3538
 LayerCount: 2
 Fore
@@ -2365,7 +2377,7 @@ StartChar: runeEoh
 Encoding: 5831 5831 58
 Width: 718
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 325.765 66.2415
 LayerCount: 2
 Fore
@@ -2390,7 +2402,7 @@ StartChar: runePeorth
 Encoding: 5832 5832 59
 Width: 550
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 59.9735 66.3538
 LayerCount: 2
 Fore
@@ -2426,7 +2438,7 @@ StartChar: runeEolhx
 Encoding: 5833 5833 60
 Width: 615
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 275.02 66.3538
 LayerCount: 2
 Fore
@@ -2458,7 +2470,7 @@ StartChar: runeSowilo
 Encoding: 5834 5834 61
 Width: 486
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -17.3627 42.9282 519.404 42.9282
 LayerCount: 2
 Fore
@@ -2496,7 +2508,7 @@ StartChar: runeSigel
 Encoding: 5835 5835 62
 Width: 468
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5433 66.3538 345.318 66.3517
 LayerCount: 2
 Fore
@@ -2523,7 +2535,7 @@ StartChar: runeTir
 Encoding: 5839 5839 63
 Width: 596
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 263.283 66.3538
 LayerCount: 2
 Fore
@@ -2550,7 +2562,7 @@ StartChar: runeBeorc
 Encoding: 5842 5842 64
 Width: 388
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 55.9227 66.381
 LayerCount: 2
 Fore
@@ -2583,7 +2595,7 @@ StartChar: runeOpenP
 Encoding: 5845 5845 65
 Width: 462
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 185.442 56.5835
 VStem: 58.4783 66.3538
 LayerCount: 2
@@ -2622,7 +2634,7 @@ StartChar: runeEh
 Encoding: 5846 5846 66
 Width: 596
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5428 66.3538 473.073 66.3538
 LayerCount: 2
 Fore
@@ -2654,7 +2666,7 @@ StartChar: runeMan
 Encoding: 5847 5847 67
 Width: 596
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5428 66.3538 473.073 66.3538
 LayerCount: 2
 Fore
@@ -2689,7 +2701,7 @@ StartChar: runeLagu
 Encoding: 5850 5850 68
 Width: 449
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5428 66.3538
 LayerCount: 2
 Fore
@@ -2711,7 +2723,7 @@ StartChar: runeIng
 Encoding: 5853 5853 69
 Width: 471
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2757,7 +2769,7 @@ StartChar: runeDaeg
 Encoding: 5854 5854 70
 Width: 596
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5428 66.3538 473.073 66.3538
 LayerCount: 2
 Fore
@@ -2790,7 +2802,7 @@ StartChar: runeEthel
 Encoding: 5855 5855 71
 Width: 567
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2823,7 +2835,7 @@ StartChar: uni0148
 Encoding: 5856 5856 72
 Width: 741
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 337.005 66.3538
 LayerCount: 2
 Fore
@@ -2857,7 +2869,7 @@ StartChar: runeIor
 Encoding: 5857 5857 73
 Width: 453
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 194.433 66.3538
 LayerCount: 2
 Fore
@@ -2898,7 +2910,7 @@ StartChar: runeCalc
 Encoding: 5859 5859 74
 Width: 629
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 283.845 66.3538
 LayerCount: 2
 Fore
@@ -2930,7 +2942,7 @@ StartChar: runeEar
 Encoding: 5861 5861 75
 Width: 596
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5428 66.3538 473.073 66.3538
 LayerCount: 2
 Fore
@@ -2967,7 +2979,7 @@ StartChar: runeSinglePunct
 Encoding: 5867 5867 76
 Width: 264
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 222 136<87 125>
 VStem: 31 151<277 303>
 LayerCount: 2
@@ -2987,7 +2999,7 @@ StartChar: runeMultiPunct
 Encoding: 5868 5868 77
 Width: 262
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 128 136<100 138> 333 136<101 139>
 VStem: 44 151<183 209> 45 151<388 414>
 LayerCount: 2
@@ -3014,7 +3026,7 @@ StartChar: uni16ED
 Encoding: 5869 5869 78
 Width: 365
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 269.47 43.1818
 VStem: 147.835 66.3538
 LayerCount: 2
@@ -3044,7 +3056,7 @@ StartChar: runeTolK
 Encoding: 5873 5873 79
 Width: 461
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 58.4783 66.3538
 LayerCount: 2
 Fore
@@ -3076,7 +3088,7 @@ StartChar: runeTolSH
 Encoding: 5874 5874 80
 Width: 468
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 57.5428 66.3538 345.287 66.3865
 LayerCount: 2
 Fore
@@ -3102,7 +3114,7 @@ StartChar: runeTolOO
 Encoding: 5875 5875 81
 Width: 602
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 VStem: 268.503 66.3538
 LayerCount: 2
 Fore
@@ -3136,7 +3148,7 @@ StartChar: uni200B
 Encoding: 8203 8203 82
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -3144,7 +3156,7 @@ StartChar: uni200C
 Encoding: 8204 8204 83
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -3152,7 +3164,7 @@ StartChar: uni200D
 Encoding: 8205 8205 84
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -3160,7 +3172,7 @@ StartChar: uni200E
 Encoding: 8206 8206 85
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -3168,7 +3180,7 @@ StartChar: uni200F
 Encoding: 8207 8207 86
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -3176,7 +3188,7 @@ StartChar: uni25C7
 Encoding: 9671 9671 87
 Width: 810
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 0.631607 21G
 LayerCount: 2
 Fore
@@ -3202,7 +3214,7 @@ StartChar: uniA75A
 Encoding: 42842 42842 88
 Width: 162
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -3210,7 +3222,7 @@ StartChar: uniA75B
 Encoding: 42843 42843 89
 Width: 204
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 279.856 42.9282
 VStem: 103.713 66.3538
 LayerCount: 2
@@ -3243,7 +3255,7 @@ StartChar: gargP
 Encoding: 58816 58816 90
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 310.907 42.9282 321.536 42.9282 453.346 89.9077
 VStem: 28.8231 66.3538 196.684 100.374 380.823 66.3538
 LayerCount: 2
@@ -3300,7 +3312,7 @@ StartChar: gargB
 Encoding: 58817 58817 91
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 257.683 42.9282 302.801 20G 333.435 42.9282 452.346 89.9077
 VStem: 28.8231 66.3538 193.684 100.374 380.823 66.3538
 LayerCount: 2
@@ -3359,7 +3371,7 @@ StartChar: gargM
 Encoding: 58818 58818 92
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 302.801 20G 406.346 89.9077
 VStem: 28.8231 66.3538 191.684 100.374 380.823 66.3538
 LayerCount: 2
@@ -3411,7 +3423,7 @@ StartChar: gargF
 Encoding: 58819 58819 93
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 310.907 42.9282 321.536 42.9282
 VStem: 28.8231 66.3538 380.823 66.3538
 LayerCount: 2
@@ -3461,7 +3473,7 @@ StartChar: gargV
 Encoding: 58820 58820 94
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 257.683 42.9282 302.801 20G 333.435 42.9282
 VStem: 28.8231 66.3538 380.823 66.3538
 LayerCount: 2
@@ -3513,7 +3525,7 @@ StartChar: gargU
 Encoding: 58821 58821 95
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 302.801 20G
 VStem: 28.8231 66.3538 380.823 66.3538
 LayerCount: 2
@@ -3558,7 +3570,7 @@ StartChar: gargT
 Encoding: 58822 58822 96
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 322.895 42.9282 452.346 89.9077
 VStem: 28.8231 66.3538 181.684 100.374 380.823 66.3538
 LayerCount: 2
@@ -3609,7 +3621,7 @@ StartChar: gargD
 Encoding: 58823 58823 97
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 257.799 42.9282 332.492 42.9282 453.346 89.9077
 VStem: 28.8231 66.3538 192.684 100.374 380.823 66.3538
 LayerCount: 2
@@ -3671,7 +3683,7 @@ StartChar: gargN
 Encoding: 58824 58824 98
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 112.346 89.9077 302.801 20G
 VStem: 28.8231 66.3538 174.684 100.374 380.823 66.3538
 LayerCount: 2
@@ -3718,7 +3730,7 @@ StartChar: gargS
 Encoding: 58825 58825 99
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 322.895 42.9282
 VStem: 28.8231 66.3538 380.823 66.3538
 LayerCount: 2
@@ -3762,7 +3774,7 @@ StartChar: gargZ
 Encoding: 58826 58826 100
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 257.799 42.9282 332.492 42.9282
 VStem: 28.8231 66.3538 380.823 66.3538
 LayerCount: 2
@@ -3817,7 +3829,7 @@ StartChar: gargE
 Encoding: 58827 58827 101
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 302.801 20G
 VStem: 28.8231 66.3538 380.823 66.3538
 LayerCount: 2
@@ -3857,7 +3869,7 @@ StartChar: gargCH
 Encoding: 58828 58828 102
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.2397 42.4934 279.326 42.9282 453.346 89.9077
 VStem: 192.684 100.374 198.147 66.1039
 LayerCount: 2
@@ -3913,7 +3925,7 @@ StartChar: gargJ
 Encoding: 58829 58829 103
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.2383 42.492 257.928 42.9282 333.549 42.9282 453.346 89.9077
 VStem: 192.684 100.374 198.447 66.0471 380.825 66.3538
 LayerCount: 2
@@ -3976,7 +3988,7 @@ StartChar: gargNY
 Encoding: 58830 58830 104
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.2397 42.4934 302.784 20G 406.346 89.9077
 VStem: 192.684 100.374 198.147 66.1039
 LayerCount: 2
@@ -4022,7 +4034,7 @@ StartChar: gargSH
 Encoding: 58831 58831 105
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.2397 42.4934 279.326 42.9282
 VStem: 198.147 66.1039
 LayerCount: 2
@@ -4071,7 +4083,7 @@ StartChar: gargZH
 Encoding: 58832 58832 106
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.2383 42.492 257.928 42.9282 333.549 42.9282
 VStem: 198.447 66.0471 380.825 66.3538
 LayerCount: 2
@@ -4127,7 +4139,7 @@ StartChar: gargI
 Encoding: 58833 58833 107
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.2397 42.4934 302.784 20G
 VStem: 198.147 66.1039
 LayerCount: 2
@@ -4166,7 +4178,7 @@ StartChar: gargKL
 Encoding: 58834 58834 108
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282 310.907 42.9282 321.536 42.9282 453.346 89.9077
 VStem: 28.8231 66.3538 192.684 100.374 218.823 66.3538 380.823 66.3538
 LayerCount: 2
@@ -4228,7 +4240,7 @@ StartChar: gargGL
 Encoding: 58835 58835 109
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282 257.683 42.9282 333.435 42.9282 453.346 89.9077
 VStem: 28.8231 66.3538 192.684 100.374 218.823 66.3538 380.823 66.3538
 LayerCount: 2
@@ -4293,7 +4305,7 @@ StartChar: gargNL
 Encoding: 58836 58836 110
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282 115.346 89.9077
 VStem: 28.8231 66.3538 218.823 66.3538 220.684 100.374 380.823 66.3538
 LayerCount: 2
@@ -4351,7 +4363,7 @@ StartChar: gargHL
 Encoding: 58837 58837 111
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282 310.907 42.9282 321.536 42.9282
 VStem: 28.8231 66.3538 218.823 66.3538 380.823 66.3538
 LayerCount: 2
@@ -4406,7 +4418,7 @@ StartChar: gargL
 Encoding: 58838 58838 112
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282 257.683 42.9282 333.435 42.9282
 VStem: 28.8231 66.3538 218.823 66.3538 380.823 66.3538
 LayerCount: 2
@@ -4464,7 +4476,7 @@ StartChar: gargO
 Encoding: 58839 58839 113
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282
 VStem: 28.8231 66.3538 218.823 66.3538 380.823 66.3538
 LayerCount: 2
@@ -4515,7 +4527,7 @@ StartChar: gargK
 Encoding: 58840 58840 114
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282 310.907 42.9282 321.536 42.9282 453.346 89.9077
 VStem: 28.8231 66.3538 192.684 100.374 380.823 66.3538
 LayerCount: 2
@@ -4564,7 +4576,7 @@ StartChar: gargG
 Encoding: 58841 58841 115
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282 257.683 42.9282 333.435 42.9282 453.346 89.9077
 VStem: 28.8231 66.3538 192.684 100.374 380.823 66.3538
 LayerCount: 2
@@ -4616,7 +4628,7 @@ StartChar: gargNG
 Encoding: 58842 58842 116
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282 115.346 89.9077
 VStem: 28.8231 66.3538 220.684 100.374 380.823 66.3538
 LayerCount: 2
@@ -4661,7 +4673,7 @@ StartChar: gargH
 Encoding: 58843 58843 117
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282 310.907 42.9282 321.536 42.9282
 VStem: 28.8231 66.3538 380.823 66.3538
 LayerCount: 2
@@ -4703,7 +4715,7 @@ StartChar: gargR
 Encoding: 58844 58844 118
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282 257.683 42.9282 333.435 42.9282
 VStem: 28.8231 66.3538 380.823 66.3538
 LayerCount: 2
@@ -4748,7 +4760,7 @@ StartChar: gargA
 Encoding: 58845 58845 119
 Width: 481
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -22.1576 42.9282
 VStem: 28.8231 66.3538 380.823 66.3538
 LayerCount: 2
@@ -4786,7 +4798,7 @@ StartChar: gargComma
 Encoding: 58846 58846 120
 Width: 381
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282
 VStem: 28.8231 237.354
 LayerCount: 2
@@ -4808,7 +4820,7 @@ StartChar: gargFullStop
 Encoding: 58847 58847 121
 Width: 381
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.4641 42.9282 52.5359 42.9282 121.536 42.9282
 VStem: 29.2057 66.0176 114.823 66.3538 199.823 66.3538
 LayerCount: 2
@@ -4853,7 +4865,7 @@ StartChar: ophSnake
 Encoding: 58848 58848 122
 Width: 317
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.8066 42.9277<112.394 188.856> 521.848 42.9277<127.476 203.939>
 VStem: 27 66.3535<416.85 469.984> 222.978 66.3535<72.9839 126.118>
 LayerCount: 2
@@ -4893,7 +4905,7 @@ StartChar: ophConSnake
 Encoding: 58849 58849 123
 Width: 317
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.8066 42.9277<112.394 188.856> 521.848 42.9277<127.476 203.939>
 VStem: 27 66.3535<416.85 469.984> 222.978 66.3535<72.9839 126.118>
 LayerCount: 2
@@ -4933,7 +4945,7 @@ StartChar: ophRevSnake
 Encoding: 58850 58850 124
 Width: 317
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.8066 42.9277<112.057 190.747> 521.848 42.9277<125.584 204.273>
 VStem: 27 66.3535<70.8223 122.553> 222.978 66.3535<420.415 472.146>
 LayerCount: 2
@@ -4976,7 +4988,7 @@ StartChar: ophConRevSnake
 Encoding: 58851 58851 125
 Width: 317
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -21.8066 42.9277<112.057 190.747> 521.848 42.9277<125.584 204.273>
 VStem: 27 66.3535<70.8223 122.553> 222.978 66.3535<420.415 472.146>
 LayerCount: 2
@@ -5019,7 +5031,7 @@ StartChar: ophLzySnake
 Encoding: 58852 58852 126
 Width: 669
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 171.283 42.9277<126.273 194.463> 367.261 42.9277<473.545 541.733>
 VStem: 29 66.3535<263.93 321.868> 572.654 66.3535<259.604 317.542>
 LayerCount: 2
@@ -5061,7 +5073,7 @@ StartChar: ophConLzySnake
 Encoding: 58853 58853 127
 Width: 669
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 171.283 42.9277<126.273 194.463> 367.261 42.9277<473.545 541.733>
 VStem: 29 66.3535<263.93 321.868> 572.654 66.3535<259.604 317.542>
 LayerCount: 2
@@ -5103,7 +5115,7 @@ StartChar: ophRevLzySnake
 Encoding: 58854 58854 128
 Width: 668
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 171.283 42.9277<467.293 537.554> 367.261 42.9277<128.454 198.714>
 VStem: 28 66.3535<261.972 321.25> 571.654 66.3535<260.224 314.856>
 LayerCount: 2
@@ -5146,7 +5158,7 @@ StartChar: ophConRevLzySnake
 Encoding: 58855 58855 129
 Width: 668
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 171.283 42.9277<467.293 537.554> 367.261 42.9277<128.454 198.714>
 VStem: 28 66.3535<261.972 321.25> 571.654 66.3535<260.224 314.856>
 LayerCount: 2
@@ -5189,7 +5201,7 @@ StartChar: ophTltSnake
 Encoding: 58856 58856 130
 Width: 421
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -14.4941 42.9277<113.05 191.266> 514.197 42.9287<228.66 306.876>
 VStem: 128.221 66.3535<417.897 463.044> 225.351 66.3535<79.5864 124.733>
 LayerCount: 2
@@ -5230,7 +5242,7 @@ StartChar: ophConTltSnake
 Encoding: 58857 58857 131
 Width: 421
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -14.4941 42.9277<113.05 191.266> 514.197 42.9287<228.66 306.876>
 VStem: 128.221 66.3535<417.897 463.044> 225.351 66.3535<79.5864 124.733>
 LayerCount: 2
@@ -5271,7 +5283,7 @@ StartChar: ophRevTltSnake
 Encoding: 58858 58858 132
 Width: 421
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -14.4941 42.9277<225.557 291.988> 514.197 42.9287<127.935 194.366>
 VStem: 128.22 66.3545<77.7842 124.733> 225.35 66.3545<417.897 464.847>
 LayerCount: 2
@@ -5315,7 +5327,7 @@ StartChar: ophConRevTltSnake
 Encoding: 58859 58859 133
 Width: 421
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -14.4941 42.9277<225.557 291.988> 514.197 42.9287<127.935 194.366>
 VStem: 128.22 66.3545<77.7842 124.733> 225.35 66.3545<417.897 464.847>
 LayerCount: 2
@@ -5359,7 +5371,7 @@ StartChar: ophLzyTltSnake
 Encoding: 58860 58860 134
 Width: 654
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 231.756 42.9287<113.994 194.582> 328.886 42.9287<458.463 539.051>
 VStem: 29 66.3535<324.334 378.265> 557.691 66.3545<225.304 279.235>
 LayerCount: 2
@@ -5401,7 +5413,7 @@ StartChar: ophConLzyTltSnake
 Encoding: 58861 58861 135
 Width: 654
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 231.756 42.9287<113.994 194.582> 328.886 42.9287<458.463 539.051>
 VStem: 29 66.3535<324.334 378.265> 557.691 66.3545<225.304 279.235>
 LayerCount: 2
@@ -5443,7 +5455,7 @@ StartChar: ophRevLzyTltSnake
 Encoding: 58862 58862 136
 Width: 652
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 231.756 42.9287 328.886 42.9287
 VStem: 28 66.3535<228.111 281.021> 556.692 66.3535<322.548 375.458>
 LayerCount: 2
@@ -5489,7 +5501,7 @@ StartChar: ophConRevLzyTltSnake
 Encoding: 58863 58863 137
 Width: 652
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 231.756 42.9287 328.886 42.9287
 VStem: 28 66.3535<228.111 281.021> 556.692 66.3535<322.548 375.458>
 LayerCount: 2
@@ -5535,7 +5547,7 @@ StartChar: ophDblSnake
 Encoding: 58864 58864 138
 Width: 540
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -20.1582 42.9277<147.449 246.886> 160.272 42.9277<180.173 358.799> 340.166 42.9277<180.173 358.799> 519.419 42.9277<144.263 234.28>
 VStem: 28 66.3535<64.5288 115.595> 444.619 66.3535<246.425 297.648>
 LayerCount: 2
@@ -5595,7 +5607,7 @@ StartChar: ophRevDblSnake
 Encoding: 58865 58865 139
 Width: 540
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: -18.9805 42.9277<304.692 394.71> 160.272 42.9277<180.174 358.8> 340.166 42.9277<180.174 358.8> 520.597 42.9277<292.087 391.524>
 VStem: 28 66.3535<245.718 296.941> 444.619 66.3535<68.0444 119.246>
 LayerCount: 2
@@ -5655,7 +5667,7 @@ StartChar: ophHook
 Encoding: 58866 58866 140
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5663,7 +5675,7 @@ StartChar: ophConHook
 Encoding: 58867 58867 141
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5671,7 +5683,7 @@ StartChar: ophRevHook
 Encoding: 58868 58868 142
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5679,7 +5691,7 @@ StartChar: ophConRevHook
 Encoding: 58869 58869 143
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5687,7 +5699,7 @@ StartChar: ophLzyHook
 Encoding: 58870 58870 144
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5695,7 +5707,7 @@ StartChar: ophConLzyHook
 Encoding: 58871 58871 145
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5703,7 +5715,7 @@ StartChar: ophRevLzyHook
 Encoding: 58872 58872 146
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5711,7 +5723,7 @@ StartChar: ophConRevLzyHook
 Encoding: 58873 58873 147
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5719,7 +5731,7 @@ StartChar: ophComma
 Encoding: 58874 58874 148
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5727,7 +5739,7 @@ StartChar: ophFullStop
 Encoding: 58875 58875 149
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5735,7 +5747,7 @@ StartChar: ophChaosSerp
 Encoding: 58876 58876 150
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5743,7 +5755,7 @@ StartChar: ophOrderSerp
 Encoding: 58877 58877 151
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5751,7 +5763,7 @@ StartChar: ophEarthSerp
 Encoding: 58878 58878 152
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5759,7 +5771,7 @@ StartChar: uniE5FF
 Encoding: 58879 58879 153
 Width: 200
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5767,7 +5779,7 @@ StartChar: uniFE00
 Encoding: 65024 65024 154
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5775,7 +5787,7 @@ StartChar: uniFE01
 Encoding: 65025 65025 155
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5783,7 +5795,7 @@ StartChar: uniFE02
 Encoding: 65026 65026 156
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5791,7 +5803,7 @@ StartChar: uniFE03
 Encoding: 65027 65027 157
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5799,7 +5811,7 @@ StartChar: uniFE04
 Encoding: 65028 65028 158
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5807,7 +5819,7 @@ StartChar: uniFE05
 Encoding: 65029 65029 159
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5815,7 +5827,7 @@ StartChar: varSel7
 Encoding: 65030 65030 160
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5823,7 +5835,7 @@ StartChar: uniFE07
 Encoding: 65031 65031 161
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5831,7 +5843,7 @@ StartChar: uniFE08
 Encoding: 65032 65032 162
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5839,7 +5851,7 @@ StartChar: uniFE09
 Encoding: 65033 65033 163
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5847,7 +5859,7 @@ StartChar: uniFE0A
 Encoding: 65034 65034 164
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5855,7 +5867,7 @@ StartChar: uniFE0B
 Encoding: 65035 65035 165
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5863,7 +5875,7 @@ StartChar: uniFE0C
 Encoding: 65036 65036 166
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5871,7 +5883,7 @@ StartChar: uniFE0D
 Encoding: 65037 65037 167
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5879,7 +5891,7 @@ StartChar: uniFE0E
 Encoding: 65038 65038 168
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5887,7 +5899,7 @@ StartChar: uniFE0F
 Encoding: 65039 65039 169
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -5895,7 +5907,7 @@ StartChar: runeSosV
 Encoding: 65537 -1 170
 Width: 502
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5918,7 +5930,7 @@ StartChar: novianDecorationLeft
 Encoding: 65538 -1 171
 Width: 810
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0.631607 21G
 LayerCount: 2
 Fore
@@ -5972,7 +5984,7 @@ StartChar: ophC
 Encoding: 65539 -1 172
 Width: 514
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -21.8066 42.9277<112.394 188.856> 521.848 42.9277<127.476 203.939>
 VStem: 27 66.3535<416.85 469.984> 222.978 66.3535<72.9839 126.118> 224 66.3535<70.8223 122.553> 419.978 66.3535<420.415 472.146>
 LayerCount: 2
@@ -6043,7 +6055,7 @@ StartChar: ophB
 Encoding: 65540 -1 173
 Width: 512
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -21.8066 42.9277<112.057 190.747> 521.848 42.9277<125.584 204.273>
 VStem: 27 66.3535<70.8223 122.553> 222 66.3535<416.85 469.984> 222.978 66.3535<420.415 472.146> 417.978 66.3535<72.9839 126.118>
 LayerCount: 2
@@ -6114,7 +6126,7 @@ StartChar: ophF
 Encoding: 65541 -1 174
 Width: 669
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 53.2832 42.9277<468.293 538.554> 249.261 42.9277<129.454 199.714> 249.283 42.9277<127.273 195.463> 445.261 42.9277<474.545 542.733>
 VStem: 29 66.3535<143.972 203.25> 30 66.3535<341.93 399.868> 572.654 66.3535<142.224 196.856> 573.654 66.3535<337.604 395.542>
 LayerCount: 2
@@ -6187,7 +6199,7 @@ StartChar: ophG
 Encoding: 65542 -1 175
 Width: 670
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 53.2832 42.9277<127.645 195.834> 248.283 42.9277<467.665 537.925> 249.261 42.9277<474.917 543.104> 444.261 42.9277<128.825 199.085>
 VStem: 28.3711 66.3535<338.972 398.25> 30.3711 66.3535<145.93 203.868> 572.025 66.3535<337.224 391.856> 574.025 66.3535<141.604 199.542>
 LayerCount: 2
@@ -6260,7 +6272,7 @@ StartChar: ophI
 Encoding: 65543 -1 176
 Width: 669
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 39.2832 42.9277<126.645 194.834> 235.261 42.9277<473.917 542.104> 262.283 42.9277<127.645 195.834> 458.261 42.9277<474.917 543.104>
 VStem: 29.3711 66.3535<131.93 189.868> 30.3711 66.3535<354.93 412.868> 573.025 66.3535<127.604 185.542> 574.025 66.3535<350.604 408.542>
 LayerCount: 2
@@ -6332,7 +6344,7 @@ StartChar: ophJ
 Encoding: 65544 -1 177
 Width: 568
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -21.8066 42.9277<112.057 190.747> 521.848 42.9277<125.584 204.273>
 VStem: 27 66.3535<70.8223 122.553> 222.978 66.3535<420.415 472.146> 278 66.3535<70.8223 122.553> 473.978 66.3535<420.415 472.146>
 LayerCount: 2
@@ -6406,7 +6418,7 @@ StartChar: ophK
 Encoding: 65545 -1 178
 Width: 541
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -21.8066 42.9277<112.394 188.856> 521.848 42.9277<127.476 203.939>
 VStem: 27 66.3535<416.85 469.984> 222.978 66.3535<72.9839 126.118> 251 66.3535<416.85 469.984> 446.978 66.3535<72.9839 126.118>
 LayerCount: 2
@@ -6474,7 +6486,7 @@ StartChar: ophL
 Encoding: 65546 -1 179
 Width: 670
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 55.2832 42.9277<467.664 537.924> 250.283 42.9277<467.664 537.924> 251.261 42.9277<128.824 199.084> 446.261 42.9277<128.824 199.084>
 VStem: 28.3701 66.3535<145.972 205.25> 572.024 66.3535<144.224 198.856>
 LayerCount: 2
@@ -6548,7 +6560,7 @@ StartChar: ophN
 Encoding: 65547 -1 180
 Width: 723
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -14.4941 42.9277<225.557 291.988> 514.197 42.9287<127.935 194.366>
 VStem: 128.22 66.3545<77.7842 124.733> 225.35 66.3545<417.897 464.847> 430.221 66.3535<417.897 463.044> 527.351 66.3535<79.5864 124.733>
 LayerCount: 2
@@ -6621,7 +6633,7 @@ StartChar: ophO
 Encoding: 65548 -1 181
 Width: 723
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -14.4941 42.9277<113.05 191.266> 514.197 42.9287<228.66 306.876>
 VStem: 128.221 66.3535<417.897 463.044> 225.351 66.3535<79.5864 124.733> 430.22 66.3545<77.7842 124.733> 527.35 66.3545<417.897 464.847>
 LayerCount: 2
@@ -6694,7 +6706,7 @@ StartChar: ophR
 Encoding: 65549 -1 182
 Width: 656
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 49.7559 42.9287 146.886 42.9287 351.756 42.9287<112.994 193.582> 448.886 42.9287<457.463 538.051>
 VStem: 28 66.3535<444.334 498.265> 32 66.3535<46.1108 99.021> 556.691 66.3545<345.304 399.235> 560.692 66.3535<140.548 193.458>
 LayerCount: 2
@@ -6770,7 +6782,7 @@ StartChar: ophS
 Encoding: 65550 -1 183
 Width: 656
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 47.7559 42.9287<112.994 193.582> 144.886 42.9287<457.463 538.051> 349.756 42.9287 446.886 42.9287
 VStem: 28 66.3535<140.334 194.265> 32 66.3535<346.111 399.021> 556.691 66.3545<41.3042 95.2349> 560.692 66.3535<440.548 493.458>
 LayerCount: 2
@@ -6846,7 +6858,7 @@ StartChar: ophU
 Encoding: 65551 -1 184
 Width: 655
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 99.8369 42.9287<112.994 193.582> 196.967 42.9287<457.463 538.051> 314.756 42.9287<115.994 196.582> 411.886 42.9287<460.463 541.051>
 VStem: 28 66.3535<192.416 246.346> 31 66.3535<407.334 461.265> 556.691 66.3545<93.3853 147.316> 559.691 66.3545<308.304 362.235>
 LayerCount: 2
@@ -6918,7 +6930,7 @@ StartChar: ophX
 Encoding: 65552 -1 185
 Width: 670
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 101.756 42.9287 198.886 42.9287 305.756 42.9287 402.886 42.9287
 VStem: 31.8389 66.3535<302.111 355.021> 49.8389 66.3535<98.1108 151.021> 560.531 66.3535<396.548 449.458> 578.531 66.3535<192.548 245.458>
 LayerCount: 2
@@ -6998,7 +7010,7 @@ StartChar: ophV
 Encoding: 65553 -1 186
 Width: 619
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -14.4941 42.9277<225.557 291.988> 514.197 42.9287<127.935 194.366>
 VStem: 128.22 66.3545<77.7842 124.733> 225.35 66.3545<417.897 464.847> 326.22 66.3545<77.7842 124.733> 423.35 66.3545<417.897 464.847>
 LayerCount: 2
@@ -7074,7 +7086,7 @@ StartChar: ophW
 Encoding: 65554 -1 187
 Width: 625
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -14.4941 42.9277<113.05 191.266> 514.197 42.9287<228.66 306.876>
 VStem: 128.221 66.3535<417.897 463.044> 225.351 66.3535<79.5864 124.733> 332.221 66.3535<417.897 463.044> 429.351 66.3535<79.5864 124.733>
 LayerCount: 2
@@ -7144,7 +7156,7 @@ StartChar: runeSosDot
 Encoding: 60928 60928 188
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 EndChar
 
@@ -7152,7 +7164,7 @@ StartChar: ophC
 Encoding: 65555 -1 189
 Width: 337
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -21.8066 42.9277<112.394 188.856> 521.848 42.9277<127.476 203.939>
 VStem: 27 66.3535<416.85 469.984> 220 66.3535<70.8223 122.553> 222.978 66.3535<72.9839 126.118> 415.978 66.3535<420.415 472.146>
 LayerCount: 2
