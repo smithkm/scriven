@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1709357205
+ModificationTime: 1709358302
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -166,7 +166,6 @@ Grid
   Named: "x-height"
 EndSplineSet
 TeXData: 1 0 0 305135 152567 101711 338464 1048576 101711 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: """"  "dot-over""" 
 BeginChars: 65556 190
 
 StartChar: .notdef
@@ -247,7 +246,7 @@ EndChar
 
 StartChar: uni0020
 Encoding: 32 32 2
-AltUni2: 002002.ffffffff.0 002003.ffffffff.0 002004.ffffffff.0 002005.ffffffff.0 002006.ffffffff.0 002007.ffffffff.0 002008.ffffffff.0 002009.ffffffff.0 00200a.ffffffff.0 002002.ffffffff.0 002003.ffffffff.0 002004.ffffffff.0 002005.ffffffff.0 002006.ffffffff.0 002007.ffffffff.0 002008.ffffffff.0 002009.ffffffff.0 00200a.ffffffff.0
+AltUni2: 00200a.ffffffff.0 002009.ffffffff.0 002008.ffffffff.0 002007.ffffffff.0 002006.ffffffff.0 002005.ffffffff.0 002004.ffffffff.0 002003.ffffffff.0 002002.ffffffff.0 00200a.ffffffff.0 002009.ffffffff.0 002008.ffffffff.0 002007.ffffffff.0 002006.ffffffff.0 002005.ffffffff.0 002004.ffffffff.0 002003.ffffffff.0 002002.ffffffff.0
 Width: 291
 GlyphClass: 2
 Flags: HW
@@ -1094,6 +1093,14 @@ Flags: HMW
 HStem: -22.0713 42.9277<154.751 248.412> 279.856 42.9277<175.395 269.056>
 VStem: 27.4863 66.3545<151.901 163.798> 329.967 66.3545<136.915 148.812>
 LayerCount: 2
+Back
+SplineSet
+60 150 m 4
+ 60 233 130 300 212 300 c 4
+ 294 300 365 233 365 150 c 4
+ 365 67 294 0 212 0 c 4
+ 130 0 60 67 60 150 c 4
+EndSplineSet
 Fore
 SplineSet
 27.486328125 135.8203125 m 0
@@ -1694,7 +1701,6 @@ GlyphClass: 2
 Flags: HMW
 HStem: -20.6535 42.9282 302.784 20G
 VStem: 35.7564 66.3538 47.8799 66.3538
-AnchorPoint: "dot-over" 77 300 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -1827,7 +1833,6 @@ GlyphClass: 2
 Flags: HMW
 HStem: 302.784 20G
 VStem: 55.9503 66.3538
-AnchorPoint: "dot-over" 77 300 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -1864,7 +1869,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 351.346 89.9077
 VStem: 54.6844 100.374
-AnchorPoint: "dot-over" 108 299.889 mark 0
 LayerCount: 2
 Back
 SplineSet
