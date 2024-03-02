@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1709363254
+ModificationTime: 1709363363
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -171,6 +171,7 @@ Grid
   Named: "x-height"
 EndSplineSet
 TeXData: 1 0 0 305135 152567 101711 338464 1048576 101711 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+AnchorClass2: "dot-under""" 
 BeginChars: 65556 190
 
 StartChar: .notdef
@@ -2033,8 +2034,8 @@ VStem: 54.6844 100.374
 LayerCount: 2
 Back
 SplineSet
-90 421 m 25
- 123 373 l 1049
+90 421 m 29
+ 123 373 l 1053
 EndSplineSet
 Fore
 SplineSet
@@ -2055,7 +2056,13 @@ GlyphClass: 4
 Flags: HMW
 HStem: -124.654 89.9077
 VStem: 57.1141 100.374
+AnchorPoint: "dot-under" 106 0 mark 0
 LayerCount: 2
+Back
+SplineSet
+90 -56 m 25
+ 123 -104 l 1049
+EndSplineSet
 Fore
 SplineSet
 61.1142578125 -77.673828125 m 1
