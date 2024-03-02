@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1709350146
+ModificationTime: 1709350496
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -155,6 +155,9 @@ StemSnapH 24 [40 42 43 56 89 136 145]
 StemSnapV 31 [62 65 66 67 68 80 100 151 237]
 EndPrivate
 Grid
+-1000 -335 m 0
+ 2000 -335 l 1024
+  Named: "long-descender"
 -1000 542.875 m 0
  2000 542.875 l 1024
   Named: "short-ascender"
@@ -856,10 +859,36 @@ StartChar: uni006B
 Encoding: 107 107 17
 Width: 370
 GlyphClass: 2
-Flags: HMW
+Flags: HMWO
 HStem: -356.804 21G<9.56152 9.56152> -21.4639 42.9277<254.779 353.035> 279.856 42.9277<256.611 318.768> 648.653 20G<118.129 118.129>
 VStem: 41.1582 68.1992
 LayerCount: 2
+Back
+SplineSet
+306 276 m 25
+ 306 276 301 303 288 303 c 3
+ 187 303 93.9736328125 246.552734375 79 156 c 0
+ 58 29 272 0 322 0 c 1025
+38 -335 m 1
+ 47 -259 68 29 69 70 c 1
+ 69 128.228515625 82 423 92 649 c 1
+ 61 630 l 1
+ 89 570 77 282 69 70 c 1025
+  Spiro
+    38 -335 {
+    49.8014 -205.5 o
+    62.5293 -36.1787 o
+    69 70 v
+    72.7339 195.586 o
+    81.6028 411.622 o
+    92 649 v
+    61 630 v
+    77.2901 505.437 o
+    76.6979 295.845 o
+    69 70 v
+    0 0 z
+  EndSpiro
+EndSplineSet
 Fore
 SplineSet
 5.5615234375 -349.875976562 m 1
@@ -899,12 +928,12 @@ VStem: 32.3301 66.3545<14.3486 49.3545> 43.4004 62.8721
 LayerCount: 2
 Back
 SplineSet
-155 18 m 0
- 136 7 114.412109375 0 91 0 c 3
- 72.8896484375 0 68 29 69 70 c 1
- 69 128.228515625 82 423 92 649 c 1
- 61 630 l 1
- 89 570 77 282 69 70 c 1025
+155 18 m 4
+ 136 7 114.412109375 0 91 0 c 7
+ 72.8896484375 0 68 29 69 70 c 5
+ 69 128.228515625 82 423 92 649 c 5
+ 61 630 l 5
+ 89 570 77 282 69 70 c 1029
 EndSplineSet
 Fore
 SplineSet
@@ -1645,7 +1674,7 @@ StartChar: uni017F
 Encoding: 383 383 35
 Width: 224
 GlyphClass: 2
-Flags: HMWO
+Flags: HMW
 HStem: 521.611 42.9282
 VStem: 49.2518 66.1949
 LayerCount: 2
