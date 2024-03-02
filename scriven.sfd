@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
-FontName: Scrivener
-FullName: Scrivener
-FamilyName: Scrivener
+FontName: Scriven
+FullName: Scriven
+FamilyName: Scriven
 Weight: Regular
 Copyright: Copyright (c) 2024, Kevin Smith
 Version: 001.000
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1709350496
+ModificationTime: 1709351174
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5

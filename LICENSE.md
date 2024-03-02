@@ -1,5 +1,5 @@
 Copyright (c) 2024, Kevin Smith (smithkm@draconic.ca),  
-with Reserved Font Name "Scrivener".
+with Reserved Font Name "Scriven".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.  
 This license is copied below, and is also available with a FAQ at:  
