@@ -1,2 +1,2 @@
 # Scrivener
-Medieaval style font with support for constructed languages fromt he Ultima computer games.
+Medieaval style font with support for constructed languages from the Ultima computer games.
