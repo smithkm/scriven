@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1709416629
+ModificationTime: 1709416694
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4942,7 +4942,7 @@ EndChar
 
 StartChar: gargComma
 Encoding: 58846 58846 120
-Width: 381
+Width: 301
 GlyphClass: 2
 Flags: HMW
 HStem: -21.4641 42.9282
@@ -4973,7 +4973,7 @@ EndChar
 
 StartChar: gargFullStop
 Encoding: 58847 58847 121
-Width: 381
+Width: 301
 GlyphClass: 2
 Flags: HMW
 HStem: -21.4641 42.9282 52.5359 42.9282 121.536 42.9282
