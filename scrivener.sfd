@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1709349178
+ModificationTime: 1709349575
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -565,7 +565,7 @@ StartChar: uni0065
 Encoding: 101 101 11
 Width: 394
 GlyphClass: 2
-Flags: MWO
+Flags: MW
 HStem: -21.4639 42.9277<125.636 203.871> 279.856 42.9277<173.748 283.719>
 VStem: 32.167 66.3535<148.685 150.255>
 LayerCount: 2
@@ -719,10 +719,22 @@ StartChar: uni0068
 Encoding: 104 104 14
 Width: 382
 GlyphClass: 2
-Flags: MW
+Flags: MWO
 HStem: 274.761 42.9282 648.654 20G
 VStem: 38.9071 66.3538 51.6706 62.1838 289.434 66.3538
 LayerCount: 2
+Back
+SplineSet
+80 194 m 1
+ 113 247 158.999999999 299.444335938 208 299.444335938 c 3
+ 273.000000001 299.444335938 324 221 324 153 c 3
+ 324 58 271 -25 211 -60 c 1024
+73 0 m 0
+ 74 31 74 29 75 70 c 1
+ 75 128.228515625 90 423 100 649 c 1
+ 69 630 l 1
+ 97 570 83 282 75 70 c 1025
+EndSplineSet
 Fore
 SplineSet
 178.55859375 274.760742188 m 0xd8
