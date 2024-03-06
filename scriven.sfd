@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1709692697
+ModificationTime: 1709693231
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,8 +56,9 @@ OS2XHeight: 323
 OS2Vendor: '    '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: a000004f.10002000.08008000.00000000
+Lookup: 1 0 0 "Dotted Consonants" { "Dotted Consonants-1" ("midDot") } ['ss02' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 4 0 0 "'hlig' Historic Ligatures lookup 0" { "'hlig' Historic Ligatures lookup 0-1"  } ['hlig' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
-Lookup: 1 0 0 "'salt' Stylistic Alternatives lookup 3" { "Hobbit Vowels" ("hobbit") "'salt' Stylistic Alternatives lookup 3-1" ("midDot") } ['salt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
+Lookup: 1 0 0 "Hobbit" { "Hobbit-1"  } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 4 0 1 "'rlig' Required Ligatures lookup 2" { "Variant Selector Sequences"  "Ophidian Combining Sequences"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 4 0 1 "'rlig' Required Ligatures lookup 3" { "ZWJ Sequences"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "Latin miniscule-miniscule" [20,0,0] "Latin miniscule-space/punct" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
@@ -457,7 +458,7 @@ SplineSet
  147.502929688 166.060546875 137.385742188 186.181640625 127.389648438 204.245117188 c 1
  102.760742188 166.44140625 71.1201171875 109.315429688 71.1201171875 65.3193359375 c 0
 EndSplineSet
-Substitution2: "Hobbit Vowels" a.hobbit
+Substitution2: "Hobbit-1" a.hobbit
 EndChar
 
 StartChar: uni0062
@@ -660,7 +661,7 @@ SplineSet
  195.595703125 -7.583984375 160.940429688 -21.4638671875 126.823242188 -21.4638671875 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Hobbit Vowels" e.hobbit
+Substitution2: "Hobbit-1" e.hobbit
 EndChar
 
 StartChar: uni0066
@@ -1131,7 +1132,7 @@ SplineSet
  191.37109375 279.856445312 177.182617188 277.765625 163.756835938 273.865234375 c 1
  135.05859375 246.4140625 117.1484375 207.775390625 117.1484375 164.892578125 c 0
 EndSplineSet
-Substitution2: "Hobbit Vowels" o.hobbit
+Substitution2: "Hobbit-1" o.hobbit
 EndChar
 
 StartChar: uni0070
@@ -1465,7 +1466,7 @@ SplineSet
  125.155273438 303.505859375 126.30078125 295.512695312 126.30078125 285.310546875 c 0xc0
 EndSplineSet
 Validated: 1
-Substitution2: "Hobbit Vowels" u.hobbit
+Substitution2: "Hobbit-1" u.hobbit
 EndChar
 
 StartChar: uni0076
@@ -1726,7 +1727,7 @@ SplineSet
  126.155273438 303.505859375 127.30078125 295.512695312 127.30078125 285.310546875 c 0xe0
 EndSplineSet
 Validated: 1
-Substitution2: "Hobbit Vowels" y.hobbit
+Substitution2: "Hobbit-1" y.hobbit
 EndChar
 
 StartChar: uni007A
@@ -7701,7 +7702,7 @@ SplineSet
  271.478912373 444.286870584 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" A.midDot
+Substitution2: "Dotted Consonants-1" A.midDot
 EndChar
 
 StartChar: B
@@ -7822,7 +7823,7 @@ SplineSet
  158.805637024 74.9268859649 246.805499079 21.4641016151 347.176914536 21.4641016151 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" C.midDot
+Substitution2: "Dotted Consonants-1" C.midDot
 EndChar
 
 StartChar: D
@@ -7879,7 +7880,7 @@ SplineSet
  49.6416015625 43.6337890625 47.9013671875 114.225585938 47.9013671875 162.762695312 c 0xe8
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" D.midDot
+Substitution2: "Dotted Consonants-1" D.midDot
 EndChar
 
 StartChar: E
@@ -8073,7 +8074,7 @@ SplineSet
  496.823085464 201.11207026 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" G.midDot
+Substitution2: "Dotted Consonants-1" G.midDot
 EndChar
 
 StartChar: H
@@ -8126,7 +8127,7 @@ SplineSet
  55.8230854638 -14.5358983849 l 1
  58.3945140352 30.1070982671 59.1292079127 47.3506409968 59.1292079127 64.4425659922 c 0
 EndSplineSet
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" H.midDot
+Substitution2: "Dotted Consonants-1" H.midDot
 EndChar
 
 StartChar: I
@@ -8382,7 +8383,7 @@ SplineSet
  396.823085464 -3.14136713486 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" M.midDot
+Substitution2: "Dotted Consonants-1" M.midDot
 EndChar
 
 StartChar: N
@@ -8436,7 +8437,7 @@ SplineSet
  46.319558117 122.596739836 46.0992435983 142.516332736 46.0992435983 162.762742277 c 0xe8
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" N.midDot
+Substitution2: "Dotted Consonants-1" N.midDot
 EndChar
 
 StartChar: O
@@ -8479,7 +8480,7 @@ SplineSet
  125.339246446 448.820252281 84.1769145362 371.440659214 84.1769145362 284.535898385 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" O.midDot
+Substitution2: "Dotted Consonants-1" O.midDot
 EndChar
 
 StartChar: P
@@ -8536,7 +8537,7 @@ SplineSet
  239.311180531 548.276598024 285.685264377 561.464101615 335.176914536 561.464101615 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" P.midDot
+Substitution2: "Dotted Consonants-1" P.midDot
 EndChar
 
 StartChar: Q
@@ -8591,7 +8592,7 @@ SplineSet
  125.339246446 448.820252281 84.1769145362 371.440659214 84.1769145362 284.535898385 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" Q.midDot
+Substitution2: "Dotted Consonants-1" Q.midDot
 EndChar
 
 StartChar: R
@@ -8763,7 +8764,7 @@ SplineSet
  32.389967344 564.154521618 57.6998614957 564.086960718 97.5182418821 564.086960718 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" T.midDot
+Substitution2: "Dotted Consonants-1" T.midDot
 EndChar
 
 StartChar: U
@@ -8822,7 +8823,7 @@ SplineSet
  569.73511685 479.897284879 569.900757956 420.646394302 569.900757956 379.237119682 c 0xe8
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" U.midDot
+Substitution2: "Dotted Consonants-1" U.midDot
 EndChar
 
 StartChar: V
@@ -8925,7 +8926,7 @@ SplineSet
  474.2332409 553.38708375 474.260220166 549.259265379 474.260220166 545.035755814 c 0xec
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" W.midDot
+Substitution2: "Dotted Consonants-1" W.midDot
 EndChar
 
 StartChar: X
@@ -9037,7 +9038,7 @@ SplineSet
  471.823085464 -236.702890573 l 1
  471.78846323 -232.750174273 471.771684521 -228.793974253 471.771684521 -224.837654336 c 0xf0
 EndSplineSet
-Substitution2: "'salt' Stylistic Alternatives lookup 3-1" Y.midDot
+Substitution2: "Dotted Consonants-1" Y.midDot
 EndChar
 
 StartChar: Z
