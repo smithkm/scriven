@@ -68,7 +68,7 @@ DEI: 91125
 KernClass2: 1+ 2 "Latin miniscule-space/punct"
  15 uni0066 uni017F
  23 uni0020 uni002C uni002E
- 0 {} -190 {}
+ 0 {} -70 {}
 KernClass2: 19 15 "Latin miniscule-miniscule"
  7 uni0061
  47 uni0062 uni0068 uni006D uni006E uni006F uni0073
@@ -8770,7 +8770,7 @@ EndChar
 StartChar: U
 Encoding: 85 85 210
 Width: 603
-Flags: W
+Flags: WO
 HStem: -22.3391 42.9282<238.699 414.532> 521.411 42.9282<79.1769 141.251>
 VStem: 38.7175 66.3538<144.844 356.787> 494.895 64.1933<79.6605 289.134 381.191 531.229> 503.547 66.3538<132.283 537.391>
 AnchorPoint: "dot-over" 360 542.875 basechar 0
