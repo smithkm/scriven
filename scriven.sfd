@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1710034855
+ModificationTime: 1710039674
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -258,11 +258,11 @@ OtfFeatName: 'ss01' 4105 "Tehtar marks on lower case vowels"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -72
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 0 26 9
+WinInfo: 57288 33 19
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
@@ -316,7 +316,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 305135 152567 101711 338464 1048576 101711 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "wide-bottom" "'abvm' Above Base Mark lookup 2-1" "point-bottom" "'abvm' Above Base Mark lookup 2-1" "wide-top" "'abvm' Above Base Mark lookup 2-1" "point-top" "'abvm' Above Base Mark lookup 2-1"
-BeginChars: 65585 540
+BeginChars: 65577 550
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -390,13 +390,10 @@ EndChar
 
 StartChar: uni0020
 Encoding: 32 32 2
-AltUni2: 00200a.ffffffff.0 002009.ffffffff.0 002008.ffffffff.0 002007.ffffffff.0 002006.ffffffff.0 002005.ffffffff.0 002004.ffffffff.0 002003.ffffffff.0 002002.ffffffff.0 00200a.ffffffff.0 002009.ffffffff.0 002008.ffffffff.0 002007.ffffffff.0 002006.ffffffff.0 002005.ffffffff.0 002004.ffffffff.0 002003.ffffffff.0 002002.ffffffff.0
 Width: 291
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni002C
@@ -16439,6 +16436,113 @@ LayerCount: 2
 Fore
 Refer: 262 774 N 1 0 0 1 232.126 378.739 2
 Refer: 11 101 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni2010
+Encoding: 8208 8208 540
+Width: 396
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 239 45 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2011
+Encoding: 8209 8209 541
+Width: 396
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 239 45 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: endash
+Encoding: 8211 8211 542
+Width: 317
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+46 214 m 0
+ 70 214 201 214 272 214 c 1024
+EndSplineSet
+Fore
+SplineSet
+303.322833964 231.4136821 m 0
+ 303.322833964 223.887590396 255.441601992 195.261344905 242.873770871 195.261344905 c 2
+ 16.8737708714 195.261344905 l 2
+ 15.7363539296 195.261344905 14.6771660358 195.541765475 14.6771660358 196.5863179 c 0
+ 14.6771660358 204.112409604 62.5583980083 232.738655095 75.1262291286 232.738655095 c 2
+ 301.126229129 232.738655095 l 2
+ 302.26364607 232.738655095 303.322833964 232.458234525 303.322833964 231.4136821 c 0
+EndSplineSet
+EndChar
+
+StartChar: emdash
+Encoding: 8212 8212 543
+Width: 635
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+46 214 m 4
+ 70 214 518 214 589 214 c 1028
+EndSplineSet
+Fore
+SplineSet
+620.323242188 231.4140625 m 0
+ 620.323242188 223.887695312 572.44140625 195.26171875 559.874023438 195.26171875 c 2
+ 16.8740234375 195.26171875 l 2
+ 15.736328125 195.26171875 14.6767578125 195.541992188 14.6767578125 196.5859375 c 0
+ 14.6767578125 204.112304688 62.55859375 232.73828125 75.1259765625 232.73828125 c 2
+ 618.125976562 232.73828125 l 2
+ 619.263671875 232.73828125 620.323242188 232.458007812 620.323242188 231.4140625 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni2003
+Encoding: 8195 8195 544
+Width: 635
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2002
+Encoding: 8194 8194 545
+Width: 317
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2004
+Encoding: 8196 8196 546
+Width: 211
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2005
+Encoding: 8197 8197 547
+Width: 158
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2006
+Encoding: 8198 8198 548
+Width: 105
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniE0EB
+Encoding: 57579 57579 549
+Width: 635
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 543 8212 N 1 0 0 1 0 38 2
+Refer: 543 8212 N 1 0 0 1 0 -38 2
 EndChar
 EndChars
 EndSplineFont
