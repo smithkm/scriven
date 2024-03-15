@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1710545479
+ModificationTime: 1710546410
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -283,9 +283,9 @@ EndFPST
 ContextSub2: class "sitelen combine-2" 0 0 0 0
 EndFPST
 LangName: 1033 "" "" "" "" "" "Version 001.000"
-OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
-OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
 OtfFeatName: 'ss01' 4105 "Tehtar marks on lower case vowels"
+OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
+OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -293,7 +293,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 0 46 17
+WinInfo: 92 46 17
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
@@ -423,6 +423,7 @@ SplineSet
  666.979815447 103.174579223 702.216657103 122.415787577 712.126229129 122.415787577 c 0x80
 EndSplineSet
 Refer: 87 9671 S 1 0 0 1 0 0 2
+Ligature2: "Sosarian rune ligatures-1" uni005D
 Ligature2: "ZWJ Sequences" uni005D ZWJ uni25C7
 LCarets2: 2 0 0
 EndChar
@@ -6876,6 +6877,7 @@ SplineSet
  38.7640800983 85.7728537373 38.7640800983 85.7728537373 38.7640800983 86.2630757121 c 0
 EndSplineSet
 Refer: 87 9671 S 1 0 0 1 74.913 0 2
+Ligature2: "Sosarian rune ligatures-1" uni005B
 LCarets2: 2 0 0
 Ligature2: "ZWJ Sequences" uni25C7 ZWJ uni005B
 EndChar
