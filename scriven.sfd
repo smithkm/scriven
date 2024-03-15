@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1710527042
+ModificationTime: 1710545479
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,6 +56,8 @@ OS2XHeight: 323
 OS2Vendor: '    '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: a000004f.10002000.08008000.00000000
+Lookup: 4 0 0 "Sosarian rune ligatures" { "Sosarian rune ligatures-1"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
+Lookup: 1 0 0 "Sosarian rune subs" { "Sosarian rune subs-1"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 5 0 0 "sitelen combine" { "sitelen combine-2"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 4 0 1 "sitelen combine sub-glyph" { "sitelen combine sub-glyph-1"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 4 0 1 "Required Ligature" { "Sitelen Cartouche Latin"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
@@ -281,8 +283,9 @@ EndFPST
 ContextSub2: class "sitelen combine-2" 0 0 0 0
 EndFPST
 LangName: 1033 "" "" "" "" "" "Version 001.000"
-OtfFeatName: 'ss01' 4105 "Tehtar marks on lower case vowels"
+OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
 OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
+OtfFeatName: 'ss01' 4105 "Tehtar marks on lower case vowels"
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -290,7 +293,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 92 46 17
+WinInfo: 0 46 17
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
@@ -430,6 +433,7 @@ Width: 291
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Substitution2: "Sosarian rune subs-1" runeSinglePunct
 EndChar
 
 StartChar: uni002C
@@ -462,6 +466,7 @@ SplineSet
  96.6771660358 -28.5216929874 96.1668395022 -23.5693999542 92.8659670323 -18.0679458377 c 0
  90.697390866 -14.6949687844 59.6771660358 29.7403891531 59.6771660358 30.5863179001 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeSinglePunct
 EndChar
 
 StartChar: uni002E
@@ -487,6 +492,7 @@ SplineSet
  155.322833964 9.88759039554 107.441601992 -18.7386550945 94.8737708714 -18.7386550945 c 0
  93.8653407793 -18.7386550945 93.1780240953 -18.5218470201 92.8659670323 -18.0679458377 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeMultiPunct
 EndChar
 
 StartChar: uni005B
@@ -604,6 +610,7 @@ SplineSet
  144.819009976 176.943227134 135.522248011 193.227394548 126.257229582 208.92929185 c 1
  85.0676153975 145.460228905 69.2120597934 96.3014122129 69.2120597934 63.8600593363 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeAs
 Substitution2: "'sups' Superscript lookup 9-1" a.sup
 Substitution2: "'sups' Superscript lookup 9-1" a.sup
 Substitution2: "Hobbit-1" a.hobbit
@@ -653,6 +660,7 @@ SplineSet
  166.89045235 280.767878222 136.573403196 264.103726359 101.04334169 244.57417592 c 1
  99.7977937539 206.316816918 99.6037934183 200.828307493 95.3228543317 87.3849638492 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeBeorc
 Substitution2: "'sups' Superscript lookup 9-1" b.sup
 Substitution2: "'sups' Superscript lookup 9-1" b.sup
 EndChar
@@ -696,6 +704,7 @@ SplineSet
  330.26364607 83.7386550945 331.322833964 83.4582345249 331.322833964 82.4136820999 c 0
  331.322833964 72.9792764205 216.617046833 -18.7386550945 127.873770871 -18.7386550945 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeCen
 Substitution2: "'sups' Superscript lookup 9-1" c.sup
 Substitution2: "'sups' Superscript lookup 9-1" c.sup
 EndChar
@@ -756,6 +765,7 @@ SplineSet
  319.7442605 -17.3713462954 308.906068584 -18.7386550945 297.873770871 -18.7386550945 c 0
  286.423589403 -18.7386550945 274.755835503 -10.9109783753 273.640882004 35.0303312393 c 1
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeDaeg
 Substitution2: "'sups' Superscript lookup 9-1" d.sup
 Substitution2: "'sups' Superscript lookup 9-1" d.sup
 EndChar
@@ -803,6 +813,7 @@ SplineSet
  367.322833964 256.359970713 351.348664412 244.265581217 332.851573554 234.386453146 c 2
  99.1383384827 109.56233896 l 1
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeEh
 Substitution2: "'sups' Superscript lookup 9-1" e.sup
 Substitution2: "'sups' Superscript lookup 9-1" e.sup
 Substitution2: "Hobbit-1" e.hobbit
@@ -854,6 +865,7 @@ SplineSet
  -6.32283396419 284.924984012 29.8438683548 308.02031701 48.7479378245 313.70319604 c 1
  48.7576783864 321.95654531 48.7616790639 330.191296743 48.7616790639 338.396700102 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeFeoh
 Substitution2: "'sups' Superscript lookup 9-1" f.sup
 Substitution2: "'sups' Superscript lookup 9-1" f.sup
 EndChar
@@ -930,6 +942,7 @@ SplineSet
  259.682303699 35.1312106988 266.514808627 41.6202544586 278.646918446 53.1456182088 c 0
  319.008764313 91.4893717819 321.677166036 142.924209817 321.677166036 186.5863179 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeGyfu
 Substitution2: "'sups' Superscript lookup 9-1" g.sup
 Substitution2: "'sups' Superscript lookup 9-1" g.sup
 EndChar
@@ -983,6 +996,7 @@ SplineSet
  177.677166036 -74.0621787403 188.742054413 -65.0169221123 203.837003874 -56.069211456 c 0
  235.140058777 -33.4178791213 290.677166036 37.6551230665 290.677166036 135.5863179 c 0xc8
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeWynn
 Substitution2: "'sups' Superscript lookup 9-1" h.sup
 Substitution2: "'sups' Superscript lookup 9-1" h.sup
 EndChar
@@ -998,6 +1012,7 @@ LayerCount: 2
 Fore
 Refer: 38 775 N 1 0 0 1 13.1768 0 2
 Refer: 34 305 N 1 0 0 1 0 0 3
+Substitution2: "Sosarian rune subs-1" runeIs
 Substitution2: "'sups' Superscript lookup 9-1" i.sup
 Substitution2: "'sups' Superscript lookup 9-1" i.sup
 EndChar
@@ -1011,6 +1026,7 @@ LayerCount: 2
 Fore
 Refer: 38 775 N 1 0 0 1 14.1768 0 2
 Refer: 37 567 N 1 0 0 1 0 0 3
+Substitution2: "Sosarian rune subs-1" runeTolOO
 Substitution2: "'sups' Superscript lookup 9-1" j.sup
 Substitution2: "'sups' Superscript lookup 9-1" j.sup
 Substitution2: "Hobbit-1" uni0237
@@ -1084,6 +1100,7 @@ SplineSet
  98.3022134486 -61.7410168662 83.499999449 -257.075531965 76.3106327479 -317.785739663 c 0
  75.3703794753 -325.725656188 28.2738743028 -353.738655095 15.8737708714 -353.738655095 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeTolK
 Substitution2: "'sups' Superscript lookup 9-1" k.sup
 Substitution2: "'sups' Superscript lookup 9-1" k.sup
 EndChar
@@ -1127,6 +1144,7 @@ SplineSet
  181.322833964 28.0837354264 131.379694697 -3.71533184634 90.8132251715 -14.240149437 c 0
  78.7444248362 -17.3713541869 67.9062275032 -18.7386550945 56.8737708714 -18.7386550945 c 0xc0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeLagu
 Substitution2: "'sups' Superscript lookup 9-1" l.sup
 Substitution2: "'sups' Superscript lookup 9-1" l.sup
 EndChar
@@ -1193,6 +1211,7 @@ SplineSet
  28.0610451566 158.535231525 28.6208964141 167.82178371 29.0800387858 176.253411933 c 0
  29.0522397285 176.357138411 29.0384942107 176.468191609 29.0384942107 176.586317957 c 0x0c
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeMan
 Substitution2: "'sups' Superscript lookup 9-1" m.sup
 Substitution2: "'sups' Superscript lookup 9-1" m.sup
 EndChar
@@ -1245,6 +1264,7 @@ SplineSet
  44.7114357816 158.535231525 45.2712870391 167.82178371 45.7304294108 176.253411933 c 0
  45.7026303535 176.357138412 45.6888848357 176.468191609 45.6888848357 176.586317957 c 0x08
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeNyd
 Substitution2: "'sups' Superscript lookup 9-1" n.sup
 Substitution2: "'sups' Superscript lookup 9-1" n.sup
 EndChar
@@ -1286,6 +1306,7 @@ SplineSet
  365.970729494 50.8611969355 349.900217577 35.7327936264 314.80879102 15.4727490576 c 0
  283.830100349 -2.41280634053 247.588063741 -18.7386550945 206.181388059 -18.7386550945 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeOs
 Substitution2: "'sups' Superscript lookup 9-1" o.sup
 Substitution2: "'sups' Superscript lookup 9-1" o.sup
 Substitution2: "Hobbit-1" o.hobbit
@@ -1341,6 +1362,7 @@ SplineSet
  241.759780427 18.7386550945 257.446596508 20.4034935527 273.426617591 26.2180548469 c 1
  280.869097754 32.3348080379 321.677166036 68.7827803196 321.677166036 132.5863179 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeOpenP
 Substitution2: "'sups' Superscript lookup 9-1" p.sup
 Substitution2: "'sups' Superscript lookup 9-1" p.sup
 EndChar
@@ -1390,6 +1412,7 @@ SplineSet
  140.916619589 262.660086011 127.783978355 246.484536264 116.516869223 227.798774395 c 0
  102.905247147 205.224791508 94.3228339642 181.303547427 94.3228339642 161.4136821 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeKaun
 Substitution2: "'sups' Superscript lookup 9-1" q.sup
 Substitution2: "'sups' Superscript lookup 9-1" q.sup
 EndChar
@@ -1444,6 +1467,7 @@ SplineSet
  96.6096264153 -19.291257785 94.2878424343 -73.9163994313 90.5542792767 -145.17616165 c 0
  90.5542792767 -152.702253354 42.6730473042 -181.328498845 30.1052161839 -181.328498845 c 0x08
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeRad
 Substitution2: "'sups' Superscript lookup 9-1" r.sup
 Substitution2: "'sups' Superscript lookup 9-1" r.sup
 EndChar
@@ -1492,6 +1516,7 @@ SplineSet
  129.980902144 -18.7386550945 62.9379997618 4.71361296047 44.7686794159 47.1086937676 c 0
  44.7073366183 47.251826962 44.6771660358 47.411309865 44.6771660358 47.5863179001 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeSigel
 Substitution2: "'sups' Superscript lookup 9-1" s.sup
 Substitution2: "'sups' Superscript lookup 9-1" s.sup
 EndChar
@@ -1541,6 +1566,7 @@ SplineSet
  335.775958964 72.9816994492 221.074441086 -18.7386550945 132.326895871 -18.7386550945 c 0
  75.4552987378 -18.7386550945 35.1302910358 53.5331548274 35.1302910358 126.5863179 c 0x90
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeTir
 Substitution2: "'sups' Superscript lookup 9-1" t.sup
 Substitution2: "'sups' Superscript lookup 9-1" t.sup
 EndChar
@@ -1605,6 +1631,7 @@ SplineSet
  359.568790827 21.6338838523 l 1
  359.875773555 21.7898028774 360.030868574 21.8840857292 360.030868574 21.8840857292 c 1
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeUr
 Substitution2: "'sups' Superscript lookup 9-1" u.sup
 Substitution2: "'sups' Superscript lookup 9-1" u.sup
 Substitution2: "Hobbit-1" u.hobbit
@@ -1659,6 +1686,7 @@ SplineSet
 EndSplineSet
 Substitution2: "'sups' Superscript lookup 9-1" v.sup
 Substitution2: "'sups' Superscript lookup 9-1" v.sup
+Substitution2: "Sosarian rune subs-1" uniE0B3
 EndChar
 
 StartChar: w
@@ -1728,6 +1756,7 @@ SplineSet
  119.022836851 318.738655095 126.498990067 314.437494101 126.498990067 288.586600515 c 0
  126.498990067 247.062179469 107.207124443 167.880865708 106.93410325 110.982700317 c 0xc2
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeHaegl
 Substitution2: "'sups' Superscript lookup 9-1" w.sup
 Substitution2: "'sups' Superscript lookup 9-1" w.sup
 EndChar
@@ -1791,6 +1820,7 @@ SplineSet
  530.322833964 33.9474918763 468.075505122 -1.62505712155 440.668452175 -12.2645860173 c 0
  428.593460042 -16.9521468424 420.194347733 -18.7386550945 413.873770871 -18.7386550945 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeCalc
 Substitution2: "'sups' Superscript lookup 9-1" x.sup
 Substitution2: "'sups' Superscript lookup 9-1" x.sup
 EndChar
@@ -1853,6 +1883,7 @@ SplineSet
  276.147416749 159.167418183 280.778382451 202.133175152 280.778382451 233.726846103 c 0
  280.778382451 254.096944324 278.599164911 281.129076669 267.077143027 281.700567334 c 0xe0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeYr
 Substitution2: "'sups' Superscript lookup 9-1" y.sup
 Substitution2: "'sups' Superscript lookup 9-1" y.sup
 Substitution2: "Hobbit-1" y.hobbit
@@ -1911,6 +1942,7 @@ SplineSet
  201.174589373 142.842888364 244.86115947 210.841149869 281.295198148 280.487335087 c 1
  249.909409249 275.716704103 175.198315826 273.27752712 113.315947403 273.27752712 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeEolhx
 Substitution2: "'sups' Superscript lookup 9-1" z.sup
 Substitution2: "'sups' Superscript lookup 9-1" z.sup
 EndChar
@@ -2392,6 +2424,9 @@ SplineSet
  121.535563622 356.332673566 l 1
  121.849423421 290.236768378 122.100956834 218.440298984 122.100956834 158.008784734 c 0
 EndSplineSet
+Ligature2: "Sosarian rune ligatures-1" T h
+Ligature2: "Sosarian rune ligatures-1" T H
+Ligature2: "Sosarian rune ligatures-1" t h
 EndChar
 
 StartChar: runeOs
@@ -2594,6 +2629,7 @@ SplineSet
  364.115289271 83.1067380896 364.115289271 83.1067380896 364.176914536 83 c 0
  364.274863534 82.8303473596 364.322833964 82.634357005 364.322833964 82.4136820999 c 0
 EndSplineSet
+Ligature2: "Sosarian rune ligatures-1" quotesingle r
 EndChar
 
 StartChar: runeKauna
@@ -3319,6 +3355,7 @@ SplineSet
  58.9155528758 175.261344905 57.6771406624 175.455641644 57.6771723108 176.590692873 c 2
  58.6771723108 525.465692873 l 2
 EndSplineSet
+Ligature2: "Sosarian rune ligatures-1" quotesingle s
 EndChar
 
 StartChar: runeTir
@@ -3367,6 +3404,7 @@ SplineSet
  119.151458486 391.983662245 l 1
  133.742755839 376.765808647 133.742755839 376.765808647 133.742755839 376.2886821 c 0
 EndSplineSet
+Ligature2: "Sosarian rune ligatures-1" quotesingle t
 EndChar
 
 StartChar: runeBeorc
@@ -3571,6 +3609,7 @@ SplineSet
  121.709755711 487.243151213 l 1
  121.929269554 442.848317457 122.198512094 382.847059469 122.394993274 320.539150697 c 1
 EndSplineSet
+Ligature2: "Sosarian rune ligatures-1" quotesingle m
 EndChar
 
 StartChar: runeLagu
@@ -3608,6 +3647,7 @@ SplineSet
  384.057288838 378.207197788 384.057288838 378.207197788 384.176914536 378 c 0
  384.274863534 377.83034736 384.322833964 377.634357005 384.322833964 377.4136821 c 0
 EndSplineSet
+Ligature2: "Sosarian rune ligatures-1" quotesingle l
 EndChar
 
 StartChar: runeIng
@@ -3675,6 +3715,9 @@ SplineSet
  356.155776031 252.366130072 l 1
  344.870673056 262.879235273 284.024980376 319.552815923 220.253141847 378.762709013 c 1
 EndSplineSet
+Ligature2: "Sosarian rune ligatures-1" N g
+Ligature2: "Sosarian rune ligatures-1" N G
+Ligature2: "Sosarian rune ligatures-1" n g
 EndChar
 
 StartChar: runeDaeg
@@ -3722,6 +3765,7 @@ SplineSet
  475.677166036 99.3802994743 l 1
  475.677166036 477.740387187 l 1
 EndSplineSet
+Ligature2: "Sosarian rune ligatures-1" quotesingle d
 EndChar
 
 StartChar: runeEthel
@@ -3776,6 +3820,9 @@ SplineSet
  408.943494038 20.4878339872 339.144888429 85.1082438876 267.033065841 151.971036824 c 1
  109.741713297 16.4205349904 l 1
 EndSplineSet
+Ligature2: "Sosarian rune ligatures-1" E e
+Ligature2: "Sosarian rune ligatures-1" E E
+Ligature2: "Sosarian rune ligatures-1" e e
 EndChar
 
 StartChar: runeEar
@@ -3830,6 +3877,9 @@ SplineSet
  606.734366207 526.948667319 l 2
  612.266386659 536.80254048 655.18062524 561.613655095 666.692635379 561.613655095 c 0
 EndSplineSet
+Ligature2: "Sosarian rune ligatures-1" E a
+Ligature2: "Sosarian rune ligatures-1" E A
+Ligature2: "Sosarian rune ligatures-1" e a
 EndChar
 
 StartChar: runeIor
@@ -4020,6 +4070,8 @@ LayerCount: 2
 Fore
 Refer: 237 183 N 1.5 0 0 1.5 -43.75 -150 2
 Refer: 237 183 S 1.5 0 0 1.5 -43.75 49 2
+Ligature2: "Sosarian rune ligatures-1" uni002E uni0020 uni0020
+Ligature2: "Sosarian rune ligatures-1" uni002E uni0020
 EndChar
 
 StartChar: uni16ED
@@ -7353,6 +7405,7 @@ SplineSet
  292.785887638 224.577134529 307.753048765 230.300436807 366.686138711 267.857655849 c 1
  332.200572875 331.852912588 294.190642431 402.388290921 269.939401611 447.391296619 c 1
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeAs
 Substitution2: "Dotted Consonants-1" A.midDot
 EndChar
 
@@ -7421,6 +7474,7 @@ SplineSet
  -3.26364607037 524.136344905 -4.32283396419 524.416765475 -4.32283396419 525.4613179 c 0
  -4.32283396419 532.987409604 43.5583980083 561.613655095 56.1262291286 561.613655095 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeBeorc
 EndChar
 
 StartChar: C
@@ -7467,6 +7521,7 @@ SplineSet
  203.537922406 510.378997521 185.991034251 501.690440638 183.050994621 499.993007966 c 0
  157.598052634 485.297745058 75.3228339642 412.47268233 75.3228339642 288.4136821 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeCen
 Substitution2: "Dotted Consonants-1" C.midDot
 EndChar
 
@@ -7520,6 +7575,7 @@ SplineSet
  -2.52107615169 532.987409604 45.3601558208 561.613655095 57.9279869411 561.613655095 c 0
  96.6583371422 561.613655095 117.086950958 534.279767192 121.867720015 518.823134184 c 1
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeDaeg
 Substitution2: "Dotted Consonants-1" D.midDot
 EndChar
 
@@ -7592,6 +7648,7 @@ SplineSet
  122.701704938 318.310306243 134.826581974 318.294504159 148.221410589 318.294504159 c 0
  219.23066725 318.294504159 325.929613656 318.738593136 325.959236941 318.738655095 c 0xd4
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeEh
 EndChar
 
 StartChar: F
@@ -7650,6 +7707,7 @@ SplineSet
  42.3097957601 -117.126095721 59.6771660358 -88.4424790309 59.6771660358 86.5863179001 c 2
  58.6771710275 476.582421653 l 2xd8
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeFeoh
 EndChar
 
 StartChar: G
@@ -7707,6 +7765,7 @@ SplineSet
  207.537922406 510.378997521 189.991034251 501.690440638 187.050994621 499.993007966 c 0
  161.598052634 485.297745058 79.3228339642 412.47268233 79.3228339642 288.4136821 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeGyfu
 Substitution2: "Dotted Consonants-1" G.midDot
 EndChar
 
@@ -7757,6 +7816,7 @@ SplineSet
  60.9842772135 62.8572083401 59.6771660358 128.265559571 59.6771660358 193.7113179 c 2
  58.6771710275 583.707421653 l 2
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeWynn
 Substitution2: "Dotted Consonants-1" H.midDot
 EndChar
 
@@ -7806,6 +7866,7 @@ SplineSet
  109.126229129 561.613655095 l 1
  152.126229129 561.613655095 l 2
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeIs
 EndChar
 
 StartChar: J
@@ -7852,6 +7913,7 @@ SplineSet
  12.8737708714 524.136344905 l 2
  11.7363539296 524.136344905 10.6771660358 524.416765475 10.6771660358 525.4613179 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeTolOO
 EndChar
 
 StartChar: K
@@ -7918,6 +7980,7 @@ SplineSet
  56.677653881 310.548039721 56.677653881 310.548039721 56.677653881 310.548039721 c 1
  58.67720719 583.722535645 l 2
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeTolK
 EndChar
 
 StartChar: L
@@ -7960,6 +8023,7 @@ SplineSet
  60.9842772135 62.8572083401 59.6771660358 128.265559571 59.6771660358 193.7113179 c 2
  58.6771710275 583.707421653 l 2
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeLagu
 EndChar
 
 StartChar: M
@@ -8018,6 +8082,7 @@ SplineSet
  468.219440519 299.357568917 461.388441144 32.1161112646 461.322530692 28.7776567577 c 0
  461.172637576 21.185365483 413.41545459 -7.34412384453 400.873770871 -7.34412384453 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeMan
 Substitution2: "Dotted Consonants-1" M.midDot
 EndChar
 
@@ -8075,6 +8140,7 @@ SplineSet
  577.58431795 230.897424297 549.587087698 74.6375272491 424.018379402 -26.7559611378 c 0
  390.734366396 -53.6319418819 347.706562525 -78.561897282 335.873770871 -78.561897282 c 0xe8
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeNyd
 Substitution2: "Dotted Consonants-1" N.midDot
 EndChar
 
@@ -8116,6 +8182,7 @@ SplineSet
  533.051579829 81.1679150616 507.744935883 58.1425494086 460.770998408 31.0221339622 c 0
  420.524007197 7.78552275237 364.037971376 -18.7386550945 292.873770871 -18.7386550945 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeOs
 Substitution2: "Dotted Consonants-1" O.midDot
 EndChar
 
@@ -8171,6 +8238,7 @@ SplineSet
  419.042405476 31.4016739306 436.170291698 39.9214524399 438.77862407 41.4273738373 c 0
  463.569263288 55.7402560629 545.677166036 128.344868279 545.677166036 252.5863179 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeOpenP
 Substitution2: "Dotted Consonants-1" P.midDot
 EndChar
 
@@ -8220,6 +8288,7 @@ SplineSet
  782.074991001 -143.329479184 849.653885219 -132.216467704 935.89465602 -104.562063765 c 0
  938.534956552 -103.715411576 940.666850833 -103.261344905 942.126229129 -103.261344905 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeKaun
 Substitution2: "Dotted Consonants-1" Q.midDot
 EndChar
 
@@ -8284,6 +8353,7 @@ SplineSet
  132.841230785 265.83491223 198.655751367 282.225835551 235.070377522 303.249829764 c 0
  245.392048723 309.20904941 298.302835535 345.457003334 298.302835535 407.54289727 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeRad
 EndChar
 
 StartChar: S
@@ -8330,6 +8400,7 @@ SplineSet
  182.105711843 524.136344905 148.29866709 522.332811494 115.825856482 508.910191406 c 1
  104.286424014 499.536230448 79.3228339642 474.19801012 79.3228339642 430.4136821 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeSigel
 EndChar
 
 StartChar: T
@@ -8386,6 +8457,7 @@ SplineSet
  14.6771660358 279.698981654 17.2776696352 361.78343945 86.0595462799 438.241841444 c 0
  116.747698818 472.355000573 154.923613281 499.775853262 202.551739572 524.05364686 c 1xb0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeTir
 Substitution2: "Dotted Consonants-1" T.midDot
 EndChar
 
@@ -8443,6 +8515,7 @@ SplineSet
  210.625078734 560.882134883 210.290510203 560.127187691 209.658361114 559.230528439 c 0
  142.286847369 463.668750079 103.269648546 353.912131293 103.269648546 258.338023125 c 0xf0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeUr
 Substitution2: "Dotted Consonants-1" U.midDot
 EndChar
 
@@ -8485,6 +8558,7 @@ SplineSet
  571.322833964 429.4136821 571.266698369 428.907349046 571.15696492 428.612944389 c 0
  570.423200265 269.377502032 425.601014185 116.354376651 321.252817926 34.6975109221 c 1
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" uniE0B3
 EndChar
 
 StartChar: W
@@ -8548,6 +8622,7 @@ SplineSet
  470.918217859 561.613655095 472.306208684 561.48692741 472.322687032 560.309755414 c 0
  472.379159379 556.275512088 472.406206619 552.137558996 472.406206619 547.904201098 c 0xec
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeHaegl
 Substitution2: "Dotted Consonants-1" W.midDot
 EndChar
 
@@ -8606,6 +8681,7 @@ SplineSet
  114.795889779 -18.7382164647 70.5019737928 -18.2405175949 41.3179354658 -18.2405175949 c 0
  11.4757131611 -18.2405175949 18.8437196168 -18.7451144752 15.8520362679 -18.7451144752 c 0xa0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeCalc
 EndChar
 
 StartChar: Y
@@ -8663,6 +8739,7 @@ SplineSet
  544.805145694 -14.4561098278 536.271443031 -103.722928954 536.271443031 -192.89033056 c 0
  536.271443031 -196.841558269 536.288199766 -200.792590762 536.322833964 -204.753310088 c 0xf0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeYr
 Substitution2: "Dotted Consonants-1" Y.midDot
 EndChar
 
@@ -8726,6 +8803,7 @@ SplineSet
  126.677166036 333.822639264 131.603639444 338.594017764 139.366630396 344.179933762 c 0
  141.869571127 345.980942776 325.826718392 478.345849243 389.965391103 523.85664033 c 1
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeEolhx
 EndChar
 
 StartChar: at
@@ -9104,6 +9182,7 @@ LayerCount: 2
 Fore
 Refer: 4 46 S 1 0 0 1 0 240 2
 Refer: 4 46 N 1 0 0 1 0 0 2
+Substitution2: "Sosarian rune subs-1" runeMultiPunct
 EndChar
 
 StartChar: semicolon
@@ -9116,6 +9195,7 @@ LayerCount: 2
 Fore
 Refer: 4 46 S 1 0 0 1 0 240 2
 Refer: 3 44 N 1 0 0 1 0 0 2
+Substitution2: "Sosarian rune subs-1" runeSinglePunct
 EndChar
 
 StartChar: exclam
@@ -9150,6 +9230,7 @@ SplineSet
  137.295069803 190.82965148 137.322833964 157.838778834 137.322833964 157.4136821 c 0x90
 EndSplineSet
 Refer: 4 46 N 1 0 0 1 0 0 2
+Substitution2: "Sosarian rune subs-1" runeMultiPunct
 EndChar
 
 StartChar: A.midDot
@@ -9282,12 +9363,12 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: glyph240
+StartChar: questionmark
 Encoding: 31 63 236
 Width: 407
-Flags: HW
-HStem: -20.6535 89.9077
-VStem: 156.114 100.374
+Flags: W
+HStem: -20.6535 89.9077 107.261 37.4773<222.288 274.464> 609.261 37.4773<150.019 270.228>
+VStem: 17.6772 80.6457<510.469 543.202> 113.677 62.6457<188.959 283.342> 156.114 100.374 327.677 62.6457<443.65 558.076>
 LayerCount: 2
 Back
 SplineSet
@@ -9303,7 +9384,7 @@ EndSplineSet
 Refer: 4 46 N 1 0 0 1 99 0 2
 Fore
 SplineSet
-267.126229129 144.738655095 m 0
+267.126229129 144.738655095 m 0xfa
  284.1530176 144.738655095 296.52828862 150.738655095 302.126229129 150.738655095 c 0
  303.26364607 150.738655095 304.322833964 150.458234525 304.322833964 149.4136821 c 0
  304.322833964 142.774294402 265.229208835 118.245557784 247.548940631 113.825490733 c 0
@@ -9327,9 +9408,10 @@ SplineSet
  390.322833964 444.81156081 341.880748975 410.08944697 258.434713034 362.657054942 c 0
  229.390473764 346.147729751 214.487903338 337.676811335 199.28975664 318.387837926 c 0
  185.971128113 301.484285368 176.322833964 278.929070342 176.322833964 249.4136821 c 0
- 176.322833964 192.242772892 230.471739707 144.738655095 267.126229129 144.738655095 c 0
+ 176.322833964 192.242772892 230.471739707 144.738655095 267.126229129 144.738655095 c 0xfa
 EndSplineSet
 Refer: 4 46 N 1 0 0 1 99 0 2
+Substitution2: "Sosarian rune subs-1" runeSinglePunct
 EndChar
 
 StartChar: periodcentered
@@ -9369,6 +9451,7 @@ SplineSet
  296.950155356 195.110636555 297.010986969 195.158711213 297.010986969 195.158711213 c 1
  291.616304193 194.928082479 269.517276598 194.816889237 230.728696702 194.816889237 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" runeSinglePunct
 EndChar
 
 StartChar: zero
@@ -12032,6 +12115,7 @@ SplineSet
  41.6767578125 507.334960938 47.87890625 554.876953125 47.87890625 581.1796875 c 0
  47.87890625 602.297851562 44.6767578125 608.530273438 44.6767578125 609.5859375 c 0
 EndSplineSet
+Substitution2: "Sosarian rune subs-1" uni200C
 EndChar
 
 StartChar: quotedbl
@@ -13188,8 +13272,9 @@ SplineSet
  273.95703125 561.61328125 275.017578125 561.46875 275.268554688 560.666015625 c 0
  445.323242188 17.6171875 445.323242188 17.6171875 445.323242188 17.4140625 c 0
 EndSplineSet
-LCarets2: 1 0
+Ligature2: "Sosarian rune ligatures-1" quotesingle v
 Ligature2: "Variant Selector Sequences" runeUr varSel7
+LCarets2: 1 0
 EndChar
 
 StartChar: uniE0BA
