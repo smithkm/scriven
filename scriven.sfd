@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1711088686
+ModificationTime: 1733801961
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -286,10 +286,10 @@ EndFPST
 ContextSub2: class "sitelen combine-2" 0 0 0 0
 EndFPST
 LangName: 1033 "" "" "" "" "" "Version 001.000"
-OtfFeatName: 'ss05' 4105 "Latin to Gargoyle"
-OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
-OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
 OtfFeatName: 'ss01' 4105 "Tehtar marks on lower case vowels"
+OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
+OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
+OtfFeatName: 'ss05' 4105 "Latin to Gargoyle"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -297,7 +297,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 0 51 20
+WinInfo: 5610 51 19
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
@@ -620,7 +620,7 @@ SplineSet
  92.0673828125 145.459960938 76.2119140625 96.3017578125 76.2119140625 63.8603515625 c 0
 EndSplineSet
 Substitution2: "Gargoyle subs-1" gargA
-Substitution2: "Sosarian rune subs-1" runeAs
+Substitution2: "Sosarian rune subs-1" uni16AB
 Substitution2: "'sups' Superscript lookup 9-1" a.sup
 Substitution2: "'sups' Superscript lookup 9-1" a.sup
 Substitution2: "Hobbit-1" a.hobbit
@@ -7469,7 +7469,7 @@ SplineSet
  332.200572875 331.852912588 294.190642431 402.388290921 269.939401611 447.391296619 c 1
 EndSplineSet
 Substitution2: "Gargoyle subs-1" gargA
-Substitution2: "Sosarian rune subs-1" runeAs
+Substitution2: "Sosarian rune subs-1" uni16AB
 Substitution2: "Dotted Consonants-1" A.midDot
 EndChar
 
