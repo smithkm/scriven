@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1734774843
+ModificationTime: 1734811237
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,6 +56,7 @@ OS2XHeight: 323
 OS2Vendor: '    '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: a000004f.10002000.08008000.00000000
+Lookup: 1 0 0 "R Rotunda" { "R Rotunda-1"  } []
 Lookup: 2 0 0 "Gargoyle Multisub" { "Gargoyle Multisub-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 4 0 0 "Gargoyle Ligatures" { "Gargoyle Ligatures-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "Gargoyle Subs" { "Gargoyle subs-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
@@ -65,6 +66,7 @@ Lookup: 5 0 0 "sitelen combine" { "sitelen combine-2"  } ['rclt' ('DFLT' <'dflt'
 Lookup: 4 0 1 "sitelen combine sub-glyph" { "sitelen combine sub-glyph-1"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 4 0 1 "Required Ligature" { "Ophidian dotted circle"  "Sitelen Cartouche Latin"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss03' Style Set 3 lookup 11" { "'ss03' Style Set 3 lookup 11-1"  } ['ss03' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
+Lookup: 5 0 0 "'ss06' Style Set 6 lookup 21" { "'ss06' Style Set 6 lookup 21-1"  } ['ss06' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 3 0 0 "'rand' Randomize lookup 10" { "'rand' Randomize lookup 10-1"  } ['rand' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "'sups' Superscript lookup 9" { "'sups' Superscript lookup 9-1" ("sup") } ['sups' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 3 0 0 "'falt' Final Glyph On Line lookup 8" { "'falt' Final Glyph On Line lookup 8-1"  } ['falt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
@@ -270,6 +272,38 @@ KernClass2: 19 15 "Latin miniscule-miniscule"
  1 s
  7 uniA75B
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -26 {} -27 {} -27 {} 0 {} 0 {} -27 {} -27 {} 0 {} -13 {} -107 {} -90 {} -27 {} -80 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -13 {} -27 {} 0 {} -13 {} 0 {} -53 {} -27 {} 0 {} 0 {} 0 {} 0 {} -27 {} -27 {} -27 {} -13 {} -13 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -13 {} -40 {} 0 {} 0 {} 0 {} 0 {} 93 {} 93 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} -27 {} 0 {} 0 {} -27 {} -90 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} -67 {} -53 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} -27 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} -27 {} 0 {} 0 {}
+ContextSub2: class "'ss06' Style Set 6 lookup 21-1" 4 4 4 3
+  Class: 101 b h m n o p ntilde ograve oacute ocircumflex otilde odieresis oslash uni00FE omacron uni01BF o.hobbit
+  Class: 7 uniA75B
+  Class: 1 r
+  BClass: 101 b h m n o p ntilde ograve oacute ocircumflex otilde odieresis oslash uni00FE omacron uni01BF o.hobbit
+  BClass: 7 uniA75B
+  BClass: 1 r
+  FClass: 101 b h m n o p ntilde ograve oacute ocircumflex otilde odieresis oslash uni00FE omacron uni01BF o.hobbit
+  FClass: 7 uniA75B
+  FClass: 1 r
+ 2 0 0
+  ClsList: 1 3
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 1 "R Rotunda"
+ 2 0 0
+  ClsList: 2 3
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 1 "R Rotunda"
+ 2 0 0
+  ClsList: 3 3
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 1 "R Rotunda"
+  ClassNames: "All_Others" "1" "2" "3"
+  BClassNames: "All_Others" "1" "2" "3"
+  FClassNames: "All_Others" "1" "2" "3"
+EndFPST
 ContextSub2: class "Sitelen Pona Sizing Context-1" 3 1 1 1
   Class: 94 sitelen_a sitelen_o sitelen_kin sitelen_n sitelen_middle_dot sitelen_colon sitelen_cart_ext.en
   Class: 16 sitelen_cart_ext
@@ -286,10 +320,11 @@ EndFPST
 ContextSub2: class "sitelen combine-2" 0 0 0 0
 EndFPST
 LangName: 1033 "" "" "" "" "" "Version 001.000"
-OtfFeatName: 'ss05' 4105 "Latin to Gargoyle"
-OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
-OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
 OtfFeatName: 'ss01' 4105 "Tehtar marks on lower case vowels"
+OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
+OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
+OtfFeatName: 'ss05' 4105 "Latin to Gargoyle"
+OtfFeatName: 'ss06' 4105 "R Rotunda"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -297,7 +332,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 64923 51 19
+WinInfo: 8160 51 19
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
@@ -1451,14 +1486,14 @@ VStem: 36.3792 66.3538 47.8996 66.3538 223.114 66.3538
 LayerCount: 2
 Back
 SplineSet
-57.2314453125 300 m 4
- 90.2314453125 249 72.2314453125 233 66.2314453125 0 c 4
- 64.59765625 -63.447265625 59.2314453125 -162.1796875 59.2314453125 -162.58984375 c 1028
-89.2314453125 269 m 4
- 120.959960938 287.130859375 143.232421875 299.578125 185.231445312 300 c 4
- 214.231445312 300.291015625 257.231445312 272.012695312 257.231445312 233 c 7
- 257.231445312 173.032226562 211.231445312 159 153.231445312 125 c 5
- 229.231445312 110 252.231445312 34 318.231445312 0 c 1029
+175.393554688 300 m 4
+ 208.393554688 249 190.393554688 233 184.393554688 0 c 4
+ 182.759765625 -63.447265625 177.393554688 -162.1796875 177.393554688 -162.58984375 c 1028
+207.393554688 269 m 4
+ 239.122070312 287.130859375 261.39453125 299.578125 303.393554688 300 c 4
+ 332.393554688 300.291015625 375.393554688 272.012695312 375.393554688 233 c 7
+ 375.393554688 173.032226562 329.393554688 159 271.393554688 125 c 5
+ 347.393554688 110 370.393554688 34 436.393554688 0 c 1029
 EndSplineSet
 Fore
 SplineSet
@@ -1491,6 +1526,7 @@ SplineSet
  96.6096264153 -19.291257785 94.2878424343 -73.9163994313 90.5542792767 -145.17616165 c 0
  90.5542792767 -152.702253354 42.6730473042 -181.328498845 30.1052161839 -181.328498845 c 0x08
 EndSplineSet
+Substitution2: "R Rotunda-1" uniA75B
 Substitution2: "Gargoyle subs-1" gargR
 Substitution2: "Sosarian rune subs-1" runeRad
 Substitution2: "'sups' Superscript lookup 9-1" r.sup
@@ -9307,7 +9343,7 @@ LayerCount: 2
 Fore
 Refer: 4 46 S 1 0 0 1 0 240 2
 Refer: 4 46 N 1 0 0 1 0 0 2
-Substitution2: "Gargoyle subs-1" uni2234
+Substitution2: "Gargoyle subs-1" therefore
 Substitution2: "Sosarian rune subs-1" runeMultiPunct
 EndChar
 
