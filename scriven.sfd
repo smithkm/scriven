@@ -321,19 +321,19 @@ EndFPST
 ContextSub2: class "sitelen combine-2" 0 0 0 0
 EndFPST
 LangName: 1033 "" "" "" "" "" "Version 001.000"
-OtfFeatName: 'ss01' 4105 "Tehtar marks on lower case vowels"
-OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
-OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
-OtfFeatName: 'ss05' 4105 "Latin to Gargoyle"
 OtfFeatName: 'ss06' 4105 "R Rotunda"
-Encoding: UnicodeBmp
+OtfFeatName: 'ss05' 4105 "Latin to Gargoyle"
+OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
+OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
+OtfFeatName: 'ss01' 4105 "Tehtar marks on lower case vowels"
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 55437 51 19
+WinInfo: 63954 51 19
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
@@ -11969,8 +11969,8 @@ SplineSet
  130.763719482 524.136344905 125.509017061 524.033928689 120.425862044 523.697504528 c 1
  116.550846779 515.25956738 113.322833964 502.536463824 113.322833964 483.4136821 c 0
 EndSplineSet
-LCarets2: 1 0
 Ligature2: "'hlig' Historic Ligatures lookup 0-1" longs s
+LCarets2: 1 0
 EndChar
 
 StartChar: uni0337
@@ -30796,6 +30796,7 @@ LayerCount: 2
 Fore
 Refer: 12 102 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f f
 EndChar
 
 StartChar: f_i
@@ -30807,6 +30808,7 @@ LayerCount: 2
 Fore
 Refer: 15 105 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f i
 EndChar
 
 StartChar: f_l
@@ -30818,6 +30820,7 @@ LayerCount: 2
 Fore
 Refer: 18 108 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f l
 EndChar
 
 StartChar: f_f_i
@@ -30830,6 +30833,7 @@ Fore
 Refer: 15 105 N 1 0 0 1 430 0 2
 Refer: 12 102 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f f i
 EndChar
 
 StartChar: f_f_l
@@ -30842,6 +30846,7 @@ Fore
 Refer: 18 108 N 1 0 0 1 430 0 2
 Refer: 12 102 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f f l
 EndChar
 
 StartChar: longs_t
@@ -30853,6 +30858,7 @@ LayerCount: 2
 Fore
 Refer: 26 116 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs t
 EndChar
 
 StartChar: s_t
@@ -30864,6 +30870,7 @@ LayerCount: 2
 Fore
 Refer: 26 116 N 1 0 0 1 383 0 2
 Refer: 25 115 N 1 0 0 1 0 0 2
+Ligature2: "'hlig' Historic Ligatures lookup 0-1" s t
 EndChar
 
 StartChar: f_b
@@ -30878,6 +30885,7 @@ Refer: 12 102 N 1 0 0 1 0 0 2
 Fore
 Refer: 8 98 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f b
 Comment: "."
 Decomposition: "fb"
 EndChar
@@ -30894,6 +30902,7 @@ Refer: 12 102 N 1 0 0 1 0 0 2
 Fore
 Refer: 14 104 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f h
 Comment: "."
 Decomposition: "fh"
 EndChar
@@ -30910,6 +30919,7 @@ Refer: 12 102 N 1 0 0 1 0 0 2
 Fore
 Refer: 16 106 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f j
 Comment: "."
 Decomposition: "fj"
 EndChar
@@ -30926,6 +30936,7 @@ Refer: 12 102 N 1 0 0 1 0 0 2
 Fore
 Refer: 17 107 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f k
 Comment: "."
 Decomposition: "fk"
 EndChar
@@ -30942,6 +30953,7 @@ Refer: 12 102 N 1 0 0 1 0 0 2
 Fore
 Refer: 26 116 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f t
 Comment: "."
 Decomposition: "ft"
 EndChar
@@ -30958,6 +30970,8 @@ Refer: 12 102 N 1 0 0 1 0 0 2
 Fore
 Refer: 33 254 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+LCarets2: 1 0
+j "" óúH‹H‹GH‰BH‰ééWöÿf„
 Comment: "."
 Decomposition: "f+AP4A"
 EndChar
@@ -30974,6 +30988,7 @@ Refer: 12 102 N 1 0 0 1 0 0 2
 Fore
 Refer: 12 102 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f f
 Comment: "."
 Decomposition: "ff"
 EndChar
@@ -30992,6 +31007,7 @@ Fore
 Refer: 8 98 N 1 0 0 1 430 0 2
 Refer: 12 102 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f f b
 Comment: "."
 Decomposition: "ffb"
 EndChar
@@ -31010,6 +31026,7 @@ Fore
 Refer: 14 104 N 1 0 0 1 430 0 2
 Refer: 12 102 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f f h
 Comment: "."
 Decomposition: "ffh"
 EndChar
@@ -31028,6 +31045,7 @@ Fore
 Refer: 16 106 N 1 0 0 1 430 0 2
 Refer: 12 102 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f f j
 Comment: "."
 Decomposition: "ffj"
 EndChar
@@ -31046,6 +31064,7 @@ Fore
 Refer: 17 107 N 1 0 0 1 430 0 2
 Refer: 12 102 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f f k
 Comment: "."
 Decomposition: "ffk"
 EndChar
@@ -31064,6 +31083,7 @@ Fore
 Refer: 26 116 N 1 0 0 1 430 0 2
 Refer: 12 102 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f f t
 Comment: "."
 Decomposition: "fft"
 EndChar
@@ -31082,6 +31102,7 @@ Fore
 Refer: 33 254 N 1 0 0 1 430 0 2
 Refer: 12 102 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f f thorn
 Comment: "."
 Decomposition: "ff+AP4A"
 EndChar
@@ -31098,6 +31119,7 @@ Refer: 18 108 N 1 0 0 1 0 0 2
 Fore
 Refer: 18 108 N 1 0 0 1 146 0 2
 Refer: 18 108 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" l l
 Comment: "."
 Decomposition: "ll"
 EndChar
@@ -31116,6 +31138,7 @@ Fore
 Refer: 18 108 N 1 0 0 1 292 0 2
 Refer: 18 108 N 1 0 0 1 146 0 2
 Refer: 18 108 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" l l l
 Comment: "."
 Decomposition: "lll"
 EndChar
@@ -31132,6 +31155,7 @@ Refer: 35 383 N 1 0 0 1 0 0 2
 Fore
 Refer: 8 98 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs b
 Comment: "."
 Decomposition: "+AX8A-b"
 EndChar
@@ -31148,6 +31172,7 @@ Refer: 35 383 N 1 0 0 1 0 0 2
 Fore
 Refer: 14 104 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs h
 Comment: "."
 Decomposition: "+AX8A-h"
 EndChar
@@ -31164,6 +31189,7 @@ Refer: 35 383 N 1 0 0 1 0 0 2
 Fore
 Refer: 15 105 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs i
 Comment: "."
 Decomposition: "+AX8A-i"
 EndChar
@@ -31180,6 +31206,7 @@ Refer: 35 383 N 1 0 0 1 0 0 2
 Fore
 Refer: 16 106 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs j
 Comment: "."
 Decomposition: "+AX8A-j"
 EndChar
@@ -31196,6 +31223,7 @@ Refer: 35 383 N 1 0 0 1 0 0 2
 Fore
 Refer: 17 107 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs k
 Comment: "."
 Decomposition: "+AX8A-k"
 EndChar
@@ -31212,6 +31240,7 @@ Refer: 35 383 N 1 0 0 1 0 0 2
 Fore
 Refer: 18 108 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs l
 Comment: "."
 Decomposition: "+AX8A-l"
 EndChar
@@ -31228,6 +31257,7 @@ Refer: 35 383 N 1 0 0 1 0 0 2
 Fore
 Refer: 33 254 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs thorn
 Comment: "."
 Decomposition: "+AX8A/gAA"
 EndChar
@@ -31244,6 +31274,7 @@ Refer: 35 383 N 1 0 0 1 0 0 2
 Fore
 Refer: 35 383 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs
 Comment: "."
 Decomposition: "+AX8BfwAA"
 EndChar
@@ -31262,6 +31293,7 @@ Fore
 Refer: 8 98 N 1 0 0 1 430 0 2
 Refer: 35 383 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs b
 Comment: "."
 Decomposition: "+AX8BfwAA-b"
 EndChar
@@ -31280,6 +31312,7 @@ Fore
 Refer: 14 104 N 1 0 0 1 430 0 2
 Refer: 35 383 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs h
 Comment: "."
 Decomposition: "+AX8BfwAA-h"
 EndChar
@@ -31298,6 +31331,7 @@ Fore
 Refer: 15 105 N 1 0 0 1 430 0 2
 Refer: 35 383 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs i
 Comment: "."
 Decomposition: "+AX8BfwAA-i"
 EndChar
@@ -31316,6 +31350,7 @@ Fore
 Refer: 16 106 N 1 0 0 1 430 0 2
 Refer: 35 383 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs j
 Comment: "."
 Decomposition: "+AX8BfwAA-j"
 EndChar
@@ -31334,6 +31369,7 @@ Fore
 Refer: 17 107 N 1 0 0 1 430 0 2
 Refer: 35 383 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs k
 Comment: "."
 Decomposition: "+AX8BfwAA-k"
 EndChar
@@ -31352,6 +31388,7 @@ Fore
 Refer: 18 108 N 1 0 0 1 430 0 2
 Refer: 35 383 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs l
 Comment: "."
 Decomposition: "+AX8BfwAA-l"
 EndChar
@@ -31370,6 +31407,7 @@ Fore
 Refer: 26 116 N 1 0 0 1 430 0 2
 Refer: 35 383 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs t
 Comment: "."
 Decomposition: "+AX8BfwAA-t"
 EndChar
@@ -31388,6 +31426,7 @@ Fore
 Refer: 33 254 N 1 0 0 1 430 0 2
 Refer: 35 383 N 1 0 0 1 215 0 2
 Refer: 35 383 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs thorn
 Comment: "."
 Decomposition: "+AX8BfwD+"
 EndChar
@@ -31404,6 +31443,7 @@ Refer: 12 102 N 1 0 0 1 0 0 2
 Fore
 Refer: 35 383 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f longs
 Comment: "."
 Decomposition: "f+AX8A"
 EndChar
@@ -31422,6 +31462,7 @@ Fore
 Refer: 26 116 N 1 0 0 1 430 0 2
 Refer: 35 383 N 1 0 0 1 215 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures lookup 22-1" f longs t
 Comment: "."
 Decomposition: "f+AX8A-t"
 EndChar
