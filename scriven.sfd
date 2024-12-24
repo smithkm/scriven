@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1734862914
+ModificationTime: 1735003035
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -321,11 +321,11 @@ EndFPST
 ContextSub2: class "sitelen combine-2" 0 0 0 0
 EndFPST
 LangName: 1033 "" "" "" "" "" "Version 001.000"
-OtfFeatName: 'ss01' 4105 "Tehtar marks on lower case vowels"
-OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
-OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
-OtfFeatName: 'ss05' 4105 "Latin to Gargoyle"
 OtfFeatName: 'ss06' 4105 "R Rotunda"
+OtfFeatName: 'ss05' 4105 "Latin to Gargoyle"
+OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
+OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
+OtfFeatName: 'ss01' 4105 "Tehtar marks on lower case vowels"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -333,7 +333,7 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 0 51 20
+WinInfo: 7803 51 20
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
@@ -397,7 +397,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 305135 152567 101711 338464 1048576 101711 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "sitelen-combine" "Mark Anchors-1" "sitelen_combine"""  "tail"""  "wide-bottom" "Mark Anchors-1" "point-bottom" "Mark Anchors-1" "wide-top" "Mark Anchors-1" "point-top" "Mark Anchors-1"
-BeginChars: 65877 922
+BeginChars: 65877 923
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -19171,6 +19171,7 @@ SplineSet
  244.755859375 345.3046875 215.396484375 315.1484375 171.288085938 289.681640625 c 0
  145.4765625 274.779296875 120.826171875 264.26171875 94.7744140625 264.26171875 c 0
 EndSplineSet
+Decomposition: "0"
 EndChar
 
 StartChar: i.sup
@@ -29083,6 +29084,7 @@ SplineSet
  -23.263671875 -70.73828125 -24.3232421875 -70.4580078125 -24.3232421875 -69.4140625 c 0
 EndSplineSet
 Refer: 7 97 N 1 0 0 1 0 70 2
+LCarets2: 1 0
 Ligature2: "Sitelen Cartouche Latin" a sitelen_cart_ext
 EndChar
 
@@ -31678,7 +31680,6 @@ SplineSet
  480.048828125 139.984375 489.676757812 164.578125 489.676757812 191.5859375 c 0
 EndSplineSet
 LCarets2: 1 0
-j "" óúH‹H‹GH‰BH‰ééWöÿf„
 Comment: "."
 Decomposition: "f+AP4A"
 EndChar
@@ -33813,6 +33814,36 @@ LCarets2: 2 0 0
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f longs t
 Comment: "."
 Decomposition: "f+AX8A-t"
+EndChar
+
+StartChar: uni2116
+Encoding: 8470 8470 922
+Width: 898
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+654 214 m 1
+ 654 214 825 216 825 214 c 1024
+EndSplineSet
+Refer: 636 -1 N 1 0 0 1 598 0 2
+Refer: 201 78 N 1 0 0 1 0 0 2
+Fore
+SplineSet
+749.522420478 196.142683266 m 0
+ 748.276748694 196.142683266 699.226060402 196.130416502 624.958356372 195.261844087 c 0
+ 623.925681546 195.261844087 622.677166036 195.451555592 622.677166036 196.5863179 c 0
+ 622.677166036 204.085339071 670.286609955 232.588974232 683.041643628 232.738155913 c 0
+ 684.309185201 232.75298096 759.517415493 233.627637063 809.8013495 233.627637063 c 0
+ 844.726480135 233.627637063 850.633053194 233.170256413 851.045520261 233.170256413 c 0
+ 851.569615888 233.170256413 852.132643232 233.190955387 852.690404011 233.190955387 c 0
+ 854.631343253 233.190955387 856.322833964 232.79475833 856.322833964 231.4136821 c 0
+ 856.322833964 223.887590396 808.441601974 195.261344895 795.873770852 195.261344895 c 0
+ 795.214040462 195.261344895 794.691745857 195.354138242 794.322048118 195.545404799 c 0
+ 793.635733375 195.545404799 792.522855787 196.142683266 749.522420478 196.142683266 c 0
+EndSplineSet
+Refer: 636 -1 N 1 0 0 1 598 0 2
+Refer: 201 78 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
