@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1735003035
+ModificationTime: 1735029726
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -80,10 +80,45 @@ Lookup: 4 0 1 "Glyph Composition" { "Variant Selector Sequences"  "Ophidian Comb
 Lookup: 5 0 0 "Sitelen Pona Sizing Context" { "Sitelen Pona Sizing Context-1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "Sizing" { "Sizing-en"  } []
 Lookup: 260 0 0 "Mark Anchors" { "Mark Anchors-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
-Lookup: 258 0 0 "Horizontal Kerning" { "Runes and Cirth" [190,12,2] "Latin miniscule-miniscule" [20,0,0] "Latin miniscule-space/punct" [150,15,0] "tally marks" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
+Lookup: 258 0 0 "Horizontal Kerning" { "Runes and Cirth" [190,12,2] "Latin miniscule-miniscule" [20,0,0] "Latin miniscule-space/punct" [150,15,0] "tally marks" [150,15,0] "Ophidian Kerning" [150,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 MarkAttachClasses: 2
 "" 0 
 DEI: 91125
+KernClass2: 15+ 19 "Ophidian Kerning"
+ 36 ophRevSnake ophConRevSnake ophC ophJ
+ 30 ophSnake ophConSnake ophB ophK
+ 42 ophRevTltSnake ophConRevTltSnake ophO ophV
+ 36 ophTltSnake ophConTltSnake ophN ophW
+ 74 ophDblSnake ophRevDblSnake ophF ophG ophI ophL ophR ophU ophLzyRevForeHook
+ 4 ophS
+ 4 ophX
+ 53 ophRevHook ophConRevHook ophForeRevHook ophRevRevHook
+ 30 ophRevLzyHook ophConRevLzyHook
+ 24 ophLzyHook ophConLzyHook
+ 16 ophLzyRevRevHook
+ 18 ophLzyForeForeHook
+ 8 ophComma
+ 11 ophFullStop
+ 38 ophRevLzyTltSnake ophConRevLzyTltSnake
+ 30 ophSnake ophConSnake ophC ophK
+ 36 ophRevSnake ophConRevSnake ophB ophJ
+ 59 ophLzySnake ophConLzySnake ophRevLzySnake ophConRevLzySnake
+ 36 ophTltSnake ophConTltSnake ophO ophW
+ 42 ophRevTltSnake ophConRevTltSnake ophN ophV
+ 32 ophLzyTltSnake ophConLzyTltSnake
+ 38 ophRevLzyTltSnake ophConRevLzyTltSnake
+ 4 ophR
+ 4 ophU
+ 49 ophHook ophConHook ophForeRevHook ophForeForeHook
+ 53 ophRevHook ophConRevHook ophRevForeHook ophRevRevHook
+ 24 ophLzyHook ophConLzyHook
+ 30 ophRevLzyHook ophConRevLzyHook
+ 18 ophLzyForeForeHook
+ 16 ophLzyRevRevHook
+ 17 ophLzyRevForeHook
+ 8 ophComma
+ 11 ophFullStop
+ 0 {} 13 {} -13 {} -40 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -27 {} -40 {} 0 {} 0 {} 0 {} -13 {} 13 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -13 {} 0 {} -27 {} 0 {} 0 {} 0 {} -27 {} 0 {} -27 {} 0 {} -120 {} -120 {} 0 {} 0 {} 0 {} -107 {} 0 {} -107 {} 0 {} -26 {} 0 {} -27 {} -75 {} -150 {} 0 {} 0 {} -13 {} -40 {} -120 {} 0 {} 0 {} -120 {} 0 {} 0 {} 0 {} -107 {} 0 {} -107 {} 0 {} -40 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -120 {} 0 {} 0 {} -67 {} 0 {} 0 {} 0 {} -120 {} 0 {} -80 {} 0 {} -27 {} -27 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -107 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} -67 {} 0 {} -13 {} 13 {} 0 {} 13 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} -13 {} -94 {} -13 {} 0 {} -13 {} 13 {} 0 {} 13 {} 0 {} 13 {} 13 {} 13 {} 13 {} -75 {} -150 {} 0 {} 13 {} 0 {} 13 {} -67 {} 0 {} 13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 13 {} 0 {} 13 {} 13 {} 13 {} 0 {} 0 {} 0 {} 0 {} 13 {} 13 {} 0 {} -40 {} 0 {} 13 {} 0 {} 13 {} 0 {} 13 {} 13 {} 13 {} 13 {} 13 {} 13 {} -75 {} -150 {} 0 {} 0 {} 0 {} -50 {} -50 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} -50 {} -13 {} -50 {} 0 {} -50 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} -100 {} -13 {} -100 {} 0 {} -100 {} -100 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} -147 {} 0 {} 0 {} -67 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -13 {} -13 {} 0 {} -27 {}
 KernClass2: 1+ 2 "tally marks"
  6 u1D377
  6 u1D377
@@ -333,7 +368,7 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 7803 51 20
+WinInfo: 58548 51 20
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
@@ -6199,9 +6234,9 @@ StartChar: ophDblSnake
 Encoding: 58864 58864 138
 Width: 540
 GlyphClass: 2
-Flags: HMW
-HStem: -20.1582 42.9277<147.449 246.886> 160.272 42.9277<180.173 358.799> 340.166 42.9277<180.173 358.799> 519.419 42.9277<144.263 234.28>
-VStem: 28 66.3535<64.5288 115.595> 444.619 66.3535<246.425 297.648>
+Flags: W
+HStem: -18.7755 37.4795<135.083 372.128> 159.261 37.4773<151.234 383.648> 340.261 37.4773<162.634 360.546> 524.136 37.4773<166.622 382.878>
+VStem: 27.6772 62.6457<51.4604 116.757 422.748 471.072> 443.677 62.6457<236.829 293.351>
 LayerCount: 2
 Back
 SplineSet
@@ -6256,7 +6291,9 @@ StartChar: ophRevDblSnake
 Encoding: 58865 58865 139
 Width: 540
 GlyphClass: 2
-Flags: HMW
+Flags: W
+HStem: -18.7387 37.4773<151.122 367.378> 165.136 37.4773<173.454 371.366> 346.136 37.4773<150.352 382.766> 524.171 37.4795<161.872 398.917>
+VStem: 27.6772 62.6457<249.524 306.046> 439.677 62.6457<66.5083 123.913 422.577 493.969>
 LayerCount: 2
 Back
 SplineSet
