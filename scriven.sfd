@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1735366324
+ModificationTime: 1735377380
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ OS2XHeight: 323
 OS2Vendor: '    '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: a000004f.10002000.08008000.00000000
-Lookup: 5 0 0 "'calt' Contextual Alternates lookup 24" { "'calt' Contextual Alternates lookup 24-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
+Lookup: 5 0 0 "'calt' Contextual Alternates lookup 24" { "noswash"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "Noswash" { "Noswash-1"  } []
 Lookup: 4 0 0 "'liga' Standard Ligatures lookup 22" { "'liga' Standard Ligatures lookup 22-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "R Rotunda" { "R Rotunda-1"  } []
@@ -335,22 +335,106 @@ KernClass2: 19 16 "Latin miniscule-miniscule"
  7 uniA75B
  9 t t_t t_g
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -26 {} -27 {} -27 {} 0 {} 0 {} -27 {} -27 {} 0 {} -13 {} -107 {} -90 {} -27 {} -80 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -27 {} 0 {} -13 {} 27 {} 0 {} -53 {} -27 {} 0 {} 0 {} 0 {} 0 {} -27 {} -27 {} -27 {} -13 {} -13 {} -27 {} 0 {} 0 {} 27 {} 0 {} 0 {} 0 {} 27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 13 {} 0 {} -13 {} -13 {} 0 {} 0 {} 0 {} 0 {} 93 {} 93 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} -27 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} -67 {} -53 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 13 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} -27 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 27 {} 0 {} -27 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} -27 {} 0 {} 0 {} 0 {}
-ContextSub2: class "'calt' Contextual Alternates lookup 24-1" 3 3 3 1
+ContextSub2: class "noswash" 8 8 8 12
+  Class: 10 Q Q.midDot
   Class: 1 x
-  Class: 258 parenleft parenright G Q Y uni005B backslash uni005D q y braceleft bar braceright exclamdown brokenbar paragraph questiondown yacute ydieresis uniE0EA ophEarthSerp ophChaosSerp ophOrderSerp G.midDot Q.midDot Y.midDot earthChaos earthOrder chaosOrder ballance
+  Class: 29 Y backslash G.midDot Y.midDot
+  Class: 24 q y yacute ydieresis t_g
+  Class: 138 parenleft parenright uni005B uni005D g j braceleft bar braceright exclamdown brokenbar guillemotleft paragraph guillemotright questiondown
+  Class: 484 quotesingle uni002C hyphen uni002E slash P f k p Thorn germandbls longs uni01BF Wynn ophEarthSerp ophChaosSerp ophOrderSerp f_f f_i f_l f_f_i f_f_l longs_t P.midDot earthChaos earthOrder chaosOrder ballance f_b f_h f_j f_k f_t f_thorn f_f_b f_f_h f_f_j f_f_k f_f_t f_f_thorn longs_b longs_h longs_i longs_j longs_k longs_l longs_thorn longs_longs longs_longs_b longs_longs_h longs_longs_i longs_longs_j longs_longs_k longs_longs_l longs_longs_t longs_longs_thorn f_longs f_longs_t g_t
+  Class: 53 i igrave iacute icircumflex idieresis imacron uni0131
+  BClass: 10 Q Q.midDot
   BClass: 1 x
-  BClass: 258 parenleft parenright G Q Y uni005B backslash uni005D q y braceleft bar braceright exclamdown brokenbar paragraph questiondown yacute ydieresis uniE0EA ophEarthSerp ophChaosSerp ophOrderSerp G.midDot Q.midDot Y.midDot earthChaos earthOrder chaosOrder ballance
+  BClass: 29 Y backslash G.midDot Y.midDot
+  BClass: 24 q y yacute ydieresis t_g
+  BClass: 138 parenleft parenright uni005B uni005D g j braceleft bar braceright exclamdown brokenbar guillemotleft paragraph guillemotright questiondown
+  BClass: 484 quotesingle uni002C hyphen uni002E slash P f k p Thorn germandbls longs uni01BF Wynn ophEarthSerp ophChaosSerp ophOrderSerp f_f f_i f_l f_f_i f_f_l longs_t P.midDot earthChaos earthOrder chaosOrder ballance f_b f_h f_j f_k f_t f_thorn f_f_b f_f_h f_f_j f_f_k f_f_t f_f_thorn longs_b longs_h longs_i longs_j longs_k longs_l longs_thorn longs_longs longs_longs_b longs_longs_h longs_longs_i longs_longs_j longs_longs_k longs_longs_l longs_longs_t longs_longs_thorn f_longs f_longs_t g_t
+  BClass: 53 i igrave iacute icircumflex idieresis imacron uni0131
+  FClass: 10 Q Q.midDot
   FClass: 1 x
-  FClass: 258 parenleft parenright G Q Y uni005B backslash uni005D q y braceleft bar braceright exclamdown brokenbar paragraph questiondown yacute ydieresis uniE0EA ophEarthSerp ophChaosSerp ophOrderSerp G.midDot Q.midDot Y.midDot earthChaos earthOrder chaosOrder ballance
+  FClass: 29 Y backslash G.midDot Y.midDot
+  FClass: 24 q y yacute ydieresis t_g
+  FClass: 138 parenleft parenright uni005B uni005D g j braceleft bar braceright exclamdown brokenbar guillemotleft paragraph guillemotright questiondown
+  FClass: 484 quotesingle uni002C hyphen uni002E slash P f k p Thorn germandbls longs uni01BF Wynn ophEarthSerp ophChaosSerp ophOrderSerp f_f f_i f_l f_f_i f_f_l longs_t P.midDot earthChaos earthOrder chaosOrder ballance f_b f_h f_j f_k f_t f_thorn f_f_b f_f_h f_f_j f_f_k f_f_t f_f_thorn longs_b longs_h longs_i longs_j longs_k longs_l longs_thorn longs_longs longs_longs_b longs_longs_h longs_longs_i longs_longs_j longs_longs_k longs_longs_l longs_longs_t longs_longs_thorn f_longs f_longs_t g_t
+  FClass: 53 i igrave iacute icircumflex idieresis imacron uni0131
+ 4 0 0
+  ClsList: 1 7 5 2
+  BClsList:
+  FClsList:
+ 2
+  SeqLookup: 0 "Noswash"
+  SeqLookup: 3 "Noswash"
+ 3 0 0
+  ClsList: 1 5 2
+  BClsList:
+  FClsList:
+ 2
+  SeqLookup: 0 "Noswash"
+  SeqLookup: 2 "Noswash"
+ 3 0 0
+  ClsList: 1 4 2
+  BClsList:
+  FClsList:
+ 2
+  SeqLookup: 0 "Noswash"
+  SeqLookup: 2 "Noswash"
+ 3 0 0
+  ClsList: 1 7 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 2 "Noswash"
  2 0 0
-  ClsList: 2 1
+  ClsList: 1 2
   BClsList:
   FClsList:
  1
   SeqLookup: 1 "Noswash"
-  ClassNames: "All_Others" "1" "2"
-  BClassNames: "All_Others" "1" "2"
-  FClassNames: "All_Others" "1" "2"
+ 3 0 0
+  ClsList: 1 7 5
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Noswash"
+ 2 0 0
+  ClsList: 1 5
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Noswash"
+ 2 0 0
+  ClsList: 1 4
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Noswash"
+ 2 0 0
+  ClsList: 1 6
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Noswash"
+ 2 0 0
+  ClsList: 5 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 1 "Noswash"
+ 2 0 0
+  ClsList: 3 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 1 "Noswash"
+ 2 0 0
+  ClsList: 4 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 1 "Noswash"
+  ClassNames: "All_Others" "Q" "x" "longTrailing" "shortTrailing" "both" "leading" "narrow"
+  BClassNames: "All_Others" "Q" "x" "longTrailing" "shortTrailing" "both" "leading" "narrow"
+  FClassNames: "All_Others" "Q" "x" "longTrailing" "shortTrailing" "both" "leading" "narrow"
 EndFPST
 ContextSub2: class "'ss06' Style Set 6 lookup 21-1" 4 4 4 3
   Class: 99 b h m n o p ntilde ograve oacute ocircumflex otilde odieresis oslash thorn omacron uni01BF o.hobbit
@@ -477,7 +561,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 305135 152567 101711 338464 1048576 101711 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "sitelen-combine" "Mark Anchors-1" "sitelen_combine"""  "tail"""  "wide-bottom" "Mark Anchors-1" "point-bottom" "Mark Anchors-1" "wide-top" "Mark Anchors-1" "point-top" "Mark Anchors-1"
-BeginChars: 65881 931
+BeginChars: 65883 933
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -8526,6 +8610,7 @@ SplineSet
  782.074991001 -143.329479184 849.653885219 -132.216467704 935.89465602 -104.562063765 c 0
  938.534956552 -103.715411576 940.666850833 -103.261344905 942.126229129 -103.261344905 c 0
 EndSplineSet
+Substitution2: "Noswash-1" Q.noswash
 Substitution2: "Sosarian rune subs-1" runeKaun
 Substitution2: "Dotted Consonants-1" Q.midDot
 EndChar
@@ -9210,6 +9295,7 @@ LayerCount: 2
 Fore
 Refer: 215 -1 S 1 0 0 1 218 0 2
 Refer: 204 81 N 1 0 0 1 0 0 2
+Substitution2: "Noswash-1" Q.midDot.noswash
 EndChar
 
 StartChar: T.midDot
@@ -34554,6 +34640,83 @@ SplineSet
  483.843825126 22.9298087521 490.770543445 27.1769242732 496 30.1961524227 c 0
  510.205601172 38.3977600831 523.121102251 43.7386550945 528.126229129 43.7386550945 c 0
 EndSplineSet
+EndChar
+
+StartChar: Q.noswash
+Encoding: 65881 -1 931
+Width: 646
+Flags: HW
+HStem: -180.936 37.6062<619.562 808.058> -139.438 36.1766<881.92 924.473> -18.7386 37.4773<257.532 368.508> 237.261 68.4773<282.806 364.194> 521.261 37.4773<249.395 388.589>
+VStem: 19.6772 62.6457<183.909 357.175> 264.677 117.646<269.008 273.992> 561.677 62.6457<182.825 356.195>
+LayerCount: 2
+Back
+SplineSet
+322 0 m 0
+ 481.28177444 1.08081695747 485.083007812 -149.051757812 622 -73 c 1024
+51 270 m 0
+ 51 419 172 540 322 540 c 0
+ 472 540 593 419 593 270 c 0
+ 593 121 472 0 322 0 c 0
+ 172 0 51 121 51 270 c 0
+EndSplineSet
+Fore
+SplineSet
+82.3228339642 287.4136821 m 0
+ 82.3228339642 238.708037106 95.3328723158 192.934466891 118.122077455 153.462405725 c 0
+ 164.711448916 72.7672472622 252.29190503 18.7473290095 351.102429605 18.7386561383 c 0
+ 351.697483171 18.7426378209 352.290359426 18.7444964438 352.881073205 18.7444964438 c 0
+ 373.67688023 18.8828810632 393.727229804 21.473014161 411.585202374 25.7620267882 c 0
+ 435.060021541 31.4000573971 452.176201272 39.9163319825 454.770998408 41.4144388076 c 0
+ 457.757021054 43.1384197861 477.334649606 56.6767461234 495.116257086 76.5338514988 c 0
+ 509.128764717 92.1819216139 521.985041988 110.635022765 532.316349574 130.699321798 c 0
+ 550.959446997 166.905840528 561.677166036 208.474441039 561.677166036 252.5863179 c 0
+ 561.677166036 301.291962894 548.667127684 347.065533109 525.877922545 386.537594275 c 0
+ 479.284810609 467.23923143 391.694031736 521.261344905 292.873770871 521.261344905 c 0
+ 271.451695845 521.261344905 250.774586021 518.647508732 232.414797626 514.237973212 c 0
+ 208.939978459 508.599942603 191.823798728 500.083668017 189.229001592 498.585561192 c 0
+ 186.242978946 496.861580214 166.665350394 483.323253877 148.883742914 463.466148501 c 0
+ 134.871235283 447.818078386 122.014958012 429.364977235 111.683650426 409.300678202 c 0
+ 93.0405530031 373.094159472 82.3228339642 331.525558961 82.3228339642 287.4136821 c 0
+651.126229129 -54.2613449055 m 0
+ 652.393491664 -54.2613449055 653.322833964 -54.5528287141 653.322833964 -55.5863179001 c 0
+ 653.322833964 -59.2840934736 637.318414469 -71.3880790933 621.868123436 -79.9700802974 c 0
+ 578.399361294 -104.115189812 552.374342611 -110.846523446 534.283960968 -112.698869598 c 0
+ 530.572639085 -113.078886612 527.024941739 -113.258882341 523.614157128 -113.258882341 c 0
+ 513.150986205 -113.258882341 503.976248452 -111.565011658 495.318809176 -108.755381818 c 0
+ 474.717693098 -102.069627678 457.218577736 -88.8207549199 438.255199212 -74.5381464256 c 0
+ 403.47050474 -48.3394301935 363.722932093 -18.7723765641 294.712282236 -18.7329147436 c 0
+ 294.099802872 -18.7367432003 293.486972352 -18.7386550945 292.873770871 -18.7386550945 c 0
+ 190.293382428 -18.7386550945 102.623610321 36.3065382415 55.7682483826 117.462405725 c 0
+ 32.8080536129 157.230629618 19.6771660358 203.349941206 19.6771660358 252.5863179 c 0
+ 19.6771660358 297.193401603 30.4088756173 339.380257513 49.8093097623 377.057590109 c 0
+ 60.6132974925 398.039875146 74.0139522494 417.586566369 90.5474815217 436.049915836 c 0
+ 110.948420171 458.832084938 136.255064117 481.857450591 183.229001592 508.977866038 c 0
+ 224.955532734 533.068690025 256.155308484 544.066167809 283.855792113 550.719091245 c 0
+ 306.436245955 556.14231896 328.529360651 558.738655095 351.126229129 558.738655095 c 0
+ 453.706617572 558.738655095 541.376389679 503.693461758 588.231751617 422.537594275 c 0
+ 611.191946387 382.769370382 624.322833964 336.650058794 624.322833964 287.4136821 c 0
+ 624.322833964 242.806598397 613.591124383 200.619742487 594.190690238 162.942409891 c 0
+ 583.386702508 141.960124854 569.986047751 122.413433631 553.452518478 103.950084164 c 0
+ 533.051579829 81.1679150616 507.744935883 58.1425494086 460.770998408 31.0221339622 c 0
+ 445.199592583 22.0319786174 431.094158552 14.8652223655 418.089484174 9.06719687191 c 1
+ 452.608529262 -2.01848707816 477.407026857 -20.8524263119 500.022693541 -37.8858211093 c 0
+ 518.983389227 -52.1664089766 536.399108612 -65.2142699319 556.082182555 -71.602088563 c 0
+ 564.386713779 -74.2971878866 573.125208702 -75.7621221967 582.137976361 -75.7621221967 c 0
+ 584.955352799 -75.7621221967 587.799530548 -75.6189721296 590.665631623 -75.3255006372 c 0
+ 606.489226615 -73.7052597891 619.212352261 -67.6515953742 622.131876564 -66.0299197026 c 0
+ 635.075018651 -58.8405366204 646.491733426 -54.2613449055 651.126229129 -54.2613449055 c 0
+EndSplineSet
+Substitution2: "Dotted Consonants-1" Q.midDot.noswash
+EndChar
+
+StartChar: Q.midDot.noswash
+Encoding: 65882 -1 932
+Width: 646
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 215 -1 S 1 0 0 1 218 0 2
+Refer: 931 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
