@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1735377380
+ModificationTime: 1735379418
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -335,28 +335,28 @@ KernClass2: 19 16 "Latin miniscule-miniscule"
  7 uniA75B
  9 t t_t t_g
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -26 {} -27 {} -27 {} 0 {} 0 {} -27 {} -27 {} 0 {} -13 {} -107 {} -90 {} -27 {} -80 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -27 {} 0 {} -13 {} 27 {} 0 {} -53 {} -27 {} 0 {} 0 {} 0 {} 0 {} -27 {} -27 {} -27 {} -13 {} -13 {} -27 {} 0 {} 0 {} 27 {} 0 {} 0 {} 0 {} 27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 13 {} 0 {} -13 {} -13 {} 0 {} 0 {} 0 {} 0 {} 93 {} 93 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} -27 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} -67 {} -53 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 13 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} -27 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 27 {} 0 {} -27 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} -27 {} 0 {} 0 {} 0 {}
-ContextSub2: class "noswash" 8 8 8 12
+ContextSub2: class "noswash" 8 8 8 13
   Class: 10 Q Q.midDot
   Class: 1 x
   Class: 29 Y backslash G.midDot Y.midDot
   Class: 24 q y yacute ydieresis t_g
-  Class: 138 parenleft parenright uni005B uni005D g j braceleft bar braceright exclamdown brokenbar guillemotleft paragraph guillemotright questiondown
-  Class: 484 quotesingle uni002C hyphen uni002E slash P f k p Thorn germandbls longs uni01BF Wynn ophEarthSerp ophChaosSerp ophOrderSerp f_f f_i f_l f_f_i f_f_l longs_t P.midDot earthChaos earthOrder chaosOrder ballance f_b f_h f_j f_k f_t f_thorn f_f_b f_f_h f_f_j f_f_k f_f_t f_f_thorn longs_b longs_h longs_i longs_j longs_k longs_l longs_thorn longs_longs longs_longs_b longs_longs_h longs_longs_i longs_longs_j longs_longs_k longs_longs_l longs_longs_t longs_longs_thorn f_longs f_longs_t g_t
-  Class: 53 i igrave iacute icircumflex idieresis imacron uni0131
+  Class: 154 parenleft parenright three four five uni005B uni005D g j braceleft bar braceright exclamdown brokenbar guillemotleft paragraph guillemotright questiondown
+  Class: 495 quotesingle uni002C hyphen uni002E slash seven nine P f k p Thorn germandbls longs uni01BF Wynn ophEarthSerp ophChaosSerp ophOrderSerp f_f f_i f_l f_f_i f_f_l longs_t P.midDot earthChaos earthOrder chaosOrder ballance f_b f_h f_j f_k f_t f_thorn f_f_b f_f_h f_f_j f_f_k f_f_t f_f_thorn longs_b longs_h longs_i longs_j longs_k longs_l longs_thorn longs_longs longs_longs_b longs_longs_h longs_longs_i longs_longs_j longs_longs_k longs_longs_l longs_longs_t longs_longs_thorn f_longs f_longs_t g_t
+  Class: 57 one i igrave iacute icircumflex idieresis imacron uni0131
   BClass: 10 Q Q.midDot
   BClass: 1 x
   BClass: 29 Y backslash G.midDot Y.midDot
   BClass: 24 q y yacute ydieresis t_g
-  BClass: 138 parenleft parenright uni005B uni005D g j braceleft bar braceright exclamdown brokenbar guillemotleft paragraph guillemotright questiondown
-  BClass: 484 quotesingle uni002C hyphen uni002E slash P f k p Thorn germandbls longs uni01BF Wynn ophEarthSerp ophChaosSerp ophOrderSerp f_f f_i f_l f_f_i f_f_l longs_t P.midDot earthChaos earthOrder chaosOrder ballance f_b f_h f_j f_k f_t f_thorn f_f_b f_f_h f_f_j f_f_k f_f_t f_f_thorn longs_b longs_h longs_i longs_j longs_k longs_l longs_thorn longs_longs longs_longs_b longs_longs_h longs_longs_i longs_longs_j longs_longs_k longs_longs_l longs_longs_t longs_longs_thorn f_longs f_longs_t g_t
-  BClass: 53 i igrave iacute icircumflex idieresis imacron uni0131
+  BClass: 154 parenleft parenright three four five uni005B uni005D g j braceleft bar braceright exclamdown brokenbar guillemotleft paragraph guillemotright questiondown
+  BClass: 495 quotesingle uni002C hyphen uni002E slash seven nine P f k p Thorn germandbls longs uni01BF Wynn ophEarthSerp ophChaosSerp ophOrderSerp f_f f_i f_l f_f_i f_f_l longs_t P.midDot earthChaos earthOrder chaosOrder ballance f_b f_h f_j f_k f_t f_thorn f_f_b f_f_h f_f_j f_f_k f_f_t f_f_thorn longs_b longs_h longs_i longs_j longs_k longs_l longs_thorn longs_longs longs_longs_b longs_longs_h longs_longs_i longs_longs_j longs_longs_k longs_longs_l longs_longs_t longs_longs_thorn f_longs f_longs_t g_t
+  BClass: 57 one i igrave iacute icircumflex idieresis imacron uni0131
   FClass: 10 Q Q.midDot
   FClass: 1 x
   FClass: 29 Y backslash G.midDot Y.midDot
   FClass: 24 q y yacute ydieresis t_g
-  FClass: 138 parenleft parenright uni005B uni005D g j braceleft bar braceright exclamdown brokenbar guillemotleft paragraph guillemotright questiondown
-  FClass: 484 quotesingle uni002C hyphen uni002E slash P f k p Thorn germandbls longs uni01BF Wynn ophEarthSerp ophChaosSerp ophOrderSerp f_f f_i f_l f_f_i f_f_l longs_t P.midDot earthChaos earthOrder chaosOrder ballance f_b f_h f_j f_k f_t f_thorn f_f_b f_f_h f_f_j f_f_k f_f_t f_f_thorn longs_b longs_h longs_i longs_j longs_k longs_l longs_thorn longs_longs longs_longs_b longs_longs_h longs_longs_i longs_longs_j longs_longs_k longs_longs_l longs_longs_t longs_longs_thorn f_longs f_longs_t g_t
-  FClass: 53 i igrave iacute icircumflex idieresis imacron uni0131
+  FClass: 154 parenleft parenright three four five uni005B uni005D g j braceleft bar braceright exclamdown brokenbar guillemotleft paragraph guillemotright questiondown
+  FClass: 495 quotesingle uni002C hyphen uni002E slash seven nine P f k p Thorn germandbls longs uni01BF Wynn ophEarthSerp ophChaosSerp ophOrderSerp f_f f_i f_l f_f_i f_f_l longs_t P.midDot earthChaos earthOrder chaosOrder ballance f_b f_h f_j f_k f_t f_thorn f_f_b f_f_h f_f_j f_f_k f_f_t f_f_thorn longs_b longs_h longs_i longs_j longs_k longs_l longs_thorn longs_longs longs_longs_b longs_longs_h longs_longs_i longs_longs_j longs_longs_k longs_longs_l longs_longs_t longs_longs_thorn f_longs f_longs_t g_t
+  FClass: 57 one i igrave iacute icircumflex idieresis imacron uni0131
  4 0 0
   ClsList: 1 7 5 2
   BClsList:
@@ -410,6 +410,12 @@ ContextSub2: class "noswash" 8 8 8 12
   SeqLookup: 0 "Noswash"
  2 0 0
   ClsList: 1 6
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Noswash"
+ 3 0 0
+  ClsList: 1 7 6
   BClsList:
   FClsList:
  1
@@ -12347,7 +12353,7 @@ HStem: -20.9414 42.9277<46.7269 122.747> 279.856 42.9277<54.6028 136.355> 351.34
 VStem: 11.7664 66.3545<60.1255 72.2627> 17.6845 100.374 88.6845 100.374 146.684 100.374
 LayerCount: 2
 Fore
-Refer: 432 57408 N 1 0 0 1 29.0001 0 2
+Refer: 432 57408 N 1 0 0 1 29 0 2
 Refer: 7 97 N 1 0 0 1 0 0 3
 Decomposition: "a+4EAA"
 EndChar
@@ -12368,7 +12374,7 @@ EndChar
 StartChar: o.hobbit
 Encoding: 65573 -1 358
 Width: 438
-Flags: W
+Flags: HW
 HStem: -22.0713 42.9277<164.058 257.719> 279.856 42.9277<184.702 278.363> 441.834 95.7731<343.837 390.664>
 VStem: 36.7937 66.3545<151.901 163.798> 339.274 66.3545<136.915 148.812> 343.833 62.6438<459.385 489.97>
 LayerCount: 2
@@ -12381,7 +12387,7 @@ EndChar
 StartChar: u.hobbit
 Encoding: 65574 -1 359
 Width: 381
-Flags: W
+Flags: HW
 HStem: -21.4639 42.9277<124.099 211.844> 303.677 20G<130.996 138.528> 345.261 223.646
 VStem: 68.6173 66.3535<110.035 125.799> 89.2618 66.3535<239.822 292.377> 272.061 62.7077<492.307 557.29> 299.354 66.1855<34.1211 101.526> 307.967 66.3535<230.399 238.122>
 LayerCount: 2
@@ -12392,7 +12398,7 @@ SplineSet
 EndSplineSet
 Refer: 27 117 N 1 0 0 1 0 0 2
 Fore
-Refer: 435 57420 N 1 0 0 1 179 0 2
+Refer: 435 57420 N 1 0 0 1 167.325 -0.173 2
 Refer: 27 117 N 1 0 0 1 0 0 3
 Decomposition: "u+4EwA"
 EndChar
@@ -12400,7 +12406,7 @@ EndChar
 StartChar: y.hobbit
 Encoding: 65575 -1 360
 Width: 387
-Flags: W
+Flags: HW
 HStem: -356.804 21G -164.477 89.9077 -21.4641 42.9282 303.677 20G
 VStem: 22.6844 100.374 67.6202 66.3538 88.2654 66.3538 151.684 100.374 286.333 66.3538 307.081 66.3538
 LayerCount: 2
