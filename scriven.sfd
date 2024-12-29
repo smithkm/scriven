@@ -4,7 +4,7 @@ FullName: Scriven
 FamilyName: Scriven
 Weight: Regular
 Copyright: Copyright (c) 2024, Kevin Smith
-Version: 0.1.0
+Version: 0.0.1
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1735446052
+ModificationTime: 1735503128
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -535,7 +535,7 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 65025 51 17
+WinInfo: 0 51 17
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
