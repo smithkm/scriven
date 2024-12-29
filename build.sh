@@ -20,3 +20,4 @@ fontimage \
     --text "           " \
     --text "󱥂󱤴󱤧󱤑󱦐K󱦒e󱦒w󱦒i󱦒n󱦒󱦑。󱤿󱤆󱤧󱥔󱥩󱤑󱤆。" \
 Scriven.otf
+zip -r scriven.zip Scriven.otf Scriven.woff2  README.md LICENSE.md docs/
