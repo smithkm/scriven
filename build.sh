@@ -6,8 +6,8 @@ cp Scriven.otf ~/.local/share/fonts/
 cp Scriven.woff2 ../smithkm.github.io/runes/
 #fc-cache -f -v
 fontimage \
-    --pixelsize 48 \
-    --text "Scriven" \
+    --pixelsize 128 \
+    --text "Scriven᛫ᛋᚳᚱᛁᚢ︆ᛖᚾ" \
     --pixelsize 32 \
     --text "0123456789!?(){}[]& ◇‍[ ]‍◇ ¶" \
     --text "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz" \
