@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1735503128
+ModificationTime: 1735591979
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,17 +56,17 @@ OS2XHeight: 323
 OS2Vendor: '    '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: a000004f.10002000.08008000.00000000
+Lookup: 2 0 0 "Gargoyle Multisub" { "Gargoyle Multisub-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
+Lookup: 4 0 0 "Gargoyle Ligatures" { "Gargoyle Ligatures-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
+Lookup: 1 0 0 "Gargoyle Subs" { "Gargoyle subs-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
+Lookup: 4 0 0 "Sosarian rune ligatures" { "Sosarian rune ligatures-1"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
+Lookup: 1 0 0 "Sosarian rune subs" { "Sosarian rune subs-1"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "long_s" { "long_s-1"  } []
 Lookup: 5 0 0 "'calt' Contextual Alternates lookup 24" { "noswash"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 5 0 0 "auto_long_s" { "auto_long_s-1"  } ['hist' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "Noswash" { "Noswash-1"  } []
 Lookup: 4 0 0 "'liga' Standard Ligatures lookup 22" { "'liga' Standard Ligatures lookup 22-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "R Rotunda" { "R Rotunda-1"  } []
-Lookup: 2 0 0 "Gargoyle Multisub" { "Gargoyle Multisub-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
-Lookup: 4 0 0 "Gargoyle Ligatures" { "Gargoyle Ligatures-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
-Lookup: 1 0 0 "Gargoyle Subs" { "Gargoyle subs-1"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
-Lookup: 4 0 0 "Sosarian rune ligatures" { "Sosarian rune ligatures-1"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
-Lookup: 1 0 0 "Sosarian rune subs" { "Sosarian rune subs-1"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 5 0 0 "sitelen combine" { "sitelen combine-2"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 4 0 1 "sitelen combine sub-glyph" { "sitelen combine sub-glyph-1"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 4 0 1 "Required Ligature" { "Ophidian dotted circle"  "Sitelen Cartouche Latin"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
