@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1735892090
+ModificationTime: 1735901165
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -63,9 +63,10 @@ Lookup: 1 0 0 "Gargoyle Subs" { "Gargoyle subs-1"  } ['ss05' ('DFLT' <'dflt' > '
 Lookup: 4 0 0 "Sosarian rune ligatures" { "Sosarian rune ligatures-1"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "Sosarian rune subs" { "Sosarian rune subs-1"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "long_s" { "long_s-1"  } []
-Lookup: 5 0 0 "'calt' Contextual Alternates lookup 24" { "noswash"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
+Lookup: 5 0 0 "'calt' Contextual Alternates lookup 24" { "sidecaron"  "noswash"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 5 0 0 "auto_long_s" { "auto_long_s-1"  } ['hist' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
-Lookup: 1 0 0 "Noswash" { "Noswash-1"  } []
+Lookup: 1 0 0 "noswash" { "Noswash-1"  } []
+Lookup: 1 0 0 "sidecaron" { "sidecaron-1"  } []
 Lookup: 4 0 0 "'liga' Standard Ligatures lookup 22" { "'liga' Standard Ligatures lookup 22-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "R Rotunda" { "R Rotunda-1"  } []
 Lookup: 5 0 0 "sitelen combine" { "sitelen combine-2"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
@@ -338,6 +339,23 @@ KernClass2: 19 16 "Latin miniscule-miniscule"
  7 uniA75B
  9 t t_t t_g
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -26 {} -27 {} -27 {} 0 {} 0 {} -27 {} -27 {} 0 {} -13 {} -107 {} -90 {} -27 {} -80 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -27 {} 0 {} -13 {} 27 {} 0 {} -53 {} -27 {} 0 {} 0 {} 0 {} 0 {} -27 {} -27 {} -27 {} -13 {} -13 {} -27 {} 0 {} 0 {} 27 {} 0 {} 0 {} 0 {} 27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 13 {} 0 {} -13 {} -40 {} 0 {} 0 {} 0 {} 0 {} 93 {} 93 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 27 {} 0 {} -13 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} -27 {} 0 {} 13 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} -67 {} -53 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 27 {} 0 {} -13 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 27 {} 0 {} -13 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 13 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} -27 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 27 {} 0 {} -27 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} -27 {} 0 {} 0 {} 13 {}
+ContextSub2: class "sidecaron" 3 3 3 1
+  Class: 17 b d h k l thorn L
+  Class: 9 caroncomb
+  BClass: 17 b d h k l thorn L
+  BClass: 9 caroncomb
+  FClass: 17 b d h k l thorn L
+  FClass: 9 caroncomb
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 1 "sidecaron"
+  ClassNames: "All_Others" "ascender" "caron"
+  BClassNames: "All_Others" "ascender" "caron"
+  FClassNames: "All_Others" "ascender" "caron"
+EndFPST
 ContextSub2: class "auto_long_s-1" 3 3 3 3
   Class: 1 s
   Class: 417 a b c d e f g h i j k l m n o p q r t u v w x y z agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis divide oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis amacron abreve cacute ccircumflex cdotaccent ccaron emacron ebreve edotaccent omacron longs uni01BF uni0237
@@ -395,82 +413,82 @@ ContextSub2: class "noswash" 8 8 8 13
   BClsList:
   FClsList:
  2
-  SeqLookup: 0 "Noswash"
-  SeqLookup: 3 "Noswash"
+  SeqLookup: 0 "noswash"
+  SeqLookup: 3 "noswash"
  3 0 0
   ClsList: 1 5 2
   BClsList:
   FClsList:
  2
-  SeqLookup: 0 "Noswash"
-  SeqLookup: 2 "Noswash"
+  SeqLookup: 0 "noswash"
+  SeqLookup: 2 "noswash"
  3 0 0
   ClsList: 1 4 2
   BClsList:
   FClsList:
  2
-  SeqLookup: 0 "Noswash"
-  SeqLookup: 2 "Noswash"
+  SeqLookup: 0 "noswash"
+  SeqLookup: 2 "noswash"
  3 0 0
   ClsList: 1 7 2
   BClsList:
   FClsList:
  1
-  SeqLookup: 2 "Noswash"
+  SeqLookup: 2 "noswash"
  2 0 0
   ClsList: 1 2
   BClsList:
   FClsList:
  1
-  SeqLookup: 1 "Noswash"
+  SeqLookup: 1 "noswash"
  3 0 0
   ClsList: 1 7 5
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "Noswash"
+  SeqLookup: 0 "noswash"
  2 0 0
   ClsList: 1 5
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "Noswash"
+  SeqLookup: 0 "noswash"
  2 0 0
   ClsList: 1 4
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "Noswash"
+  SeqLookup: 0 "noswash"
  2 0 0
   ClsList: 1 6
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "Noswash"
+  SeqLookup: 0 "noswash"
  3 0 0
   ClsList: 1 7 6
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "Noswash"
+  SeqLookup: 0 "noswash"
  2 0 0
   ClsList: 5 2
   BClsList:
   FClsList:
  1
-  SeqLookup: 1 "Noswash"
+  SeqLookup: 1 "noswash"
  2 0 0
   ClsList: 3 2
   BClsList:
   FClsList:
  1
-  SeqLookup: 1 "Noswash"
+  SeqLookup: 1 "noswash"
  2 0 0
   ClsList: 4 2
   BClsList:
   FClsList:
  1
-  SeqLookup: 1 "Noswash"
+  SeqLookup: 1 "noswash"
   ClassNames: "All_Others" "Q" "x" "longTrailing" "shortTrailing" "both" "leading" "narrow"
   BClassNames: "All_Others" "Q" "x" "longTrailing" "shortTrailing" "both" "leading" "narrow"
   FClassNames: "All_Others" "Q" "x" "longTrailing" "shortTrailing" "both" "leading" "narrow"
@@ -536,7 +554,7 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 0 68 23
+WinInfo: 64721 61 20
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
@@ -599,8 +617,8 @@ Grid
   Named: "x-height"
 EndSplineSet
 TeXData: 1 0 0 305135 152567 101711 338464 1048576 101711 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "sitelen-combine" "Mark Anchors-1" "sitelen_combine"""  "tail"""  "wide-bottom" "Mark Anchors-1" "point-bottom" "Mark Anchors-1" "wide-top" "Mark Anchors-1" "point-top" "Mark Anchors-1"
-BeginChars: 65885 927
+AnchorClass2: "caron-side" "Mark Anchors-1" "side-caron"""  "sitelen-combine" "Mark Anchors-1" "sitelen_combine"""  "tail"""  "wide-bottom" "Mark Anchors-1" "point-bottom" "Mark Anchors-1" "wide-top" "Mark Anchors-1" "point-top" "Mark Anchors-1"
+BeginChars: 65886 928
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -867,9 +885,10 @@ StartChar: b
 Encoding: 98 98 8
 Width: 351
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: -18.7383 37.4766<84.9819 201.33> 280.768 37.4316<166.267 277.06>
 VStem: 5.62988 93.6299<410.803 631.134> 13.6299 62.6455<50.2127 252.605 258.63 280.227> 21.2314 60.7646<54.0031 256.005 258.63 404.287> 259.63 62.6455<76.5378 251.909>
+AnchorPoint: "caron-side" 206 650 basechar 0
 AnchorPoint: "wide-top" 137 650 basechar 0
 AnchorPoint: "point-top" 68 650 basechar 0
 LayerCount: 2
@@ -966,6 +985,9 @@ GlyphClass: 2
 Flags: W
 HStem: -18.7387 37.4773<99.438 206.966> 280.706 37.4773<170.678 264.611>
 VStem: 30.6772 62.6457<72.2764 193.155> 265.677 93.6441<410.803 631.134> 273.641 62.5619<18.7612 35.0303 35.8812 265.398> 283.16 60.9147<88.2254 263.557 313.957 539.648>
+AnchorPoint: "caron-side" 456 650 basechar 0
+AnchorPoint: "point-top" 328 649 basechar 0
+AnchorPoint: "wide-top" 236 650 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -1015,10 +1037,10 @@ SplineSet
  319.7442605 -17.3713462954 308.906068584 -18.7386550945 297.873770871 -18.7386550945 c 0
  286.423589403 -18.7386550945 274.755835503 -10.9109783753 273.640882004 35.0303312393 c 1xe8
 EndSplineSet
-Substitution2: "Gargoyle subs-1" gargD
+Substitution2: "'sups' Superscript lookup 9-1" d.sup
+Substitution2: "'sups' Superscript lookup 9-1" d.sup
 Substitution2: "Sosarian rune subs-1" runeDaeg
-Substitution2: "'sups' Superscript lookup 9-1" d.sup
-Substitution2: "'sups' Superscript lookup 9-1" d.sup
+Substitution2: "Gargoyle subs-1" gargD
 EndChar
 
 StartChar: e
@@ -1208,9 +1230,10 @@ StartChar: h
 Encoding: 104 104 14
 Width: 383
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: -18.7387 21G<40.8125 48.1361 179.305 182.376> 280.706 37.4773<173.936 269.409>
 VStem: 35.6772 93.6441<425.943 631.134> 39.678 62.644<-1.26072 229.347> 52.2791 58.4601<17.6698 244.144 256.654 472.708> 290.677 62.6457<66.6054 215.042>
+AnchorPoint: "caron-side" 224 650 basechar 0
 AnchorPoint: "point-top" 98 650 basechar 0
 AnchorPoint: "wide-top" 167 650 basechar 0
 LayerCount: 2
@@ -1300,9 +1323,10 @@ StartChar: k
 Encoding: 107 107 17
 Width: 371
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: -18.7387 37.4773<246.311 339.795> 284.261 37.4773<224.882 332.921>
 VStem: 36.6772 93.6441<410.803 631.134> 52.2534 63.6252<98.4102 226.127 237.916 539.648>
+AnchorPoint: "caron-side" 239 650 basechar 0
 AnchorPoint: "point-top" 99 650 basechar 0
 AnchorPoint: "wide-top" 168 650 basechar 0
 LayerCount: 2
@@ -1376,9 +1400,10 @@ StartChar: l
 Encoding: 108 108 18
 Width: 146
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: -18.7387 21G<50.3514 62.39>
 VStem: 24.6772 93.6441<410.803 631.134> 32.5513 62.6515<18.7612 281.395> 42.1595 60.9147<88.2258 539.648>
+AnchorPoint: "caron-side" 229 650 basechar 0
 AnchorPoint: "point-top" 88 650 basechar 0
 AnchorPoint: "wide-top" 80 650 basechar 0
 LayerCount: 2
@@ -2242,6 +2267,7 @@ GlyphClass: 2
 Flags: W
 HStem: 281.261 37.4773<193.416 291.167>
 VStem: 29.6772 93.6441<410.803 631.134> 47.1595 58.8603<180.912 255.035 257.817 481.134> 274.677 62.6457<156.743 261.597>
+AnchorPoint: "caron-side" 224 650 basechar 0
 AnchorPoint: "wide-top" 254 299.875 basechar 0
 AnchorPoint: "point-top" 243 299.875 basechar 0
 LayerCount: 2
@@ -8195,9 +8221,10 @@ EndChar
 StartChar: H
 Encoding: 72 72 195
 Width: 594
-Flags: W
+Flags: HW
 HStem: -58.6088 39.8701G<58.7725 66.1181 356.613 363.132> 444.261 37.4773<217.651 353.816> 631.261 37.4773<16.2047 43.0486>
 VStem: 60.9843 62.6437<0.984871 410.647 411.837 615.494> 504.283 62.6457<118.583 309.118>
+AnchorPoint: "caron-side" 225 650 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -8239,9 +8266,9 @@ SplineSet
  60.9842772135 62.8572083401 59.6771660358 128.265559571 59.6771660358 193.7113179 c 2
  58.6771710275 583.707421653 l 2
 EndSplineSet
-Substitution2: "Gargoyle subs-1" gargH
-Substitution2: "Sosarian rune subs-1" runeWynn
 Substitution2: "Dotted Consonants-1" H.midDot
+Substitution2: "Sosarian rune subs-1" runeWynn
+Substitution2: "Gargoyle subs-1" gargH
 EndChar
 
 StartChar: I
@@ -8416,6 +8443,7 @@ Width: 468
 Flags: W
 HStem: -18.8637 37.4975<16.202 59.6512 120.396 413.231> 631.261 37.4773<16.2047 43.0486>
 VStem: 60.9843 62.6437<18.6339 615.494>
+AnchorPoint: "caron-side" 225 650 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -9423,7 +9451,7 @@ EndChar
 StartChar: H.midDot
 Encoding: 65562 -1 222
 Width: 594
-Flags: W
+Flags: HW
 HStem: -58.6088 39.8701G<58.7725 66.1181 356.613 363.132> 182.261 68.4773<263.806 345.194> 444.261 37.4773<217.651 353.816> 631.261 37.4773<16.2047 43.0486>
 VStem: 60.9843 62.6437<0.984871 410.647 411.837 615.494> 245.677 117.646<214.008 218.992> 504.283 62.6457<118.583 309.118>
 LayerCount: 2
@@ -10600,7 +10628,7 @@ StartChar: uni0302
 Encoding: 770 770 256
 Width: 251
 GlyphClass: 4
-Flags: W
+Flags: HW
 HStem: 366.261 95.4773<152.898 189.624>
 VStem: 6.67717 240.646
 AnchorPoint: "wide-top" 125 300 mark 0
@@ -10767,13 +10795,15 @@ Fore
 Validated: 1
 EndChar
 
-StartChar: uni030C
+StartChar: caroncomb
 Encoding: 780 780 264
-Width: 300
-Flags: W
+Width: 251
+Flags: HW
+AnchorPoint: "wide-top" 125 300 mark 0
 LayerCount: 2
 Fore
-Validated: 1
+Refer: 256 770 N -1 0 0 -1 254 828 2
+Substitution2: "sidecaron-1" caroncomb.side
 EndChar
 
 StartChar: uni0327
@@ -12080,6 +12110,7 @@ EndChar
 StartChar: Acircumflex
 Encoding: 194 194 333
 Width: 591
+Flags: H
 HStem: -42.7387 21G<-26.6949 -20.4624> -18.9263 37.4448<571.967 598.811> 524.136 37.4773<210.205 236.72> 609.011 95.4773<299.898 336.624>
 VStem: 153.677 240.646
 LayerCount: 2
@@ -12091,6 +12122,7 @@ EndChar
 StartChar: Ecircumflex
 Encoding: 202 202 334
 Width: 461
+Flags: H
 HStem: -18.8637 37.4936<107.88 413.231> 281.261 37.4772<112.803 307.662> 505.261 56.3523<368.524 415.343> 524.136 37.4773<16.2047 42.6065 165.353 366.642> 609.136 95.4773<280.898 317.624>
 VStem: 47.9531 69.3697<18.8415 280.829 318.348 475.841> 58.8231 62.5851<322.47 510.524> 134.677 240.646
 LayerCount: 2
@@ -12102,6 +12134,7 @@ EndChar
 StartChar: Icircumflex
 Encoding: 206 206 335
 Width: 181
+Flags: H
 HStem: -18.7387 37.4773<130.926 149.795> 524.136 37.4773<36.2047 55.8171> 609.136 95.4773<127.898 164.624>
 VStem: -18.3228 240.646 58.4367 62.6462<26.2124 523.942>
 LayerCount: 2
@@ -12113,6 +12146,7 @@ EndChar
 StartChar: Ocircumflex
 Encoding: 212 212 336
 Width: 646
+Flags: H
 HStem: -18.7387 37.4773<255.411 394.605> 521.261 37.4773<249.395 388.589> 608.886 95.4773<362.898 399.624>
 VStem: 19.6772 62.6457<183.805 357.175> 216.677 240.646 561.677 62.6457<182.825 356.195>
 LayerCount: 2
@@ -12124,6 +12158,7 @@ EndChar
 StartChar: Ucircumflex
 Encoding: 219 219 337
 Width: 603
+Flags: H
 HStem: -19.6137 37.4773<247.398 412.793 573.393 599.795> 524.136 37.477<39.1311 79.0608 79.1546 146.339> 609.011 95.4773<376.898 413.624>
 VStem: 40.5191 62.7505<147.011 355.28> 230.677 240.646 494.505 62.8176<31.4757 43.9411 49.0396 291.459 384.074 544.063> 505.401 62.6461<135.895 537.848>
 LayerCount: 2
@@ -12135,7 +12170,7 @@ EndChar
 StartChar: acircumflex
 Encoding: 226 226 338
 Width: 350
-Flags: W
+Flags: HW
 HStem: -18.7383 37.4766<44.5254 111.243> 279.262 37.4766<56.2937 117.705> 366.261 95.4773<163.898 200.624>
 VStem: 13.5166 62.6953<6.678 111.282> 17.6773 240.646
 LayerCount: 2
@@ -12148,6 +12183,7 @@ EndChar
 StartChar: ecircumflex
 Encoding: 234 234 339
 Width: 387
+Flags: H
 HStem: -18.7387 37.4773<98.438 205.41> 280.706 37.4773<169.744 263.452> 366.261 95.4773<253.898 290.624>
 VStem: 29.6772 62.6457<97.7709 193.278> 107.677 240.646
 LayerCount: 2
@@ -12159,6 +12195,7 @@ EndChar
 StartChar: icircumflex
 Encoding: 238 238 340
 Width: 161
+Flags: H
 HStem: -22.4639 42.9277<62.665 128.246> 366.261 95.4773<109.898 146.624>
 VStem: -36.3228 240.646 41.9395 66.3535<3.86567 252.953> 56.9307 66.3535<58.5666 294.895>
 LayerCount: 2
@@ -12170,7 +12207,7 @@ EndChar
 StartChar: ocircumflex
 Encoding: 244 244 341
 Width: 438
-Flags: W
+Flags: HW
 HStem: -18.7383 37.4766<180.508 270.427> 281.262 37.4766<172.372 262.228> 366.261 95.4773<271.898 308.624>
 VStem: 37.9844 62.6465<92.18 209.392> 125.677 240.646 342.984 62.6465<91.9269 207.819>
 LayerCount: 2
@@ -12182,6 +12219,7 @@ EndChar
 StartChar: ucircumflex
 Encoding: 251 251 342
 Width: 381
+Flags: H
 HStem: -18.7387 37.4773<104.182 203.285> 366.261 95.4773<218.898 255.624>
 VStem: 42.2886 62.6456<36.511 268.789> 61.7481 62.7509<95.687 301.15> 72.6772 240.646 278.727 62.7615<83.9412 297.353>
 LayerCount: 2
@@ -12697,7 +12735,7 @@ EndChar
 StartChar: asciicircum
 Encoding: 94 94 363
 Width: 251
-Flags: W
+Flags: HW
 HStem: 520.261 95.4773<152.898 189.624>
 VStem: 6.67717 240.646
 LayerCount: 2
@@ -17937,6 +17975,7 @@ Width: 594
 Flags: W
 HStem: -181.328 21G<53.7725 61.1181> 524.136 37.4773<217.472 358.296> 631.261 37.4773<16.2047 43.0486>
 VStem: 57.474 63.5716<-160.072 11.3644 22.0749 487.892 491.567 617.98> 508.95 62.6574<287.192 406.26>
+AnchorPoint: "caron-side" 220 721 basechar 0
 AnchorPoint: "point-top" 318 541.875 basechar 0
 AnchorPoint: "wide-top" 306 542.875 basechar 0
 LayerCount: 2
@@ -18944,7 +18983,7 @@ EndChar
 StartChar: Thorn.midDot
 Encoding: 65592 -1 584
 Width: 594
-Flags: W
+Flags: HW
 HStem: -181.328 21G<53.7725 61.1181> 282.261 68.4773<247.806 329.194> 524.136 37.4773<217.472 358.296> 631.261 37.4773<16.2047 43.0486>
 VStem: 57.474 63.5716<-160.072 11.3644 22.0749 487.892 491.567 617.98> 229.677 117.646<314.008 318.992> 508.95 62.6574<287.192 406.26>
 LayerCount: 2
@@ -19153,7 +19192,7 @@ EndChar
 StartChar: exclamdbl
 Encoding: 8252 8252 591
 Width: 318
-Flags: W
+Flags: HW
 HStem: -18.7387 85.4773<217.881 247.119> -18.7383 85.4766<58.8811 88.1189>
 VStem: 25.6768 93.6445<414.596 635.134> 25.6768 95.6465<-1.18745 48.3428> 47.5684 62.7549<138.813 422.507> 184.677 95.6457<-0.734289 48.7942 442.9 665.134> 206.771 62.5242<138.753 426.027>
 LayerCount: 2
@@ -19196,6 +19235,7 @@ SplineSet
  184.725136466 30.1696526404 184.677166036 30.365642995 184.677166036 30.5863179001 c 0x84
 EndSplineSet
 Refer: 233 33 N 1 0 0 1 0 0 2
+LCarets2: 1 157
 Ligature2: "'liga' Standard Ligatures lookup 22-1" exclam exclam
 EndChar
 
@@ -31081,6 +31121,7 @@ EndChar
 StartChar: f_f
 Encoding: 64256 64256 870
 Width: 429
+Flags: H
 HStem: -180.738 21G<7.30518 13.3315 222.305 228.332> 277.262 36.4414<13.0612 48.6699 111.325 212.313> 290.324 35.2002<232.422 264.33 326.997 433.682> 524.137 37.4766<116.582 199.816> 575.262 37.4766<332.353 406.687>
 VStem: 48.6768 62.6455<58.6529 279.341 317.004 511.792> 264.716 62.6455<61.0142 287.861 325.524 473.962>
 LayerCount: 2
@@ -31144,13 +31185,14 @@ SplineSet
  128.76171875 524.13671875 123.501953125 524.033203125 118.416015625 523.696289062 c 0
  116.639648438 519.799804688 111.322265625 507.657226562 111.322265625 483.4140625 c 0
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 192
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f f
 EndChar
 
 StartChar: f_i
 Encoding: 64257 64257 871
 Width: 375
+Flags: H
 HStem: -180.738 21G<7.30518 13.3315> -19.876 37.5098<279.102 347.733> 276.112 37.4434<111.314 265.01> 524.137 37.4766<116.582 189.781>
 VStem: 48.6768 62.6455<47.4404 276.112 313.814 511.792> 257.631 62.6973<-0.326685 221.296> 274.785 62.7363<53.9684 277.687>
 LayerCount: 2
@@ -31208,13 +31250,14 @@ SplineSet
  -6.3232421875 284.924804688 29.84375 308.020507812 48.748046875 313.703125 c 1
  48.7578125 321.95703125 48.76171875 330.19140625 48.76171875 338.396484375 c 0xfa
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 188
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f i
 EndChar
 
 StartChar: f_l
 Encoding: 64258 64258 872
 Width: 360
+Flags: H
 HStem: -180.738 21G<7.30518 13.3315 265.352 277.39> 277.262 36.4414<13.0612 47.4953> 286.943 32.6416<111.334 210.406> 524.137 37.4766<116.582 191.11>
 VStem: 48.7617 62.6455<61.9617 281.68 319.585 511.792> 247.551 62.6514<18.7609 277.473> 255.401 62.7578<90.7141 470.273>
 LayerCount: 2
@@ -31270,13 +31313,14 @@ SplineSet
  258.829101562 -18.73828125 247.55078125 -8.23828125 247.55078125 42.7060546875 c 0
  247.55078125 45.9130859375 247.594726562 49.2099609375 247.676757812 52.5859375 c 0xdc
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 186
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f l
 EndChar
 
 StartChar: f_f_i
 Encoding: 64259 64259 873
 Width: 590
+Flags: H
 HStem: -180.738 21G<7.30518 13.3315 222.305 228.332> -17.4082 37.5479<494.709 563.41> 276.294 37.4658<111.315 264.252 326.921 480.01> 524.137 37.4766<116.582 199.816> 575.262 37.4766<332.353 400.15>
 VStem: 48.6768 62.6455<47.4836 276.294 313.937 511.792> 264.716 62.6455<57.3122 278.032 315.599 473.962> 472.832 62.6943<2.24592 222.292 471.759 505.668> 489.784 62.7373<58.1635 279.794>
 LayerCount: 2
@@ -31354,13 +31398,14 @@ SplineSet
  128.76171875 524.13671875 123.501953125 524.033203125 118.416015625 523.696289062 c 0
  116.639648438 519.799804688 111.322265625 507.657226562 111.322265625 483.4140625 c 0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 406 178
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f f i
 EndChar
 
 StartChar: f_f_l
 Encoding: 64260 64260 874
 Width: 575
+Flags: H
 HStem: -180.738 21G<7.30518 13.3315 222.305 228.332 480.352 492.39> 277.262 36.4414<13.0612 48.6699 111.325 212.313> 290.324 35.2002<232.422 264.33 326.997 433.682> 524.137 37.4766<116.582 199.816> 575.262 37.4766<332.353 406.687>
 VStem: 48.6768 62.6455<58.6529 279.341 317.004 511.792> 264.716 62.6455<61.0142 287.861 325.524 473.962> 462.551 62.6514<18.7609 352.056> 472.848 62.7148<144.519 520.158>
 LayerCount: 2
@@ -31439,14 +31484,14 @@ SplineSet
  128.76171875 524.13671875 123.501953125 524.033203125 118.416015625 523.696289062 c 0
  116.639648438 519.799804688 111.322265625 507.657226562 111.322265625 483.4140625 c 0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 404 180
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f f l
 EndChar
 
 StartChar: longs_t
 Encoding: 64261 64261 875
 Width: 595
-Flags: W
+Flags: HW
 HStem: -180.738 21G<9.30518 15.3315> -18.7383 37.4766<339.051 441.466> 276.33 37.5586<159.271 306.508 369.547 445.088 447.361 503.291> 281.262 42.1279<370.833 545.363> 524.137 37.4766<118.582 190.953>
 VStem: 50.7617 62.6455<148.364 265.775 304.777 511.792> 284.224 62.6455<63.5833 275.675> 308.928 62.6133<315.535 398.414>
 LayerCount: 2
@@ -31518,7 +31563,7 @@ SplineSet
  362.46484375 274.392578125 361.130859375 268.026367188 359.788085938 261.619140625 c 0
  353.416015625 231.22265625 346.869140625 199.977539062 346.869140625 165.4140625 c 0xde
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 228
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs t
 EndChar
 
@@ -31538,6 +31583,7 @@ EndChar
 StartChar: f_b
 Encoding: 65844 -1 877
 Width: 585
+Flags: H
 HStem: -180.738 21G<7.30518 13.3315> -18.7383 37.4766<319.03 435.378> 277.262 36.4414<13.0612 47.4953> 280.768 37.4316<111.334 203.036 399.891 504.931> 524.137 37.4766<116.582 191.11>
 VStem: 48.7617 62.6455<61.9617 281.68 319.585 511.792> 247.677 62.6455<50.2322 253.421 257.662 460.431> 493.677 62.6455<76.5378 251.91>
 LayerCount: 2
@@ -31597,8 +31643,8 @@ SplineSet
  422.9921875 18.73828125 442.236328125 21.40234375 459.140625 26.474609375 c 1
  467.846679688 35.408203125 493.676757812 63.169921875 493.676757812 133.5859375 c 0
 EndSplineSet
-LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f b
+LCarets2: 1 206
 Comment: "."
 Decomposition: "fb"
 EndChar
@@ -31606,6 +31652,7 @@ EndChar
 StartChar: f_h
 Encoding: 65845 -1 878
 Width: 597
+Flags: H
 HStem: -180.738 183G<7.30518 13.3315 255.812 263.136 394.305 397.376> 277.262 36.4414<13.0612 47.4953> 280.706 37.4766<111.334 153.128 388.939 484.409> 524.137 37.4766<116.582 191.11>
 VStem: 48.7617 62.6455<61.9617 281.68 319.585 511.792> 254.678 62.6445<-1.26047 229.773> 263.928 62.7549<55.7889 245.382 256.691 458.903> 505.677 62.6455<66.6052 215.043>
 LayerCount: 2
@@ -31670,7 +31717,7 @@ SplineSet
  392.676757812 -74.0625 403.7421875 -65.0166015625 418.836914062 -56.0693359375 c 0
  450.139648438 -33.41796875 505.676757812 37.6552734375 505.676757812 135.5859375 c 0xbb
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 220
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f h
 Comment: "."
 Decomposition: "fh"
@@ -31679,7 +31726,7 @@ EndChar
 StartChar: f_j
 Encoding: 65846 -1 879
 Width: 374
-Flags: W
+Flags: HW
 HStem: -182.738 21G<7.30518 13.3315 165.148 167.817> 276.112 37.4434<111.314 264.004> 524.137 37.4766<116.582 189.781>
 VStem: 48.6768 62.6455<47.4404 276.112 313.814 511.792> 271.372 62.7021<-24.2694 276.304>
 LayerCount: 2
@@ -31734,7 +31781,7 @@ SplineSet
  -6.3232421875 284.924804688 29.84375 308.020507812 48.748046875 313.703125 c 1
  48.7578125 321.95703125 48.76171875 330.19140625 48.76171875 338.396484375 c 0
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 186
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f j
 Comment: "."
 Decomposition: "fj"
@@ -31743,7 +31790,7 @@ EndChar
 StartChar: f_k
 Encoding: 65847 -1 880
 Width: 579
-Flags: W
+Flags: HW
 HStem: -180.738 21G<7.30518 13.3315> -18.7383 37.4766<455.311 548.795> 277.262 36.4414<13.0612 47.4953> 284.262 37.4766<111.334 208.978 433.037 519.748> 524.137 37.4766<116.582 191.11>
 VStem: 48.7617 62.6455<61.9617 281.68 319.585 511.792> 253.677 71.2021<98.4104 226.127 239.854 288.663> 263.578 62.751<98.4104 227.879 239.854 459.475>
 LayerCount: 2
@@ -31813,6 +31860,7 @@ SplineSet
  324.87890625 44.7060546875 521.37109375 18.73828125 567.125976562 18.73828125 c 0
  568.263671875 18.73828125 569.322265625 18.4580078125 569.322265625 17.4140625 c 0xde
 EndSplineSet
+LCarets2: 1 196
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f k
 Comment: "."
 Decomposition: "fk"
@@ -31821,6 +31869,7 @@ EndChar
 StartChar: f_t
 Encoding: 65848 -1 881
 Width: 558
+Flags: H
 HStem: -180.738 21G<9.30518 15.3315> -18.7383 37.4766<339.051 441.466> 285.913 30.4385<369.889 501.831> 285.957 37.5273<113.338 296.606 447.361 548.728> 524.137 37.4766<118.582 190.953>
 VStem: 50.6768 62.6455<61.025 283.163 321.034 511.792> 284.224 62.6455<63.5833 275.097> 308.858 62.6826<317.484 398.15>
 LayerCount: 2
@@ -31889,7 +31938,7 @@ SplineSet
  113.407226562 355.806640625 113.389648438 338.435546875 113.337890625 321.034179688 c 1
  138.873046875 322.788085938 164.069335938 323.484375 186.629882812 323.484375 c 0xdd
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 220
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f t
 Comment: "."
 Decomposition: "ft"
@@ -31898,6 +31947,7 @@ EndChar
 StartChar: f_thorn
 Encoding: 65849 -1 882
 Width: 584
+Flags: H
 HStem: -180.738 21G<7.30518 13.3315> 277.262 36.4414<13.0612 47.4953> 281.262 37.4766<111.334 203.625 407.915 493.287> 524.137 37.4766<116.582 191.11>
 VStem: 48.7617 62.6455<61.9617 281.68 319.585 511.792> 257.559 62.0039<3.38135 254.52 256.907 468.49> 489.677 62.6455<156.743 261.597>
 LayerCount: 2
@@ -31964,7 +32014,7 @@ SplineSet
  480.048828125 139.984375 489.676757812 164.578125 489.676757812 191.5859375 c 0
 EndSplineSet
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f thorn
-LCarets2: 1 0
+LCarets2: 1 186
 Comment: "."
 Decomposition: "f+AP4A"
 EndChar
@@ -31972,6 +32022,7 @@ EndChar
 StartChar: f_f_b
 Encoding: 65850 -1 883
 Width: 800
+Flags: H
 HStem: -180.738 21G<7.30518 13.3315 222.305 228.332> -18.7383 37.4766<553.736 650.378> 280.768 37.4316<19.6169 48.6699 111.325 186.605 616.073 719.931> 290.324 35.2002<232.422 264.33 326.997 433.682> 524.137 37.4766<116.582 199.816> 575.262 37.4766<332.353 406.687>
 VStem: 48.6768 62.6455<58.6529 279.341 317.004 511.792> 264.716 62.6455<61.0142 287.861 325.524 473.962> 462.677 62.6455<44.3115 244.961> 472.848 59.2119<130.129 256.967 259.275 519.532> 708.677 62.6455<76.5378 251.91>
 LayerCount: 2
@@ -32053,7 +32104,7 @@ SplineSet
  128.76171875 524.13671875 123.501953125 524.033203125 118.416015625 523.696289062 c 0
  116.639648438 519.799804688 111.322265625 507.657226562 111.322265625 483.4140625 c 0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 409 178
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f f b
 Comment: "."
 Decomposition: "ffb"
@@ -32062,7 +32113,7 @@ EndChar
 StartChar: f_f_h
 Encoding: 65851 -1 884
 Width: 804
-Flags: W
+Flags: HW
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331 462.305 469.158 600.305 603.376> 280.706 37.4773<19.6171 48.6698 111.326 187.271 595.02 686.886> 290.325 35.2001<232.425 264.33 326.997 433.682> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
 VStem: 48.6772 62.6457<58.6532 279.341 317.004 511.792> 264.716 62.6458<61.0142 287.861 325.525 473.962> 460.677 62.6457<-1.18772 175.244> 472.237 62.7276<7.22045 248.147 257.611 521.283> 711.677 62.6457<66.6054 215.042>
 LayerCount: 2
@@ -32149,7 +32200,7 @@ SplineSet
  128.761424723 524.136344905 123.501899388 524.033167755 118.416062066 523.696320696 c 0
  116.640256586 519.799891555 111.322833964 507.657704636 111.322833964 483.4136821 c 0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 410 178
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f f h
 Comment: "."
 Decomposition: "ffh"
@@ -32158,6 +32209,7 @@ EndChar
 StartChar: f_f_j
 Encoding: 65852 -1 885
 Width: 590
+Flags: H
 HStem: -180.738 19.5557G<7.30518 13.3315 222.305 228.332 381.305 383.975> 281.432 37.4814<111.315 264.25 326.92 480.161> 524.137 37.4766<116.582 199.816> 575.262 37.4766<332.353 400.15>
 VStem: 48.6768 62.6455<47.483 276.282 313.936 511.792> 264.716 62.6455<57.1689 277.879 315.437 473.962> 478.745 62.5771<474.813 498.017> 487.529 62.7021<-23.7137 276.859>
 LayerCount: 2
@@ -32236,7 +32288,7 @@ SplineSet
  128.76171875 524.13671875 123.501953125 524.033203125 118.416015625 523.696289062 c 0
  116.639648438 519.799804688 111.322265625 507.657226562 111.322265625 483.4140625 c 0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 403 182
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f f j
 Comment: "."
 Decomposition: "ffj"
@@ -32245,7 +32297,7 @@ EndChar
 StartChar: f_f_k
 Encoding: 65853 -1 886
 Width: 781
-Flags: W
+Flags: HW
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<664.993 758.795> 277.261 36.4419<13.0615 48.6698 111.326 212.311> 293.268 37.4711<326.997 441.13> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
 VStem: 48.6772 62.6457<58.6532 279.341 317.004 511.792> 264.716 62.6458<61.0142 287.861 325.525 473.962> 462.677 72.2014<98.4102 224.946> 472.848 62.7143<127.182 227.879 237.858 519.532>
 LayerCount: 2
@@ -32337,7 +32389,7 @@ SplineSet
  128.761424723 524.136344905 123.501899388 524.033167755 118.416062066 523.696320696 c 0
  116.640256586 519.799891555 111.322833964 507.657704636 111.322833964 483.4136821 c 0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 395 176
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f f k
 Comment: "."
 Decomposition: "ffk"
@@ -32346,6 +32398,7 @@ EndChar
 StartChar: f_f_t
 Encoding: 65854 -1 887
 Width: 774
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<553.051 655.466> 277.261 36.4419<111.33 261.786 588.501 732.66> 292.261 35.6527<113.296 264.348 327.014 521.334> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 402.492>
 VStem: 48.6772 62.6457<60.068 280.483 318.242 511.792> 264.716 62.6458<70.0307 290.296 327.914 473.962> 498.224 62.6457<63.5834 251.621> 526.986 62.668<323.599 421.037>
 LayerCount: 2
@@ -32436,7 +32489,7 @@ SplineSet
  327.361336522 408.764095487 327.298821003 368.508104849 327.01433129 327.914142066 c 1
  359.374381354 328.874272244 391.68037905 329.546102157 422.081034153 329.738511366 c 0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 429 192
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f f t
 Comment: "."
 Decomposition: "fft"
@@ -32445,7 +32498,7 @@ EndChar
 StartChar: f_f_thorn
 Encoding: 65855 -1 888
 Width: 794
-Flags: W
+Flags: HW
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> 281.261 37.4773<20.7439 48.6698 111.326 180.783 618.661 703.287> 290.325 35.2001<232.425 264.33 326.997 433.682> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
 VStem: 48.6772 62.6457<58.6532 279.341 317.004 511.792> 264.716 62.6458<61.0142 287.861 325.525 473.962> 462.677 62.6457<3.38113 244.235> 472.848 59.1816<130.128 255.391 258.432 519.532> 699.677 62.6457<156.742 261.597>
 LayerCount: 2
@@ -32534,7 +32587,7 @@ SplineSet
  577.203879459 32.3107786265 639.355694898 66.1413246237 675.081986989 118.182969428 c 0
  690.048652759 139.984557511 699.677166036 164.578414493 699.677166036 191.5863179 c 0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 405 190
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f f thorn
 Comment: "."
 Decomposition: "ff+AP4A"
@@ -32543,6 +32596,7 @@ EndChar
 StartChar: l_l
 Encoding: 65856 -1 889
 Width: 292
+Flags: H
 HStem: -18.7387 21G<32.3051 39.1577 196.351 208.39>
 VStem: 24.6772 93.6441<410.803 631.134> 30.6772 62.6457<-1.18772 242.297> 42.1595 60.9147<88.9653 539.648> 170.677 93.6441<451.928 674.134> 178.551 62.6515<18.7612 281.576> 188.153 61.4816<123.163 573.194>
 LayerCount: 2
@@ -32596,7 +32650,7 @@ SplineSet
  81.5343812385 652.772626767 81.5343812385 652.772626767 84 654.196152423 c 0
  98.2056011716 662.397760083 111.121102251 667.738655095 116.126229129 667.738655095 c 0
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 150
 Ligature2: "'liga' Standard Ligatures lookup 22-1" l l
 Comment: "."
 Decomposition: "ll"
@@ -32656,7 +32710,7 @@ SplineSet
  98.2056011716 662.397760083 111.121102251 667.738655095 116.126229129 667.738655095 c 0
 EndSplineSet
 Refer: 18 108 N 1 0 0 1 292 0 2
-LCarets2: 2 0 0
+LCarets2: 2 293 140
 Ligature2: "'liga' Standard Ligatures lookup 22-1" l l l
 Comment: "."
 Decomposition: "lll"
@@ -32665,6 +32719,7 @@ EndChar
 StartChar: longs_b
 Encoding: 65858 -1 891
 Width: 586
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314> -18.7387 37.4773<319.03 435.378> 280.768 37.4314<399.891 504.931> 524.136 37.4773<116.582 191.11>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 247.677 62.6457<50.2323 253.421 257.662 460.431> 493.677 62.6457<76.538 251.91>
 LayerCount: 2
@@ -32721,7 +32776,7 @@ SplineSet
  422.992756701 18.7386550945 442.236214778 21.4023618222 459.140431929 26.4750220972 c 1
  467.846988914 35.4085215001 493.677166036 63.1702461456 493.677166036 133.5863179 c 0
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 182
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs b
 Comment: "."
 Decomposition: "+AX8A-b"
@@ -32730,6 +32785,7 @@ EndChar
 StartChar: longs_h
 Encoding: 65859 -1 892
 Width: 598
+Flags: H
 HStem: -180.739 183G<7.30506 13.3314 255.812 263.136 394.305 397.376> 280.706 37.4773<388.939 480.886> 524.136 37.4773<116.582 191.11>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 254.678 62.644<-1.26072 229.773> 263.928 62.7546<55.7892 245.383 256.691 458.902> 505.677 62.6457<66.6054 215.042>
 LayerCount: 2
@@ -32791,7 +32847,7 @@ SplineSet
  392.677166036 -74.0621787403 403.742054413 -65.0169221123 418.837003874 -56.069211456 c 0
  450.140058777 -33.4178791213 505.677166036 37.6551230665 505.677166036 135.5863179 c 0xf6
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 196
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs h
 Comment: "."
 Decomposition: "+AX8A-h"
@@ -32800,6 +32856,7 @@ EndChar
 StartChar: longs_i
 Encoding: 65860 -1 893
 Width: 376
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314> -22.4639 42.9277<277.665 343.246> 524.136 37.4773<116.582 189.781>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 256.939 66.3535<3.86567 252.953> 271.931 66.3535<58.5666 294.895>
 LayerCount: 2
@@ -32840,7 +32897,7 @@ SplineSet
  48.7578975695 322.413995746 48.7616790802 330.419217392 48.7616790802 338.396698728 c 0xf0
 EndSplineSet
 Refer: 34 305 N 1 0 0 1 215 0 2
-LCarets2: 1 0
+LCarets2: 1 178
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs i
 Comment: "."
 Decomposition: "+AX8A-i"
@@ -32849,6 +32906,7 @@ EndChar
 StartChar: longs_j
 Encoding: 65861 -1 894
 Width: 376
+Flags: H
 HStem: -182.739 21G<167.305 169.974> -180.739 21G<7.30506 13.3314> 524.136 37.4773<116.582 189.781>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 273.53 62.7023<-24.2697 280.588>
 LayerCount: 2
@@ -32889,7 +32947,7 @@ SplineSet
  48.7578975695 322.413995746 48.7616790802 330.419217392 48.7616790802 338.396698728 c 0x78
 EndSplineSet
 Refer: 37 567 N 1 0 0 1 215 0 2
-LCarets2: 1 0
+LCarets2: 1 172
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs j
 Comment: "."
 Decomposition: "+AX8A-j"
@@ -32898,6 +32956,7 @@ EndChar
 StartChar: longs_k
 Encoding: 65862 -1 895
 Width: 586
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314> -18.7387 37.4773<455.311 548.795> 284.261 37.4773<433.037 541.921> 524.136 37.4773<116.582 191.11>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 253.677 71.2014<98.4102 226.127 239.854 288.663> 263.578 62.751<98.4102 227.879 239.854 459.475>
 LayerCount: 2
@@ -32964,7 +33023,7 @@ SplineSet
  324.878598602 44.705723957 521.370851637 18.7386550945 567.126229129 18.7386550945 c 0
  568.26364607 18.7386550945 569.322833964 18.4582345249 569.322833964 17.4136820999 c 0xfc
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 188
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs k
 Comment: "."
 Decomposition: "+AX8A-k"
@@ -32973,6 +33032,7 @@ EndChar
 StartChar: longs_l
 Encoding: 65863 -1 896
 Width: 361
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314 265.351 277.39> 524.136 37.4773<116.582 191.11>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 247.551 62.651<18.7613 277.473> 255.402 62.7581<90.7144 470.273>
 LayerCount: 2
@@ -33025,7 +33085,7 @@ SplineSet
  258.829091768 -18.7386550945 247.551308488 -8.23833026286 247.551308488 42.7059367208 c 0
  247.551308488 45.913503353 247.594817273 49.2100186366 247.677166036 52.5863179001 c 0xf0
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 182
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs l
 Comment: "."
 Decomposition: "+AX8A-l"
@@ -33034,6 +33094,7 @@ EndChar
 StartChar: longs_thorn
 Encoding: 65864 -1 897
 Width: 585
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314> 281.261 37.4773<409.112 493.287> 524.136 37.4773<116.582 193.754>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 256.376 62.271<3.38119 254.195 256.365 469.621> 489.677 62.6457<156.743 261.597>
 LayerCount: 2
@@ -33096,7 +33157,7 @@ SplineSet
  367.203708539 32.3106929719 429.355711859 66.1413493313 465.081986989 118.182969428 c 0
  480.048652759 139.984557511 489.677166036 164.578414493 489.677166036 191.5863179 c 0
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 180
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs thorn
 Comment: "."
 Decomposition: "+AX8A/gAA"
@@ -33105,6 +33166,7 @@ EndChar
 StartChar: longs_longs
 Encoding: 65865 -1 898
 Width: 430
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 264.716 62.6458<229.541 265.775 305.181 473.962>
 LayerCount: 2
@@ -33168,7 +33230,7 @@ SplineSet
  -5.32283396419 285.770646256 29.3270060597 308.101501539 48.7487362835 314.390912849 c 1
  48.7578975695 322.413995746 48.7616790802 330.419217392 48.7616790802 338.396698728 c 0
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 174
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs
 Comment: "."
 Decomposition: "+AX8BfwAA"
@@ -33177,6 +33239,7 @@ EndChar
 StartChar: longs_longs_b
 Encoding: 65866 -1 899
 Width: 801
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<553.736 650.378> 280.768 37.4314<616.074 719.931> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 264.716 62.6458<229.541 265.775 305.181 473.962> 462.677 62.6457<44.3119 244.961> 472.848 59.2113<130.128 256.967 259.275 519.532> 708.677 62.6457<76.538 251.91>
 LayerCount: 2
@@ -33258,7 +33321,7 @@ SplineSet
  637.992756701 18.7386550945 657.236214778 21.4023618222 674.140431929 26.4750220972 c 1
  682.846988914 35.4085215001 708.677166036 63.1702461457 708.677166036 133.5863179 c 0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 397 178
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs b
 Comment: "."
 Decomposition: "+AX8BfwAA-b"
@@ -33267,6 +33330,7 @@ EndChar
 StartChar: longs_longs_h
 Encoding: 65867 -1 900
 Width: 813
+Flags: H
 HStem: -180.739 183G<7.30506 13.3314 222.305 228.331 462.305 469.158 600.305 603.376> 280.706 37.4773<595.02 686.886> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 264.716 62.6458<229.541 265.775 305.181 473.962> 460.677 62.6457<-1.18772 175.244> 472.237 62.7276<7.22045 248.147 257.611 521.283> 711.677 62.6457<66.6054 215.042>
 LayerCount: 2
@@ -33353,7 +33417,7 @@ SplineSet
  598.677166036 -74.0621787403 609.742054414 -65.0169221122 624.837003874 -56.0692114559 c 0
  656.140058777 -33.4178791214 711.677166036 37.6551230664 711.677166036 135.5863179 c 0xfd80
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 176 403
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs h
 Comment: "."
 Decomposition: "+AX8BfwAA-h"
@@ -33362,6 +33426,7 @@ EndChar
 StartChar: longs_longs_i
 Encoding: 65868 -1 901
 Width: 591
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -22.4639 42.9277<492.665 558.246> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 400.149>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 264.716 62.6458<229.541 265.775 305.181 473.962> 471.939 66.3535<3.86567 252.953> 478.745 62.5778<474.812 498.016> 486.931 66.3535<58.5666 294.895>
 LayerCount: 2
@@ -33426,8 +33491,8 @@ SplineSet
  -5.32283396419 285.770646256 29.3270060597 308.101501539 48.7487362835 314.390912849 c 1
  48.7578975695 322.413995746 48.7616790802 330.419217392 48.7616790802 338.396698728 c 0xfd
 EndSplineSet
-Refer: 34 305 S 1 0 0 1 430 0 2
-LCarets2: 2 0 0
+Refer: 34 305 N 1 0 0 1 430 0 2
+LCarets2: 2 389 172
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs i
 Comment: "."
 Decomposition: "+AX8BfwAA-i"
@@ -33436,6 +33501,7 @@ EndChar
 StartChar: longs_longs_j
 Encoding: 65869 -1 902
 Width: 591
+Flags: H
 HStem: -182.739 21G<382.305 384.974> -180.739 21G<7.30506 13.3314 222.305 228.331> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 400.149>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 264.716 62.6458<229.541 265.775 305.181 473.962> 478.745 62.5778<474.812 498.016> 488.53 62.7023<-24.2697 280.588>
 LayerCount: 2
@@ -33501,7 +33567,7 @@ SplineSet
  48.7578975695 322.413995746 48.7616790802 330.419217392 48.7616790802 338.396698728 c 0x7e
 EndSplineSet
 Refer: 37 567 N 1 0 0 1 430 0 2
-LCarets2: 2 0 0
+LCarets2: 2 387 176
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs j
 Comment: "."
 Decomposition: "+AX8BfwAA-j"
@@ -33510,6 +33576,7 @@ EndChar
 StartChar: longs_longs_k
 Encoding: 65870 -1 903
 Width: 801
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<664.993 758.795> 284.261 37.4773<643.844 751.921> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 264.716 62.6458<229.541 265.775 305.181 473.962> 462.677 72.2014<98.4102 224.946> 472.848 62.7143<127.182 227.879 237.858 519.532>
 LayerCount: 2
@@ -33601,7 +33668,7 @@ SplineSet
  534.878598602 44.705723957 731.370851637 18.7386550945 777.126229129 18.7386550945 c 0
  778.26364607 18.7386550945 779.322833964 18.4582345249 779.322833964 17.4136820999 c 0xff
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 394 166
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs k
 Comment: "."
 Decomposition: "+AX8BfwAA-k"
@@ -33610,6 +33677,7 @@ EndChar
 StartChar: longs_longs_l
 Encoding: 65871 -1 904
 Width: 576
+Flags: H
 HStem: -180.739 183G<7.30506 13.3314 222.305 228.331 480.351 492.39> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 264.716 62.6458<229.541 265.775 305.181 473.962> 462.551 62.651<18.7613 352.057> 472.848 62.7143<144.519 520.158>
 LayerCount: 2
@@ -33688,7 +33756,7 @@ SplineSet
  611.322833964 28.0837354264 561.379694697 -3.71533184634 520.813225172 -14.240149437 c 0
  508.744424836 -17.3713541869 497.906227503 -18.7386550945 486.873770871 -18.7386550945 c 0xfc
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 395 170
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs l
 Comment: "."
 Decomposition: "+AX8BfwAA-l"
@@ -33697,6 +33765,7 @@ EndChar
 StartChar: longs_longs_t
 Encoding: 65872 -1 905
 Width: 774
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<553.051 655.466> 276.33 37.5591<373.271 524.414 661.361 716.631> 281.261 42.1287<661.361 759.363> 285.913 29.7812<381.43 446.306 587.429 715.831> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 402.492>
 VStem: 48.6772 62.6457<148.365 267.107 304.777 511.792> 264.716 62.6458<229.541 265.775 305.181 473.962> 498.224 62.6457<63.5834 251.365> 527.065 62.5887<315.694 421.213>
 LayerCount: 2
@@ -33793,7 +33862,7 @@ SplineSet
  47.6771660358 210.618270373 47.5779905825 278.272592707 -1.96326293532 278.272592707 c 0
  -2.30170485905 278.272592707 -2.64215591713 278.269313 -2.98462150587 278.262727124 c 0xe7a0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 387 182
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs t
 Comment: "."
 Decomposition: "+AX8BfwAA-t"
@@ -33802,6 +33871,7 @@ EndChar
 StartChar: longs_longs_thorn
 Encoding: 65873 -1 906
 Width: 800
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> 281.261 37.4773<618.661 703.287> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
 VStem: 48.7617 62.6459<148.365 265.775 304.777 511.792> 264.716 62.6458<229.541 265.775 305.181 473.962> 462.677 62.6457<3.38113 244.235> 472.848 59.1816<130.128 255.391 258.432 519.532> 699.677 62.6457<156.742 261.597>
 LayerCount: 2
@@ -33890,7 +33960,7 @@ SplineSet
  577.203879459 32.3107786265 639.355694898 66.1413246237 675.081986989 118.182969428 c 0
  690.048652759 139.984557511 699.677166036 164.578414493 699.677166036 191.5863179 c 0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 398 178
 Ligature2: "'liga' Standard Ligatures lookup 22-1" longs longs thorn
 Comment: "."
 Decomposition: "+AX8BfwD+"
@@ -33899,6 +33969,7 @@ EndChar
 StartChar: f_longs
 Encoding: 65874 -1 907
 Width: 433
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> 277.261 36.4419<13.0615 47.4953> 286.943 32.6414<111.334 210.406> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
 VStem: 48.6772 62.6457<61.9618 281.679 319.585 511.792> 264.716 62.6458<229.541 265.775 305.181 473.962>
 LayerCount: 2
@@ -33965,7 +34036,7 @@ SplineSet
  -6.32283396419 284.924984012 29.8438683548 308.02031701 48.7479378245 313.70319604 c 1
  48.7576783864 321.95654531 48.7616790639 330.191296743 48.7616790639 338.396700102 c 0xde
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 198
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f longs
 Comment: "."
 Decomposition: "f+AX8A"
@@ -33974,6 +34045,7 @@ EndChar
 StartChar: f_longs_t
 Encoding: 65875 -1 908
 Width: 777
+Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<553.051 655.466> 276.33 37.5591<13.0615 47.4953 373.271 524.414 661.361 716.631> 281.261 42.1287<661.361 759.363> 281.345 37.3939<111.334 203.626 380.205 446.306 587.429 715.831> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 402.492>
 VStem: 48.7617 62.6459<61.9618 281.679 319.585 511.792> 264.716 62.6458<229.541 265.775 305.181 473.962> 498.224 62.6457<63.5834 251.365> 527.065 62.5887<315.694 421.213>
 LayerCount: 2
@@ -34073,7 +34145,7 @@ SplineSet
  262.677166036 210.618270373 262.577990582 278.272592707 213.036737065 278.272592707 c 0
  212.698295141 278.272592707 212.357844083 278.269313 212.015378494 278.262727124 c 0xe7a0
 EndSplineSet
-LCarets2: 2 0 0
+LCarets2: 2 391 194
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f longs t
 Comment: "."
 Decomposition: "f+AX8A-t"
@@ -34182,7 +34254,7 @@ EndChar
 StartChar: g_t
 Encoding: 65876 -1 913
 Width: 795
-Flags: W
+Flags: HW
 HStem: -334.739 37.4773<110.868 213.766> -129.261 20G<149.624 152.76> -19.7387 37.4773<124.702 232.146 541.026 632.502> 280.322 38.4171<-26.1723 148.993 169.863 279.234 371.837 575.05 586.605 734.053 734.095 773.714>
 VStem: 11.8774 62.6457<-268.162 -194.28> 41.6772 62.6457<67.9246 187.95> 148.677 62.6457<-85.9141 -48.9102> 313.677 62.6457<-220.229 -167.48> 321.677 62.6457<113.144 265.24> 459.13 62.6457<71.4514 193.405>
 LayerCount: 2
@@ -34308,14 +34380,14 @@ SplineSet
  134.205601172 -114.602239917 147.121102251 -109.261344905 152.126229129 -109.261344905 c 0
 EndSplineSet
 Ligature2: "'liga' Standard Ligatures lookup 22-1" g t
-LCarets2: 1 0
+LCarets2: 1 430
 Decomposition: "gt"
 EndChar
 
 StartChar: t_g
 Encoding: 65877 -1 914
 Width: 768
-Flags: W
+Flags: HW
 HStem: -334.739 37.4773<454.868 557.766> -129.261 20G<493.624 496.76> -18.7387 37.4773<117.026 210.977 468.702 577.495> 281.282 37.457<-25.494 144.401 162.605 497.143 520.16 589.124 589.126 643.462 714.952 734.09 734.095 774.4>
 VStem: 35.1303 62.6457<71.4514 193.405> 355.877 62.6457<-268.162 -194.28> 385.677 62.6457<67.9246 187.189> 492.677 62.6457<-85.9141 -48.9102> 657.677 62.6457<-220.229 -167.48> 665.677 62.6457<113.144 262.283>
 LayerCount: 2
@@ -34443,14 +34515,14 @@ SplineSet
  483.042856561 243.220253831 474.805559223 230.010806439 468.030591871 216.623503188 c 0
  455.820729883 192.496873996 448.322833964 167.780112043 448.322833964 147.4136821 c 0
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 22-1" t g
+LCarets2: 1 353
 Decomposition: "tg"
 EndChar
 
 StartChar: t_t
 Encoding: 65878 -1 915
 Width: 720
-Flags: W
+Flags: HW
 HStem: -18.7387 37.4773<117.026 210.977 461.026 554.977> 286.261 35.4719<35.9943 89.1076 162.556 491.176 506.605 644.5>
 VStem: 35.1303 62.6457<71.4514 193.405> 379.13 62.6457<71.4514 193.405>
 LayerCount: 2
@@ -34527,6 +34599,7 @@ SplineSet
  279.449757334 55.9466217824 289.310774571 63.1857631337 301.453125 70.1961524227 c 0
  315.658726172 78.3977600831 328.574227251 83.7386550945 333.579354129 83.7386550945 c 0
 EndSplineSet
+LCarets2: 1 352
 Ligature2: "'liga' Standard Ligatures lookup 22-1" t t
 Decomposition: "tt"
 EndChar
@@ -34534,6 +34607,7 @@ EndChar
 StartChar: uni2047
 Encoding: 8263 8263 916
 Width: 706
+Flags: H
 HStem: -18.7387 85.4773<510.881 540.119> -18.7383 85.4766<157.881 187.119> 107.261 43.4773<537.557 605.716> 107.262 37.4766<195.288 247.464> 609.262 37.4766<123.019 243.228> 655.261 37.4773<474.992 597.007>
 VStem: -9.32324 80.6465<510.47 543.202> 86.6768 62.6465<188.959 283.341> 124.677 95.6465<-1.18745 48.3428> 300.677 62.6465<443.65 558.076> 343.677 87.0162<543.366 590.423> 439.677 62.6457<188.021 288.143> 477.677 95.6457<-0.734289 48.7942> 653.677 62.6457<485.151 605.805>
 LayerCount: 2
@@ -34603,7 +34677,7 @@ SplineSet
  360.203117015 519.290949524 358.327923321 518.746887357 353.493856862 518.746887357 c 0
 EndSplineSet
 Refer: 236 63 N 1 0 0 1 0 0 2
-LCarets2: 1 0
+LCarets2: 1 358
 Ligature2: "'liga' Standard Ligatures lookup 22-1" questionmark questionmark
 EndChar
 
@@ -34766,7 +34840,8 @@ EndChar
 StartChar: f_g
 Encoding: 65882 -1 920
 Width: 578
-Flags: W
+GlyphClass: 3
+Flags: HW
 HStem: -334.739 37.4773<264.868 367.766> -180.739 21G<7.24014 10.3763> -129.261 20G<303.624 306.76> -19.7387 37.4773<278.702 386.146> 281.075 31.615<111.311 296.118> 281.261 40.4482<323.863 431.149 526.088 576.806> 524.136 37.4773<116.358 191.11>
 VStem: 48.6548 62.4622<-86.5624 275.219> 165.877 62.6457<-268.162 -194.28> 195.677 62.6457<67.9246 187.95> 302.677 62.6457<-85.9141 -48.9102> 467.677 62.6457<-220.229 -167.48> 475.677 62.6457<113.144 263.654>
 LayerCount: 2
@@ -34892,12 +34967,15 @@ SplineSet
  265.136343576 191.520441819 258.322833964 167.647837236 258.322833964 147.4136821 c 0
 EndSplineSet
 Ligature2: "'liga' Standard Ligatures lookup 22-1" f g
+LCarets2: 1 164
 Decomposition: "fg"
 EndChar
 
 StartChar: g_f
 Encoding: 65883 -1 921
 Width: 638
+GlyphClass: 3
+Flags: H
 HStem: -334.739 37.4773<110.868 213.766> -180.739 21G<431.24 434.376> -129.261 20G<149.624 152.76> -19.7387 37.4773<124.702 232.146> 281.114 38.0765<84.139 140.343 169.863 194.743 195.983 302.763 371.767 472.682 535.337 624.435> 524.136 37.4773<540.358 615.11>
 VStem: 11.8774 62.6457<-268.162 -194.28> 41.6772 62.6457<67.9246 187.95> 148.677 62.6457<-85.9141 -48.9102> 313.677 62.6457<-220.229 -167.48> 321.677 62.6457<113.144 267.342> 465.675 62.6387<-114.127 232.922> 472.677 62.6457<58.4243 283.018 321.005 511.766>
 LayerCount: 2
@@ -35027,6 +35105,7 @@ SplineSet
  136.250749721 239.970042525 128.629359514 227.40445434 122.386806492 214.598895163 c 0
  111.136343576 191.520441819 104.322833964 167.647837236 104.322833964 147.4136821 c 0
 EndSplineSet
+LCarets2: 1 411
 Ligature2: "'liga' Standard Ligatures lookup 22-1" g f
 Decomposition: "gf"
 EndChar
@@ -35034,7 +35113,8 @@ EndChar
 StartChar: g_g
 Encoding: 65884 -1 922
 Width: 830
-Flags: W
+GlyphClass: 3
+Flags: HW
 HStem: -334.739 37.4773<110.868 213.766> -300.389 37.4773<519.667 618.639> -129.261 20G<149.624 152.76> -19.7387 37.4773<131.781 232.146 559.032 620.951> 281.261 37.4773<-23.9471 147.623 169.863 304.517 375.235 553.623 575.863 709.113 780.329 826.947>
 VStem: 11.8774 62.6457<-268.162 -194.28> 41.6772 62.6457<67.9246 187.95> 148.677 62.6457<-85.9141 -48.9102> 313.677 62.6457<-220.229 -167.48> 321.677 62.6457<113.144 268.915> 417.877 62.6457<-233.545 -175.097> 447.677 62.6457<67.9246 187.95> 554.677 62.6457<-85.5874 -48.8025> 719.677 62.6457<-191.278 -147.237> 727.677 62.6457<113.144 267.197>
 LayerCount: 2
@@ -35194,6 +35274,7 @@ SplineSet
  136.250749721 239.970042525 128.629359514 227.40445434 122.386806492 214.598895163 c 0
  111.136343576 191.520441819 104.322833964 167.647837236 104.322833964 147.4136821 c 0x3b48
 EndSplineSet
+LCarets2: 1 405
 Ligature2: "'liga' Standard Ligatures lookup 22-1" g g
 Decomposition: "gg"
 EndChar
@@ -35412,6 +35493,7 @@ EndChar
 StartChar: oe
 Encoding: 339 339 926
 Width: 645
+LigCaretCntFixed: 1
 Flags: HW
 LayerCount: 2
 Back
@@ -35468,6 +35550,20 @@ SplineSet
  558.304184644 230.867190437 l 1
  535.905657836 258.929514434 505.265187835 280.705680843 431.873770871 280.705680843 c 0
 EndSplineSet
+LCarets2: 1 334
+EndChar
+
+StartChar: caroncomb.side
+Encoding: 65885 -1 927
+Width: 161
+GlyphClass: 4
+Flags: W
+HStem: 478.261 195.505
+VStem: 97.9302 62.6476<532.676 652.542>
+AnchorPoint: "caron-side" 118 651 mark 0
+LayerCount: 2
+Fore
+Refer: 597 8217 S 1 0 0 1 33 62 2
 EndChar
 EndChars
 EndSplineFont
