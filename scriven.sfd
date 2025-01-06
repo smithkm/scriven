@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1736040787
+ModificationTime: 1736154349
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -627,14 +627,15 @@ OtfFeatName: 'ss02' 4105 "Dot decorations for capitals"
 OtfFeatName: 'ss04' 4105 "Latin to Sosarian Runes"
 OtfFeatName: 'ss05' 4105 "Latin to Gargoyle"
 OtfFeatName: 'ss06' 4105 "R Rotunda"
-Encoding: UnicodeBmp
+Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 64328 68 23
+WinInfo: 0 68 23
 BeginPrivate: 8
 BlueValues 26 [-184 -18 323 324 669 669]
 OtherBlues 11 [-357 -357]
@@ -698,10 +699,10 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 305135 152567 101711 338464 1048576 101711 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "caron-side" "Mark Anchors-1" "side-caron"""  "sitelen-combine" "Mark Anchors-1" "sitelen_combine"""  "tail"""  "wide-bottom" "Mark Anchors-1" "point-bottom" "Mark Anchors-1" "wide-top" "Mark Anchors-1" "point-top" "Mark Anchors-1"
-BeginChars: 65887 929
+BeginChars: 1114296 947
 
 StartChar: .notdef
-Encoding: 65536 -1 0
+Encoding: 1114112 -1 0
 Width: 500
 GlyphClass: 1
 Flags: W
@@ -725,10 +726,9 @@ Validated: 1
 EndChar
 
 StartChar: novianDecorationRight
-Encoding: 65537 -1 1
+Encoding: 988901 988901 1
 Width: 753
 GlyphClass: 3
-LigCaretCntFixed: 1
 Flags: W
 HStem: -19.017 21G<310.473 315.873 549.473 554.873>
 LayerCount: 2
@@ -4474,6 +4474,7 @@ EndChar
 
 StartChar: runeSinglePunct
 Encoding: 5867 5867 76
+AltUni2: 0f16e2.ffffffff.0
 Width: 262
 GlyphClass: 2
 Flags: W
@@ -4627,6 +4628,7 @@ EndChar
 
 StartChar: runeTolOO
 Encoding: 5875 5875 81
+AltUni2: 0f16e1.ffffffff.0
 Width: 602
 GlyphClass: 2
 Flags: W
@@ -7359,10 +7361,9 @@ Validated: 1
 EndChar
 
 StartChar: novianDecorationLeft
-Encoding: 65538 -1 170
+Encoding: 988900 988900 170
 Width: 753
 GlyphClass: 3
-LigCaretCntFixed: 1
 Flags: W
 HStem: -19.017 21G<144.47 149.872 385.386 390.786>
 LayerCount: 2
@@ -7400,12 +7401,12 @@ SplineSet
  38.7640800983 85.7728537373 38.7640800983 85.7728537373 38.7640800983 86.2630757121 c 0
 EndSplineSet
 Refer: 87 9671 S 1 0 0 1 74.913 0 2
-Ligature2: "ZWJ Sequences" uni25C7 ZWJ uni005B
 Ligature2: "Sosarian rune ligatures-1" uni005B
+Ligature2: "ZWJ Sequences" uni25C7 ZWJ uni005B
 EndChar
 
 StartChar: ophC
-Encoding: 65539 -1 171
+Encoding: 1114113 -1 171
 Width: 511
 GlyphClass: 3
 LigCaretCntFixed: 1
@@ -7421,7 +7422,7 @@ Decomposition: "+5eHl4wAA"
 EndChar
 
 StartChar: ophB
-Encoding: 65540 -1 172
+Encoding: 1114114 -1 172
 Width: 511
 GlyphClass: 3
 LigCaretCntFixed: 1
@@ -7436,7 +7437,7 @@ Ligature2: "Ophidian Combining Sequences" ophConRevSnake ophConSnake
 EndChar
 
 StartChar: ophF
-Encoding: 65541 -1 173
+Encoding: 1114115 -1 173
 Width: 669
 GlyphClass: 3
 LigCaretCntFixed: 1
@@ -7451,7 +7452,7 @@ Ligature2: "Ophidian Combining Sequences" ophConRevLzySnake ophConLzySnake
 EndChar
 
 StartChar: ophG
-Encoding: 65542 -1 174
+Encoding: 1114116 -1 174
 Width: 669
 GlyphClass: 3
 Flags: W
@@ -7466,7 +7467,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ophI
-Encoding: 65543 -1 175
+Encoding: 1114117 -1 175
 Width: 669
 GlyphClass: 3
 Flags: W
@@ -7480,7 +7481,7 @@ Ligature2: "Ophidian Combining Sequences" ophConLzySnake ophConLzySnake
 EndChar
 
 StartChar: ophJ
-Encoding: 65544 -1 176
+Encoding: 1114118 -1 176
 Width: 557
 GlyphClass: 3
 Flags: W
@@ -7494,7 +7495,7 @@ Ligature2: "Ophidian Combining Sequences" ophConRevSnake ophConRevSnake
 EndChar
 
 StartChar: ophK
-Encoding: 65545 -1 177
+Encoding: 1114119 -1 177
 Width: 524
 GlyphClass: 3
 Flags: W
@@ -7508,7 +7509,7 @@ Ligature2: "Ophidian Combining Sequences" ophConSnake ophConSnake
 EndChar
 
 StartChar: ophL
-Encoding: 65546 -1 178
+Encoding: 1114120 -1 178
 Width: 669
 GlyphClass: 3
 Flags: W
@@ -7522,7 +7523,7 @@ Ligature2: "Ophidian Combining Sequences" ophConRevLzySnake ophConRevLzySnake
 EndChar
 
 StartChar: ophN
-Encoding: 65547 -1 179
+Encoding: 1114121 -1 179
 Width: 909
 GlyphClass: 3
 Flags: W
@@ -7536,7 +7537,7 @@ Ligature2: "Ophidian Combining Sequences" ophConRevTltSnake ophConTltSnake
 EndChar
 
 StartChar: ophO
-Encoding: 65548 -1 180
+Encoding: 1114122 -1 180
 Width: 910
 GlyphClass: 3
 Flags: W
@@ -7550,7 +7551,7 @@ Ligature2: "Ophidian Combining Sequences" ophConTltSnake ophConRevTltSnake
 EndChar
 
 StartChar: ophR
-Encoding: 65549 -1 181
+Encoding: 1114123 -1 181
 Width: 666
 GlyphClass: 3
 Flags: W
@@ -7618,7 +7619,7 @@ Ligature2: "Ophidian Combining Sequences" ophConRevLzyTltSnake ophConLzyTltSnake
 EndChar
 
 StartChar: ophS
-Encoding: 65550 -1 182
+Encoding: 1114124 -1 182
 Width: 666
 GlyphClass: 3
 LigCaretCntFixed: 1
@@ -7687,7 +7688,7 @@ Ligature2: "Ophidian Combining Sequences" ophConLzyTltSnake ophConRevLzyTltSnake
 EndChar
 
 StartChar: ophU
-Encoding: 65551 -1 183
+Encoding: 1114125 -1 183
 Width: 655
 GlyphClass: 3
 LigCaretCntFixed: 1
@@ -7761,7 +7762,7 @@ Ligature2: "Ophidian Combining Sequences" ophConLzyTltSnake ophConLzyTltSnake
 EndChar
 
 StartChar: ophX
-Encoding: 65552 -1 184
+Encoding: 1114126 -1 184
 Width: 670
 GlyphClass: 3
 LigCaretCntFixed: 1
@@ -7843,7 +7844,7 @@ Ligature2: "Ophidian Combining Sequences" ophConRevLzyTltSnake ophConRevLzyTltSn
 EndChar
 
 StartChar: ophV
-Encoding: 65553 -1 185
+Encoding: 1114127 -1 185
 Width: 726
 GlyphClass: 3
 LigCaretCntFixed: 1
@@ -7858,7 +7859,7 @@ Ligature2: "Ophidian Combining Sequences" ophConRevTltSnake ophConRevTltSnake
 EndChar
 
 StartChar: ophW
-Encoding: 65554 -1 186
+Encoding: 1114128 -1 186
 Width: 728
 GlyphClass: 3
 LigCaretCntFixed: 1
@@ -9431,7 +9432,7 @@ EndSplineSet
 EndChar
 
 StartChar: midDecoDot
-Encoding: 65555 -1 215
+Encoding: 1114129 -1 215
 Width: 213
 GlyphClass: 4
 Flags: W
@@ -9456,7 +9457,7 @@ EndSplineSet
 EndChar
 
 StartChar: C.midDot
-Encoding: 65556 -1 216
+Encoding: 1114130 -1 216
 Width: 594
 Flags: W
 HStem: -18.7387 37.4773<250.868 391.921> 523.261 37.4773<244.198 382.014>
@@ -9468,7 +9469,7 @@ Decomposition: "C"
 EndChar
 
 StartChar: D.midDot
-Encoding: 65557 -1 217
+Encoding: 1114131 -1 217
 Width: 562
 Flags: HW
 HStem: -18.8637 37.5054<109.697 334.11> 237.261 68.4773<230.608 311.996> 524.136 37.478<18.0065 44.4083 167.156 297.079>
@@ -9480,7 +9481,7 @@ Refer: 191 68 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: G.midDot
-Encoding: 65558 -1 218
+Encoding: 1114132 -1 218
 Width: 594
 Flags: W
 HStem: -18.7387 37.4773<254.868 395.37> 203.838 37.4773<453.205 498.677> 237.261 68.4773<280.806 362.194> 523.261 37.4773<248.198 386.014>
@@ -9492,7 +9493,7 @@ Refer: 194 71 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: O.midDot
-Encoding: 65559 -1 219
+Encoding: 1114133 -1 219
 Width: 646
 Flags: HW
 HStem: -18.7387 37.4773<255.411 394.605> 237.261 68.4773<282.806 364.194> 521.261 37.4773<249.395 388.589>
@@ -9504,7 +9505,7 @@ Refer: 202 79 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Q.midDot
-Encoding: 65560 -1 220
+Encoding: 1114134 -1 220
 Width: 646
 Flags: W
 HStem: -180.936 37.6062<619.562 808.058> -139.438 36.1766<881.92 924.473> -18.7386 37.4773<257.532 368.508> 237.261 68.4773<282.806 364.194> 521.261 37.4773<249.395 388.589>
@@ -9517,7 +9518,7 @@ Substitution2: "Noswash-1" Q.midDot.noswash
 EndChar
 
 StartChar: T.midDot
-Encoding: 65561 -1 221
+Encoding: 1114135 -1 221
 Width: 602
 Flags: W
 HStem: -17.8637 37.4773<260.868 404.714> 237.261 68.4773<288.806 370.194> 500.261 61.6049<369.44 554.867> 524.136 37.225<0.204729 42.1631 42.1769 493.502>
@@ -9529,7 +9530,7 @@ Refer: 207 84 N 1 0 0 1 8 0 2
 EndChar
 
 StartChar: H.midDot
-Encoding: 65562 -1 222
+Encoding: 1114136 -1 222
 Width: 594
 Flags: W
 HStem: -58.6088 39.8701G<58.7725 66.1181 356.613 363.132> 182.261 68.4773<263.806 345.194> 444.261 37.4773<217.651 353.816> 631.261 37.4773<16.2047 43.0486>
@@ -9541,7 +9542,7 @@ Refer: 195 72 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: P.midDot
-Encoding: 65563 -1 223
+Encoding: 1114137 -1 223
 Width: 630
 Flags: HW
 HStem: -18.7387 37.4773<237.301 378.59> 237.261 68.4773<282.806 364.194> 521.261 37.4773<11.4898 45.9531 234.023 372.52>
@@ -9553,7 +9554,7 @@ Refer: 203 80 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: midSlashDeco
-Encoding: 65564 -1 224
+Encoding: 1114138 -1 224
 Width: 213
 Flags: W
 HStem: 237.261 68.4773<18.806 189.194>
@@ -9582,7 +9583,7 @@ EndSplineSet
 EndChar
 
 StartChar: M.midDot
-Encoding: 65565 -1 225
+Encoding: 1114139 -1 225
 Width: 868
 Flags: W
 HStem: -20.142 21G<141.124 147.869 596.305 599.376> 237.261 68.4773<346.806 517.194> 524.136 37.4773<184.07 316.216 549.937 673.128>
@@ -9594,7 +9595,7 @@ Refer: 200 77 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: N.midDot
-Encoding: 65566 -1 226
+Encoding: 1114140 -1 226
 Width: 603
 Flags: HW
 HStem: -78.5619 21G<335.305 341.79> 237.261 68.4773<264.806 346.194> 524.136 37.4773<16.2047 42.6065 236.41 389.635>
@@ -9606,7 +9607,7 @@ Refer: 201 78 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: U.midDot
-Encoding: 65567 -1 227
+Encoding: 1114141 -1 227
 Width: 631
 Flags: W
 HStem: -19.6137 37.4773<247.398 412.793 573.393 599.795> 230.261 68.4773<274.806 356.194> 524.136 37.477<39.1311 79.0608 79.1546 146.339>
@@ -9618,7 +9619,7 @@ Refer: 208 85 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: W.midDot
-Encoding: 65568 -1 228
+Encoding: 1114142 -1 228
 Width: 875
 Flags: HW
 HStem: -19.6137 37.4773<202.877 326.936 560.529 691.93> 237.261 68.4773<343.806 514.194> 524.136 37.477<39.1311 79.0608 79.1546 145.49>
@@ -9630,7 +9631,7 @@ Refer: 210 87 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Y.midDot
-Encoding: 65569 -1 229
+Encoding: 1114143 -1 229
 Width: 600
 Flags: W
 HStem: 60.3863 37.4773<227.321 405.44> 291.261 68.4773<275.806 357.194> 524.136 37.4773<33.1311 140.425>
@@ -9787,7 +9788,7 @@ Substitution2: "Sosarian rune subs-1" runeMultiPunct
 EndChar
 
 StartChar: A.midDot
-Encoding: 65570 -1 234
+Encoding: 1114144 -1 234
 Width: 591
 Flags: W
 HStem: -42.7387 21G<-26.6949 -20.4624> -18.9263 37.4448<571.967 598.811> 133.261 98.4773<242.178 318.78> 164.887 37.398<159.949 252.298 311.171 402.126> 524.136 37.4773<210.205 236.72>
@@ -11019,7 +11020,7 @@ EndChar
 StartChar: uni16A4
 Encoding: 5796 5796 273
 Width: 503
-Flags: W
+Flags: HW
 HStem: -18.7387 21G<59.7752 67.1198 386.468 393.158> 169.261 85.4773<180.881 210.119>
 VStem: 57.5792 1.11103<524.942 525.134> 58.9932 62.6511<-0.547515 484.736> 147.677 95.6457<187.266 236.794> 384.702 62.6212<-1.18772 89.9661>
 AnchorPoint: "point-top" 103 542.75 basechar 0
@@ -11028,7 +11029,7 @@ AnchorPoint: "wide-bottom" 245 0 basechar 0
 AnchorPoint: "point-bottom" 245 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 237 183 N 1 0 0 1 115 0 2
+Refer: 237 183 S 1 0 0 1 145 0 2
 Refer: 41 5794 N 1 0 0 1 0 0 2
 EndChar
 
@@ -12616,7 +12617,7 @@ EndSplineSet
 EndChar
 
 StartChar: a.hobbit
-Encoding: 65571 -1 353
+Encoding: 1114145 -1 353
 Width: 350
 Flags: W
 HStem: -18.7383 37.4766<44.5254 111.243> 279.262 37.4766<56.2937 117.705> 354.262 85.4766<54.8811 84.1189 183.881 213.119> 456.262 85.4766<125.881 155.119>
@@ -12629,7 +12630,7 @@ Decomposition: "a+4EAA"
 EndChar
 
 StartChar: e.hobbit
-Encoding: 65572 -1 354
+Encoding: 1114146 -1 354
 Width: 377
 Flags: HW
 HStem: -18.7387 37.4773<93.7611 200.733> 280.706 37.4773<165.067 258.775> 358.262 112.477
@@ -12642,7 +12643,7 @@ Decomposition: "e+AwEA"
 EndChar
 
 StartChar: o.hobbit
-Encoding: 65573 -1 355
+Encoding: 1114147 -1 355
 Width: 424
 Flags: W
 HStem: -18.7383 37.4766<167.524 257.443> 281.262 37.4766<159.388 249.244> 441.834 95.7731<330.853 377.68>
@@ -12655,7 +12656,7 @@ Decomposition: "o+4EoA"
 EndChar
 
 StartChar: u.hobbit
-Encoding: 65574 -1 356
+Encoding: 1114148 -1 356
 Width: 381
 Flags: W
 HStem: -18.7387 37.4773<104.182 203.285> 345.088 223.646
@@ -12674,7 +12675,7 @@ Decomposition: "u+4EwA"
 EndChar
 
 StartChar: y.hobbit
-Encoding: 65575 -1 357
+Encoding: 1114149 -1 357
 Width: 387
 Flags: W
 HStem: -161.561 85.4766<59.8811 89.1189 188.881 218.119> -18.7387 37.4773<96.6764 204.614>
@@ -13889,6 +13890,7 @@ EndChar
 
 StartChar: uniE0B3
 Encoding: 57523 57523 405
+AltUni2: 0f16e0.ffffffff.0
 Width: 502
 Flags: W
 HStem: -18.7383 21G<59.3052 65.9346 384.458 391.158>
@@ -14019,12 +14021,12 @@ EndChar
 StartChar: uniE0D3
 Encoding: 57555 57555 413
 Width: 503
-Flags: W
+Flags: HW
 HStem: -18.7387 21G<59.7752 67.1198 386.468 393.158> 169.261 85.4773<180.881 210.119>
 VStem: 57.5792 1.11103<524.942 525.134> 58.9932 62.6511<-0.547515 484.736> 147.677 95.6457<187.266 236.794> 384.702 62.6212<-1.18772 89.9661>
 LayerCount: 2
 Fore
-Refer: 273 5796 N 1 0 0 1 0 0 2
+Refer: 273 5796 S 1 0 0 1 0 0 2
 Substitution2: "Cirth to Runes" uni16A4
 Decomposition: "+FqQA"
 EndChar
@@ -14058,7 +14060,7 @@ EndChar
 StartChar: uniE0E1
 Encoding: 57569 57569 416
 Width: 567
-Flags: W
+Flags: HW
 HStem: -35.7387 21G<64.43 71.1577 452.515 459.423> 324.261 85.4773<250.881 280.119>
 VStem: 217.677 95.6457<342.266 391.794>
 AnchorPoint: "wide-bottom" 274 0 basechar 0
@@ -14067,14 +14069,14 @@ AnchorPoint: "wide-top" 295 542.875 basechar 0
 AnchorPoint: "point-top" 283 542.875 basechar 0
 LayerCount: 2
 Fore
-Refer: 237 183 N 1 0 0 1 185 155 2
+Refer: 237 183 S 1 0 0 1 215 155 2
 Refer: 71 5855 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniE0E2
 Encoding: 57570 57570 417
 Width: 636
-Flags: W
+Flags: HW
 HStem: 228.261 85.4773<280.881 310.119>
 VStem: 247.677 95.6457<246.266 295.794>
 AnchorPoint: "wide-bottom" 314 42 basechar 0
@@ -14083,14 +14085,14 @@ AnchorPoint: "wide-top" 336 499.875 basechar 0
 AnchorPoint: "point-top" 322 499.875 basechar 0
 LayerCount: 2
 Fore
-Refer: 237 183 N 1 0 0 1 215 59 2
+Refer: 237 183 S 1 0 0 1 245 59 2
 Refer: 290 5852 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniE0E3
 Encoding: 57571 57571 418
 Width: 470
-Flags: W
+Flags: HW
 HStem: -35.8637 38.125G<64.4284 71.1577 351.428 358.158> 352.261 85.4773<60.8809 90.1191> 382.261 85.4773<330.881 360.119>
 VStem: 27.6772 95.6457<370.266 419.794> 297.677 95.6457<400.266 449.794>
 AnchorPoint: "wide-bottom" 224 -1 basechar 0
@@ -14099,15 +14101,15 @@ AnchorPoint: "wide-top" 245 541.875 basechar 0
 AnchorPoint: "point-top" 251 541.875 basechar 0
 LayerCount: 2
 Fore
-Refer: 237 183 N 1 0 0 1 265 213 2
-Refer: 237 183 N 1 0 0 1 -5 183 2
+Refer: 237 183 S 1 0 0 1 295 213 2
+Refer: 237 183 S 1 0 0 1 25 183 2
 Refer: 69 5853 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniE0E4
 Encoding: 57572 57572 419
 Width: 596
-Flags: W
+Flags: HW
 HStem: -18.7387 21G<60.3051 66.3142 477.386 484.158> 45.2613 85.4773<248.881 278.119> 415.261 85.4773<263.881 293.119>
 VStem: 58.6772 62.6457<65.1346 443.495> 215.677 95.6457<63.2657 112.794> 230.677 95.6457<433.266 482.794> 475.677 62.6457<99.3803 477.74>
 AnchorPoint: "point-top" 307 542.625 basechar 0
@@ -14116,8 +14118,8 @@ AnchorPoint: "point-bottom" 295 -0.125 basechar 0
 AnchorPoint: "wide-bottom" 292 -0.125 basechar 0
 LayerCount: 2
 Fore
-Refer: 237 183 N 1 0 0 1 183 -124 2
-Refer: 237 183 S 1 0 0 1 198 246 2
+Refer: 237 183 S 1 0 0 1 213 -124 2
+Refer: 237 183 S 1 0 0 1 228 246 2
 Refer: 70 5854 N 1 0 0 1 0 0 2
 EndChar
 
@@ -14129,7 +14131,7 @@ HStem: 207.892 128.216<109.071 152.929>
 VStem: 59.2657 143.469<234.899 309.191>
 LayerCount: 2
 Fore
-Refer: 76 5867 N 1 0 0 1 0 0 2
+Refer: 76 5867 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniE0E8
@@ -15141,7 +15143,7 @@ EndChar
 StartChar: uniE0E0
 Encoding: 57568 57568 460
 Width: 427
-Flags: W
+Flags: HW
 HStem: -18.7387 21G<305.467 312.158> 181.261 85.4773<79.8809 109.119>
 VStem: 46.6772 95.6457<199.266 248.794> 59.6772 74.6457<44.8661 69.6023> 301.865 62.7152<-1.95702 269.606 278.85 515.498>
 AnchorPoint: "wide-bottom" 209 0 basechar 0
@@ -15150,7 +15152,7 @@ AnchorPoint: "wide-top" 271 542.875 basechar 0
 AnchorPoint: "point-top" 308 542.75 basechar 0
 LayerCount: 2
 Fore
-Refer: 237 183 S 1 0 0 1 14 12 2
+Refer: 237 183 S 1 0 0 1 44 12 2
 Refer: 435 57475 N 1 0 0 1 0 0 2
 EndChar
 
@@ -15172,7 +15174,7 @@ EndChar
 StartChar: uniE0E6
 Encoding: 57574 57574 462
 Width: 666
-Flags: W
+Flags: HW
 HStem: -99.7387 85.4773<287.881 317.119> -18.7387 21G<223.46 230.158 383.893 390.928> 356.261 85.4773<295.881 325.119>
 VStem: 254.677 95.6457<-81.7343 -32.2058> 262.677 95.6457<374.266 423.794>
 AnchorPoint: "point-bottom" 328 -98 basechar 0
@@ -15181,8 +15183,8 @@ AnchorPoint: "point-top" 340 542.625 basechar 0
 AnchorPoint: "wide-top" 340 542.5 basechar 0
 LayerCount: 2
 Fore
-Refer: 237 183 N 1 0 0 1 222 -269 2
-Refer: 237 183 N 1 0 0 1 230 187 2
+Refer: 237 183 S 1 0 0 1 252 -269 2
+Refer: 237 183 S 1 0 0 1 260 187 2
 Refer: 469 57560 N 1 0 0 1 0 0 2
 EndChar
 
@@ -15234,7 +15236,7 @@ EndChar
 StartChar: uniE0E5
 Encoding: 57573 57573 466
 Width: 502
-Flags: W
+Flags: HW
 HStem: 386.261 85.4773<215.881 245.119> 540.613 21G<111.842 118.542 437.065 443.695>
 VStem: 182.677 95.6457<404.266 453.794>
 AnchorPoint: "wide-top" 261 542.5 basechar 0
@@ -15243,7 +15245,7 @@ AnchorPoint: "wide-bottom" 270 0 basechar 0
 AnchorPoint: "point-bottom" 251 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 237 183 N 1 0 0 1 150 217 2
+Refer: 237 183 S 1 0 0 1 180 217 2
 Refer: 463 57558 N 1 0 0 1 0 0 2
 EndChar
 
@@ -16936,7 +16938,7 @@ Refer: 528 8212 S 1 0 0 1 0 18 2
 EndChar
 
 StartChar: cirthLigLL
-Encoding: 65576 -1 535
+Encoding: 1114150 -1 535
 Width: 585
 LigCaretCntFixed: 1
 Flags: W
@@ -16997,7 +16999,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: earthChaos
-Encoding: 65577 -1 536
+Encoding: 1114151 -1 536
 Width: 504
 VWidth: 1070
 LigCaretCntFixed: 1
@@ -17119,7 +17121,7 @@ Ligature2: "ZWJ Sequences" ophEarthSerp ZWJ ophChaosSerp
 EndChar
 
 StartChar: earthOrder
-Encoding: 65578 -1 537
+Encoding: 1114152 -1 537
 Width: 480
 VWidth: 1070
 LigCaretCntFixed: 1
@@ -17236,7 +17238,7 @@ Ligature2: "ZWJ Sequences" ophEarthSerp ZWJ ophOrderSerp
 EndChar
 
 StartChar: chaosOrder
-Encoding: 65579 -1 538
+Encoding: 1114153 -1 538
 Width: 570
 VWidth: 1070
 LigCaretCntFixed: 1
@@ -17409,7 +17411,7 @@ Ligature2: "ZWJ Sequences" ophChaosSerp ophOrderSerp
 EndChar
 
 StartChar: ballance
-Encoding: 65580 -1 539
+Encoding: 1114154 -1 539
 Width: 562
 VWidth: 1070
 LigCaretCntFixed: 1
@@ -17622,7 +17624,7 @@ Ligature2: "ZWJ Sequences" ophChaosSerp ZWJ ophEarthSerp ZWJ ophOrderSerp
 EndChar
 
 StartChar: ophForeRevHook
-Encoding: 65581 -1 540
+Encoding: 1114155 -1 540
 Width: 554
 LigCaretCntFixed: 1
 Flags: W
@@ -17636,7 +17638,7 @@ Ligature2: "ZWJ Sequences" ophConHook ophConRevHook
 EndChar
 
 StartChar: ophRevForeHook
-Encoding: 65582 -1 541
+Encoding: 1114156 -1 541
 Width: 555
 LigCaretCntFixed: 1
 Flags: W
@@ -17650,7 +17652,7 @@ Ligature2: "ZWJ Sequences" ophConRevHook ophConHook
 EndChar
 
 StartChar: ophForeForeHook
-Encoding: 65583 -1 542
+Encoding: 1114157 -1 542
 Width: 549
 LigCaretCntFixed: 1
 Flags: W
@@ -17664,7 +17666,7 @@ Ligature2: "ZWJ Sequences" ophConHook ophConHook
 EndChar
 
 StartChar: ophRevRevHook
-Encoding: 65584 -1 543
+Encoding: 1114158 -1 543
 Width: 555
 LigCaretCntFixed: 1
 Flags: W
@@ -17678,7 +17680,7 @@ Ligature2: "ZWJ Sequences" ophConRevHook ophConRevHook
 EndChar
 
 StartChar: ophLzyForeRevHook
-Encoding: 65585 -1 544
+Encoding: 1114159 -1 544
 Width: 667
 LigCaretCntFixed: 1
 Flags: W
@@ -17692,7 +17694,7 @@ Ligature2: "ZWJ Sequences" ophConRevLzyHook ophConLzyHook
 EndChar
 
 StartChar: ophLzyRevForeHook
-Encoding: 65586 -1 545
+Encoding: 1114160 -1 545
 Width: 667
 LigCaretCntFixed: 1
 Flags: W
@@ -17706,7 +17708,7 @@ Ligature2: "ZWJ Sequences" ophConLzyHook ophConRevLzyHook
 EndChar
 
 StartChar: ophLzyForeForeHook
-Encoding: 65587 -1 546
+Encoding: 1114161 -1 546
 Width: 667
 LigCaretCntFixed: 1
 Flags: W
@@ -17720,7 +17722,7 @@ Ligature2: "ZWJ Sequences" ophConLzyHook ophConLzyHook
 EndChar
 
 StartChar: ophLzyRevRevHook
-Encoding: 65588 -1 547
+Encoding: 1114162 -1 547
 Width: 667
 LigCaretCntFixed: 1
 Flags: W
@@ -17966,7 +17968,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D377
-Encoding: 65589 119671 556
+Encoding: 119671 119671 556
 Width: 232
 Flags: W
 HStem: -19.474 21G<87.1838 93.8633>
@@ -17992,7 +17994,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D378
-Encoding: 65590 119672 557
+Encoding: 119672 119672 557
 Width: 618
 Flags: W
 HStem: -19.474 21G<87.1838 93.8633 212.184 218.863 345.184 351.863 471.184 477.863>
@@ -18018,7 +18020,7 @@ Decomposition: "+03fTd9N303cA"
 EndChar
 
 StartChar: sosSpace
-Encoding: 65591 -1 558
+Encoding: 1114163 -1 558
 Width: 0
 Flags: W
 LayerCount: 2
@@ -19094,7 +19096,7 @@ Refer: 577 179 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Thorn.midDot
-Encoding: 65592 -1 584
+Encoding: 1114164 -1 584
 Width: 594
 Flags: HW
 HStem: -181.328 21G<53.7725 61.1181> 282.261 68.4773<247.806 329.194> 524.136 37.4773<217.472 358.296> 631.261 37.4773<16.2047 43.0486>
@@ -19106,7 +19108,7 @@ Refer: 215 -1 S 1 0 0 1 183 45 2
 EndChar
 
 StartChar: Wynn.midDot
-Encoding: 65593 -1 585
+Encoding: 1114165 -1 585
 Width: 594
 Flags: W
 HStem: -181.328 21G<53.7725 61.1181> 282.261 68.4773<247.806 329.194> 524.136 37.4773<16.2047 43.0473 217.327 358.296>
@@ -19967,7 +19969,7 @@ EndSplineSet
 EndChar
 
 StartChar: a.sup
-Encoding: 65594 -1 611
+Encoding: 1114166 -1 611
 Width: 198
 VWidth: 883
 Flags: W
@@ -20012,7 +20014,7 @@ EndSplineSet
 EndChar
 
 StartChar: b.sup
-Encoding: 65595 -1 612
+Encoding: 1114167 -1 612
 Width: 222
 VWidth: 883
 Flags: W
@@ -20056,7 +20058,7 @@ EndSplineSet
 EndChar
 
 StartChar: c.sup
-Encoding: 65596 -1 613
+Encoding: 1114168 -1 613
 Width: 239
 VWidth: 883
 Flags: W
@@ -20093,7 +20095,7 @@ EndSplineSet
 EndChar
 
 StartChar: d.sup
-Encoding: 65597 -1 614
+Encoding: 1114169 -1 614
 Width: 234
 VWidth: 883
 Flags: W
@@ -20147,7 +20149,7 @@ EndSplineSet
 EndChar
 
 StartChar: e.sup
-Encoding: 65598 -1 615
+Encoding: 1114170 -1 615
 Width: 232
 VWidth: 883
 Flags: W
@@ -20189,7 +20191,7 @@ EndSplineSet
 EndChar
 
 StartChar: f.sup
-Encoding: 65599 -1 616
+Encoding: 1114171 -1 616
 Width: 129
 VWidth: 883
 Flags: W
@@ -20235,7 +20237,7 @@ EndSplineSet
 EndChar
 
 StartChar: g.sup
-Encoding: 65600 -1 617
+Encoding: 1114172 -1 617
 Width: 254
 VWidth: 883
 Flags: W
@@ -20303,7 +20305,7 @@ EndSplineSet
 EndChar
 
 StartChar: h.sup
-Encoding: 65601 -1 618
+Encoding: 1114173 -1 618
 Width: 229
 VWidth: 883
 Flags: W
@@ -20348,7 +20350,7 @@ EndSplineSet
 EndChar
 
 StartChar: j.sup
-Encoding: 65602 -1 619
+Encoding: 1114174 -1 619
 Width: 96
 VWidth: 883
 Flags: W
@@ -20384,7 +20386,7 @@ Refer: 38 775 S 1 0 0 1 -16 148 2
 EndChar
 
 StartChar: k.sup
-Encoding: 65603 -1 620
+Encoding: 1114175 -1 620
 Width: 222
 VWidth: 883
 Flags: W
@@ -20448,7 +20450,7 @@ EndSplineSet
 EndChar
 
 StartChar: l.sup
-Encoding: 65604 -1 621
+Encoding: 1114176 -1 621
 Width: 87
 VWidth: 883
 Flags: W
@@ -20485,7 +20487,7 @@ EndSplineSet
 EndChar
 
 StartChar: m.sup
-Encoding: 65605 -1 622
+Encoding: 1114177 -1 622
 Width: 343
 VWidth: 883
 Flags: W
@@ -20542,7 +20544,7 @@ EndSplineSet
 EndChar
 
 StartChar: o.sup
-Encoding: 65606 -1 623
+Encoding: 1114178 -1 623
 Width: 271
 VWidth: 883
 Flags: W
@@ -20577,7 +20579,7 @@ EndSplineSet
 EndChar
 
 StartChar: p.sup
-Encoding: 65607 -1 624
+Encoding: 1114179 -1 624
 Width: 246
 VWidth: 883
 Flags: W
@@ -20626,7 +20628,7 @@ EndSplineSet
 EndChar
 
 StartChar: q.sup
-Encoding: 65608 -1 625
+Encoding: 1114180 -1 625
 Width: 236
 VWidth: 883
 Flags: W
@@ -20670,7 +20672,7 @@ EndSplineSet
 EndChar
 
 StartChar: r.sup
-Encoding: 65609 -1 626
+Encoding: 1114181 -1 626
 Width: 190
 VWidth: 883
 Flags: W
@@ -20722,7 +20724,7 @@ EndSplineSet
 EndChar
 
 StartChar: s.sup
-Encoding: 65610 -1 627
+Encoding: 1114182 -1 627
 Width: 229
 VWidth: 883
 Flags: W
@@ -20768,7 +20770,7 @@ EndSplineSet
 EndChar
 
 StartChar: t.sup
-Encoding: 65611 -1 628
+Encoding: 1114183 -1 628
 Width: 206
 VWidth: 883
 Flags: W
@@ -20812,7 +20814,7 @@ EndSplineSet
 EndChar
 
 StartChar: u.sup
-Encoding: 65612 -1 629
+Encoding: 1114184 -1 629
 Width: 228
 VWidth: 883
 Flags: W
@@ -20868,7 +20870,7 @@ EndSplineSet
 EndChar
 
 StartChar: v.sup
-Encoding: 65613 -1 630
+Encoding: 1114185 -1 630
 Width: 241
 VWidth: 883
 Flags: W
@@ -20913,7 +20915,7 @@ EndSplineSet
 EndChar
 
 StartChar: w.sup
-Encoding: 65614 -1 631
+Encoding: 1114186 -1 631
 Width: 381
 VWidth: 883
 Flags: W
@@ -20975,7 +20977,7 @@ EndSplineSet
 EndChar
 
 StartChar: x.sup
-Encoding: 65615 -1 632
+Encoding: 1114187 -1 632
 Width: 321
 VWidth: 883
 Flags: W
@@ -21027,7 +21029,7 @@ EndSplineSet
 EndChar
 
 StartChar: y.sup
-Encoding: 65616 -1 633
+Encoding: 1114188 -1 633
 Width: 232
 VWidth: 883
 Flags: W
@@ -21081,7 +21083,7 @@ EndSplineSet
 EndChar
 
 StartChar: z.sup
-Encoding: 65617 -1 634
+Encoding: 1114189 -1 634
 Width: 237
 VWidth: 883
 Flags: W
@@ -21130,7 +21132,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_a
-Encoding: 65618 989440 635
+Encoding: 989440 989440 635
 Width: 318
 VWidth: 600
 Flags: W
@@ -21193,7 +21195,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_akesi
-Encoding: 65619 989441 636
+Encoding: 989441 989441 636
 Width: 636
 Flags: W
 HStem: 179.022 37.4825<247.556 382.818> 285.437 37.4839<243.172 379.254> 456.87 87.6785<176.392 210.406 429.311 463.326>
@@ -21291,7 +21293,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_ala
-Encoding: 65620 989442 637
+Encoding: 989442 989442 637
 Width: 636
 Flags: W
 HStem: -0.889046 56.1101<30.5523 73.0976> 488.61 56.1101<549.147 593.258>
@@ -21337,7 +21339,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_alasa
-Encoding: 65621 989443 638
+Encoding: 989443 989443 638
 Width: 636
 Flags: W
 HStem: -24.2201 37.4891<160.844 191.163> 251.677 38.3135<49.0538 99.4818 162.138 328.885 393.047 477.771>
@@ -21400,7 +21402,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_ale
-Encoding: 65622 989444 639
+Encoding: 989444 989444 639
 Width: 636
 Flags: W
 HStem: 21.9986 37.4773<446.538 479.084> 482.524 37.4773<145.622 176.166>
@@ -21448,7 +21450,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_anpa
-Encoding: 65623 989445 640
+Encoding: 989445 989445 640
 Width: 636
 Flags: W
 HStem: 198.335 37.524<129.876 519.136>
@@ -21494,7 +21496,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_ante
-Encoding: 65624 989446 641
+Encoding: 989446 989446 641
 Width: 636
 Flags: W
 HStem: -15.7875 37.3546<547.995 577.795> 524.259 37.3546<54.2047 83.8374>
@@ -21551,7 +21553,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_anu
-Encoding: 65625 989447 642
+Encoding: 989447 989447 642
 Width: 636
 Flags: W
 HStem: 497.261 64.3523<542.554 581.371> 524.259 37.3546<54.2047 70.7257>
@@ -21597,7 +21599,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_awen
-Encoding: 65626 989448 643
+Encoding: 989448 989448 643
 Width: 636
 Flags: W
 HStem: -19.1062 37.4022<45.9946 137.556 507.208 576.637>
@@ -21638,7 +21640,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_e
-Encoding: 65627 989449 644
+Encoding: 989449 989449 644
 Width: 636
 Flags: W
 HStem: -18.7387 21G<28.5176 34.4908 254.461 260.41>
@@ -21687,7 +21689,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_en
-Encoding: 65628 989450 645
+Encoding: 989450 989450 645
 Width: 636
 Flags: W
 HStem: 247.236 37.4781<41.3675 279.778 344.109 570.55>
@@ -21732,7 +21734,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_esun
-Encoding: 65629 989451 646
+Encoding: 989451 989451 646
 Width: 636
 Flags: W
 HStem: -18.7387 37.4773<136.177 214.776> 182.474 37.6125<136.181 276.927> 323.224 37.4803<353.903 467.554> 524.136 37.4773<400.056 495.657>
@@ -21796,7 +21798,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_ijo
-Encoding: 65630 989452 647
+Encoding: 989452 989452 647
 Width: 636
 Flags: W
 HStem: -2.55408 37.4773<250.632 382.392> 507.077 37.4773<243.977 375.737>
@@ -21837,7 +21839,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_ike
-Encoding: 65631 989453 648
+Encoding: 989453 989453 648
 Width: 636
 Flags: W
 HStem: 364.261 37.4773<251.511 376.883>
@@ -21848,7 +21850,7 @@ Refer: 719 989524 S -1 0 0 -1 634 532 2
 EndChar
 
 StartChar: sitelen_ilo
-Encoding: 65632 989454 649
+Encoding: 989454 989454 649
 Width: 636
 Flags: W
 HStem: -18.7387 37.9218<231.142 271.071 271.074 282.804 343.44 381.795> 190.248 37.5073<89.393 286.853 349.536 532.205> 520.565 41.1741<93.313 286.647 347.271 529.704>
@@ -21917,7 +21919,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_insa
-Encoding: 65633 989455 650
+Encoding: 989455 989455 650
 Width: 636
 Flags: W
 HStem: 79.9103 37.5219<118.174 504.735>
@@ -21967,7 +21969,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_jaki
-Encoding: 65634 989456 651
+Encoding: 989456 989456 651
 Width: 636
 Flags: W
 HStem: -3.0175 38.7562<99.996 342.486> 468.256 72.4828<252.859 584.695> 503.333 37.4058<455.718 565.757>
@@ -22053,7 +22055,7 @@ AlternateSubs2: "'rand' Randomize lookup 10-1" sitelen_jaki.rand.1 sitelen_jaki.
 EndChar
 
 StartChar: sitelen_jan
-Encoding: 65635 989457 652
+Encoding: 989457 989457 652
 Width: 636
 Flags: W
 HStem: -18.7387 21G<27.3535 34.2061 535.354 542.206> 84.8151 37.4773<256.322 376.36> 524.136 37.4773<249.676 369.534>
@@ -22106,7 +22108,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_jelo
-Encoding: 65636 989458 653
+Encoding: 989458 989458 653
 Width: 636
 Flags: W
 HStem: -18.7387 37.4779<145.18 460.106> 340.15 37.4781<121.219 180.307 448.904 466.802 466.802 506.853>
@@ -22186,7 +22188,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_jo
-Encoding: 65637 989459 654
+Encoding: 989459 989459 654
 Width: 636
 Flags: W
 HStem: -7.34412 37.4773<236.157 365.244> 222.656 37.3265<293.67 372.408> 246.12 37.6692<352.264 511.233> 349.622 37.4773<272.051 353.015> 524.261 37.4773<282.985 372.85>
@@ -22243,7 +22245,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_kala
-Encoding: 65638 989460 655
+Encoding: 989460 989460 655
 Width: 636
 Flags: W
 HStem: 128.441 37.4905<328.735 461.872> 235.261 85.4773<349.881 379.119 456.881 486.119> 375.751 37.4805<319.004 455.844>
@@ -22290,7 +22292,7 @@ Refer: 237 183 S 1 0 0 1 391 66 2
 EndChar
 
 StartChar: sitelen_kalama
-Encoding: 65639 989461 656
+Encoding: 989461 989461 656
 Width: 636
 Flags: W
 HStem: -6.73866 37.4773<249.337 382.564> 245.001 37.4794<92.9007 399.752>
@@ -22354,7 +22356,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_kama
-Encoding: 65640 989462 657
+Encoding: 989462 989462 657
 Width: 636
 Flags: W
 HStem: -18.0123 37.751<48.4288 139.088 438.205 521.101>
@@ -22393,7 +22395,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_kasi
-Encoding: 65641 989463 658
+Encoding: 989463 989463 658
 Width: 636
 Flags: W
 HStem: 320.364 37.706<204.162 279.046> 327.841 37.1915<347.937 411.394> 524.125 37.4883<495.085 535.463>
@@ -22447,7 +22449,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_ken
-Encoding: 65642 989464 659
+Encoding: 989464 989464 659
 Width: 636
 Flags: W
 HStem: -18.7387 21G<92.478 99.1577 470.469 477.158> 246.255 37.4913<151.644 337.226>
@@ -22492,7 +22494,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_kepeken
-Encoding: 65643 989465 660
+Encoding: 989465 989465 660
 Width: 636
 Flags: W
 HStem: -18.7387 21G<113.495 120.214 542.305 549.158> 123.5 37.5685<41.9411 49.321> 247.261 37.4773<292.342 416.308> 324.261 37.4773<208.323 322.659 385.308 505.677> 524.177 37.4366<208.323 323.545 385.773 505.677>
@@ -22545,7 +22547,7 @@ Refer: 802 -1 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_kili
-Encoding: 65644 989466 661
+Encoding: 989466 989466 661
 Width: 636
 Flags: W
 HStem: -18.7387 37.4773<251.042 380.249> 439.376 37.4918<161.09 257.329 364.955 466.245>
@@ -22593,7 +22595,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_kiwen
-Encoding: 65645 989467 662
+Encoding: 989467 989467 662
 Width: 636
 Flags: W
 HStem: 480.287 37.3771<153.214 452.937>
@@ -22631,7 +22633,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_ko
-Encoding: 65646 989468 663
+Encoding: 989468 989468 663
 Width: 636
 Flags: W
 HStem: -2.22575 37.4783<370.909 478.351> 502.195 37.4857<211.881 393.719>
@@ -22687,7 +22689,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_kon
-Encoding: 65647 989469 664
+Encoding: 989469 989469 664
 Width: 636
 Flags: W
 HStem: -18.7387 66.3523<118.49 165.287 352.49 399.287> 495.261 66.3523<210.713 257.51 444.713 491.51>
@@ -22758,7 +22760,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_kule
-Encoding: 65648 989470 665
+Encoding: 989470 989470 665
 Width: 636
 Flags: W
 HStem: 22.0946 37.5114<127.133 486.422> 221.559 37.4774<44.806 166.302 231.039 385.449 485.399 574.637>
@@ -22811,7 +22813,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_kulupu
-Encoding: 65649 989471 666
+Encoding: 989471 989471 666
 Width: 636
 Flags: W
 HStem: 18.2858 37.4773<110.09 208.001 406.805 504.717> 230.922 37.4773<131.283 229.196 427.998 525.91> 281.055 37.4773<258.447 356.359> 493.692 37.4773<279.641 377.553>
@@ -22883,7 +22885,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_kute
-Encoding: 65650 989472 667
+Encoding: 989472 989472 667
 Width: 636
 Flags: W
 HStem: -16.2031 38.9417<220.996 305.704> 81.8758 38.0367<87.2047 147.801> 522.499 37.4774<270.992 409.34>
@@ -22935,7 +22937,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_la
-Encoding: 65651 989473 668
+Encoding: 989473 989473 668
 Width: 636
 Flags: W
 HStem: -17.5736 37.4773<172.205 253.652> 524.136 37.4773<172.205 247.214>
@@ -22966,7 +22968,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_lape
-Encoding: 65652 989474 669
+Encoding: 989474 989474 669
 Width: 636
 Flags: W
 HStem: 59.7662 37.4773<369.369 455.216> 251.261 37.4772<53.1602 213.311> 444.756 37.4773<360.779 447.409>
@@ -23006,7 +23008,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_laso
-Encoding: 65653 989475 670
+Encoding: 989475 989475 670
 Width: 636
 Flags: W
 HStem: -18.7387 37.478<145.399 460.525> 320.364 37.706<204.162 278.167> 524.125 37.4883<495.085 535.463>
@@ -23081,7 +23083,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_lawa
-Encoding: 65654 989476 671
+Encoding: 989476 989476 671
 Width: 636
 Flags: W
 HStem: -18.7387 37.4773<225.822 322.135> 372.969 37.7585<117.706 118.179 118.25 408.464 498.71 577.239> 523.261 37.4773<219.865 315.622>
@@ -23133,7 +23135,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_len
-Encoding: 65655 989477 672
+Encoding: 989477 989477 672
 Width: 636
 Flags: W
 HStem: 193.239 37.4775<99.3058 287.091 349.161 540.715> 522.366 37.4772<96.8712 540.703>
@@ -23207,7 +23209,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_lete
-Encoding: 65656 989478 673
+Encoding: 989478 989478 673
 Width: 636
 Flags: W
 HStem: 251.366 37.4773<59.3103 106.26 106.312 266.144 370.489 576.094>
@@ -23250,7 +23252,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_li
-Encoding: 65657 989479 674
+Encoding: 989479 989479 674
 Width: 636
 Flags: W
 HStem: -18.7387 21G<122.469 127.819>
@@ -23281,7 +23283,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_lili
-Encoding: 65658 989480 675
+Encoding: 989480 989480 675
 Width: 636
 Flags: W
 HStem: 190.791 159.668
@@ -23312,7 +23314,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_linja
-Encoding: 65659 989481 676
+Encoding: 989481 989481 676
 Width: 636
 Flags: W
 HStem: 88.2404 37.7023<429.475 477.146> 395.207 37.7123<168.263 215.258>
@@ -23350,7 +23352,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_lipu
-Encoding: 65660 989482 677
+Encoding: 989482 989482 677
 Width: 636
 Flags: W
 HStem: 26.2611 37.4773<159.3 477.68> 475.265 37.4784<160.162 477.653>
@@ -23396,7 +23398,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_loje
-Encoding: 65661 989483 678
+Encoding: 989483 989483 678
 Width: 636
 Flags: W
 HStem: 40.2613 37.478<145.399 460.525> 296.29 37.4494<272.982 285.689> 457.623 37.4794<190.2 449.261>
@@ -23451,7 +23453,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_lon
-Encoding: 65662 989484 679
+Encoding: 989484 989484 679
 Width: 636
 Flags: W
 HStem: 197.261 37.4689<52.8154 583.224> 342.261 85.4773<295.881 325.119>
@@ -23481,7 +23483,7 @@ Refer: 237 183 S 1 0 0 1 230 173 2
 EndChar
 
 StartChar: sitelen_luka
-Encoding: 65663 989485 680
+Encoding: 989485 989485 680
 Width: 636
 Flags: W
 HStem: -18.7387 21G<113.535 120.282 542.305 549.158> 524.136 37.4773<292.342 416.308>
@@ -23527,7 +23529,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_lukin
-Encoding: 65664 989486 681
+Encoding: 989486 989486 681
 Width: 636
 Flags: W
 HStem: 96.1393 37.4773<231.915 409.044> 232.261 85.4773<297.881 327.119> 411.194 37.4773<226.956 404.085>
@@ -23565,7 +23567,7 @@ Refer: 237 183 S 1 0 0 1 232 63 2
 EndChar
 
 StartChar: sitelen_lupa
-Encoding: 65665 989487 682
+Encoding: 989487 989487 682
 Width: 636
 Flags: W
 HStem: -18.7387 37.4773<258.119 383.489>
@@ -23613,7 +23615,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_ma
-Encoding: 65666 989488 683
+Encoding: 989488 989488 683
 Width: 636
 Flags: W
 HStem: -2.55408 37.4773<250.632 382.392> 252.261 37.4773<53.2047 286.677 349.323 572.795> 507.077 37.4773<243.977 375.737>
@@ -23651,7 +23653,7 @@ Refer: 647 989452 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_mama
-Encoding: 65667 989489 684
+Encoding: 989489 989489 684
 Width: 636
 Flags: W
 HStem: -18.7387 37.4773<278.209 365.796> 239.261 37.4773<224.934 386.068> 523.261 37.4773<221.214 412.535>
@@ -23707,7 +23709,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_mani
-Encoding: 65668 989490 685
+Encoding: 989490 989490 685
 Width: 636
 Flags: W
 HStem: 33.2613 37.4773<259.511 379.25> 472.583 37.4773<252.23 372.13>
@@ -23761,7 +23763,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_meli
-Encoding: 65669 989491 686
+Encoding: 989491 989491 686
 Width: 636
 Flags: W
 HStem: -18.7387 21G<34.3051 41.1577 542.256 549.153> 67.2613 37.4773<267.117 376.729> 463.261 37.4773<259.271 369.752> 524.261 37.4773<249.051 381.02>
@@ -23834,7 +23836,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_mi
-Encoding: 65670 989492 687
+Encoding: 989492 989492 687
 Width: 636
 Flags: W
 HStem: -18.7387 21G<89.5628 97.1577> 127.261 37.4773<266.595 376.729> 523.261 37.4773<259.271 368.18>
@@ -23897,7 +23899,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_mije
-Encoding: 65671 989493 688
+Encoding: 989493 989493 688
 Width: 636
 Flags: W
 HStem: -18.7387 21G<48.4713 55.1577 528.305 535.05> 67.2613 37.4773<267.129 375.473> 150.865 37.1991<513.264 547.448> 463.261 37.4773<259.271 368.18>
@@ -23976,7 +23978,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_moku
-Encoding: 65672 989494 689
+Encoding: 989494 989494 689
 Width: 636
 Flags: W
 HStem: -18.7387 21G<113.495 120.214 542.305 549.158> 123.5 37.5685<41.9411 49.321> 247.261 37.4773<292.342 416.308> 316.742 37.4773<309.529 426.704> 522.854 37.4794<191.356 540.681>
@@ -24013,7 +24015,7 @@ Refer: 802 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_moli
-Encoding: 65673 989495 690
+Encoding: 989495 989495 690
 Width: 636
 Flags: W
 HStem: -2.55408 37.4773<250.632 382.392> 507.077 37.4773<243.977 375.737>
@@ -24082,7 +24084,7 @@ Refer: 647 989452 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_monsi
-Encoding: 65674 989496 691
+Encoding: 989496 989496 691
 Width: 636
 Flags: W
 HStem: 26.2624 37.4749<299.3 579.28> 231.261 85.4773<105.881 135.119> 475.267 37.4737<300.16 587.522>
@@ -24125,7 +24127,7 @@ Refer: 237 183 S 1 0 0 1 40 62 2
 EndChar
 
 StartChar: sitelen_mu
-Encoding: 65675 989497 692
+Encoding: 989497 989497 692
 Width: 636
 Flags: W
 HStem: -19.3695 37.4773<255.447 387.208> 95.2613 85.4773<297.881 327.119> 311.501 37.4773<133.077 208.001 406.805 504.562> 490.044 37.6947<300.032 349.764> 524.136 37.4773<131.283 216.353 427.562 525.91>
@@ -24206,7 +24208,7 @@ Refer: 237 183 S 1 0 0 1 232 -74 2
 EndChar
 
 StartChar: sitelen_mun
-Encoding: 65676 989498 693
+Encoding: 989498 989498 693
 Width: 636
 Flags: W
 HStem: -19.1176 37.4773<198.662 339.178> 523.64 37.4773<194.233 333.27>
@@ -24251,7 +24253,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_musi
-Encoding: 65677 989499 694
+Encoding: 989499 989499 694
 Width: 636
 Flags: W
 HStem: -19.3695 37.4773<255.447 387.208> 311.501 37.4773<133.077 208.001 406.805 504.562> 524.136 37.4773<131.283 229.196 427.998 525.91>
@@ -24323,7 +24325,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_mute
-Encoding: 65678 989500 695
+Encoding: 989500 989500 695
 Width: 636
 Flags: W
 HStem: -18.7387 21G<114.756 121.435 287.099 293.779 470.473 477.153>
@@ -24371,7 +24373,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_nanpa
-Encoding: 65679 989501 696
+Encoding: 989501 989501 696
 Width: 636
 Flags: W
 HStem: 171.632 37.6162<72.9607 200.362 263.017 372.703 435.358 561.746> 344.128 37.7137<72.9607 201.099 263.756 373.439 436.097 561.746>
@@ -24444,7 +24446,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_nasa
-Encoding: 65680 989502 697
+Encoding: 989502 989502 697
 Width: 636
 Flags: W
 HStem: -15.4616 37.5008<249.321 385.589> 110.075 37.4862<277.158 365.08> 398.966 37.4788<295.963 409.678> 518.455 37.4688<265.162 419.382>
@@ -24523,7 +24525,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_nasin
-Encoding: 65681 989503 698
+Encoding: 989503 989503 698
 Width: 636
 Flags: W
 HStem: -18.7387 21G<287.099 293.779>
@@ -24565,7 +24567,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_nena
-Encoding: 65682 989504 699
+Encoding: 989504 989504 699
 Width: 636
 Flags: W
 HStem: -18.7751 21G<52.7053 60.1164 521.807 524.108> 524.136 37.4773<252.511 377.883>
@@ -24615,7 +24617,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_ni
-Encoding: 65683 989505 700
+Encoding: 989505 989505 700
 Width: 636
 Flags: W
 HStem: -18.7387 21G<288.455 293.295>
@@ -24654,7 +24656,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_nimi
-Encoding: 65684 989506 701
+Encoding: 989506 989506 701
 Width: 636
 Flags: W
 HStem: 129.261 37.4773<116.248 533.924> 375.261 37.4773<102.076 519.752>
@@ -24702,7 +24704,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_noka
-Encoding: 65685 989507 702
+Encoding: 989507 989507 702
 Width: 636
 Flags: W
 HStem: -18.7387 37.4773<95.3262 475.273> 252.261 37.4773<368.334 469.079>
@@ -24751,7 +24753,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_o
-Encoding: 65686 989508 703
+Encoding: 989508 989508 703
 Width: 318
 VWidth: 600
 Flags: W
@@ -24803,7 +24805,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_olin
-Encoding: 65687 989509 704
+Encoding: 989509 989509 704
 Width: 636
 Flags: W
 HStem: 366.811 37.4773<155.959 244.501 388.526 473.168> 524.136 37.4773<155.998 244.501 388.526 473.243>
@@ -24875,7 +24877,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_ona
-Encoding: 65688 989510 705
+Encoding: 989510 989510 705
 Width: 636
 Flags: W
 HStem: 48.6182 37.4788<46.2714 95.2972 95.5226 235.022 336.672 417.604> 450.261 37.4773<315.271 424.18>
@@ -24937,7 +24939,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_open
-Encoding: 65689 989511 706
+Encoding: 989511 989511 706
 Width: 636
 Flags: W
 HStem: -16.7941 37.4773<92.7969 544.542> 185.589 37.478<93.1694 543.125>
@@ -24994,7 +24996,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_pakala
-Encoding: 65690 989512 707
+Encoding: 989512 989512 707
 Width: 636
 Flags: W
 HStem: 26.2611 37.4773<159.3 477.68> 33.2613 2.486<255.998 256.365> 253.398 36.1812<267.087 357.709> 475.265 37.4784<160.162 477.653>
@@ -25033,7 +25035,7 @@ Refer: 677 989482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_pali
-Encoding: 65691 989513 708
+Encoding: 989513 989513 708
 Width: 636
 Flags: W
 HStem: -18.7387 21G<113.568 120.282 542.305 549.158> 203.261 37.4773<309.123 459.835> 521.051 37.4773<303.411 431.003>
@@ -25102,7 +25104,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_palisa
-Encoding: 65692 989514 709
+Encoding: 989514 989514 709
 Width: 636
 Flags: W
 HStem: -18.7387 37.4773<275.666 367.892> 523.658 37.4773<268.108 360.334>
@@ -25134,7 +25136,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_pan
-Encoding: 65693 989515 710
+Encoding: 989515 989515 710
 Width: 636
 Flags: W
 HStem: -18.7387 21G<288.305 295.158>
@@ -25198,7 +25200,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_pana
-Encoding: 65694 989516 711
+Encoding: 989516 989516 711
 Width: 636
 Flags: W
 HStem: -18.7387 21G<113.535 120.282 542.305 549.158> 344.257 37.4773<292.342 416.308>
@@ -25272,7 +25274,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_pi
-Encoding: 65695 989517 712
+Encoding: 989517 989517 712
 Width: 636
 Flags: W
 HStem: -16.7941 37.4773<92.7969 583.105>
@@ -25306,7 +25308,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_pilin
-Encoding: 65696 989518 713
+Encoding: 989518 989518 713
 Width: 636
 Flags: W
 HStem: 480.198 37.4773<140.063 218.739 411.356 487.397>
@@ -25342,7 +25344,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_pimeja
-Encoding: 65697 989519 714
+Encoding: 989519 989519 714
 Width: 636
 Flags: W
 HStem: -5.99761 37.4869<97.5076 200.555 239.835 372.258 446.421 518.017>
@@ -25396,7 +25398,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_pini
-Encoding: 65698 989520 715
+Encoding: 989520 989520 715
 Width: 636
 Flags: W
 HStem: -17.5785 37.4773<110.355 286.742 349.329 525.645> 522.069 37.4773<110.335 286.831 349.703 524.441>
@@ -25439,7 +25441,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_pipi
-Encoding: 65699 989521 716
+Encoding: 989521 989521 716
 Width: 636
 Flags: W
 HStem: -24.3783 21G<288.865 291.173> 58.3209 37.4773<135.864 286.805 349.475 496.639> 163.338 37.4773<73.7272 286.953 349.679 557.506> 261.579 37.4773<56.1549 287.06 349.828 574.721> 367.994 37.4773<84.7116 287.119 349.906 546.746> 478.136 85.4773<448.881 478.119> 479.261 85.4773<144.881 174.119>
@@ -25523,7 +25525,7 @@ Refer: 237 183 S 1 0 0 1 79 310 2
 EndChar
 
 StartChar: sitelen_poka
-Encoding: 65700 989522 717
+Encoding: 989522 989522 717
 Width: 636
 Flags: W
 HStem: 26.2618 37.4762<95.3 372.8> 227.261 85.4773<513.881 543.119>
@@ -25568,7 +25570,7 @@ Refer: 237 183 S 1 0 0 1 448 58 2
 EndChar
 
 StartChar: sitelen_poki
-Encoding: 65701 989523 718
+Encoding: 989523 989523 718
 Width: 636
 Flags: W
 HStem: 26.2611 37.4773<159.3 477.68>
@@ -25610,7 +25612,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_pona
-Encoding: 65702 989524 719
+Encoding: 989524 989524 719
 Width: 636
 Flags: W
 HStem: 130.261 37.4773<257.117 382.489>
@@ -25642,7 +25644,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_pu
-Encoding: 65703 989525 720
+Encoding: 989525 989525 720
 Width: 636
 Flags: W
 HStem: 26.2611 37.4773<159.3 477.68> 83.3863 37.4773<285.486 360.201> 314.821 80.6697<205.827 241.006> 320.926 37.2519<339.387 347.122 347.126 350.669> 475.265 37.4784<160.162 477.653>
@@ -25720,7 +25722,7 @@ Refer: 677 989482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_sama
-Encoding: 65704 989526 721
+Encoding: 989526 989526 721
 Width: 636
 Flags: W
 HStem: 140.428 37.4774<50.9254 582.713> 360.812 37.4774<50.9254 582.713>
@@ -25756,7 +25758,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_seli
-Encoding: 65705 989527 722
+Encoding: 989527 989527 722
 Width: 636
 Flags: W
 HStem: 70.2613 85.4773<297.881 327.119>
@@ -25806,7 +25808,7 @@ Refer: 237 183 S 1 0 0 1 232 -99 2
 EndChar
 
 StartChar: sitelen_selo
-Encoding: 65706 989528 723
+Encoding: 989528 989528 723
 Width: 636
 Flags: W
 HStem: 472.261 37.4773<158.917 477.297>
@@ -25841,7 +25843,7 @@ Refer: 718 989523 N -1 0 0 -1 636.597 535.999 2
 EndChar
 
 StartChar: sitelen_seme
-Encoding: 65707 989529 724
+Encoding: 989529 989529 724
 Width: 636
 Flags: W
 HStem: -18.7387 82.4773<296.996 356.004> 87.5436 37.4773<328.747 418.373> 573.229 37.4773<217.08 449.222>
@@ -25900,7 +25902,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_sewi
-Encoding: 65708 989530 725
+Encoding: 989530 989530 725
 Width: 636
 Flags: W
 HStem: 378.016 37.524<107.865 497.125>
@@ -25912,7 +25914,7 @@ Refer: 640 989445 N -1 0 0 -1 627.001 613.875 2
 EndChar
 
 StartChar: sitelen_sijelo
-Encoding: 65709 989531 726
+Encoding: 989531 989531 726
 Width: 636
 Flags: W
 HStem: 472.261 37.4773<158.917 477.297>
@@ -25938,7 +25940,7 @@ Refer: 718 989523 N -1 0 0 -1 636.597 535.999 2
 EndChar
 
 StartChar: sitelen_sike
-Encoding: 65710 989532 727
+Encoding: 989532 989532 727
 Width: 636
 Flags: W
 HStem: -2.55408 37.4773<250.632 382.392> 145.261 37.4773<258.447 356.359> 357.898 37.4773<279.641 377.553> 507.077 37.4773<243.977 375.737>
@@ -25974,7 +25976,7 @@ Refer: 647 989452 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_sin
-Encoding: 65711 989533 728
+Encoding: 989533 989533 728
 Width: 636
 Flags: W
 HStem: 195.261 37.4773<53.2047 271.171 364.829 582.795>
@@ -26016,7 +26018,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_sina
-Encoding: 65712 989534 729
+Encoding: 989534 989534 729
 Width: 636
 Flags: W
 HStem: -18.7387 37.4773<267.831 376.729> 377.261 37.4773<260.336 368.18>
@@ -26076,7 +26078,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_sinpin
-Encoding: 65713 989535 730
+Encoding: 989535 989535 730
 Width: 636
 Flags: W
 HStem: 26.2623 37.4737<95.4778 382.84> 222.264 85.4773<547.881 577.119> 475.266 37.4749<103.72 383.7>
@@ -26087,7 +26089,7 @@ Refer: 691 989496 S -1 0 0 -1 683 539.003 2
 EndChar
 
 StartChar: sitelen_sitelen
-Encoding: 65714 989536 731
+Encoding: 989536 989536 731
 Width: 636
 Flags: W
 HStem: 26.2611 37.4773<159.3 477.68> 227.261 85.4773<198.881 228.119> 230.261 85.4773<297.881 327.119 397.881 427.119> 475.265 37.4784<160.162 477.653>
@@ -26101,7 +26103,7 @@ Refer: 677 989482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_sona
-Encoding: 65715 989537 732
+Encoding: 989537 989537 732
 Width: 636
 Flags: W
 HStem: -18.539 37.4773<98.0215 539.283> 284.616 37.478<99.1331 539.248>
@@ -26179,7 +26181,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_soweli
-Encoding: 65716 989538 733
+Encoding: 989538 989538 733
 Width: 636
 Flags: W
 HStem: -18.7387 211.477<48.4898 79.5102 158.638 189.51 276.206 303.51 370.588 404.296> 368.261 85.4773<286.881 316.119 408.881 438.119> 523.261 37.4773<53.183 436.529>
@@ -26256,7 +26258,7 @@ Refer: 237 183 S 1 0 0 1 343 199 2
 EndChar
 
 StartChar: sitelen_suli
-Encoding: 65717 989539 734
+Encoding: 989539 989539 734
 Width: 636
 Flags: W
 LayerCount: 2
@@ -26286,7 +26288,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_suno
-Encoding: 65718 989540 735
+Encoding: 989540 989540 735
 Width: 636
 Flags: W
 HStem: 87.074 37.4645<272.813 286.677> 265.261 37.4773<53.2047 108.482 527.518 582.795> 443.462 37.4645<349.323 363.187>
@@ -26360,7 +26362,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_supa
-Encoding: 65719 989541 736
+Encoding: 989541 989541 736
 Width: 636
 Flags: W
 HStem: 320.261 37.4773<53.1888 155.581 218.032 414.672 477.036 581.586>
@@ -26398,7 +26400,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_suwi
-Encoding: 65720 989542 737
+Encoding: 989542 989542 737
 Width: 636
 Flags: W
 HStem: 111.261 85.4773<297.881 327.119>
@@ -26443,7 +26445,7 @@ Refer: 237 183 S 1 0 0 1 232 -58 2
 EndChar
 
 StartChar: sitelen_tan
-Encoding: 65721 989543 738
+Encoding: 989543 989543 738
 Width: 636
 Flags: W
 HStem: 4.37951 37.4773<343.931 414.958> 440.864 37.4773<294.191 406.436>
@@ -26481,7 +26483,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_taso
-Encoding: 65722 989544 739
+Encoding: 989544 989544 739
 Width: 636
 Flags: W
 HStem: -18.7387 21G<425.837 433.143> 253.261 37.4772<148.199 425.423>
@@ -26514,7 +26516,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_tawa
-Encoding: 65723 989545 740
+Encoding: 989545 989545 740
 Width: 636
 Flags: W
 HStem: -18.2979 37.2824<504.703 576.795>
@@ -26556,7 +26558,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_telo
-Encoding: 65724 989546 741
+Encoding: 989546 989546 741
 Width: 636
 Flags: W
 HStem: 65.7066 37.6709<401.66 481.014> 223.051 37.6688<151.104 225.9> 296.761 37.6709<401.66 481.015> 322.083 21G<28.8588 35.495> 454.106 37.6688<151.104 225.9>
@@ -26618,7 +26620,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_tenpo
-Encoding: 65725 989547 742
+Encoding: 989547 989547 742
 Width: 636
 Flags: W
 HStem: -2.55408 37.4773<250.632 382.392> 251.145 37.4831<349.162 495.839> 507.077 37.4773<243.977 375.737>
@@ -26655,7 +26657,7 @@ Refer: 647 989452 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_toki
-Encoding: 65726 989548 743
+Encoding: 989548 989548 743
 Width: 636
 Flags: W
 HStem: -16.7387 37.4773<260.917 379.632> 411.261 37.4773<272.202 374.486>
@@ -26720,7 +26722,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_tomo
-Encoding: 65727 989549 744
+Encoding: 989549 989549 744
 Width: 636
 Flags: W
 HStem: -12.7387 37.4862<95.3373 534.677>
@@ -26760,7 +26762,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_tu
-Encoding: 65728 989550 745
+Encoding: 989550 989550 745
 Width: 636
 Flags: W
 HStem: -18.7387 21G<182.901 189.62 398.999 405.719>
@@ -26793,7 +26795,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_unpa
-Encoding: 65729 989551 746
+Encoding: 989551 989551 746
 Width: 636
 Flags: W
 HStem: 14.0406 37.4773<264.356 355.312> 202.256 37.4773<248.397 391.966> 463.783 37.4875<118.501 229.267 416.075 522.605>
@@ -26842,7 +26844,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_uta
-Encoding: 65730 989552 747
+Encoding: 989552 989552 747
 Width: 636
 Flags: W
 HStem: 216.261 37.4773<255.337 388.564> 468.001 37.4794<98.9007 405.752>
@@ -26888,7 +26890,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_utala
-Encoding: 65731 989553 748
+Encoding: 989553 989553 748
 Width: 636
 Flags: W
 LayerCount: 2
@@ -26934,7 +26936,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_walo
-Encoding: 65732 989554 749
+Encoding: 989554 989554 749
 Width: 636
 Flags: W
 HStem: -8.70746 37.5035<97.5076 518.017> 254.08 91.6585<121.216 159.725> 281.207 64.5312<530.169 573.381>
@@ -26989,7 +26991,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_wan
-Encoding: 65733 989555 750
+Encoding: 989555 989555 750
 Width: 636
 Flags: W
 HStem: -18.7387 21G<352.227 359.106>
@@ -27021,7 +27023,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_waso
-Encoding: 65734 989556 751
+Encoding: 989556 989556 751
 Width: 636
 Flags: W
 HStem: 120.812 37.5222<264.05 476.962> 131.595 47.1653<241.756 376.029> 267.261 85.4773<207.724 236.962 329.724 358.962> 524.152 37.4615<119.205 172.251>
@@ -27062,7 +27064,7 @@ Refer: 237 183 S 1 0 0 1 263.843 98 2
 EndChar
 
 StartChar: sitelen_wawa
-Encoding: 65735 989557 752
+Encoding: 989557 989557 752
 Width: 636
 Flags: W
 HStem: -18.7387 37.4773<277.848 352.987> 411.261 37.4773<283.013 386.594>
@@ -27105,7 +27107,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_weka
-Encoding: 65736 989558 753
+Encoding: 989558 989558 753
 Width: 636
 Flags: W
 LayerCount: 2
@@ -27162,7 +27164,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_wile
-Encoding: 65737 989559 754
+Encoding: 989559 989559 754
 Width: 636
 Flags: W
 HStem: -7.34412 37.4773<139.272 242.888 380.531 460.354>
@@ -27211,7 +27213,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_namako
-Encoding: 65738 989560 755
+Encoding: 989560 989560 755
 Width: 636
 Flags: W
 HStem: -18.1521 37.4783<120.269 285.045>
@@ -27281,7 +27283,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_kin
-Encoding: 65739 989561 756
+Encoding: 989561 989561 756
 Width: 318
 Flags: W
 VStem: 109.277 93.6441<392.97 525.009> 131.168 62.7541<-1.22176 33.5061 141.879 178.205 240.812 506.453>
@@ -27336,7 +27338,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_oko
-Encoding: 65740 989562 757
+Encoding: 989562 989562 757
 Width: 636
 Flags: W
 HStem: -18.7387 21G<482.305 489.049>
@@ -27394,7 +27396,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_kipisi
-Encoding: 65741 989563 758
+Encoding: 989563 989563 758
 Width: 636
 Flags: W
 HStem: 433.798 76.2742<516.531 581.626>
@@ -27462,7 +27464,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_leko
-Encoding: 65742 989564 759
+Encoding: 989564 989564 759
 Width: 636
 Flags: W
 HStem: 14.3787 37.4773<95.3319 541.984> 132.165 37.4773<218.132 418.461> 371.58 35.8716<219.013 418.498> 489.657 37.4778<96.4441 541.946>
@@ -27537,7 +27539,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_monsuta
-Encoding: 65743 989565 760
+Encoding: 989565 989565 760
 Width: 636
 Flags: W
 HStem: 111.779 326.124
@@ -27595,7 +27597,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_tonsi
-Encoding: 65744 989566 761
+Encoding: 989566 989566 761
 Width: 636
 Flags: W
 HStem: 92.2739 37.4657<267.479 286.677> 488.262 37.4773<259.887 369.031>
@@ -27668,7 +27670,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_jasima
-Encoding: 65745 989567 762
+Encoding: 989567 989567 762
 Width: 636
 Flags: W
 HStem: 65.7066 37.6709<401.66 481.014> 223.051 37.6688<151.104 225.9> 296.761 37.6709<401.66 481.015> 322.083 21G<28.8588 35.495> 454.106 37.6688<151.104 225.9>
@@ -27696,7 +27698,7 @@ Refer: 741 989546 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_kijetesantakalu
-Encoding: 65746 989568 763
+Encoding: 989568 989568 763
 Width: 636
 Flags: W
 HStem: -18.7387 37.4773<176.705 184.677 247.323 292.262> 321.261 85.4773<318.881 348.119 423.881 453.119>
@@ -27787,7 +27789,7 @@ Refer: 237 183 S 1 0 0 1 358 152 2
 EndChar
 
 StartChar: sitelen_soko
-Encoding: 65747 989569 764
+Encoding: 989569 989569 764
 Width: 636
 Flags: W
 HStem: -9.1192 39.2416<213.532 427.47> 262.118 37.4715<127.405 179.684 236.168 371.849 439.05 520.617> 514.656 37.4773<227.093 402.377>
@@ -27849,7 +27851,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_meso
-Encoding: 65748 989570 765
+Encoding: 989570 989570 765
 Width: 636
 Flags: W
 HStem: -18.7387 21G<161.471 168.158 447.575 454.116> 242.261 85.4773<277.881 307.119>
@@ -27891,7 +27893,7 @@ Refer: 237 183 N 1 0 0 1 212 73 2
 EndChar
 
 StartChar: sitelen_epiku
-Encoding: 65749 989571 766
+Encoding: 989571 989571 766
 Width: 636
 Flags: W
 HStem: 50.2613 37.4773<257.117 382.489>
@@ -27937,7 +27939,7 @@ Refer: 719 989524 N 1 0 0 1 0 -80 2
 EndChar
 
 StartChar: sitelen_kokosila
-Encoding: 65750 989572 767
+Encoding: 989572 989572 767
 Width: 636
 Flags: W
 HStem: -16.7387 37.4773<260.917 379.632> 411.261 37.4773<272.202 374.486>
@@ -27965,7 +27967,7 @@ Refer: 743 989548 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_lanpan
-Encoding: 65751 989573 768
+Encoding: 989573 989573 768
 Width: 636
 Flags: W
 HStem: -29.7387 21G<91.0023 125.935 534.305 541.08> 253.988 37.4773<376.402 494.658> 349.622 37.4773<272.199 353.015> 524.261 37.4773<282.985 372.85>
@@ -28038,7 +28040,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_n
-Encoding: 65752 989574 769
+Encoding: 989574 989574 769
 Width: 318
 VWidth: 600
 Flags: W
@@ -28098,7 +28100,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_misikeke
-Encoding: 65753 989575 770
+Encoding: 989575 989575 770
 Width: 636
 Flags: W
 HStem: -18.7387 37.4773<275.666 367.892> 252.261 37.6877<179.205 221.17 221.184 450.795> 523.658 37.4773<268.108 360.334>
@@ -28135,7 +28137,7 @@ Refer: 709 989514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_ku
-Encoding: 65754 989576 771
+Encoding: 989576 989576 771
 Width: 636
 Flags: W
 HStem: 26.2611 37.4773<159.3 477.68> 114.261 85.4773<330.881 360.119> 230.261 37.4317<457.383 488.795> 475.265 37.4784<160.162 477.653>
@@ -28174,7 +28176,7 @@ Refer: 677 989482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uF1989
-Encoding: 65755 989577 772
+Encoding: 989577 989577 772
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28184,7 +28186,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uF198A
-Encoding: 65756 989578 773
+Encoding: 989578 989578 773
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28194,7 +28196,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uF198B
-Encoding: 65757 989579 774
+Encoding: 989579 989579 774
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28204,7 +28206,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uF198C
-Encoding: 65758 989580 775
+Encoding: 989580 989580 775
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28214,7 +28216,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uF198D
-Encoding: 65759 989581 776
+Encoding: 989581 989581 776
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28224,7 +28226,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uF198E
-Encoding: 65760 989582 777
+Encoding: 989582 989582 777
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28234,7 +28236,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uF198F
-Encoding: 65761 989583 778
+Encoding: 989583 989583 778
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28244,7 +28246,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_cart_start
-Encoding: 65762 989584 779
+Encoding: 989584 989584 779
 Width: 318
 Flags: W
 HStem: -70.8461 37.4773<268.901 328.795> 574.261 37.4773<259.112 328.795>
@@ -28274,7 +28276,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_cart_end
-Encoding: 65763 989585 780
+Encoding: 989585 989585 780
 Width: 318
 Flags: W
 HStem: -70.6037 37.4773<-10.9173 58.7657> 574.504 37.4773<-10.9173 48.977>
@@ -28287,7 +28289,7 @@ Refer: 779 989584 N -1 0 0 -1 317.878 541.135 2
 EndChar
 
 StartChar: sitelen_cart_ext
-Encoding: 65764 989586 781
+Encoding: 989586 989586 781
 Width: 0
 Flags: W
 HStem: -70.7387 37.4773<-646.795 10.7953> 574.396 37.4773<-646.718 10.8724>
@@ -28320,7 +28322,7 @@ Substitution2: "Sizing-en" sitelen_cart_ext.en
 EndChar
 
 StartChar: sitelen_long_pi_start
-Encoding: 65765 989587 782
+Encoding: 989587 989587 782
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28330,7 +28332,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_long_pi_ext
-Encoding: 65766 989588 783
+Encoding: 989588 989588 783
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28340,7 +28342,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_stacking_joiner
-Encoding: 65767 989589 784
+Encoding: 989589 989589 784
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28350,7 +28352,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_scaling_joiner
-Encoding: 65768 989590 785
+Encoding: 989590 989590 785
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28360,7 +28362,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_long_start
-Encoding: 65769 989591 786
+Encoding: 989591 989591 786
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28370,7 +28372,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_long_end
-Encoding: 65770 989592 787
+Encoding: 989592 989592 787
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28380,7 +28382,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_long_ext
-Encoding: 65771 989593 788
+Encoding: 989593 989593 788
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28390,7 +28392,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_long_rev_start
-Encoding: 65772 989594 789
+Encoding: 989594 989594 789
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28400,7 +28402,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_long_rev_end
-Encoding: 65773 989595 790
+Encoding: 989595 989595 790
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28410,7 +28412,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_middle_dot
-Encoding: 65774 989596 791
+Encoding: 989596 989596 791
 Width: 318
 Flags: W
 HStem: 207.892 128.216<160.571 204.429>
@@ -28421,7 +28423,7 @@ Refer: 76 5867 N 1 0 0 1 51.5 0 2
 EndChar
 
 StartChar: sitelen_colon
-Encoding: 65775 989597 792
+Encoding: 989597 989597 792
 Width: 318
 Flags: W
 HStem: 103.892 128.216<135.571 179.429> 302.892 128.216<135.571 179.429>
@@ -28433,7 +28435,7 @@ Refer: 237 183 S 1.5 0 0 1.5 36.75 49 2
 EndChar
 
 StartChar: uF199E
-Encoding: 65776 989598 793
+Encoding: 989598 989598 793
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28443,7 +28445,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uF199F
-Encoding: 65777 989599 794
+Encoding: 989599 989599 794
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28453,7 +28455,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_pake
-Encoding: 65778 989600 795
+Encoding: 989600 989600 795
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28463,7 +28465,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_apeja
-Encoding: 65779 989601 796
+Encoding: 989601 989601 796
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28473,7 +28475,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_majuna
-Encoding: 65780 989602 797
+Encoding: 989602 989602 797
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28483,7 +28485,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_powe
-Encoding: 65781 989603 798
+Encoding: 989603 989603 798
 Width: 636
 Flags: W
 HStem: 195.262 37.4766<35.2045 599.795>
@@ -28493,7 +28495,7 @@ Refer: 528 8212 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sitelen_jaki.rand.1
-Encoding: 65782 -1 799
+Encoding: 1114190 -1 799
 Width: 636
 Flags: W
 HStem: -18.7387 21G<316.583 320.692> 524.208 37.4058<320.387 376.757>
@@ -28592,7 +28594,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_jaki.rand.2
-Encoding: 65783 -1 800
+Encoding: 1114191 -1 800
 Width: 636
 Flags: W
 HStem: -18.7387 21G<59.3051 60.0418> 260.873 77.1089<95.7212 149.722> 498.274 37.4644<183.205 242.778>
@@ -28697,7 +28699,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_pona.combine
-Encoding: 65784 -1 801
+Encoding: 1114192 -1 801
 Width: 636
 Flags: W
 HStem: 168.431 37.4773<288.24 361.121>
@@ -28730,7 +28732,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: sitelen_luka.stack
-Encoding: 65785 -1 802
+Encoding: 1114193 -1 802
 Width: 636
 Flags: W
 HStem: -18.7387 21G<113.495 120.214 542.305 549.158> 123.5 37.5685<41.9411 49.321> 247.261 37.4773<292.342 416.308>
@@ -28780,7 +28782,7 @@ EndSplineSet
 EndChar
 
 StartChar: sitelen_cart_ext.en
-Encoding: 65786 -1 803
+Encoding: 1114194 -1 803
 Width: 0
 Flags: W
 HStem: -70.7387 37.4773<-328.795 10.7953> 574.396 37.4773<-328.756 10.8343>
@@ -28812,7 +28814,7 @@ EndSplineSet
 EndChar
 
 StartChar: A.cart
-Encoding: 65787 -1 804
+Encoding: 1114195 -1 804
 Width: 591
 Flags: HW
 HStem: -70.7387 37.4773<22.0514 634.642> -42.7387 21G<6.15182 12.3843> -18.9263 37.4448<604.814 631.658> 524.136 37.4773<243.052 269.567> 574.396 37.4773<22.1286 634.719>
@@ -28848,7 +28850,7 @@ Ligature2: "Sitelen Cartouche Latin" A sitelen_cart_ext
 EndChar
 
 StartChar: E.cart
-Encoding: 65788 -1 805
+Encoding: 1114196 -1 805
 Width: 461
 Flags: W
 HStem: -70.7387 37.4773<-10.7953 471.795> -18.8637 37.4936<107.88 413.231> 281.261 37.4772<112.803 307.662> 505.261 56.3523<368.524 415.343> 524.136 37.4773<16.2047 42.6065 165.353 366.642> 574.396 37.4773<-10.7181 471.872>
@@ -28884,7 +28886,7 @@ Ligature2: "Sitelen Cartouche Latin" E sitelen_cart_ext
 EndChar
 
 StartChar: I.cart
-Encoding: 65789 -1 806
+Encoding: 1114197 -1 806
 Width: 181
 Flags: HW
 HStem: -70.7387 37.4773<-10.7953 191.795> -18.7387 37.4773<130.926 149.795> 524.136 37.4773<36.2047 55.8171> 574.396 37.4773<-10.7181 191.872>
@@ -28920,7 +28922,7 @@ Ligature2: "Sitelen Cartouche Latin" I sitelen_cart_ext
 EndChar
 
 StartChar: J.cart
-Encoding: 65790 -1 807
+Encoding: 1114198 -1 807
 Width: 161
 Flags: W
 HStem: -70.7387 37.4773<-10.7953 171.795> -18.7387 37.4773<-106.795 -35.4999> 524.136 37.4773<31.2047 52.1755> 574.396 37.4773<-10.7181 171.872>
@@ -28983,7 +28985,7 @@ Ligature2: "Sitelen Cartouche Latin" J sitelen_cart_ext
 EndChar
 
 StartChar: K.cart
-Encoding: 65791 -1 808
+Encoding: 1114199 -1 808
 Width: 523
 Flags: W
 HStem: -70.7387 37.4773<-10.7953 533.795> -18.7387 37.4773<469.075 530.795> 524.136 37.7643<16.2047 43.0582 254.087 368.218> 574.396 37.4773<-10.7181 533.872>
@@ -29068,7 +29070,7 @@ Ligature2: "Sitelen Cartouche Latin" K sitelen_cart_ext
 EndChar
 
 StartChar: L.cart
-Encoding: 65792 -1 809
+Encoding: 1114200 -1 809
 Width: 468
 Flags: W
 HStem: -70.7387 37.4773<-10.7956 478.718> -18.8637 37.4975<16.202 59.6512 120.396 413.231> 524.136 37.4773<16.2047 43.0473> 574.396 37.4773<-10.7184 478.796>
@@ -29129,7 +29131,7 @@ Ligature2: "Sitelen Cartouche Latin" L sitelen_cart_ext
 EndChar
 
 StartChar: M.cart
-Encoding: 65793 -1 810
+Encoding: 1114201 -1 810
 Width: 868
 Flags: W
 HStem: -70.7387 37.4773<-10.7953 878.795> -20.142 21G<141.124 147.869 668.245 673.986> 524.136 37.4773<184.07 316.216 549.937 673.123> 574.396 37.4773<-10.7181 878.872>
@@ -29205,7 +29207,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: N.cart
-Encoding: 65794 -1 811
+Encoding: 1114202 -1 811
 Width: 583
 Flags: W
 HStem: -70.7387 37.4773<-10.7953 593.795> -18.8915 21G<407.748 413.498> 524.136 37.4773<16.2047 42.6065 236.41 389.628> 574.396 37.4773<-10.7181 593.872>
@@ -29277,7 +29279,7 @@ Ligature2: "Sitelen Cartouche Latin" N sitelen_cart_ext
 EndChar
 
 StartChar: O.cart
-Encoding: 65795 -1 812
+Encoding: 1114203 -1 812
 Width: 646
 Flags: HW
 HStem: -70.7387 37.4773<-10.7953 656.795> -18.7387 37.4773<255.411 394.605> 521.261 37.4773<249.395 388.589> 574.396 37.4773<-10.7181 656.872>
@@ -29313,7 +29315,7 @@ Ligature2: "Sitelen Cartouche Latin" O sitelen_cart_ext
 EndChar
 
 StartChar: P.cart
-Encoding: 65796 -1 813
+Encoding: 1114204 -1 813
 Width: 646
 Flags: W
 HStem: -70.7387 37.4773<-10.7953 656.795> -18.7387 21G<57.7725 65.1181> 108.162 37.4773<224.498 391.277> 521.261 37.4773<11.4898 45.9502 221.031 385.019> 574.396 37.4773<-10.7181 656.872>
@@ -29386,7 +29388,7 @@ Ligature2: "Sitelen Cartouche Latin" P sitelen_cart_ext
 EndChar
 
 StartChar: S.cart
-Encoding: 65797 -1 814
+Encoding: 1114205 -1 814
 Width: 536
 Flags: W
 HStem: -70.7387 37.4773<-10.7953 546.795> -8.73866 37.4773<179.555 329.054> 524.136 37.4773<159.636 312.51> 574.396 37.4773<-10.7181 546.872>
@@ -29422,7 +29424,7 @@ Ligature2: "Sitelen Cartouche Latin" S sitelen_cart_ext
 EndChar
 
 StartChar: T.cart
-Encoding: 65798 -1 815
+Encoding: 1114206 -1 815
 Width: 602
 Flags: W
 HStem: -70.7387 37.4773<-10.7953 612.795> -17.8637 37.4773<252.868 396.714> 500.261 61.6049<361.44 546.867> 524.136 37.225<-7.79527 34.1631 34.1769 485.502> 574.396 37.4773<-10.7181 612.872>
@@ -29459,7 +29461,7 @@ Ligature2: "Sitelen Cartouche Latin" T sitelen_cart_ext
 EndChar
 
 StartChar: U.cart
-Encoding: 65799 -1 816
+Encoding: 1114207 -1 816
 Width: 631
 Flags: HW
 HStem: -70.7387 37.4773<-10.7953 613.795> -19.6137 37.4773<247.398 412.793 573.393 599.795> 524.136 37.477<39.1311 79.0608 79.1546 146.339> 574.396 37.4773<-10.7181 613.872>
@@ -29495,7 +29497,7 @@ Ligature2: "Sitelen Cartouche Latin" U sitelen_cart_ext
 EndChar
 
 StartChar: a.cart
-Encoding: 65800 -1 817
+Encoding: 1114208 -1 817
 Width: 350
 VWidth: 1070
 Flags: W
@@ -29533,7 +29535,7 @@ Ligature2: "Sitelen Cartouche Latin" a sitelen_cart_ext
 EndChar
 
 StartChar: e.cart
-Encoding: 65801 -1 818
+Encoding: 1114209 -1 818
 Width: 377
 VWidth: 1070
 Flags: HW
@@ -29570,7 +29572,7 @@ Ligature2: "Sitelen Cartouche Latin" e sitelen_cart_ext
 EndChar
 
 StartChar: i.cart
-Encoding: 65802 -1 819
+Encoding: 1114210 -1 819
 Width: 161
 VWidth: 1070
 Flags: HW
@@ -29608,7 +29610,7 @@ Ligature2: "Sitelen Cartouche Latin" i sitelen_cart_ext
 EndChar
 
 StartChar: j.cart
-Encoding: 65803 -1 820
+Encoding: 1114211 -1 820
 Width: 161
 VWidth: 1070
 Flags: HW
@@ -29667,7 +29669,7 @@ Ligature2: "Sitelen Cartouche Latin" j sitelen_cart_ext
 EndChar
 
 StartChar: k.cart
-Encoding: 65804 -1 821
+Encoding: 1114212 -1 821
 Width: 371
 VWidth: 1070
 Flags: W
@@ -29739,7 +29741,7 @@ Ligature2: "Sitelen Cartouche Latin" k sitelen_cart_ext
 EndChar
 
 StartChar: l.cart
-Encoding: 65805 -1 822
+Encoding: 1114213 -1 822
 Width: 146
 VWidth: 1070
 Flags: W
@@ -29798,7 +29800,7 @@ Ligature2: "Sitelen Cartouche Latin" l sitelen_cart_ext
 EndChar
 
 StartChar: m.cart
-Encoding: 65806 -1 823
+Encoding: 1114214 -1 823
 Width: 608
 VWidth: 1070
 Flags: HW
@@ -29835,7 +29837,7 @@ Ligature2: "Sitelen Cartouche Latin" m sitelen_cart_ext
 EndChar
 
 StartChar: n.cart
-Encoding: 65807 -1 824
+Encoding: 1114215 -1 824
 Width: 387
 VWidth: 1070
 Flags: W
@@ -29872,7 +29874,7 @@ Ligature2: "Sitelen Cartouche Latin" n sitelen_cart_ext
 EndChar
 
 StartChar: o.cart
-Encoding: 65808 -1 825
+Encoding: 1114216 -1 825
 Width: 424
 VWidth: 1070
 Flags: HW
@@ -29909,7 +29911,7 @@ Ligature2: "Sitelen Cartouche Latin" o sitelen_cart_ext
 EndChar
 
 StartChar: p.cart
-Encoding: 65809 -1 826
+Encoding: 1114217 -1 826
 Width: 411
 VWidth: 1070
 Flags: W
@@ -29979,7 +29981,7 @@ Ligature2: "Sitelen Cartouche Latin" p sitelen_cart_ext
 EndChar
 
 StartChar: s.cart
-Encoding: 65810 -1 827
+Encoding: 1114218 -1 827
 Width: 383
 VWidth: 1070
 Flags: HW
@@ -30016,7 +30018,7 @@ Ligature2: "Sitelen Cartouche Latin" s sitelen_cart_ext
 EndChar
 
 StartChar: t.cart
-Encoding: 65811 -1 828
+Encoding: 1114219 -1 828
 Width: 344
 VWidth: 1070
 Flags: W
@@ -30053,7 +30055,7 @@ Ligature2: "Sitelen Cartouche Latin" t sitelen_cart_ext
 EndChar
 
 StartChar: u.cart
-Encoding: 65812 -1 829
+Encoding: 1114220 -1 829
 Width: 381
 VWidth: 1070
 Flags: W
@@ -30090,7 +30092,7 @@ Ligature2: "Sitelen Cartouche Latin" u sitelen_cart_ext
 EndChar
 
 StartChar: W.cart
-Encoding: 65813 -1 830
+Encoding: 1114221 -1 830
 Width: 875
 Flags: HW
 HStem: -70.7387 37.4773<-10.7953 878.795> -19.6137 37.4773<202.877 326.936 560.529 691.93> 524.136 37.477<39.1311 79.0608 79.1546 145.49> 574.396 37.4773<-10.7181 878.872>
@@ -30126,7 +30128,7 @@ Ligature2: "Sitelen Cartouche Latin" W sitelen_cart_ext
 EndChar
 
 StartChar: w.cart
-Encoding: 65814 -1 831
+Encoding: 1114222 -1 831
 Width: 636
 VWidth: 1070
 Flags: W
@@ -30337,7 +30339,7 @@ EndSplineSet
 EndChar
 
 StartChar: ala.stack
-Encoding: 65815 -1 837
+Encoding: 1114223 -1 837
 Width: 636
 Flags: W
 HStem: -0.889046 56.1101<36.5523 81.2002> 262.629 56.1101<555.194 599.258>
@@ -30385,7 +30387,7 @@ EndSplineSet
 EndChar
 
 StartChar: akesi.stack
-Encoding: 65816 -1 838
+Encoding: 1114224 -1 838
 Width: 636
 Flags: W
 HStem: -17.2435 37.4773<262.27 349> 104.649 37.4941<254.955 387.831> 175.364 37.4799<246.847 379.932> 274.217 87.6785<161.837 195.852 447.147 481.163> 297.261 37.4773<287 373.273>
@@ -30482,7 +30484,7 @@ EndSplineSet
 EndChar
 
 StartChar: alasa.stack
-Encoding: 65817 -1 839
+Encoding: 1114225 -1 839
 Width: 636
 Flags: W
 HStem: -17.406 37.4889<147.554 260.896> 179.34 37.3988<63.2047 125.976>
@@ -30638,7 +30640,7 @@ EndSplineSet
 EndChar
 
 StartChar: dotCircle_ophConSnake
-Encoding: 65818 -1 841
+Encoding: 1114226 -1 841
 Width: 610
 LigCaretCntFixed: 1
 Flags: W
@@ -30653,7 +30655,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircle_ophConRevSnake
-Encoding: 65819 -1 842
+Encoding: 1114227 -1 842
 Width: 617
 LigCaretCntFixed: 1
 Flags: W
@@ -30668,7 +30670,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircle_ophConLzySnake
-Encoding: 65820 -1 843
+Encoding: 1114228 -1 843
 Width: 700
 LigCaretCntFixed: 1
 Flags: W
@@ -30683,7 +30685,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircle_ophConRevLzySnake
-Encoding: 65821 -1 844
+Encoding: 1114229 -1 844
 Width: 696
 LigCaretCntFixed: 1
 Flags: W
@@ -30698,7 +30700,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircle_ophConTltSnake
-Encoding: 65822 -1 845
+Encoding: 1114230 -1 845
 Width: 777
 LigCaretCntFixed: 1
 Flags: W
@@ -30713,7 +30715,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircle_ophConRevTltSnake
-Encoding: 65823 -1 846
+Encoding: 1114231 -1 846
 Width: 783
 LigCaretCntFixed: 1
 Flags: W
@@ -30728,7 +30730,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircle_ophConLzyTltSnake
-Encoding: 65824 -1 847
+Encoding: 1114232 -1 847
 Width: 694
 LigCaretCntFixed: 1
 Flags: W
@@ -30743,7 +30745,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircle_ophConRevLzyTltSnake
-Encoding: 65825 -1 848
+Encoding: 1114233 -1 848
 Width: 692
 LigCaretCntFixed: 1
 Flags: W
@@ -30758,7 +30760,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircle_ophConHook
-Encoding: 65826 -1 849
+Encoding: 1114234 -1 849
 Width: 667
 LigCaretCntFixed: 1
 Flags: W
@@ -30773,7 +30775,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircle_ophConRevHook
-Encoding: 65827 -1 850
+Encoding: 1114235 -1 850
 Width: 653
 LigCaretCntFixed: 1
 Flags: W
@@ -30788,7 +30790,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircle_ophConLzyHook
-Encoding: 65828 -1 851
+Encoding: 1114236 -1 851
 Width: 694
 LigCaretCntFixed: 1
 Flags: W
@@ -30803,7 +30805,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircle_ophConRevLzyHook
-Encoding: 65829 -1 852
+Encoding: 1114237 -1 852
 Width: 700
 LigCaretCntFixed: 1
 Flags: W
@@ -30818,7 +30820,7 @@ Comment: "."
 EndChar
 
 StartChar: dotCircleV
-Encoding: 65830 -1 853
+Encoding: 1114238 -1 853
 Width: 392
 Flags: W
 HStem: -8.89941 33.1597<213.275 234.021> 34.7811 26.2865<247.615 278.995> 62.1205 32.2123<84.6252 118.905> 93.8976 37.316<275.851 311.837> 132.386 41.6337<58.4082 95.5262> 173.748 45.3099<293.68 331.477> 220.152 48.0478<46.3129 84.35> 268.2 46.8755<297.602 335.74> 317.342 45.3098<50.5228 88.3195> 361.426 41.8433<286.653 323.788> 405.187 37.316<70.1631 106.149> 441.521 32.3883<263.293 297.601> 475.332 26.286<103.005 134.385> 512.14 33.1597<147.979 168.725>
@@ -30920,7 +30922,7 @@ EndSplineSet
 EndChar
 
 StartChar: dotCircleH
-Encoding: 65831 -1 854
+Encoding: 1114239 -1 854
 Width: 699
 Flags: W
 HStem: 131.979 37.9619<257.511 302.679 351.8 398.156> 139.623 37.3857<445.18 486.797> 151.528 36.3213<177.757 214.747> 165.724 34.7119<525.37 557.329> 229.205 21.2266<74.9765 106.879> 249.816 22.4932<602.681 639.233> 272.774 22.4248<64.4907 101.05> 294.652 21.2266<596.856 628.758> 344.451 34.6826<146.036 177.818> 357.235 36.3213<488.987 525.978> 367.896 37.3701<216.194 257.6> 379.063 38.2461<303.872 351.83 401.286 445.859>
@@ -31064,7 +31066,7 @@ Refer: 3 44 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ophConSnake_dotCircle
-Encoding: 65832 -1 858
+Encoding: 1114240 -1 858
 Width: 610
 LigCaretCntFixed: 1
 Flags: W
@@ -31078,7 +31080,7 @@ Ligature2: "Ophidian dotted circle" ophConSnake dotCircle
 EndChar
 
 StartChar: ophConRevSnake_dotCircle
-Encoding: 65833 -1 859
+Encoding: 1114241 -1 859
 Width: 617
 LigCaretCntFixed: 1
 Flags: W
@@ -31092,7 +31094,7 @@ Ligature2: "Ophidian dotted circle" ophConRevSnake dotCircle
 EndChar
 
 StartChar: ophConLzySnake_dotCircle
-Encoding: 65834 -1 860
+Encoding: 1114242 -1 860
 Width: 700
 LigCaretCntFixed: 1
 Flags: W
@@ -31106,7 +31108,7 @@ Ligature2: "Ophidian dotted circle" ophConLzySnake dotCircle
 EndChar
 
 StartChar: ophConRevLzySnake_dotCircle
-Encoding: 65835 -1 861
+Encoding: 1114243 -1 861
 Width: 696
 LigCaretCntFixed: 1
 Flags: W
@@ -31120,7 +31122,7 @@ Ligature2: "Ophidian dotted circle" ophConRevLzySnake dotCircle
 EndChar
 
 StartChar: ophConTltSnake_dotCircle
-Encoding: 65836 -1 862
+Encoding: 1114244 -1 862
 Width: 777
 LigCaretCntFixed: 1
 Flags: W
@@ -31134,7 +31136,7 @@ Ligature2: "Ophidian dotted circle" ophConTltSnake dotCircle
 EndChar
 
 StartChar: ophConRevTltSnake_dotCircle
-Encoding: 65837 -1 863
+Encoding: 1114245 -1 863
 Width: 783
 LigCaretCntFixed: 1
 Flags: W
@@ -31148,7 +31150,7 @@ Ligature2: "Ophidian dotted circle" ophConRevTltSnake dotCircle
 EndChar
 
 StartChar: ophConLzyTltSnake_dotCircle
-Encoding: 65838 -1 864
+Encoding: 1114246 -1 864
 Width: 694
 LigCaretCntFixed: 1
 Flags: W
@@ -31162,7 +31164,7 @@ Ligature2: "Ophidian dotted circle" ophConLzyTltSnake dotCircle
 EndChar
 
 StartChar: ophConRevLzyTltSnake_dotCircle
-Encoding: 65839 -1 865
+Encoding: 1114247 -1 865
 Width: 692
 LigCaretCntFixed: 1
 Flags: W
@@ -31176,7 +31178,7 @@ Ligature2: "Ophidian dotted circle" ophConRevLzyTltSnake dotCircle
 EndChar
 
 StartChar: ophConHook_dotCircle
-Encoding: 65840 -1 866
+Encoding: 1114248 -1 866
 Width: 667
 LigCaretCntFixed: 1
 Flags: W
@@ -31190,7 +31192,7 @@ Ligature2: "Ophidian dotted circle" ophConHook dotCircle
 EndChar
 
 StartChar: ophConRevHook_dotCircle
-Encoding: 65841 -1 867
+Encoding: 1114249 -1 867
 Width: 653
 LigCaretCntFixed: 1
 Flags: W
@@ -31204,7 +31206,7 @@ Ligature2: "Ophidian dotted circle" ophConRevHook dotCircle
 EndChar
 
 StartChar: ophConLzyHook_dotCircle
-Encoding: 65842 -1 868
+Encoding: 1114250 -1 868
 Width: 694
 LigCaretCntFixed: 1
 Flags: W
@@ -31218,7 +31220,7 @@ Ligature2: "Ophidian dotted circle" ophConLzyHook dotCircle
 EndChar
 
 StartChar: ophConRevLzyHook_dotCircle
-Encoding: 65843 -1 869
+Encoding: 1114251 -1 869
 Width: 700
 LigCaretCntFixed: 1
 Flags: W
@@ -31694,7 +31696,7 @@ Ligature2: "'hlig' Historic Ligatures lookup 0-1" s t
 EndChar
 
 StartChar: f_b
-Encoding: 65844 -1 877
+Encoding: 1114252 -1 877
 Width: 585
 Flags: H
 HStem: -180.738 21G<7.30518 13.3315> -18.7383 37.4766<319.03 435.378> 277.262 36.4414<13.0612 47.4953> 280.768 37.4316<111.334 203.036 399.891 504.931> 524.137 37.4766<116.582 191.11>
@@ -31763,7 +31765,7 @@ Decomposition: "fb"
 EndChar
 
 StartChar: f_h
-Encoding: 65845 -1 878
+Encoding: 1114253 -1 878
 Width: 597
 Flags: H
 HStem: -180.738 183G<7.30518 13.3315 255.812 263.136 394.305 397.376> 277.262 36.4414<13.0612 47.4953> 280.706 37.4766<111.334 153.128 388.939 484.409> 524.137 37.4766<116.582 191.11>
@@ -31837,7 +31839,7 @@ Decomposition: "fh"
 EndChar
 
 StartChar: f_j
-Encoding: 65846 -1 879
+Encoding: 1114254 -1 879
 Width: 374
 Flags: HW
 HStem: -182.738 21G<7.30518 13.3315 165.148 167.817> 276.112 37.4434<111.314 264.004> 524.137 37.4766<116.582 189.781>
@@ -31901,7 +31903,7 @@ Decomposition: "fj"
 EndChar
 
 StartChar: f_k
-Encoding: 65847 -1 880
+Encoding: 1114255 -1 880
 Width: 579
 Flags: HW
 HStem: -180.738 21G<7.30518 13.3315> -18.7383 37.4766<455.311 548.795> 277.262 36.4414<13.0612 47.4953> 284.262 37.4766<111.334 208.978 433.037 519.748> 524.137 37.4766<116.582 191.11>
@@ -31980,7 +31982,7 @@ Decomposition: "fk"
 EndChar
 
 StartChar: f_t
-Encoding: 65848 -1 881
+Encoding: 1114256 -1 881
 Width: 558
 Flags: H
 HStem: -180.738 21G<9.30518 15.3315> -18.7383 37.4766<339.051 441.466> 285.913 30.4385<369.889 501.831> 285.957 37.5273<113.338 296.606 447.361 548.728> 524.137 37.4766<118.582 190.953>
@@ -32058,7 +32060,7 @@ Decomposition: "ft"
 EndChar
 
 StartChar: f_thorn
-Encoding: 65849 -1 882
+Encoding: 1114257 -1 882
 Width: 584
 Flags: H
 HStem: -180.738 21G<7.30518 13.3315> 277.262 36.4414<13.0612 47.4953> 281.262 37.4766<111.334 203.625 407.915 493.287> 524.137 37.4766<116.582 191.11>
@@ -32133,7 +32135,7 @@ Decomposition: "f+AP4A"
 EndChar
 
 StartChar: f_f_b
-Encoding: 65850 -1 883
+Encoding: 1114258 -1 883
 Width: 800
 Flags: H
 HStem: -180.738 21G<7.30518 13.3315 222.305 228.332> -18.7383 37.4766<553.736 650.378> 280.768 37.4316<19.6169 48.6699 111.325 186.605 616.073 719.931> 290.324 35.2002<232.422 264.33 326.997 433.682> 524.137 37.4766<116.582 199.816> 575.262 37.4766<332.353 406.687>
@@ -32224,7 +32226,7 @@ Decomposition: "ffb"
 EndChar
 
 StartChar: f_f_h
-Encoding: 65851 -1 884
+Encoding: 1114259 -1 884
 Width: 804
 Flags: HW
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331 462.305 469.158 600.305 603.376> 280.706 37.4773<19.6171 48.6698 111.326 187.271 595.02 686.886> 290.325 35.2001<232.425 264.33 326.997 433.682> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
@@ -32320,7 +32322,7 @@ Decomposition: "ffh"
 EndChar
 
 StartChar: f_f_j
-Encoding: 65852 -1 885
+Encoding: 1114260 -1 885
 Width: 590
 Flags: H
 HStem: -180.738 19.5557G<7.30518 13.3315 222.305 228.332 381.305 383.975> 281.432 37.4814<111.315 264.25 326.92 480.161> 524.137 37.4766<116.582 199.816> 575.262 37.4766<332.353 400.15>
@@ -32408,7 +32410,7 @@ Decomposition: "ffj"
 EndChar
 
 StartChar: f_f_k
-Encoding: 65853 -1 886
+Encoding: 1114261 -1 886
 Width: 781
 Flags: HW
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<664.993 758.795> 277.261 36.4419<13.0615 48.6698 111.326 212.311> 293.268 37.4711<326.997 441.13> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
@@ -32509,7 +32511,7 @@ Decomposition: "ffk"
 EndChar
 
 StartChar: f_f_t
-Encoding: 65854 -1 887
+Encoding: 1114262 -1 887
 Width: 774
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<553.051 655.466> 277.261 36.4419<111.33 261.786 588.501 732.66> 292.261 35.6527<113.296 264.348 327.014 521.334> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 402.492>
@@ -32609,7 +32611,7 @@ Decomposition: "fft"
 EndChar
 
 StartChar: f_f_thorn
-Encoding: 65855 -1 888
+Encoding: 1114263 -1 888
 Width: 794
 Flags: HW
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> 281.261 37.4773<20.7439 48.6698 111.326 180.783 618.661 703.287> 290.325 35.2001<232.425 264.33 326.997 433.682> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
@@ -32707,7 +32709,7 @@ Decomposition: "ff+AP4A"
 EndChar
 
 StartChar: l_l
-Encoding: 65856 -1 889
+Encoding: 1114264 -1 889
 Width: 292
 Flags: H
 HStem: -18.7387 21G<32.3051 39.1577 196.351 208.39>
@@ -32770,7 +32772,7 @@ Decomposition: "ll"
 EndChar
 
 StartChar: l_l_l
-Encoding: 65857 -1 890
+Encoding: 1114265 -1 890
 Width: 438
 Flags: H
 HStem: -18.7387 21G<32.3051 39.1577 179.305 186.158 342.351 354.39>
@@ -32830,7 +32832,7 @@ Decomposition: "lll"
 EndChar
 
 StartChar: longs_b
-Encoding: 65858 -1 891
+Encoding: 1114266 -1 891
 Width: 586
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314> -18.7387 37.4773<319.03 435.378> 280.768 37.4314<399.891 504.931> 524.136 37.4773<116.582 191.11>
@@ -32896,7 +32898,7 @@ Decomposition: "+AX8A-b"
 EndChar
 
 StartChar: longs_h
-Encoding: 65859 -1 892
+Encoding: 1114267 -1 892
 Width: 598
 Flags: H
 HStem: -180.739 183G<7.30506 13.3314 255.812 263.136 394.305 397.376> 280.706 37.4773<388.939 480.886> 524.136 37.4773<116.582 191.11>
@@ -32967,7 +32969,7 @@ Decomposition: "+AX8A-h"
 EndChar
 
 StartChar: longs_i
-Encoding: 65860 -1 893
+Encoding: 1114268 -1 893
 Width: 376
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314> -22.4639 42.9277<277.665 343.246> 524.136 37.4773<116.582 189.781>
@@ -33017,7 +33019,7 @@ Decomposition: "+AX8A-i"
 EndChar
 
 StartChar: longs_j
-Encoding: 65861 -1 894
+Encoding: 1114269 -1 894
 Width: 376
 Flags: H
 HStem: -182.739 21G<167.305 169.974> -180.739 21G<7.30506 13.3314> 524.136 37.4773<116.582 189.781>
@@ -33067,7 +33069,7 @@ Decomposition: "+AX8A-j"
 EndChar
 
 StartChar: longs_k
-Encoding: 65862 -1 895
+Encoding: 1114270 -1 895
 Width: 586
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314> -18.7387 37.4773<455.311 548.795> 284.261 37.4773<433.037 541.921> 524.136 37.4773<116.582 191.11>
@@ -33143,7 +33145,7 @@ Decomposition: "+AX8A-k"
 EndChar
 
 StartChar: longs_l
-Encoding: 65863 -1 896
+Encoding: 1114271 -1 896
 Width: 361
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314 265.351 277.39> 524.136 37.4773<116.582 191.11>
@@ -33205,7 +33207,7 @@ Decomposition: "+AX8A-l"
 EndChar
 
 StartChar: longs_thorn
-Encoding: 65864 -1 897
+Encoding: 1114272 -1 897
 Width: 585
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314> 281.261 37.4773<409.112 493.287> 524.136 37.4773<116.582 193.754>
@@ -33277,7 +33279,7 @@ Decomposition: "+AX8A/gAA"
 EndChar
 
 StartChar: longs_longs
-Encoding: 65865 -1 898
+Encoding: 1114273 -1 898
 Width: 430
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
@@ -33350,7 +33352,7 @@ Decomposition: "+AX8BfwAA"
 EndChar
 
 StartChar: longs_longs_b
-Encoding: 65866 -1 899
+Encoding: 1114274 -1 899
 Width: 801
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<553.736 650.378> 280.768 37.4314<616.074 719.931> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
@@ -33441,7 +33443,7 @@ Decomposition: "+AX8BfwAA-b"
 EndChar
 
 StartChar: longs_longs_h
-Encoding: 65867 -1 900
+Encoding: 1114275 -1 900
 Width: 813
 Flags: H
 HStem: -180.739 183G<7.30506 13.3314 222.305 228.331 462.305 469.158 600.305 603.376> 280.706 37.4773<595.02 686.886> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
@@ -33537,7 +33539,7 @@ Decomposition: "+AX8BfwAA-h"
 EndChar
 
 StartChar: longs_longs_i
-Encoding: 65868 -1 901
+Encoding: 1114276 -1 901
 Width: 591
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -22.4639 42.9277<492.665 558.246> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 400.149>
@@ -33612,7 +33614,7 @@ Decomposition: "+AX8BfwAA-i"
 EndChar
 
 StartChar: longs_longs_j
-Encoding: 65869 -1 902
+Encoding: 1114277 -1 902
 Width: 591
 Flags: H
 HStem: -182.739 21G<382.305 384.974> -180.739 21G<7.30506 13.3314 222.305 228.331> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 400.149>
@@ -33687,7 +33689,7 @@ Decomposition: "+AX8BfwAA-j"
 EndChar
 
 StartChar: longs_longs_k
-Encoding: 65870 -1 903
+Encoding: 1114278 -1 903
 Width: 801
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<664.993 758.795> 284.261 37.4773<643.844 751.921> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
@@ -33788,7 +33790,7 @@ Decomposition: "+AX8BfwAA-k"
 EndChar
 
 StartChar: longs_longs_l
-Encoding: 65871 -1 904
+Encoding: 1114279 -1 904
 Width: 576
 Flags: H
 HStem: -180.739 183G<7.30506 13.3314 222.305 228.331 480.351 492.39> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
@@ -33876,7 +33878,7 @@ Decomposition: "+AX8BfwAA-l"
 EndChar
 
 StartChar: longs_longs_t
-Encoding: 65872 -1 905
+Encoding: 1114280 -1 905
 Width: 774
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<553.051 655.466> 276.33 37.5591<373.271 524.414 661.361 716.631> 281.261 42.1287<661.361 759.363> 285.913 29.7812<381.43 446.306 587.429 715.831> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 402.492>
@@ -33982,7 +33984,7 @@ Decomposition: "+AX8BfwAA-t"
 EndChar
 
 StartChar: longs_longs_thorn
-Encoding: 65873 -1 906
+Encoding: 1114281 -1 906
 Width: 800
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> 281.261 37.4773<618.661 703.287> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
@@ -34080,7 +34082,7 @@ Decomposition: "+AX8BfwD+"
 EndChar
 
 StartChar: f_longs
-Encoding: 65874 -1 907
+Encoding: 1114282 -1 907
 Width: 433
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> 277.261 36.4419<13.0615 47.4953> 286.943 32.6414<111.334 210.406> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 406.687>
@@ -34156,7 +34158,7 @@ Decomposition: "f+AX8A"
 EndChar
 
 StartChar: f_longs_t
-Encoding: 65875 -1 908
+Encoding: 1114283 -1 908
 Width: 777
 Flags: H
 HStem: -180.739 21G<7.30506 13.3314 222.305 228.331> -18.7387 37.4773<553.051 655.466> 276.33 37.5591<13.0615 47.4953 373.271 524.414 661.361 716.631> 281.261 42.1287<661.361 759.363> 281.345 37.3939<111.334 203.626 380.205 446.306 587.429 715.831> 524.136 37.4773<116.582 199.816> 575.261 37.4773<332.353 402.492>
@@ -34365,7 +34367,7 @@ Refer: 238 45 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: g_t
-Encoding: 65876 -1 913
+Encoding: 1114284 -1 913
 Width: 795
 Flags: HW
 HStem: -334.739 37.4773<110.868 213.766> -129.261 20G<149.624 152.76> -19.7387 37.4773<124.702 232.146 541.026 632.502> 280.322 38.4171<-26.1723 148.993 169.863 279.234 371.837 575.05 586.605 734.053 734.095 773.714>
@@ -34498,7 +34500,7 @@ Decomposition: "gt"
 EndChar
 
 StartChar: t_g
-Encoding: 65877 -1 914
+Encoding: 1114285 -1 914
 Width: 768
 Flags: HW
 HStem: -334.739 37.4773<454.868 557.766> -129.261 20G<493.624 496.76> -18.7387 37.4773<117.026 210.977 468.702 577.495> 281.282 37.457<-25.494 144.401 162.605 497.143 520.16 589.124 589.126 643.462 714.952 734.09 734.095 774.4>
@@ -34633,7 +34635,7 @@ Decomposition: "tg"
 EndChar
 
 StartChar: t_t
-Encoding: 65878 -1 915
+Encoding: 1114286 -1 915
 Width: 720
 Flags: HW
 HStem: -18.7387 37.4773<117.026 210.977 461.026 554.977> 286.261 35.4719<35.9943 89.1076 162.556 491.176 506.605 644.5>
@@ -34795,7 +34797,7 @@ Ligature2: "'liga' Standard Ligatures lookup 22-1" questionmark questionmark
 EndChar
 
 StartChar: x.noswash
-Encoding: 65879 -1 917
+Encoding: 1114287 -1 917
 Width: 536
 Flags: W
 HStem: -78.5619 57.9314<4.26072 98.2141> -18.7387 37.4773<404.62 474.196> 281.271 37.4808<388.524 471.103>
@@ -34872,7 +34874,7 @@ EndSplineSet
 EndChar
 
 StartChar: Q.noswash
-Encoding: 65880 -1 918
+Encoding: 1114288 -1 918
 Width: 646
 Flags: W
 HStem: -113.259 37.4968<495.319 592.389> -18.7329 37.4716<255.156 379.318> 521.261 37.4773<248.897 389.218>
@@ -34939,7 +34941,7 @@ Substitution2: "Dotted Consonants-1" Q.midDot.noswash
 EndChar
 
 StartChar: Q.midDot.noswash
-Encoding: 65881 -1 919
+Encoding: 1114289 -1 919
 Width: 646
 Flags: W
 HStem: -113.259 37.4968<495.319 592.389> -18.7329 37.4716<255.156 379.318> 237.261 68.4773<282.806 364.194> 521.261 37.4773<248.897 389.218>
@@ -34951,7 +34953,7 @@ Refer: 918 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: f_g
-Encoding: 65882 -1 920
+Encoding: 1114290 -1 920
 Width: 578
 GlyphClass: 3
 Flags: HW
@@ -35085,7 +35087,7 @@ Decomposition: "fg"
 EndChar
 
 StartChar: g_f
-Encoding: 65883 -1 921
+Encoding: 1114291 -1 921
 Width: 638
 GlyphClass: 3
 HStem: -334.739 37.4773<110.868 213.766> -180.739 21G<431.24 434.376> -129.261 20G<149.624 152.76> -19.7387 37.4773<124.702 232.146> 281.114 38.0765<84.139 140.343 169.863 194.743 195.983 302.763 371.767 472.682 535.337 624.435> 524.136 37.4773<540.358 615.11>
@@ -35223,7 +35225,7 @@ Decomposition: "gf"
 EndChar
 
 StartChar: g_g
-Encoding: 65884 -1 922
+Encoding: 1114292 -1 922
 Width: 830
 GlyphClass: 3
 Flags: HW
@@ -35668,7 +35670,7 @@ LCarets2: 1 334
 EndChar
 
 StartChar: caroncomb.side
-Encoding: 65885 -1 927
+Encoding: 1114293 -1 927
 Width: 161
 GlyphClass: 4
 Flags: W
@@ -35681,7 +35683,7 @@ Refer: 597 8217 S 1 0 0 1 33 62 2
 EndChar
 
 StartChar: K_S
-Encoding: 65886 -1 928
+Encoding: 1114294 -1 928
 Width: 802
 Flags: HW
 LayerCount: 2
@@ -35756,8 +35758,1425 @@ SplineSet
  602.080863019 28.7386550945 677.820836178 53.1165838099 684.67150185 59.7179565009 c 0
  690.855669504 64.6717204417 713.677166036 85.3409472785 713.677166036 120.5863179 c 0
 EndSplineSet
-Ligature2: "Personal" K uni2005 S
+Ligature2: "Personal" K ZWJ S
 Decomposition: "KS"
+EndChar
+
+StartChar: sosV
+Encoding: 988896 988896 929
+Width: 502
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 405 57523 N 1 0 0 1 0 0 2
+Decomposition: "+4LMA"
+EndChar
+
+StartChar: sosJ
+Encoding: 988897 988897 930
+Width: 602
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 81 5875 S 1 0 0 1 0 0 2
+Decomposition: "+FvMA"
+EndChar
+
+StartChar: uF16E2
+Encoding: 988898 988898 931
+Width: 262
+Flags: H
+LayerCount: 2
+Fore
+Refer: 76 5867 N 1 0 0 1 0 0 3
+Decomposition: "+FusA"
+EndChar
+
+StartChar: uF16E3
+Encoding: 988899 988899 932
+Width: 524
+Flags: H
+LayerCount: 2
+Fore
+Refer: 76 5867 N 1 0 0 1 262 0 2
+Refer: 76 5867 N 1 0 0 1 0 0 2
+Decomposition: "+FusW6wAA"
+EndChar
+
+StartChar: uF16EE
+Encoding: 988910 988910 933
+Width: 603
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+-2906.64453125 479.2421875 m 0
+ -2866.54101562 479.760742188 -2832.96582031 475.360351562 -2811.38574219 456.872070312 c 1
+ -2789.80566406 475.360351562 -2756.23046875 479.760742188 -2716.12597656 479.2421875 c 0
+ -2673.64355469 478.694335938 -2623.15039062 472.53125 -2569.58886719 469.880859375 c 0
+ -2568.15234375 469.731445312 -2566.89550781 469.034179688 -2566.0859375 468.01953125 c 0
+ -2565.953125 467.9765625 -2565.82226562 467.927734375 -2565.69433594 467.875976562 c 2
+ -2562.09570312 463.041992188 l 1
+ -2562.09570312 463.041992188 -2545.49511719 464.768554688 -2545.48339844 464.7734375 c 0
+ -2545.07714844 464.815429688 -2544.67675781 464.83203125 -2544.25878906 464.83203125 c 0
+ -2539.20800781 464.83203125 -2534.96484375 461.661132812 -2533.79882812 457.388671875 c 2
+ -2533.79882812 457.388671875 -2436.81738281 101.328125 -2436.80664062 101.323242188 c 0
+ -2436.59960938 100.565429688 -2436.50097656 99.77734375 -2436.50097656 98.9609375 c 0
+ -2436.50097656 93.9775390625 -2440.58984375 89.857421875 -2445.87695312 89.2314453125 c 2
+ -2445.87695312 89.2314453125 -2780.60058594 49.6201171875 -2780.61132812 49.6201171875 c 0
+ -2781.0703125 49.56640625 -2781.52539062 49.5380859375 -2781.99902344 49.5380859375 c 2
+ -2811.38574219 49.5380859375 l 1
+ -2811.38574219 49.5380859375 -2840.76171875 49.5380859375 -2840.77246094 49.5380859375 c 0
+ -2841.24609375 49.5380859375 -2841.70214844 49.56640625 -2842.16015625 49.6201171875 c 2
+ -2842.16015625 49.6201171875 -3176.90527344 89.2265625 -3176.89453125 89.2314453125 c 1
+ -3182.18261719 89.8564453125 -3186.28222656 93.9736328125 -3186.28222656 98.9580078125 c 0
+ -3186.28222656 99.7734375 -3186.17285156 100.565429688 -3185.96679688 101.323242188 c 2
+ -3185.96679688 101.323242188 -3088.98632812 457.393554688 -3088.97363281 457.388671875 c 1
+ -3087.80957031 461.661132812 -3083.57714844 464.837890625 -3078.52636719 464.837890625 c 0
+ -3078.10742188 464.837890625 -3077.6953125 464.815429688 -3077.29003906 464.7734375 c 2
+ -3060.67675781 463.041992188 l 1
+ -3060.67675781 463.041992188 -3057.08203125 467.874023438 -3057.07910156 467.875976562 c 0
+ -3056.89550781 468.032226562 -3056.703125 468.173828125 -3056.49609375 468.303710938 c 0
+ -3056.19335938 468.591796875 -3055.85742188 468.83984375 -3055.48144531 469.047851562 c 0
+ -3054.99804688 469.319335938 -3054.45019531 469.51953125 -3053.87695312 469.62890625 c 0
+ -3053.65527344 469.727539062 -3053.41992188 469.8125 -3053.18261719 469.880859375 c 0
+ -2999.62207031 472.53125 -2949.12792969 478.694335938 -2906.64453125 479.2421875 c 0
+-2906.50195312 470.075195312 m 0
+ -2947.02148438 469.552734375 -2996.21777344 463.737304688 -3048.80859375 460.96875 c 1
+ -3126.00488281 143.780273438 l 1
+ -3041.58007812 143.3828125 -2978.87402344 145.600585938 -2929.3828125 142.333007812 c 0
+ -2882.625 139.24609375 -2847.1171875 130.806640625 -2816.18945312 110.532226562 c 1
+ -2816.18945312 448.186523438 l 1
+ -2834.43847656 465.543945312 -2865.73535156 470.6015625 -2906.50195312 470.075195312 c 0
+-2716.26953125 470.075195312 m 0
+ -2757.03515625 470.6015625 -2788.33300781 465.544921875 -2806.58203125 448.188476562 c 1
+ -2806.58203125 110.532226562 l 1
+ -2775.65429688 130.806640625 -2740.14648438 139.24609375 -2693.38867188 142.333007812 c 0
+ -2643.89746094 145.600585938 -2581.19042969 143.3828125 -2496.76660156 143.780273438 c 1
+ -2573.96386719 460.96875 l 1
+ -2626.55566406 463.737304688 -2675.75 469.552734375 -2716.26953125 470.075195312 c 0
+-3060.57519531 455.004882812 m 1
+ -3071.47363281 440.359375 l 1
+ -3150.84277344 114.250976562 l 1
+ -2811.38574219 73.6181640625 l 1
+ -2471.92773438 114.250976562 l 1
+ -2551.296875 440.359375 l 1
+ -2562.19628906 455.004882812 l 1
+ -2562.19628906 455.004882812 -2485.578125 140.1953125 -2485.578125 140.188476562 c 0
+ -2485.51269531 139.89453125 -2485.47851562 139.59765625 -2485.47851562 139.287109375 c 0
+ -2485.47851562 138.962890625 -2485.515625 138.646484375 -2485.5859375 138.341796875 c 0
+ -2485.63964844 138.153320312 -2485.70703125 137.966796875 -2485.78515625 137.790039062 c 0
+ -2485.9296875 137.37890625 -2486.13867188 136.98828125 -2486.39746094 136.635742188 c 0
+ -2486.53320312 136.45703125 -2486.67871094 136.290039062 -2486.83984375 136.130859375 c 0
+ -2487.1640625 135.818359375 -2487.53027344 135.55078125 -2487.93847656 135.331054688 c 0
+ -2488.11230469 135.220703125 -2488.29394531 135.12109375 -2488.48339844 135.03125 c 0
+ -2489.08496094 134.778320312 -2489.75683594 134.62890625 -2490.45800781 134.611328125 c 0
+ -2578.49902344 134.0546875 -2642.85644531 136.477539062 -2692.66113281 133.189453125 c 0
+ -2736.24023438 130.3125 -2768.40429688 123.208984375 -2796.42773438 106.143554688 c 0
+ -2800.43066406 103.705078125 -2804.34960938 101.063476562 -2808.20507812 98.2021484375 c 0
+ -2809.07226562 97.55859375 -2810.18164062 97.1708984375 -2811.38574219 97.169921875 c 0
+ -2812.58984375 97.1708984375 -2813.69921875 97.55859375 -2814.56542969 98.2021484375 c 0
+ -2845.41210938 121.092773438 -2880.30566406 129.901367188 -2930.11035156 133.189453125 c 0
+ -2979.9140625 136.477539062 -3044.2734375 134.0546875 -3132.31445312 134.611328125 c 0
+ -3135.07714844 134.62890625 -3137.31445312 136.672851562 -3137.31445312 139.193359375 c 0
+ -3137.31445312 139.53515625 -3137.2734375 139.868164062 -3137.1953125 140.188476562 c 2
+ -3060.57519531 455.004882812 l 1
+-2892.1328125 450.860351562 m 0
+ -2891.61621094 450.752929688 -2891.22851562 450.377929688 -2891.00683594 449.689453125 c 0
+ -2889.20507812 445.9140625 -2887.296875 442.411132812 -2885.32714844 439.065429688 c 0
+ -2882.0703125 433.546875 -2878.58300781 428.36328125 -2875.23828125 423.247070312 c 0
+ -2874.00488281 421.424804688 -2872.76757812 419.614257812 -2871.53320312 417.833007812 c 0
+ -2866.43945312 410.41796875 -2861.17871094 403.11328125 -2856.25683594 396.831054688 c 0
+ -2848.76855469 387.305664062 -2841.12792969 379.180664062 -2834.33105469 371.716796875 c 0
+ -2830.49023438 367.708007812 -2826.19042969 368.5390625 -2827.00390625 364.334960938 c 0
+ -2828.88769531 360.962890625 -2832.95996094 355.192382812 -2837.56542969 349.354492188 c 0
+ -2842.38085938 343.249023438 -2847.07617188 337.932617188 -2851.40429688 333.35546875 c 0
+ -2858.05664062 326.25 -2864.83691406 318.647460938 -2872.03222656 312.250976562 c 0
+ -2872.46191406 311.857421875 -2872.8984375 311.459960938 -2873.34179688 311.05859375 c 0
+ -2878.07910156 306.763671875 -2883.13378906 302.426757812 -2888.66308594 297.973632812 c 0
+ -2889.40527344 297.368164062 -2890.14550781 296.767578125 -2890.88476562 296.174804688 c 0
+ -2890.59570312 294.64453125 -2891.8828125 292.756835938 -2894.03027344 290.845703125 c 0
+ -2892.47167969 287.9765625 -2890.89257812 285.13671875 -2889.29101562 282.326171875 c 0
+ -2885.86132812 276.3515625 -2882.34765625 270.482421875 -2878.75585938 264.779296875 c 0
+ -2877.38378906 262.602539062 -2875.99707031 260.427734375 -2874.59863281 258.260742188 c 0
+ -2867.94824219 247.850585938 -2860.95800781 237.546875 -2853.79980469 227.727539062 c 0
+ -2845.15527344 216.092773438 -2835.92285156 205.389648438 -2826.12695312 196.036132812 c 0
+ -2825.49902344 194.588867188 -2826.63671875 191.5 -2828.734375 188.045898438 c 0
+ -2830.86035156 184.544921875 -2833.82421875 180.900390625 -2837.06835938 177.923828125 c 0
+ -2843.46777344 172.051757812 -2850.79492188 169.282226562 -2852.00488281 172.35546875 c 0
+ -2856.02246094 181.670898438 -2861.11523438 190.0390625 -2866.66894531 199.563476562 c 0
+ -2870.57226562 205.961914062 -2872.72070312 209.36328125 -2875.14941406 213.068359375 c 0
+ -2877.15039062 216.088867188 -2879.32519531 219.286132812 -2882.78125 224.443359375 c 0
+ -2885.42675781 228.458984375 -2888.14453125 232.373046875 -2890.92578125 236.168945312 c 0
+ -2896.38085938 243.666992188 -2902.0546875 250.767578125 -2907.91210938 257.451171875 c 1
+ -2909.54980469 234.443359375 -2909.82714844 213.744140625 -2908.78320312 194.1015625 c 0
+ -2908.50292969 188.881835938 -2907.984375 181.0703125 -2906.75976562 174.577148438 c 0
+ -2905.82128906 172.022460938 -2914.15820312 168.826171875 -2923.34960938 166.754882812 c 0
+ -2932.54199219 164.684570312 -2942.44628906 163.349609375 -2943.28222656 165.46484375 c 0
+ -2935.50976562 185.802734375 -2933.52050781 213.95703125 -2929.72460938 246.975585938 c 0
+ -2928.64941406 259.815429688 -2927.41894531 275.3046875 -2926.37988281 290.842773438 c 0
+ -2924.76953125 315.021484375 -2923.15039062 343.610351562 -2922.02636719 370.588867188 c 0
+ -2921.48046875 385.77734375 -2920.69238281 403.45703125 -2921.45507812 420.969726562 c 0
+ -2922.0390625 423.834960938 -2918.14257812 429.451171875 -2913.40917969 434.608398438 c 0
+ -2908.65429688 439.7890625 -2903.10253906 444.46484375 -2899.5546875 445.775390625 c 0
+ -2896.42480469 449.083984375 -2893.69238281 451.18359375 -2892.1328125 450.860351562 c 0
+-2980.14746094 450.771484375 m 2
+ -2980.14746094 450.771484375 l 2
+ -2978.12304688 451.094726562 -2979.11132812 448.587890625 -2979.86621094 445.41015625 c 0
+ -2971.92871094 430.217773438 -2960.1171875 412.73828125 -2945.57421875 395.259765625 c 0
+ -2940.94921875 389.719726562 -2936.16015625 384.318359375 -2931.41601562 379.280273438 c 0
+ -2930.59863281 378.512695312 -2929.72851562 377.885742188 -2928.88378906 377.18359375 c 0
+ -2928.2421875 374.905273438 -2931.17578125 370.09765625 -2935.46679688 365.013671875 c 0
+ -2939.75292969 359.93359375 -2945.40332031 354.544921875 -2949.9921875 351.102539062 c 0
+ -2954.17675781 347.974609375 -2957.46582031 346.495117188 -2957.99414062 348.4453125 c 0
+ -2967.50195312 370.1796875 -2978.8984375 385.887695312 -2988.33789062 404.013671875 c 1
+ -2993.95214844 373.818359375 -2998.80175781 343.479492188 -3004.38671875 311.899414062 c 0
+ -3009.77441406 280.592773438 -3016.64453125 245.798828125 -3021.04980469 215.114257812 c 0
+ -3022.61914062 204.134765625 -3024.20214844 191.690429688 -3023.84472656 181.787109375 c 0
+ -3023.39453125 180.112304688 -3028.38085938 176.015625 -3034.91894531 171.602539062 c 0
+ -3041.34472656 167.264648438 -3049.60449219 162.400390625 -3054.96191406 159.95703125 c 0
+ -3058.5078125 158.33984375 -3060.9375 157.701171875 -3061.14648438 158.79296875 c 0
+ -3054.68261719 174.333007812 -3049.82421875 190.961914062 -3044.29492188 210.155273438 c 0
+ -3037.11914062 236.904296875 -3031.53808594 264.129882812 -3025.93261719 295.5703125 c 0
+ -3021.45214844 321.295898438 -3017.8046875 346.212890625 -3013.81054688 373.55078125 c 0
+ -3012.13183594 385.47265625 -3010.46191406 396.763671875 -3008.90820312 408.830078125 c 0
+ -3008.88867188 408.940429688 l 1
+ -3018.35742188 397.12109375 -3027.83984375 385.918945312 -3037.51269531 373.4765625 c 0
+ -3037.46289062 370.267578125 -3044.15039062 364.567382812 -3050.75292969 361.258789062 c 0
+ -3057.37402344 357.94140625 -3063.83007812 357.080078125 -3063.81640625 360.427734375 c 0
+ -3057.01464844 365.989257812 -3050.17871094 372.451171875 -3043.31738281 379.80859375 c 0
+ -3032.78320312 391.139648438 -3020.953125 405.392578125 -3009.05957031 421.865234375 c 0
+ -3009.05761719 424.684570312 -3004.35546875 429.96875 -2998.7421875 435.0625 c 0
+ -2998.11328125 435.633789062 -2997.47265625 436.202148438 -2996.82617188 436.762695312 c 0
+ -2990.47851562 443.565429688 -2983.10253906 450.190429688 -2980.14746094 450.771484375 c 2
+-2763.24316406 446.541015625 m 1
+ -2759.52832031 443.771484375 -2756.08300781 439.834960938 -2752.64355469 435.650390625 c 0
+ -2749.96777344 432.34765625 -2747.22070312 429.017578125 -2744.40039062 425.626953125 c 1
+ -2744.80371094 426.111328125 -2741.06835938 421.622070312 -2741.47167969 422.10546875 c 1
+ -2728.29785156 406.176757812 -2714.95019531 389.8828125 -2701.390625 370.23828125 c 0
+ -2691.21777344 354.053710938 -2688.29101562 350.772460938 -2679.0703125 333.096679688 c 0
+ -2676.24804688 327.685546875 -2673.59179688 322.248046875 -2671.09863281 316.801757812 c 0
+ -2670.25195312 314.946289062 -2669.42382812 313.08984375 -2668.61425781 311.231445312 c 0
+ -2659.33300781 289.962890625 -2652.52246094 268.662109375 -2647.70898438 247.724609375 c 0
+ -2643.0625 230.404296875 -2642.87695312 230.0234375 -2642.80175781 229.737304688 c 0
+ -2642.72558594 229.451171875 -2642.75878906 229.305664062 -2638.60253906 214.671875 c 0
+ -2636.00488281 205.543945312 -2632.37792969 193.803710938 -2630.04882812 184.220703125 c 0
+ -2628.00683594 181.102539062 -2640.953125 175.198242188 -2651.82617188 171.884765625 c 0
+ -2652.49023438 171.681640625 -2653.14746094 171.48828125 -2653.79101562 171.306640625 c 0
+ -2659.43359375 169.713867188 -2664.15234375 168.94140625 -2665.20507812 170.346679688 c 0
+ -2664.97949219 182.443359375 -2668.76855469 196.56640625 -2671.49511719 212.743164062 c 0
+ -2675.47949219 230.64453125 -2680.921875 250.627929688 -2686.32128906 271.037109375 c 0
+ -2695.93945312 298.432617188 -2708.86914062 320.67578125 -2725.77441406 344.784179688 c 0
+ -2729.94042969 350.364257812 -2734.16015625 355.740234375 -2738.421875 360.916015625 c 0
+ -2739.51074219 362.224609375 -2740.59960938 363.517578125 -2741.68847656 364.795898438 c 0
+ -2750.38671875 374.990234375 -2759.02636719 384.317382812 -2767.52636719 392.892578125 c 1
+ -2767.69726562 360.537109375 -2764.9765625 284.997070312 -2764.19628906 255.225585938 c 0
+ -2763.90039062 231.813476562 -2762.609375 208.275390625 -2759.04199219 188.0546875 c 0
+ -2758.0546875 182.493164062 -2756.45410156 174.708984375 -2753.91601562 168.4609375 c 0
+ -2752.49609375 166.333984375 -2759.85449219 157.833007812 -2767.78320312 150.0390625 c 0
+ -2775.71191406 142.244140625 -2784.30761719 135.432617188 -2785.76074219 137.881835938 c 0
+ -2785.12988281 169.107421875 -2785.59472656 202.756835938 -2785.04589844 239.372070312 c 0
+ -2785.20019531 256.223632812 -2785.33789062 268.325195312 -2785.93359375 285.291992188 c 0
+ -2786.87597656 312.129882812 -2788.33203125 334.295898438 -2790.078125 361.344726562 c 0
+ -2791.0234375 374.650390625 -2791.91796875 391.641601562 -2793.66992188 406.489257812 c 0
+ -2794.15136719 407.999023438 -2792.93359375 410.462890625 -2790.77832031 413.4609375 c 0
+ -2788.67285156 416.38671875 -2785.46582031 420.090820312 -2782.20800781 423.547851562 c 0
+ -2776.09082031 433.354492188 -2773.73925781 434.364257812 -2763.24316406 446.541015625 c 1
+-2632.3046875 444.262695312 m 2
+ -2632.3046875 444.262695312 l 2
+ -2630.71582031 444.022460938 -2630.05957031 442.990234375 -2630.09375 440.313476562 c 0
+ -2628.890625 422.25390625 -2625.74414062 400.438476562 -2623.2109375 380.404296875 c 1
+ -2620.94824219 381.452148438 -2619.15332031 381.603515625 -2618.37792969 380.220703125 c 0
+ -2618.06542969 379.763671875 -2617.75195312 379.309570312 -2617.43652344 378.857421875 c 1
+ -2617.32324219 378.692382812 l 1
+ -2613.3828125 373.0703125 -2609.26367188 367.76953125 -2605.07421875 362.692382812 c 0
+ -2590.86816406 345.463867188 -2575.84277344 330.088867188 -2559.53613281 318.333007812 c 0
+ -2555.03613281 315.1875 -2554.14550781 314.643554688 -2553.49023438 314.219726562 c 0
+ -2553.4765625 314.2109375 -2551.75292969 313.114257812 -2548.65820312 311.260742188 c 0
+ -2546.81445312 310.15625 -2544.63183594 309.125976562 -2542.78222656 307.685546875 c 0
+ -2540.515625 306.471679688 -2541.86230469 302.017578125 -2541.30859375 297.171875 c 0
+ -2543.72363281 292.66015625 -2546.87792969 287.708984375 -2549.33007812 282.294921875 c 0
+ -2561.64355469 259.739257812 -2573.90332031 239.4609375 -2588.54101562 220.818359375 c 0
+ -2588.12304688 220.037109375 -2588.35351562 219.1015625 -2589.07910156 218.092773438 c 0
+ -2589.10546875 218.055664062 -2589.13378906 218.01953125 -2589.16113281 217.982421875 c 0
+ -2590.20703125 216.587890625 -2592.16503906 215.073242188 -2594.65917969 213.625 c 0
+ -2591.60644531 202.654296875 -2588.74023438 193.079101562 -2583.66015625 181.8125 c 0
+ -2581.89746094 179.118164062 -2589.19628906 174.303710938 -2597.61425781 171.330078125 c 0
+ -2606.00097656 168.366210938 -2615.52734375 166.975585938 -2617.16992188 169.364257812 c 0
+ -2617.29589844 182.086914062 -2619.31542969 199.82421875 -2621.24707031 216.787109375 c 0
+ -2624.59863281 243.243164062 -2628.58789062 267.43359375 -2633.50097656 298.6484375 c 0
+ -2639.80371094 336.850585938 -2646.61035156 376.890625 -2655.38964844 420.61328125 c 0
+ -2655.55957031 421.325195312 -2655.765625 422.028320312 -2655.95214844 422.73828125 c 0
+ -2657.28222656 425.829101562 -2652.94726562 431.638671875 -2647.57226562 436.356445312 c 0
+ -2642.16699219 441.100585938 -2635.73632812 444.731445312 -2632.3046875 444.262695312 c 2
+-2898.06347656 402.401367188 m 1
+ -2899.86621094 370.712890625 -2903.11425781 325.770507812 -2905.66699219 293.418945312 c 1
+ -2899.40039062 298.3984375 -2893.80957031 302.760742188 -2888.27441406 307.228515625 c 0
+ -2883.31738281 311.174804688 -2878.21777344 315.362304688 -2873.06445312 320.038085938 c 0
+ -2872.32421875 320.70703125 -2871.58007812 321.390625 -2870.83007812 322.092773438 c 0
+ -2865.75097656 326.7734375 -2860.04199219 332.625 -2853.58691406 339.897460938 c 1
+ -2859.69433594 349.551757812 -2865.04785156 356.860351562 -2871.70117188 366.557617188 c 0
+ -2873.29296875 368.848632812 -2874.90722656 371.19921875 -2876.52929688 373.625976562 c 0
+ -2879.39941406 377.723632812 -2882.29785156 381.75 -2885.27148438 385.75 c 0
+ -2888.79882812 390.530273438 -2892.33789062 395.190429688 -2895.93652344 399.791015625 c 0
+ -2896.82714844 400.888671875 -2897.17382812 401.3046875 -2898.06347656 402.401367188 c 1
+-2615.43945312 326.380859375 m 1
+ -2615.44140625 326.380859375 l 1
+ -2610.78027344 295.71875 -2605.96191406 263.853515625 -2599.53027344 233.036132812 c 1
+ -2597.40820312 235.6328125 -2595.3046875 238.274414062 -2593.22753906 240.971679688 c 0
+ -2593.14648438 241.075195312 l 0
+ -2588.40429688 247.23046875 -2583.62109375 253.93359375 -2578.78710938 261.638671875 c 0
+ -2576.13378906 265.875976562 -2571.26074219 271.560546875 -2570.7265625 277.803710938 c 0
+ -2570.52246094 278.68359375 -2570.89355469 278.795898438 -2571.79003906 279.693359375 c 0
+ -2583.97558594 292.821289062 -2593.55761719 303.112304688 -2606.57910156 316.935546875 c 0
+ -2606.69238281 317.055664062 l 0
+ -2607.71289062 318.143554688 -2614.41894531 325.29296875 -2615.43945312 326.380859375 c 1
+ -2615.43945312 326.380859375 l 1
+2370.1015625 472.98046875 m 0
+ 2407.01171875 472.471679688 2446.39941406 455.497070312 2479.71777344 416.868164062 c 1
+ 2586.33496094 540.481445312 2755.10742188 442.353515625 2705.95410156 292.513671875 c 0
+ 2656.71679688 142.416992188 2524.69042969 101.622070312 2479.71777344 56.65234375 c 1
+ 2434.74609375 101.622070312 2302.71777344 142.416992188 2253.48046875 292.513671875 c 0
+ 2219.6875 395.528320312 2288.8984375 474.100585938 2370.1015625 472.98046875 c 0
+675.208007812 537.581054688 m 1
+ 859.852539062 537.581054688 l 1
+ 1044.49414062 537.581054688 l 1
+ 1028.04394531 433.491210938 999.62109375 375.481445312 893.61328125 347.076171875 c 1
+ 892.869140625 339.502929688 892.896484375 336.524414062 892.813476562 328.060546875 c 1
+ 908.491210938 311.271484375 912.879882812 277.974609375 890.143554688 257.969726562 c 1
+ 889.356445312 210.091796875 892.081054688 147.233398438 916.885742188 93.3916015625 c 1
+ 945.517578125 67.4580078125 985.122070312 44.669921875 1036.28125 21.814453125 c 1
+ 1044.13183594 1.8974609375 1042.60351562 0.1533203125 1043.41113281 -4.34765625 c 1
+ 859.852539062 -4.34765625 l 1
+ 676.290039062 -4.34765625 l 1
+ 677.09765625 0.1533203125 675.5703125 1.8974609375 683.419921875 21.814453125 c 1
+ 734.580078125 44.669921875 774.18359375 67.4580078125 802.815429688 93.3916015625 c 1
+ 827.62109375 147.233398438 830.346679688 210.091796875 829.559570312 257.969726562 c 1
+ 806.823242188 277.974609375 811.209960938 311.271484375 826.888671875 328.060546875 c 1
+ 826.805664062 336.524414062 826.833007812 339.502929688 826.088867188 347.076171875 c 1
+ 720.080078125 375.481445312 691.657226562 433.491210938 675.208007812 537.581054688 c 1
+1982.59765625 534.033203125 m 1
+ 2014.12304688 416.375976562 2147.63085938 265.1953125 2142.70800781 145.0859375 c 0
+ 2140.08886719 81.181640625 2091.11035156 -3.830078125 1982.59765625 -4.197265625 c 0
+ 1874.08398438 -3.830078125 1825.10351562 81.181640625 1822.484375 145.0859375 c 0
+ 1817.5625 265.1953125 1951.07128906 416.375976562 1982.59765625 534.033203125 c 1
+-1490.73730469 537.44140625 m 1
+ -1444.0625 539.96875 -1435.88476562 484.359375 -1440.96679688 482.547851562 c 1
+ -1355.50585938 459.6484375 -1312.828125 416.225585938 -1312.828125 303.150390625 c 0
+ -1312.828125 213.956054688 -1297.76074219 129.845703125 -1269.60546875 54.623046875 c 1
+ -1257.28125 54.623046875 l 2
+ -1239.70996094 54.623046875 -1225.56347656 40.4775390625 -1225.56347656 22.9052734375 c 0
+ -1225.56347656 5.333984375 -1239.70996094 -8.8095703125 -1257.28125 -8.8095703125 c 2
+ -1257.28125 -8.8095703125 -1435.4453125 -8.8369140625 -1435.44433594 -8.8095703125 c 1
+ -1436.33984375 -38.578125 -1460.76464844 -62.50390625 -1490.73730469 -62.5537109375 c 0
+ -1520.70800781 -62.5029296875 -1545.13183594 -38.5771484375 -1546.02832031 -8.8095703125 c 1
+ -1724.19238281 -8.8095703125 l 2
+ -1741.76367188 -8.8095703125 -1755.91015625 5.333984375 -1755.91015625 22.9052734375 c 0
+ -1755.91015625 40.4775390625 -1741.76367188 54.623046875 -1724.19238281 54.623046875 c 2
+ -1711.8671875 54.623046875 l 1
+ -1683.7109375 129.845703125 -1668.64453125 213.956054688 -1668.64453125 303.150390625 c 0
+ -1668.64453125 416.225585938 -1625.96582031 459.6484375 -1540.50585938 482.547851562 c 1
+ -1545.58691406 484.359375 -1537.41113281 539.96875 -1490.73730469 537.44140625 c 1
+-241.532226562 537.962890625 m 1
+ -241.532226562 537.962890625 l 1
+ -232.560546875 537.88671875 -223.315429688 533.295898438 -219.010742188 525.482421875 c 0
+ -208.872070312 509.74609375 -219.2890625 494.125 -212.842773438 379.0859375 c 0
+ -214.418945312 366.999023438 -214.668945312 354.8203125 -214.440429688 342.618164062 c 0
+ -214.075195312 330.577148438 -217.34375 318.717773438 -216.634765625 306.653320312 c 0
+ -214.258789062 304.345703125 -211.127929688 301.694335938 -210.259765625 306.721679688 c 0
+ -209.27734375 331.55859375 -211.266601562 356.920898438 -205.051757812 381.279296875 c 0
+ -192.228515625 433.96875 -212.170898438 470.690429688 -198.012695312 490.68359375 c 0
+ -190.723632812 505.466796875 -166.754882812 506.813476562 -158.575195312 492.258789062 c 0
+ -149.251953125 478.548828125 -150.41796875 461.388671875 -148.681640625 445.645507812 c 0
+ -147.813476562 438.653320312 -149.9375 431.823242188 -150.189453125 424.875976562 c 0
+ -150.852539062 411.897460938 -149.389648438 398.758789062 -152.474609375 385.986328125 c 0
+ -153.114257812 362.337890625 -152.155273438 338.596679688 -154.828125 315.015625 c 0
+ -154.256835938 304.4140625 -157.135742188 293.924804688 -156.129882812 283.346679688 c 0
+ -157.478515625 273.29296875 -152.200195312 263.810546875 -152.657226562 253.7578125 c 0
+ -152.0625 244.6171875 -154.051757812 235.06640625 -150.372070312 226.361328125 c 1
+ -145.025390625 234.883789062 -135.200195312 242.309570312 -136.73046875 253.482421875 c 0
+ -137.34765625 273.315429688 -136.798828125 294.473632812 -126.608398438 312.114257812 c 0
+ -119.799804688 322.510742188 -109.5625 334.598632812 -95.6474609375 332.107421875 c 0
+ -88.0390625 332.336914062 -81.9833984375 327.354492188 -77.8701171875 321.391601562 c 0
+ -73.8955078125 311.749023438 -77.0029296875 301.260742188 -78.7626953125 291.504882812 c 0
+ -81.3681640625 282.708007812 -77.666015625 273.887695312 -77.345703125 265.067382812 c 0
+ -76.796875 252.958007812 -71.90625 240.000976562 -77.2763671875 228.37109375 c 0
+ -110.326171875 167.087890625 -103.608398438 165.767578125 -115.709960938 141.314453125 c 0
+ -129.807617188 101.350585938 -160.2890625 70.55078125 -187.640625 39.3154296875 c 0
+ -197.328125 27.845703125 -196.185546875 12.3076171875 -196.390625 -1.67578125 c 0
+ -197.442382812 -2.2021484375 -199.521484375 -3.275390625 -200.572265625 -3.82421875 c 2
+ -367.325195312 -3.80078125 l 2
+ -372.923828125 -0.9677734375 -371.392578125 6.2080078125 -372.078125 11.37109375 c 0
+ -371.073242188 23.82421875 -376.9921875 35.0654296875 -380.693359375 46.5361328125 c 0
+ -393.201171875 93.271484375 -405.728515625 185.567382812 -401.71484375 239.750976562 c 0
+ -400.20703125 248.501953125 -396.619140625 256.729492188 -393.602539062 265.0234375 c 1
+ -397.784179688 278.458984375 -397.213867188 292.78515625 -395.338867188 306.5859375 c 0
+ -394.150390625 323.2890625 -396.047851562 340.12890625 -393.967773438 356.809570312 c 0
+ -393.922851562 371.181640625 -391.958007812 385.484375 -392.872070312 399.856445312 c 0
+ -393.51171875 412.21875 -391.38671875 424.900390625 -385.263671875 435.75390625 c 0
+ -379.573242188 443.249023438 -367.599609375 445.374023438 -360.083007812 439.432617188 c 0
+ -347.75 429.1484375 -352.629882812 403.630859375 -351.353515625 361.150390625 c 0
+ -348.794921875 340.311523438 -344.155273438 319.677734375 -344.29296875 298.587890625 c 1
+ -340.112304688 299.844726562 -334.490234375 301.056640625 -334.1484375 306.403320312 c 0
+ -336.638671875 321.484375 -334.948242188 336.770507812 -335.861328125 351.94140625 c 0
+ -336.662109375 367.182617188 -335.610351562 382.423828125 -333.39453125 397.481445312 c 0
+ -333.66796875 412.059570312 -332.686523438 426.61328125 -331.955078125 441.123046875 c 0
+ -335.22265625 462.328125 -334.353515625 485.862304688 -320.2109375 503.228515625 c 0
+ -314.155273438 511.4765625 -301.22265625 511.865234375 -293.568359375 505.7421875 c 0
+ -276.30859375 494.522460938 -283.694335938 452.791015625 -283.400390625 429.94921875 c 0
+ -286.32421875 407.694335938 -282.302734375 385.599609375 -281.869140625 363.344726562 c 0
+ -279.606445312 344.448242188 -281.342773438 325.391601562 -280.452148438 306.403320312 c 0
+ -277.52734375 306.358398438 -274.602539062 306.333984375 -271.655273438 306.311523438 c 0
+ -268.068359375 337.409179688 -276.728515625 369.194335938 -269.439453125 399.971679688 c 1
+ -268.685546875 424.650390625 -264.983398438 449.348632812 -267.81640625 474.048828125 c 0
+ -271.084960938 492.6015625 -270.079101562 513.143554688 -259.5234375 529.34375 c 0
+ -255.32421875 535.352539062 -248.510742188 538.022460938 -241.532226562 537.962890625 c 1
+-3559.11816406 537.581054688 m 0
+ -3409.61230469 537.581054688 -3288.15429688 416.123046875 -3288.15429688 266.6171875 c 0
+ -3288.15429688 117.110351562 -3409.61230469 -4.34765625 -3559.11816406 -4.34765625 c 0
+ -3708.625 -4.34765625 -3830.08398438 117.110351562 -3830.08398438 266.6171875 c 0
+ -3830.08398438 416.123046875 -3708.625 537.581054688 -3559.11816406 537.581054688 c 0
+-3583.41796875 512.250976562 m 1
+ -3649.53027344 505.809570312 -3707.92285156 473.3515625 -3748.296875 425.234375 c 1
+ -3720.37890625 376.87890625 l 1
+ -3661.57617188 376.87890625 l 1
+ -3583.41796875 512.250976562 l 1
+-3534.81933594 512.250976562 m 1
+ -3456.66015625 376.87890625 l 1
+ -3397.86132812 376.87890625 l 1
+ -3369.94238281 425.234375 l 1
+ -3410.31445312 473.3515625 -3468.70605469 505.809570312 -3534.81933594 512.250976562 c 1
+-3559.11816406 506.083007812 m 1
+ -3633.71289062 376.87890625 l 1
+ -3484.52246094 376.87890625 l 1
+ -3559.11816406 506.083007812 l 1
+-3354.16015625 404.314453125 m 1
+ -3370.00195312 376.87890625 l 1
+ -3338.22851562 376.87890625 l 1
+ -3342.97558594 386.381835938 -3348.27246094 395.560546875 -3354.16015625 404.314453125 c 1
+-3764.07714844 404.3125 m 1
+ -3769.96582031 395.55859375 -3775.26171875 386.380859375 -3780.00878906 376.877929688 c 1
+ -3748.23632812 376.877929688 l 1
+ -3764.07714844 404.3125 l 1
+-3790.515625 352.750976562 m 1
+ -3800.48242188 325.938476562 -3805.95410156 296.927734375 -3805.95410156 266.6171875 c 0
+ -3805.95410156 230.2890625 -3798.06835938 195.845703125 -3784.01464844 164.805664062 c 1
+ -3704.90722656 301.826171875 l 1
+ -3734.30859375 352.750976562 l 1
+ -3790.515625 352.750976562 l 1
+-3706.44726562 352.750976562 m 1
+ -3690.97558594 325.954101562 l 1
+ -3675.50390625 352.750976562 l 1
+ -3706.44726562 352.750976562 l 1
+-3577.82519531 352.750976562 m 1
+ -3569.84960938 346.299804688 -3563.42089844 338.009765625 -3559.18652344 328.541015625 c 1
+ -3554.95410156 338.009765625 -3548.52734375 346.299804688 -3540.55175781 352.750976562 c 1
+ -3577.82519531 352.750976562 l 1
+-3442.73144531 352.750976562 m 1
+ -3427.26074219 325.956054688 l 1
+ -3411.79199219 352.750976562 l 1
+ -3442.73144531 352.750976562 l 1
+-3383.93066406 352.750976562 m 1
+ -3413.33007812 301.828125 l 1
+ -3334.22167969 164.806640625 l 1
+ -3320.16894531 195.845703125 -3312.28417969 230.2890625 -3312.28417969 266.6171875 c 0
+ -3312.28417969 296.927734375 -3317.75292969 325.938476562 -3327.71972656 352.750976562 c 1
+ -3383.93066406 352.750976562 l 1
+-3618.61328125 343.1015625 m 0
+ -3641.359375 343.1015625 -3659.54101562 324.920898438 -3659.54101562 302.173828125 c 0
+ -3659.54101562 279.426757812 -3641.359375 261.245117188 -3618.61328125 261.245117188 c 0
+ -3595.86523438 261.245117188 -3577.68261719 279.426757812 -3577.68261719 302.173828125 c 0
+ -3577.68261719 324.920898438 -3595.86523438 343.1015625 -3618.61328125 343.1015625 c 0
+-3499.765625 343.1015625 m 0
+ -3522.51171875 343.1015625 -3540.69335938 324.920898438 -3540.69335938 302.173828125 c 0
+ -3540.69335938 279.426757812 -3522.51171875 261.245117188 -3499.765625 261.245117188 c 0
+ -3477.01855469 261.245117188 -3458.83691406 279.426757812 -3458.83691406 302.173828125 c 0
+ -3458.83691406 324.920898438 -3477.01855469 343.1015625 -3499.765625 343.1015625 c 0
+-3427.26074219 277.69921875 m 1
+ -3501.85742188 148.495117188 l 1
+ -3352.6640625 148.495117188 l 1
+ -3427.26074219 277.69921875 l 1
+-3690.97363281 277.697265625 m 1
+ -3765.57226562 148.494140625 l 1
+ -3616.37988281 148.494140625 l 1
+ -3690.97363281 277.697265625 l 1
+-3559.11816406 270.623046875 m 0
+ -3560.59472656 270.623046875 -3562.05078125 269.16796875 -3562.05078125 267.690429688 c 0
+ -3562.05078125 266.213867188 -3560.59472656 264.758789062 -3559.11816406 264.758789062 c 0
+ -3557.640625 264.758789062 -3556.18554688 266.213867188 -3556.18554688 267.690429688 c 0
+ -3556.18554688 269.16796875 -3557.640625 270.623046875 -3559.11816406 270.623046875 c 0
+-3475.90917969 241.693359375 m 1
+ -3483.30664062 238.75390625 -3491.35058594 237.1171875 -3499.765625 237.1171875 c 0
+ -3502.08203125 237.1171875 -3504.37011719 237.24609375 -3506.625 237.484375 c 1
+ -3500.57226562 229.224609375 -3496.40820312 219.504882812 -3494.80273438 208.967773438 c 1
+ -3475.90917969 241.693359375 l 1
+-3642.28515625 241.620117188 m 1
+ -3623.43652344 208.969726562 l 1
+ -3621.82910156 219.513671875 -3617.65722656 229.240234375 -3611.59863281 237.504882812 c 1
+ -3613.90429688 237.25390625 -3616.24316406 237.1171875 -3618.61328125 237.1171875 c 0
+ -3626.95703125 237.1171875 -3634.9375 238.7265625 -3642.28515625 241.620117188 c 1
+-3559.11816406 240.116210938 m 0
+ -3581.86523438 240.116210938 -3600.04589844 221.93359375 -3600.04589844 199.186523438 c 0
+ -3600.04589844 176.440429688 -3581.86523438 158.259765625 -3559.11816406 158.259765625 c 0
+ -3536.37109375 158.259765625 -3518.19042969 176.440429688 -3518.19042969 199.186523438 c 0
+ -3518.19042969 221.93359375 -3536.37109375 240.116210938 -3559.11816406 240.116210938 c 0
+-3760.86621094 124.365234375 m 1
+ -3724.01171875 72.1552734375 -3667.42089844 34.955078125 -3601.86132812 23.5341796875 c 1
+ -3573.04882812 73.443359375 l 1
+ -3602.44628906 124.365234375 l 1
+ -3760.86621094 124.365234375 l 1
+-3574.58886719 124.365234375 m 1
+ -3559.11816406 97.5703125 l 1
+ -3543.6484375 124.365234375 l 1
+ -3574.58886719 124.365234375 l 1
+-3515.78808594 124.365234375 m 1
+ -3545.1875 73.4443359375 l 1
+ -3516.37207031 23.5341796875 l 1
+ -3450.81445312 34.955078125 -3394.22363281 72.1552734375 -3357.37011719 124.365234375 c 1
+ -3515.78808594 124.365234375 l 1
+-3559.11816406 49.3154296875 m 1
+ -3575.81152344 20.40234375 l 1
+ -3570.29003906 20.03515625 -3564.73535156 19.779296875 -3559.11816406 19.779296875 c 0
+ -3553.50195312 19.779296875 -3547.94824219 20.03515625 -3542.42480469 20.40234375 c 1
+ -3559.11816406 49.3154296875 l 1
+524.524414062 471.319335938 m 2
+ 524.526367188 471.318359375 l 2
+ 532.1015625 464.0859375 538.91015625 456.0390625 544.899414062 447.48828125 c 0
+ 560.87109375 424.685546875 571.25390625 398.02734375 573.076171875 370.923828125 c 0
+ 574.8984375 343.8203125 567.284179688 315.166992188 546.017578125 294.677734375 c 0
+ 519.83984375 269.45703125 489.938476562 258.771484375 463.287109375 257.302734375 c 0
+ 436.634765625 255.833984375 413.404296875 262.7265625 396.422851562 269.9375 c 0
+ 396.381835938 269.956054688 396.338867188 269.974609375 396.297851562 269.993164062 c 0
+ 387.080078125 273.973632812 383.38671875 274.000976562 382.7578125 273.90625 c 0
+ 382.127929688 273.810546875 380.645507812 273.629882812 375.041015625 268.026367188 c 0
+ 374.926757812 267.913085938 374.814453125 267.8046875 374.698242188 267.6953125 c 2
+ 318.72265625 214 l 1
+ 318.72265625 214 221.559570312 111.733398438 221.553710938 111.7265625 c 0
+ 221.263671875 111.420898438 220.97265625 111.129882812 220.666015625 110.838867188 c 2
+ 136.903320312 31.8291015625 l 1
+ 136.903320312 31.8291015625 66.4794921875 -40.5205078125 66.4853515625 -40.5244140625 c 1
+ 62.3154296875 -44.8095703125 56.48046875 -47.4697265625 50.0341796875 -47.4697265625 c 0
+ 43.8134765625 -47.4697265625 38.16796875 -44.9892578125 34.033203125 -40.96484375 c 0
+ 29.748046875 -36.794921875 27.0869140625 -30.958984375 27.0869140625 -24.5126953125 c 0
+ 27.0869140625 -18.2919921875 29.5673828125 -12.6455078125 33.591796875 -8.5107421875 c 2
+ 33.591796875 -8.5107421875 104.34765625 64.189453125 104.353515625 64.1943359375 c 0
+ 104.583984375 64.4306640625 104.813476562 64.65625 105.052734375 64.8818359375 c 2
+ 188.712890625 143.795898438 l 1
+ 188.712890625 143.795898438 285.8125 245.9921875 285.817382812 245.998046875 c 0
+ 286.064453125 246.256835938 286.3125 246.504882812 286.571289062 246.751953125 c 2
+ 342.926757812 300.814453125 l 1
+ 342.583007812 300.483398438 l 1
+ 351.375976562 309.276367188 362.254882812 317.217773438 375.854492188 319.28515625 c 0
+ 389.454101562 321.353515625 401.85546875 317.587890625 414.491210938 312.1328125 c 1
+ 414.365234375 312.1875 l 1
+ 426.97265625 306.833984375 443.668945312 302.193359375 460.7578125 303.135742188 c 0
+ 477.846679688 304.077148438 495.500976562 309.747070312 514.170898438 327.734375 c 0
+ 524.290039062 337.483398438 528.424804688 350.764648438 527.27734375 367.84765625 c 0
+ 526.12890625 384.928710938 518.821289062 404.708984375 507.30078125 421.157226562 c 0
+ 495.78125 437.604492188 480.287109375 450.452148438 464.732421875 456.145507812 c 0
+ 449.17578125 461.836914062 434.016601562 461.775390625 416 451.331054688 c 0
+ 404.880859375 444.883789062 393.584960938 438.817382812 381.9375 434.495117188 c 0
+ 370.2890625 430.172851562 357.81640625 426.690429688 343.255859375 430.631835938 c 0
+ 328.6953125 434.573242188 316.518554688 449.20703125 312.959960938 464.380859375 c 0
+ 309.401367188 479.5546875 310.407226562 496.46484375 314.435546875 518.717773438 c 0
+ 316.374023438 529.427734375 325.734375 537.581054688 336.999023438 537.581054688 c 0
+ 338.400390625 537.581054688 339.7734375 537.455078125 341.106445312 537.213867188 c 0
+ 351.815429688 535.275390625 359.96875 525.916015625 359.96875 514.651367188 c 0
+ 359.96875 513.25 359.842773438 511.877929688 359.6015625 510.545898438 c 0
+ 356.260742188 492.083984375 356.581054688 480.1640625 357.583984375 475.357421875 c 0
+ 359.494140625 475.634765625 362.383789062 476.197265625 365.967773438 477.52734375 c 0
+ 373.27734375 480.240234375 382.887695312 485.190429688 392.98046875 491.040039062 c 0
+ 421.98828125 507.858398438 453.88671875 508.991210938 480.506835938 499.25 c 0
+ 497.14453125 493.16015625 511.899414062 483.372070312 524.524414062 471.319335938 c 2
+3057.75585938 555.314453125 m 0
+ 3253.46777344 555.314453125 3102.37011719 310.774414062 3102.34375 310.783203125 c 1
+ 3134.15332031 310.783203125 3228.75292969 309.446289062 3279.15332031 335.634765625 c 1
+ 3323.25195312 285.190429688 l 1
+ 3276.69042969 228.653320312 l 1
+ 3227.828125 253.77734375 3122.48730469 261.935546875 3081.90332031 261.935546875 c 1
+ 3081.90332031 155.370117188 3087.83886719 68.705078125 3107.99804688 -4.34765625 c 1
+ 3057.75585938 -60.822265625 l 1
+ 3007.51171875 -4.34765625 l 1
+ 3027.67089844 68.705078125 3033.60546875 155.370117188 3033.60546875 261.935546875 c 1
+ 2993.02148438 261.935546875 2887.68261719 253.77734375 2838.8203125 228.653320312 c 1
+ 2792.2578125 285.190429688 l 1
+ 2836.35644531 335.634765625 l 1
+ 2886.75585938 309.446289062 2981.35644531 310.783203125 3013.16601562 310.783203125 c 1
+ 3013.13964844 310.774414062 2862.04296875 555.314453125 3057.75585938 555.314453125 c 0
+3057.75585938 505.862304688 m 0
+ 2959.265625 505.862304688 3047.81445312 363.1171875 3057.75585938 310.783203125 c 1
+ 3067.69628906 363.1171875 3156.24511719 505.862304688 3057.75585938 505.862304688 c 0
+1705.32324219 513.583007812 m 0
+ 1718.98632812 500.684570312 1721.328125 482.206054688 1720.25097656 471.712890625 c 1
+ 1706.22558594 467.260742188 1697.94628906 469.85546875 1688.42382812 475.633789062 c 1
+ 1676.62695312 457.043945312 1603.71484375 386.528320312 1602.36621094 387.640625 c 1
+ 1602.36621094 387.640625 1669.41015625 334.827148438 1687.30175781 312.553710938 c 1
+ 1682.26953125 302.665039062 1675.20507812 302.666015625 1670.01269531 304.090820312 c 0
+ 1625.19335938 350.7421875 1617.89648438 324.677734375 1588.57128906 354.00390625 c 1
+ 1497.17675781 272.4453125 1265.56738281 47.6728515625 1187.31347656 -25.26953125 c 1
+ 1146.36523438 -45.3740234375 l 1
+ 1166.47070312 -4.42578125 l 1
+ 1239.41210938 73.8271484375 1464.18554688 305.436523438 1545.74316406 396.831054688 c 1
+ 1516.41796875 426.157226562 1542.48144531 433.453125 1495.83105469 478.2734375 c 0
+ 1494.40625 483.46484375 1494.40625 490.52734375 1504.29394531 495.559570312 c 1
+ 1526.56835938 477.66796875 1579.38085938 410.625976562 1579.38085938 410.625976562 c 1
+ 1578.26855469 411.974609375 1648.78417969 484.88671875 1667.37304688 496.684570312 c 1
+ 1661.59570312 506.206054688 1659.00097656 514.485351562 1663.453125 528.510742188 c 1
+ 1673.9453125 529.587890625 1692.42382812 527.247070312 1705.32324219 513.583007812 c 0
+-818.587890625 578.87890625 m 1
+ -812.346679688 528.471679688 -808.728515625 493.7265625 -805.73046875 458.595703125 c 1
+ -784.388671875 489.8203125 -681.678710938 459.009765625 -612.154296875 443.401367188 c 0
+ -584.66796875 437.231445312 -590.217773438 438.856445312 -580.791992188 452.951171875 c 1
+ -566.8203125 442.173828125 -572.953125 432.555664062 -581.443359375 427.85546875 c 1
+ -486.456054688 191.048828125 l 1
+ -482.756835938 191.048828125 l 1
+ -494.741210938 170.76953125 -517.608398438 152.459960938 -590.97265625 152.79296875 c 0
+ -664.3359375 152.459960938 -687.202148438 170.76953125 -699.1875 191.048828125 c 1
+ -695.489257812 191.048828125 l 1
+ -601.473632812 425.431640625 l 1
+ -677.337890625 430.232421875 -731.401367188 437.028320312 -803.252929688 428.04296875 c 1
+ -798.095703125 359.165039062 -793.625976562 273.315429688 -777.73046875 62.365234375 c 1
+ -746.91796875 34.455078125 -687.147460938 43.1767578125 -632.090820312 18.580078125 c 1
+ -623.642578125 -2.85546875 -621.9140625 0.4951171875 -621.044921875 -4.34765625 c 1
+ -818.587890625 -4.34765625 l 1
+ -1016.13085938 -4.34765625 l 1
+ -1015.26171875 0.4951171875 -1013.53320312 -2.85546875 -1005.08496094 18.580078125 c 1
+ -950.02734375 43.1767578125 -890.259765625 34.455078125 -859.446289062 62.365234375 c 1
+ -843.551757812 273.315429688 -839.079101562 359.165039062 -833.922851562 428.04296875 c 1
+ -902.922851562 436.671875 -955.569335938 430.749023438 -1026.80078125 426.01171875 c 1
+ -932.553710938 191.048828125 l 1
+ -928.854492188 191.048828125 l 1
+ -940.838867188 170.76953125 -963.705078125 152.459960938 -1037.06933594 152.79296875 c 0
+ -1110.43359375 152.459960938 -1133.30078125 170.76953125 -1145.28515625 191.048828125 c 1
+ -1141.58691406 191.048828125 l 1
+ -1047.73828125 425.021484375 l 1
+ -1058.55371094 426.703125 -1074.66699219 438.84765625 -1056.38378906 452.951171875 c 1
+ -1046.95800781 438.856445312 -1052.5078125 437.231445312 -1025.02050781 443.401367188 c 0
+ -955.498046875 459.009765625 -852.791015625 489.819335938 -831.447265625 458.59765625 c 1
+ -828.44921875 493.727539062 -824.826171875 528.47265625 -818.587890625 578.87890625 c 1
+-1035.60546875 425.438476562 m 2
+ -1036.62207031 425.374023438 -1037.58886719 425.3046875 -1038.61328125 425.241210938 c 2
+ -1132.54882812 191.048828125 l 1
+ -941.592773438 191.048828125 l 1
+ -1035.60546875 425.438476562 l 2
+-589.34765625 425.038085938 m 2
+ -590.220703125 424.8984375 -591.0703125 424.8046875 -591.85546875 424.8046875 c 0
+ -592.13671875 424.821289062 -592.38671875 424.840820312 -592.668945312 424.857421875 c 2
+ -686.451171875 191.048828125 l 1
+ -495.495117188 191.048828125 l 1
+ -589.34765625 425.038085938 l 2
+-2090.58300781 578.87890625 m 5
+ -2027.41992188 470.712890625 -2061.7265625 464.272460938 -2092.5078125 432.418945312 c 5
+ -2058.62695312 491.2265625 -2079.58691406 523.133789062 -2098.32617188 549.935546875 c 5
+ -2109.81542969 515.096679688 -2136.48632812 477.461914062 -2105.48730469 438.307617188 c 5
+ -2124.63476562 438.384765625 -2182.74121094 493.802734375 -2090.58300781 578.87890625 c 5
+-2134.13183594 440.349609375 m 6
+ -2123.05859375 439.819335938 -2115.47070312 420.912109375 -2102.74316406 416.236328125 c 4
+ -2092.37402344 413.327148438 -2081.84863281 414.953125 -2072.31445312 413.147460938 c 4
+ -2066.08886719 411.96875 -2057.90722656 413.12890625 -2053.97167969 408.162109375 c 4
+ -2042.74902344 393.99609375 -2055.25292969 371.770507812 -2052.09667969 353.975585938 c 4
+ -2050.96484375 347.59375 -2044.88671875 341.875976562 -2046.04394531 335.499023438 c 4
+ -2047.0625 329.889648438 -2051.11523438 323.079101562 -2056.74023438 322.15234375 c 4
+ -2058.07519531 321.932617188 -2059.25 321.073242188 -2060.37011719 321.856445312 c 5
+ -2057.23046875 77.4130859375 l 5
+ -1860.43554688 77.4130859375 l 5
+ -1834.06835938 53.53125 -2013.92578125 40.7919921875 -1966.8125 19.744140625 c 5
+ -1959.58398438 1.4033203125 -1960.99121094 -0.203125 -1960.24707031 -4.34765625 c 5
+ -2096.19921875 -4.34765625 l 5
+ -2232.15136719 -4.34765625 l 5
+ -2231.40722656 -0.203125 -2232.81640625 1.4033203125 -2225.58691406 19.744140625 c 5
+ -2178.47363281 40.7919921875 -2358.33007812 53.53125 -2331.96484375 77.4130859375 c 5
+ -2144.39746094 77.4130859375 l 5
+ -2143.94433594 110.561523438 -2142.45214844 235.270507812 -2142.45214844 235.270507812 c 5
+ -2164.2890625 239.4765625 -2153.18066406 278.852539062 -2153.94238281 301.078125 c 4
+ -2155.13671875 335.959960938 -2158.12792969 371.548828125 -2151.15527344 405.747070312 c 4
+ -2148.7109375 417.733398438 -2149.390625 436.31640625 -2137.69042969 439.887695312 c 4
+ -2136.46191406 440.262695312 -2135.27832031 440.405273438 -2134.1328125 440.349609375 c 6
+ -2134.13183594 440.349609375 l 6
+EndSplineSet
+EndChar
+
+StartChar: uF16EE
+Encoding: 988910 988910 934
+Width: 603
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+524.524414062 471.319335938 m 2
+ 524.526367188 471.318359375 l 2
+ 532.1015625 464.0859375 538.91015625 456.0390625 544.899414062 447.48828125 c 0
+ 560.87109375 424.685546875 571.25390625 398.02734375 573.076171875 370.923828125 c 0
+ 574.8984375 343.8203125 567.284179688 315.166992188 546.017578125 294.677734375 c 0
+ 519.83984375 269.45703125 489.938476562 258.771484375 463.287109375 257.302734375 c 0
+ 436.634765625 255.833984375 413.404296875 262.7265625 396.422851562 269.9375 c 0
+ 396.381835938 269.956054688 396.338867188 269.974609375 396.297851562 269.993164062 c 0
+ 387.080078125 273.973632812 383.38671875 274.000976562 382.7578125 273.90625 c 0
+ 382.127929688 273.810546875 380.645507812 273.629882812 375.041015625 268.026367188 c 0
+ 374.926757812 267.913085938 374.814453125 267.8046875 374.698242188 267.6953125 c 2
+ 318.72265625 214 l 1
+ 318.72265625 214 221.559570312 111.733398438 221.553710938 111.7265625 c 0
+ 221.263671875 111.420898438 220.97265625 111.129882812 220.666015625 110.838867188 c 2
+ 136.903320312 31.8291015625 l 1
+ 136.903320312 31.8291015625 66.4794921875 -40.5205078125 66.4853515625 -40.5244140625 c 1
+ 62.3154296875 -44.8095703125 56.48046875 -47.4697265625 50.0341796875 -47.4697265625 c 0
+ 43.8134765625 -47.4697265625 38.16796875 -44.9892578125 34.033203125 -40.96484375 c 0
+ 29.748046875 -36.794921875 27.0869140625 -30.958984375 27.0869140625 -24.5126953125 c 0
+ 27.0869140625 -18.2919921875 29.5673828125 -12.6455078125 33.591796875 -8.5107421875 c 2
+ 33.591796875 -8.5107421875 104.34765625 64.189453125 104.353515625 64.1943359375 c 0
+ 104.583984375 64.4306640625 104.813476562 64.65625 105.052734375 64.8818359375 c 2
+ 188.712890625 143.795898438 l 1
+ 188.712890625 143.795898438 285.8125 245.9921875 285.817382812 245.998046875 c 0
+ 286.064453125 246.256835938 286.3125 246.504882812 286.571289062 246.751953125 c 2
+ 342.926757812 300.814453125 l 1
+ 342.583007812 300.483398438 l 1
+ 351.375976562 309.276367188 362.254882812 317.217773438 375.854492188 319.28515625 c 0
+ 389.454101562 321.353515625 401.85546875 317.587890625 414.491210938 312.1328125 c 1
+ 414.365234375 312.1875 l 1
+ 426.97265625 306.833984375 443.668945312 302.193359375 460.7578125 303.135742188 c 0
+ 477.846679688 304.077148438 495.500976562 309.747070312 514.170898438 327.734375 c 0
+ 524.290039062 337.483398438 528.424804688 350.764648438 527.27734375 367.84765625 c 0
+ 526.12890625 384.928710938 518.821289062 404.708984375 507.30078125 421.157226562 c 0
+ 495.78125 437.604492188 480.287109375 450.452148438 464.732421875 456.145507812 c 0
+ 449.17578125 461.836914062 434.016601562 461.775390625 416 451.331054688 c 0
+ 404.880859375 444.883789062 393.584960938 438.817382812 381.9375 434.495117188 c 0
+ 370.2890625 430.172851562 357.81640625 426.690429688 343.255859375 430.631835938 c 0
+ 328.6953125 434.573242188 316.518554688 449.20703125 312.959960938 464.380859375 c 0
+ 309.401367188 479.5546875 310.407226562 496.46484375 314.435546875 518.717773438 c 0
+ 316.374023438 529.427734375 325.734375 537.581054688 336.999023438 537.581054688 c 0
+ 338.400390625 537.581054688 339.7734375 537.455078125 341.106445312 537.213867188 c 0
+ 351.815429688 535.275390625 359.96875 525.916015625 359.96875 514.651367188 c 0
+ 359.96875 513.25 359.842773438 511.877929688 359.6015625 510.545898438 c 0
+ 356.260742188 492.083984375 356.581054688 480.1640625 357.583984375 475.357421875 c 0
+ 359.494140625 475.634765625 362.383789062 476.197265625 365.967773438 477.52734375 c 0
+ 373.27734375 480.240234375 382.887695312 485.190429688 392.98046875 491.040039062 c 0
+ 421.98828125 507.858398438 453.88671875 508.991210938 480.506835938 499.25 c 0
+ 497.14453125 493.16015625 511.899414062 483.372070312 524.524414062 471.319335938 c 2
+EndSplineSet
+EndChar
+
+StartChar: uF16ED
+Encoding: 988909 988909 935
+Width: 445
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+36.7138671875 537.581054688 m 1
+ 221.358398438 537.581054688 l 1
+ 406 537.581054688 l 1
+ 389.549804688 433.491210938 361.126953125 375.481445312 255.119140625 347.076171875 c 1
+ 254.375 339.502929688 254.40234375 336.524414062 254.319335938 328.060546875 c 1
+ 269.997070312 311.271484375 274.385742188 277.974609375 251.649414062 257.969726562 c 1
+ 250.862304688 210.091796875 253.586914062 147.233398438 278.391601562 93.3916015625 c 1
+ 307.0234375 67.4580078125 346.627929688 44.669921875 397.787109375 21.814453125 c 1
+ 405.637695312 1.8974609375 404.109375 0.1533203125 404.916992188 -4.34765625 c 1
+ 221.358398438 -4.34765625 l 1
+ 37.7958984375 -4.34765625 l 1
+ 38.603515625 0.1533203125 37.076171875 1.8974609375 44.92578125 21.814453125 c 1
+ 96.0859375 44.669921875 135.689453125 67.4580078125 164.321289062 93.3916015625 c 1
+ 189.126953125 147.233398438 191.852539062 210.091796875 191.065429688 257.969726562 c 1
+ 168.329101562 277.974609375 172.715820312 311.271484375 188.39453125 328.060546875 c 1
+ 188.311523438 336.524414062 188.338867188 339.502929688 187.594726562 347.076171875 c 1
+ 81.5859375 375.481445312 53.1630859375 433.491210938 36.7138671875 537.581054688 c 1
+EndSplineSet
+EndChar
+
+StartChar: uF16EB
+Encoding: 988907 988907 936
+Width: 600
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+300 537.581054688 m 0
+ 449.505859375 537.581054688 570.963867188 416.123046875 570.963867188 266.6171875 c 0
+ 570.963867188 117.110351562 449.505859375 -4.34765625 300 -4.34765625 c 0
+ 150.493164062 -4.34765625 29.0341796875 117.110351562 29.0341796875 266.6171875 c 0
+ 29.0341796875 416.123046875 150.493164062 537.581054688 300 537.581054688 c 0
+275.700195312 512.250976562 m 1
+ 209.587890625 505.809570312 151.1953125 473.3515625 110.821289062 425.234375 c 1
+ 138.739257812 376.87890625 l 1
+ 197.541992188 376.87890625 l 1
+ 275.700195312 512.250976562 l 1
+324.298828125 512.250976562 m 1
+ 402.458007812 376.87890625 l 1
+ 461.256835938 376.87890625 l 1
+ 489.17578125 425.234375 l 1
+ 448.803710938 473.3515625 390.412109375 505.809570312 324.298828125 512.250976562 c 1
+300 506.083007812 m 1
+ 225.405273438 376.87890625 l 1
+ 374.595703125 376.87890625 l 1
+ 300 506.083007812 l 1
+504.958007812 404.314453125 m 1
+ 489.116210938 376.87890625 l 1
+ 520.889648438 376.87890625 l 1
+ 516.142578125 386.381835938 510.845703125 395.560546875 504.958007812 404.314453125 c 1
+95.041015625 404.3125 m 1
+ 89.15234375 395.55859375 83.8564453125 386.380859375 79.109375 376.877929688 c 1
+ 110.881835938 376.877929688 l 1
+ 95.041015625 404.3125 l 1
+68.6025390625 352.750976562 m 1
+ 58.6357421875 325.938476562 53.1640625 296.927734375 53.1640625 266.6171875 c 0
+ 53.1640625 230.2890625 61.0498046875 195.845703125 75.103515625 164.805664062 c 1
+ 154.2109375 301.826171875 l 1
+ 124.809570312 352.750976562 l 1
+ 68.6025390625 352.750976562 l 1
+152.670898438 352.750976562 m 1
+ 168.142578125 325.954101562 l 1
+ 183.614257812 352.750976562 l 1
+ 152.670898438 352.750976562 l 1
+281.29296875 352.750976562 m 1
+ 289.268554688 346.299804688 295.697265625 338.009765625 299.931640625 328.541015625 c 1
+ 304.1640625 338.009765625 310.590820312 346.299804688 318.56640625 352.750976562 c 1
+ 281.29296875 352.750976562 l 1
+416.38671875 352.750976562 m 1
+ 431.857421875 325.956054688 l 1
+ 447.326171875 352.750976562 l 1
+ 416.38671875 352.750976562 l 1
+475.1875 352.750976562 m 1
+ 445.788085938 301.828125 l 1
+ 524.896484375 164.806640625 l 1
+ 538.94921875 195.845703125 546.833984375 230.2890625 546.833984375 266.6171875 c 0
+ 546.833984375 296.927734375 541.365234375 325.938476562 531.3984375 352.750976562 c 1
+ 475.1875 352.750976562 l 1
+240.504882812 343.1015625 m 0
+ 217.758789062 343.1015625 199.577148438 324.920898438 199.577148438 302.173828125 c 0
+ 199.577148438 279.426757812 217.758789062 261.245117188 240.504882812 261.245117188 c 0
+ 263.252929688 261.245117188 281.435546875 279.426757812 281.435546875 302.173828125 c 0
+ 281.435546875 324.920898438 263.252929688 343.1015625 240.504882812 343.1015625 c 0
+359.352539062 343.1015625 m 0
+ 336.606445312 343.1015625 318.424804688 324.920898438 318.424804688 302.173828125 c 0
+ 318.424804688 279.426757812 336.606445312 261.245117188 359.352539062 261.245117188 c 0
+ 382.099609375 261.245117188 400.28125 279.426757812 400.28125 302.173828125 c 0
+ 400.28125 324.920898438 382.099609375 343.1015625 359.352539062 343.1015625 c 0
+431.857421875 277.69921875 m 1
+ 357.260742188 148.495117188 l 1
+ 506.454101562 148.495117188 l 1
+ 431.857421875 277.69921875 l 1
+168.14453125 277.697265625 m 1
+ 93.5458984375 148.494140625 l 1
+ 242.73828125 148.494140625 l 1
+ 168.14453125 277.697265625 l 1
+300 270.623046875 m 0
+ 298.5234375 270.623046875 297.067382812 269.16796875 297.067382812 267.690429688 c 0
+ 297.067382812 266.213867188 298.5234375 264.758789062 300 264.758789062 c 0
+ 301.477539062 264.758789062 302.932617188 266.213867188 302.932617188 267.690429688 c 0
+ 302.932617188 269.16796875 301.477539062 270.623046875 300 270.623046875 c 0
+383.208984375 241.693359375 m 1
+ 375.811523438 238.75390625 367.767578125 237.1171875 359.352539062 237.1171875 c 0
+ 357.036132812 237.1171875 354.748046875 237.24609375 352.493164062 237.484375 c 1
+ 358.545898438 229.224609375 362.709960938 219.504882812 364.315429688 208.967773438 c 1
+ 383.208984375 241.693359375 l 1
+216.833007812 241.620117188 m 1
+ 235.681640625 208.969726562 l 1
+ 237.2890625 219.513671875 241.4609375 229.240234375 247.51953125 237.504882812 c 1
+ 245.213867188 237.25390625 242.875 237.1171875 240.504882812 237.1171875 c 0
+ 232.161132812 237.1171875 224.180664062 238.7265625 216.833007812 241.620117188 c 1
+300 240.116210938 m 0
+ 277.252929688 240.116210938 259.072265625 221.93359375 259.072265625 199.186523438 c 0
+ 259.072265625 176.440429688 277.252929688 158.259765625 300 158.259765625 c 0
+ 322.747070312 158.259765625 340.927734375 176.440429688 340.927734375 199.186523438 c 0
+ 340.927734375 221.93359375 322.747070312 240.116210938 300 240.116210938 c 0
+98.251953125 124.365234375 m 1
+ 135.106445312 72.1552734375 191.697265625 34.955078125 257.256835938 23.5341796875 c 1
+ 286.069335938 73.443359375 l 1
+ 256.671875 124.365234375 l 1
+ 98.251953125 124.365234375 l 1
+284.529296875 124.365234375 m 1
+ 300 97.5703125 l 1
+ 315.469726562 124.365234375 l 1
+ 284.529296875 124.365234375 l 1
+343.330078125 124.365234375 m 1
+ 313.930664062 73.4443359375 l 1
+ 342.74609375 23.5341796875 l 1
+ 408.303710938 34.955078125 464.89453125 72.1552734375 501.748046875 124.365234375 c 1
+ 343.330078125 124.365234375 l 1
+300 49.3154296875 m 1
+ 283.306640625 20.40234375 l 1
+ 288.828125 20.03515625 294.3828125 19.779296875 300 19.779296875 c 0
+ 305.616210938 19.779296875 311.169921875 20.03515625 316.693359375 20.40234375 c 1
+ 300 49.3154296875 l 1
+EndSplineSet
+EndChar
+
+StartChar: uF16EC
+Encoding: 988908 988908 937
+Width: 638
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+595.495117188 411.682617188 m 4
+ 591.125 411.682617188 476.412109375 288.419921875 456.747070312 269.84765625 c 5
+ 419.602539062 306.9921875 321.27734375 407.502929688 318 407.502929688 c 1028
+40.5048828125 411.682617188 m 4
+ 44.875 411.682617188 159.587890625 288.419921875 179.252929688 269.84765625 c 5
+ 216.397460938 306.9921875 314.72265625 407.502929688 318 407.502929688 c 4
+ 319.092773438 407.502929688 315.815429688 0 318 0 c 1028
+513.557617188 407.502929688 m 4
+ 513.557617188 409.6875 513.557617188 542.97265625 513.557617188 542.97265625 c 1053
+122.442382812 407.502929688 m 4
+ 121.349609375 409.6875 125.719726562 546.25 122.442382812 542.97265625 c 1028
+513.557617188 407.502929688 m 4
+ 513.557617188 299.344726562 426.157226562 211.9453125 318 211.9453125 c 4
+ 209.842773438 211.9453125 122.442382812 299.344726562 122.442382812 407.502929688 c 1028
+512.46484375 407.502929688 m 4
+ 512.46484375 409.6875 318 407.502929688 318 407.502929688 c 5
+ 307.075195312 407.502929688 123.53515625 407.502929688 123.53515625 407.502929688 c 1029
+EndSplineSet
+Fore
+SplineSet
+433.745150919 387.72752969 m 0
+ 410.558783898 387.72752969 387.383574137 387.692191361 367.924632621 387.649801453 c 1
+ 375.826358221 379.784585305 375.826358221 379.784585305 455.824520781 299.130370403 c 1
+ 475.575655381 324.067726343 488.670762153 354.438537702 492.440063291 387.626229837 c 1
+ 474.548043771 387.700182123 454.142280165 387.72752969 433.745150919 387.72752969 c 0
+104.591149535 374.334055536 m 1
+ 103.849673842 379.109602862 101.68280473 395.216002402 101.68280473 416.623204749 c 0
+ 101.68280473 417.621952773 102.542620206 485.17411503 102.542620206 516.494305955 c 0
+ 102.542620206 524.976487953 102.514148352 533.776008689 102.446844932 542.825077279 c 1
+ 142.437903736 543.122515076 l 1
+ 142.506028509 533.96301405 142.534820964 525.060067807 142.534820964 516.483640263 c 0
+ 142.534820964 501.454931484 142.534820964 501.454931484 141.764996643 427.945979615 c 1
+ 191.089785365 427.82079829 316.048112104 427.503763689 318.056431549 427.498963476 c 0
+ 318.6932671 427.498963476 376.136077202 427.718723064 433.812590687 427.718723064 c 0
+ 454.600618833 427.718723064 475.419006409 427.690175015 493.618969659 427.612500087 c 1
+ 494.004034098 542.942274659 l 1
+ 533.995969321 542.808749105 l 1
+ 533.55358309 410.310655028 l 2
+ 533.488233545 410.310655028 533.422884001 410.311309598 533.357534456 410.311309598 c 1
+ 533.486832786 409.393532038 533.553695398 408.455918452 533.553695398 407.502929688 c 0
+ 533.553695398 396.123163756 532.666518493 384.953501578 530.958394943 374.057562676 c 1
+ 555.004880007 398.86371345 572.194377433 416.596253724 581.300198482 425.771776071 c 1
+ 609.692106847 397.595545111 l 1
+ 608.274376725 396.166962851 474.861785689 258.466931733 468.79067076 253.877609484 c 0
+ 434.435306805 220.27252179 388.908698121 197.988952009 338.378228639 193.044548962 c 1
+ 338.281383091 130.035917763 337.996078211 1.93044927214 337.996078211 -1.7763568394e-15 c 1
+ 298.003921789 -1.7763568394e-15 l 1
+ 298.003921789 1.92797930146 298.28759173 129.460017724 298.384730403 192.797554065 c 1
+ 267.277073749 195.462661949 206.215693724 208.157789347 156.512370225 264.118465851 c 0
+ 126.553841415 293.963479802 27.5432673932 396.337731094 26.2357634542 397.66859418 c 1
+ 54.7740021708 425.696640196 l 1
+ 57.0552853838 423.37460083 104.092828331 374.847536116 104.591149535 374.334055536 c 1
+298.488525486 306.951766224 m 0
+ 298.488525486 327.412096949 298.473423948 345.972071576 298.437891793 361.400500503 c 1
+ 292.063433559 355.099368401 292.063433559 355.099368401 207.881421337 270.266807583 c 1
+ 233.22052523 249.941144488 264.326381828 236.557695597 298.439396998 232.966772309 c 1
+ 298.469671261 258.856000917 298.488525486 284.090177999 298.488525486 306.951766224 c 0
+338.481762295 306.770205425 m 0
+ 338.481762295 285.56738173 338.465528442 261.070115405 338.433051639 233.283233956 c 1
+ 371.894746337 237.328687816 402.551007776 250.721333542 427.611125382 270.778217414 c 1
+ 344.855880054 354.184333017 344.855880054 354.184333017 338.432652493 360.539570685 c 1
+ 338.467117152 345.203158817 338.481762295 326.896300731 338.481762295 306.770205425 c 0
+268.058930949 387.633440878 m 1
+ 143.114989019 387.950307838 l 1
+ 146.879384434 354.441747387 159.967952833 323.778591398 179.729051317 298.680307641 c 1
+ 260.914093893 380.521539216 260.914093893 380.521539216 268.058930949 387.633440878 c 1
+EndSplineSet
+EndChar
+
+StartChar: uni2764
+Encoding: 10084 10084 938
+Width: 551
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+166.383789062 472.98046875 m 0
+ 203.293945312 472.471679688 242.681640625 455.497070312 276 416.868164062 c 1
+ 382.6171875 540.481445312 551.389648438 442.353515625 502.236328125 292.513671875 c 0
+ 452.999023438 142.416992188 320.97265625 101.622070312 276 56.65234375 c 1
+ 231.028320312 101.622070312 99 142.416992188 49.7626953125 292.513671875 c 0
+ 15.9697265625 395.528320312 85.1806640625 474.100585938 166.383789062 472.98046875 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni2696
+Encoding: 9878 9878 939
+Width: 727
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+359.204101562 578.87890625 m 1
+ 365.4453125 528.471679688 369.063476562 493.7265625 372.061523438 458.595703125 c 1
+ 393.403320312 489.8203125 496.11328125 459.009765625 565.637695312 443.401367188 c 0
+ 593.124023438 437.231445312 587.57421875 438.856445312 597 452.951171875 c 1
+ 610.971679688 442.173828125 604.838867188 432.555664062 596.348632812 427.85546875 c 1
+ 691.3359375 191.048828125 l 1
+ 695.03515625 191.048828125 l 1
+ 683.05078125 170.76953125 660.18359375 152.459960938 586.819335938 152.79296875 c 0
+ 513.456054688 152.459960938 490.58984375 170.76953125 478.604492188 191.048828125 c 1
+ 482.302734375 191.048828125 l 1
+ 576.318359375 425.431640625 l 1
+ 500.454101562 430.232421875 446.390625 437.028320312 374.5390625 428.04296875 c 1
+ 379.696289062 359.165039062 384.166015625 273.315429688 400.061523438 62.365234375 c 1
+ 430.874023438 34.455078125 490.64453125 43.1767578125 545.701171875 18.580078125 c 1
+ 554.149414062 -2.85546875 555.877929688 0.4951171875 556.747070312 -4.34765625 c 1
+ 359.204101562 -4.34765625 l 1
+ 161.661132812 -4.34765625 l 1
+ 162.530273438 0.4951171875 164.258789062 -2.85546875 172.70703125 18.580078125 c 1
+ 227.764648438 43.1767578125 287.532226562 34.455078125 318.345703125 62.365234375 c 1
+ 334.240234375 273.315429688 338.712890625 359.165039062 343.869140625 428.04296875 c 1
+ 274.869140625 436.671875 222.22265625 430.749023438 150.991210938 426.01171875 c 1
+ 245.23828125 191.048828125 l 1
+ 248.9375 191.048828125 l 1
+ 236.953125 170.76953125 214.086914062 152.459960938 140.72265625 152.79296875 c 0
+ 67.3583984375 152.459960938 44.4912109375 170.76953125 32.5068359375 191.048828125 c 1
+ 36.205078125 191.048828125 l 1
+ 130.053710938 425.021484375 l 1
+ 119.23828125 426.703125 103.125 438.84765625 121.408203125 452.951171875 c 1
+ 130.833984375 438.856445312 125.284179688 437.231445312 152.771484375 443.401367188 c 0
+ 222.293945312 459.009765625 325.000976562 489.819335938 346.344726562 458.59765625 c 1
+ 349.342773438 493.727539062 352.965820312 528.47265625 359.204101562 578.87890625 c 1
+142.186523438 425.438476562 m 2
+ 141.169921875 425.374023438 140.203125 425.3046875 139.178710938 425.241210938 c 2
+ 45.2431640625 191.048828125 l 1
+ 236.19921875 191.048828125 l 1
+ 142.186523438 425.438476562 l 2
+588.444335938 425.038085938 m 2
+ 587.571289062 424.8984375 586.721679688 424.8046875 585.936523438 424.8046875 c 0
+ 585.655273438 424.821289062 585.405273438 424.840820312 585.123046875 424.857421875 c 2
+ 491.340820312 191.048828125 l 1
+ 682.296875 191.048828125 l 1
+ 588.444335938 425.038085938 l 2
+EndSplineSet
+EndChar
+
+StartChar: uni2625
+Encoding: 9765 9765 940
+Width: 603
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+303.50390625 568.661132812 m 4
+ 499.215820312 568.661132812 348.118164062 324.12109375 348.091796875 324.129882812 c 5
+ 379.901367188 324.129882812 474.500976562 322.79296875 524.901367188 348.981445312 c 5
+ 569 298.537109375 l 5
+ 522.438476562 242 l 5
+ 473.576171875 267.124023438 368.235351562 275.282226562 327.651367188 275.282226562 c 5
+ 327.651367188 168.716796875 333.586914062 82.0517578125 353.74609375 8.9990234375 c 5
+ 303.50390625 -47.4755859375 l 5
+ 253.259765625 8.9990234375 l 5
+ 273.418945312 82.0517578125 279.353515625 168.716796875 279.353515625 275.282226562 c 5
+ 238.76953125 275.282226562 133.430664062 267.124023438 84.568359375 242 c 5
+ 38.005859375 298.537109375 l 5
+ 82.1044921875 348.981445312 l 5
+ 132.50390625 322.79296875 227.104492188 324.129882812 258.9140625 324.129882812 c 5
+ 258.887695312 324.12109375 107.791015625 568.661132812 303.50390625 568.661132812 c 4
+303.50390625 519.208984375 m 4
+ 205.013671875 519.208984375 293.5625 376.463867188 303.50390625 324.129882812 c 5
+ 313.444335938 376.463867188 401.993164062 519.208984375 303.50390625 519.208984375 c 4
+EndSplineSet
+EndChar
+
+StartChar: u1F5E1
+Encoding: 128481 128481 941
+Width: 622
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+574.95703125 513.583007812 m 0
+ 588.620117188 500.684570312 590.961914062 482.206054688 589.884765625 471.712890625 c 1
+ 575.859375 467.260742188 567.580078125 469.85546875 558.057617188 475.633789062 c 1
+ 546.260742188 457.043945312 473.348632812 386.528320312 472 387.640625 c 1
+ 472 387.640625 539.043945312 334.827148438 556.935546875 312.553710938 c 1
+ 551.903320312 302.665039062 544.838867188 302.666015625 539.646484375 304.090820312 c 0
+ 494.827148438 350.7421875 487.530273438 324.677734375 458.205078125 354.00390625 c 1
+ 366.810546875 272.4453125 135.201171875 47.6728515625 56.947265625 -25.26953125 c 1
+ 15.9990234375 -45.3740234375 l 1
+ 36.1044921875 -4.42578125 l 1
+ 109.045898438 73.8271484375 333.819335938 305.436523438 415.376953125 396.831054688 c 1
+ 386.051757812 426.157226562 412.115234375 433.453125 365.46484375 478.2734375 c 0
+ 364.040039062 483.46484375 364.040039062 490.52734375 373.927734375 495.559570312 c 1
+ 396.202148438 477.66796875 449.014648438 410.625976562 449.014648438 410.625976562 c 1
+ 447.90234375 411.974609375 518.41796875 484.88671875 537.006835938 496.684570312 c 1
+ 531.229492188 506.206054688 528.634765625 514.485351562 533.086914062 528.510742188 c 1
+ 543.579101562 529.587890625 562.057617188 527.247070312 574.95703125 513.583007812 c 0
+EndSplineSet
+EndChar
+
+StartChar: u1F56F
+Encoding: 128367 128367 942
+Width: 556
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+277 578.87890625 m 1
+ 340.163085938 470.712890625 305.856445312 464.272460938 275.075195312 432.418945312 c 1
+ 308.956054688 491.2265625 287.99609375 523.133789062 269.256835938 549.935546875 c 1
+ 257.767578125 515.096679688 231.096679688 477.461914062 262.095703125 438.307617188 c 1
+ 242.948242188 438.384765625 184.841796875 493.802734375 277 578.87890625 c 1
+233.451171875 440.349609375 m 2
+ 244.524414062 439.819335938 252.112304688 420.912109375 264.83984375 416.236328125 c 0
+ 275.208984375 413.327148438 285.734375 414.953125 295.268554688 413.147460938 c 0
+ 301.494140625 411.96875 309.67578125 413.12890625 313.611328125 408.162109375 c 0
+ 324.833984375 393.99609375 312.330078125 371.770507812 315.486328125 353.975585938 c 0
+ 316.618164062 347.59375 322.696289062 341.875976562 321.5390625 335.499023438 c 0
+ 320.520507812 329.889648438 316.467773438 323.079101562 310.842773438 322.15234375 c 0
+ 309.5078125 321.932617188 308.333007812 321.073242188 307.212890625 321.856445312 c 1
+ 310.352539062 77.4130859375 l 1
+ 507.147460938 77.4130859375 l 1
+ 533.514648438 53.53125 353.657226562 40.7919921875 400.770507812 19.744140625 c 1
+ 407.999023438 1.4033203125 406.591796875 -0.203125 407.3359375 -4.34765625 c 1
+ 271.383789062 -4.34765625 l 1
+ 135.431640625 -4.34765625 l 1
+ 136.17578125 -0.203125 134.766601562 1.4033203125 141.99609375 19.744140625 c 1
+ 189.109375 40.7919921875 9.2529296875 53.53125 35.6181640625 77.4130859375 c 1
+ 223.185546875 77.4130859375 l 1
+ 223.638671875 110.561523438 225.130859375 235.270507812 225.130859375 235.270507812 c 1
+ 203.293945312 239.4765625 214.40234375 278.852539062 213.640625 301.078125 c 0
+ 212.446289062 335.959960938 209.455078125 371.548828125 216.427734375 405.747070312 c 0
+ 218.872070312 417.733398438 218.192382812 436.31640625 229.892578125 439.887695312 c 0
+ 231.12109375 440.262695312 232.3046875 440.405273438 233.450195312 440.349609375 c 2
+ 233.451171875 440.349609375 l 2
+EndSplineSet
+EndChar
+
+StartChar: u1F56E
+Encoding: 128366 128366 943
+Width: 810
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+309.162109375 479.2421875 m 0
+ 349.265625 479.760742188 382.840820312 475.360351562 404.420898438 456.872070312 c 1
+ 426.000976562 475.360351562 459.576171875 479.760742188 499.680664062 479.2421875 c 0
+ 542.163085938 478.694335938 592.65625 472.53125 646.217773438 469.880859375 c 0
+ 647.654296875 469.731445312 648.911132812 469.034179688 649.720703125 468.01953125 c 0
+ 649.853515625 467.9765625 649.984375 467.927734375 650.112304688 467.875976562 c 2
+ 653.7109375 463.041992188 l 1
+ 653.7109375 463.041992188 670.311523438 464.768554688 670.323242188 464.7734375 c 0
+ 670.729492188 464.815429688 671.129882812 464.83203125 671.547851562 464.83203125 c 0
+ 676.598632812 464.83203125 680.841796875 461.661132812 682.0078125 457.388671875 c 2
+ 682.0078125 457.388671875 778.989257812 101.328125 779 101.323242188 c 0
+ 779.20703125 100.565429688 779.305664062 99.77734375 779.305664062 98.9609375 c 0
+ 779.305664062 93.9775390625 775.216796875 89.857421875 769.9296875 89.2314453125 c 2
+ 769.9296875 89.2314453125 435.206054688 49.6201171875 435.1953125 49.6201171875 c 0
+ 434.736328125 49.56640625 434.28125 49.5380859375 433.807617188 49.5380859375 c 2
+ 404.420898438 49.5380859375 l 1
+ 404.420898438 49.5380859375 375.044921875 49.5380859375 375.034179688 49.5380859375 c 0
+ 374.560546875 49.5380859375 374.104492188 49.56640625 373.646484375 49.6201171875 c 2
+ 373.646484375 49.6201171875 38.9013671875 89.2265625 38.912109375 89.2314453125 c 1
+ 33.6240234375 89.8564453125 29.5244140625 93.9736328125 29.5244140625 98.9580078125 c 0
+ 29.5244140625 99.7734375 29.6337890625 100.565429688 29.83984375 101.323242188 c 2
+ 29.83984375 101.323242188 126.8203125 457.393554688 126.833007812 457.388671875 c 1
+ 127.997070312 461.661132812 132.229492188 464.837890625 137.280273438 464.837890625 c 0
+ 137.69921875 464.837890625 138.111328125 464.815429688 138.516601562 464.7734375 c 2
+ 155.129882812 463.041992188 l 1
+ 155.129882812 463.041992188 158.724609375 467.874023438 158.727539062 467.875976562 c 0
+ 158.911132812 468.032226562 159.103515625 468.173828125 159.310546875 468.303710938 c 0
+ 159.61328125 468.591796875 159.94921875 468.83984375 160.325195312 469.047851562 c 0
+ 160.80859375 469.319335938 161.356445312 469.51953125 161.9296875 469.62890625 c 0
+ 162.151367188 469.727539062 162.38671875 469.8125 162.624023438 469.880859375 c 0
+ 216.184570312 472.53125 266.678710938 478.694335938 309.162109375 479.2421875 c 0
+309.3046875 470.075195312 m 0
+ 268.78515625 469.552734375 219.588867188 463.737304688 166.998046875 460.96875 c 1
+ 89.8017578125 143.780273438 l 1
+ 174.2265625 143.3828125 236.932617188 145.600585938 286.423828125 142.333007812 c 0
+ 333.181640625 139.24609375 368.689453125 130.806640625 399.6171875 110.532226562 c 1
+ 399.6171875 448.186523438 l 1
+ 381.368164062 465.543945312 350.071289062 470.6015625 309.3046875 470.075195312 c 0
+499.537109375 470.075195312 m 0
+ 458.771484375 470.6015625 427.473632812 465.544921875 409.224609375 448.188476562 c 1
+ 409.224609375 110.532226562 l 1
+ 440.15234375 130.806640625 475.66015625 139.24609375 522.41796875 142.333007812 c 0
+ 571.909179688 145.600585938 634.616210938 143.3828125 719.040039062 143.780273438 c 1
+ 641.842773438 460.96875 l 1
+ 589.250976562 463.737304688 540.056640625 469.552734375 499.537109375 470.075195312 c 0
+155.231445312 455.004882812 m 1
+ 144.333007812 440.359375 l 1
+ 64.9638671875 114.250976562 l 1
+ 404.420898438 73.6181640625 l 1
+ 743.87890625 114.250976562 l 1
+ 664.509765625 440.359375 l 1
+ 653.610351562 455.004882812 l 1
+ 653.610351562 455.004882812 730.228515625 140.1953125 730.228515625 140.188476562 c 0
+ 730.293945312 139.89453125 730.328125 139.59765625 730.328125 139.287109375 c 0
+ 730.328125 138.962890625 730.291015625 138.646484375 730.220703125 138.341796875 c 0
+ 730.166992188 138.153320312 730.099609375 137.966796875 730.021484375 137.790039062 c 0
+ 729.876953125 137.37890625 729.66796875 136.98828125 729.409179688 136.635742188 c 0
+ 729.2734375 136.45703125 729.127929688 136.290039062 728.966796875 136.130859375 c 0
+ 728.642578125 135.818359375 728.276367188 135.55078125 727.868164062 135.331054688 c 0
+ 727.694335938 135.220703125 727.512695312 135.12109375 727.323242188 135.03125 c 0
+ 726.721679688 134.778320312 726.049804688 134.62890625 725.348632812 134.611328125 c 0
+ 637.307617188 134.0546875 572.950195312 136.477539062 523.145507812 133.189453125 c 0
+ 479.56640625 130.3125 447.40234375 123.208984375 419.37890625 106.143554688 c 0
+ 415.375976562 103.705078125 411.45703125 101.063476562 407.6015625 98.2021484375 c 0
+ 406.734375 97.55859375 405.625 97.1708984375 404.420898438 97.169921875 c 0
+ 403.216796875 97.1708984375 402.107421875 97.55859375 401.241210938 98.2021484375 c 0
+ 370.39453125 121.092773438 335.500976562 129.901367188 285.696289062 133.189453125 c 0
+ 235.892578125 136.477539062 171.533203125 134.0546875 83.4921875 134.611328125 c 0
+ 80.7294921875 134.62890625 78.4921875 136.672851562 78.4921875 139.193359375 c 0
+ 78.4921875 139.53515625 78.533203125 139.868164062 78.611328125 140.188476562 c 2
+ 155.231445312 455.004882812 l 1
+323.673828125 450.860351562 m 0
+ 324.190429688 450.752929688 324.578125 450.377929688 324.799804688 449.689453125 c 0
+ 326.6015625 445.9140625 328.509765625 442.411132812 330.479492188 439.065429688 c 0
+ 333.736328125 433.546875 337.223632812 428.36328125 340.568359375 423.247070312 c 0
+ 341.801757812 421.424804688 343.0390625 419.614257812 344.2734375 417.833007812 c 0
+ 349.3671875 410.41796875 354.627929688 403.11328125 359.549804688 396.831054688 c 0
+ 367.038085938 387.305664062 374.678710938 379.180664062 381.475585938 371.716796875 c 0
+ 385.31640625 367.708007812 389.616210938 368.5390625 388.802734375 364.334960938 c 0
+ 386.918945312 360.962890625 382.846679688 355.192382812 378.241210938 349.354492188 c 0
+ 373.42578125 343.249023438 368.73046875 337.932617188 364.40234375 333.35546875 c 0
+ 357.75 326.25 350.969726562 318.647460938 343.774414062 312.250976562 c 0
+ 343.344726562 311.857421875 342.908203125 311.459960938 342.46484375 311.05859375 c 0
+ 337.727539062 306.763671875 332.672851562 302.426757812 327.143554688 297.973632812 c 0
+ 326.401367188 297.368164062 325.661132812 296.767578125 324.921875 296.174804688 c 0
+ 325.2109375 294.64453125 323.923828125 292.756835938 321.776367188 290.845703125 c 0
+ 323.334960938 287.9765625 324.9140625 285.13671875 326.515625 282.326171875 c 0
+ 329.9453125 276.3515625 333.458984375 270.482421875 337.05078125 264.779296875 c 0
+ 338.422851562 262.602539062 339.809570312 260.427734375 341.208007812 258.260742188 c 0
+ 347.858398438 247.850585938 354.848632812 237.546875 362.006835938 227.727539062 c 0
+ 370.651367188 216.092773438 379.883789062 205.389648438 389.6796875 196.036132812 c 0
+ 390.307617188 194.588867188 389.169921875 191.5 387.072265625 188.045898438 c 0
+ 384.946289062 184.544921875 381.982421875 180.900390625 378.73828125 177.923828125 c 0
+ 372.338867188 172.051757812 365.01171875 169.282226562 363.801757812 172.35546875 c 0
+ 359.784179688 181.670898438 354.69140625 190.0390625 349.137695312 199.563476562 c 0
+ 345.234375 205.961914062 343.0859375 209.36328125 340.657226562 213.068359375 c 0
+ 338.65625 216.088867188 336.481445312 219.286132812 333.025390625 224.443359375 c 0
+ 330.379882812 228.458984375 327.662109375 232.373046875 324.880859375 236.168945312 c 0
+ 319.42578125 243.666992188 313.751953125 250.767578125 307.89453125 257.451171875 c 1
+ 306.256835938 234.443359375 305.979492188 213.744140625 307.0234375 194.1015625 c 0
+ 307.303710938 188.881835938 307.822265625 181.0703125 309.046875 174.577148438 c 0
+ 309.985351562 172.022460938 301.6484375 168.826171875 292.45703125 166.754882812 c 0
+ 283.264648438 164.684570312 273.360351562 163.349609375 272.524414062 165.46484375 c 0
+ 280.296875 185.802734375 282.286132812 213.95703125 286.08203125 246.975585938 c 0
+ 287.157226562 259.815429688 288.387695312 275.3046875 289.426757812 290.842773438 c 0
+ 291.037109375 315.021484375 292.65625 343.610351562 293.780273438 370.588867188 c 0
+ 294.326171875 385.77734375 295.114257812 403.45703125 294.3515625 420.969726562 c 0
+ 293.767578125 423.834960938 297.6640625 429.451171875 302.397460938 434.608398438 c 0
+ 307.15234375 439.7890625 312.704101562 444.46484375 316.251953125 445.775390625 c 0
+ 319.381835938 449.083984375 322.114257812 451.18359375 323.673828125 450.860351562 c 0
+235.659179688 450.771484375 m 2
+ 235.659179688 450.771484375 l 2
+ 237.68359375 451.094726562 236.6953125 448.587890625 235.940429688 445.41015625 c 0
+ 243.877929688 430.217773438 255.689453125 412.73828125 270.232421875 395.259765625 c 0
+ 274.857421875 389.719726562 279.646484375 384.318359375 284.390625 379.280273438 c 0
+ 285.208007812 378.512695312 286.078125 377.885742188 286.922851562 377.18359375 c 0
+ 287.564453125 374.905273438 284.630859375 370.09765625 280.33984375 365.013671875 c 0
+ 276.053710938 359.93359375 270.403320312 354.544921875 265.814453125 351.102539062 c 0
+ 261.629882812 347.974609375 258.340820312 346.495117188 257.8125 348.4453125 c 0
+ 248.3046875 370.1796875 236.908203125 385.887695312 227.46875 404.013671875 c 1
+ 221.854492188 373.818359375 217.004882812 343.479492188 211.419921875 311.899414062 c 0
+ 206.032226562 280.592773438 199.162109375 245.798828125 194.756835938 215.114257812 c 0
+ 193.1875 204.134765625 191.604492188 191.690429688 191.961914062 181.787109375 c 0
+ 192.412109375 180.112304688 187.42578125 176.015625 180.887695312 171.602539062 c 0
+ 174.461914062 167.264648438 166.202148438 162.400390625 160.844726562 159.95703125 c 0
+ 157.298828125 158.33984375 154.869140625 157.701171875 154.66015625 158.79296875 c 0
+ 161.124023438 174.333007812 165.982421875 190.961914062 171.51171875 210.155273438 c 0
+ 178.6875 236.904296875 184.268554688 264.129882812 189.874023438 295.5703125 c 0
+ 194.354492188 321.295898438 198.001953125 346.212890625 201.99609375 373.55078125 c 0
+ 203.674804688 385.47265625 205.344726562 396.763671875 206.8984375 408.830078125 c 0
+ 206.91796875 408.940429688 l 1
+ 197.44921875 397.12109375 187.966796875 385.918945312 178.293945312 373.4765625 c 0
+ 178.34375 370.267578125 171.65625 364.567382812 165.053710938 361.258789062 c 0
+ 158.432617188 357.94140625 151.9765625 357.080078125 151.990234375 360.427734375 c 0
+ 158.791992188 365.989257812 165.627929688 372.451171875 172.489257812 379.80859375 c 0
+ 183.0234375 391.139648438 194.853515625 405.392578125 206.747070312 421.865234375 c 0
+ 206.749023438 424.684570312 211.451171875 429.96875 217.064453125 435.0625 c 0
+ 217.693359375 435.633789062 218.333984375 436.202148438 218.98046875 436.762695312 c 0
+ 225.328125 443.565429688 232.704101562 450.190429688 235.659179688 450.771484375 c 2
+452.563476562 446.541015625 m 1
+ 456.278320312 443.771484375 459.723632812 439.834960938 463.163085938 435.650390625 c 0
+ 465.838867188 432.34765625 468.5859375 429.017578125 471.40625 425.626953125 c 1
+ 471.002929688 426.111328125 474.73828125 421.622070312 474.334960938 422.10546875 c 1
+ 487.508789062 406.176757812 500.856445312 389.8828125 514.416015625 370.23828125 c 0
+ 524.588867188 354.053710938 527.515625 350.772460938 536.736328125 333.096679688 c 0
+ 539.55859375 327.685546875 542.21484375 322.248046875 544.708007812 316.801757812 c 0
+ 545.5546875 314.946289062 546.3828125 313.08984375 547.192382812 311.231445312 c 0
+ 556.473632812 289.962890625 563.284179688 268.662109375 568.09765625 247.724609375 c 0
+ 572.744140625 230.404296875 572.9296875 230.0234375 573.004882812 229.737304688 c 0
+ 573.081054688 229.451171875 573.047851562 229.305664062 577.204101562 214.671875 c 0
+ 579.801757812 205.543945312 583.428710938 193.803710938 585.7578125 184.220703125 c 0
+ 587.799804688 181.102539062 574.853515625 175.198242188 563.98046875 171.884765625 c 0
+ 563.31640625 171.681640625 562.659179688 171.48828125 562.015625 171.306640625 c 0
+ 556.373046875 169.713867188 551.654296875 168.94140625 550.6015625 170.346679688 c 0
+ 550.827148438 182.443359375 547.038085938 196.56640625 544.311523438 212.743164062 c 0
+ 540.327148438 230.64453125 534.884765625 250.627929688 529.485351562 271.037109375 c 0
+ 519.8671875 298.432617188 506.9375 320.67578125 490.032226562 344.784179688 c 0
+ 485.866210938 350.364257812 481.646484375 355.740234375 477.384765625 360.916015625 c 0
+ 476.295898438 362.224609375 475.20703125 363.517578125 474.118164062 364.795898438 c 0
+ 465.419921875 374.990234375 456.780273438 384.317382812 448.280273438 392.892578125 c 1
+ 448.109375 360.537109375 450.830078125 284.997070312 451.610351562 255.225585938 c 0
+ 451.90625 231.813476562 453.197265625 208.275390625 456.764648438 188.0546875 c 0
+ 457.751953125 182.493164062 459.352539062 174.708984375 461.890625 168.4609375 c 0
+ 463.310546875 166.333984375 455.952148438 157.833007812 448.0234375 150.0390625 c 0
+ 440.094726562 142.244140625 431.499023438 135.432617188 430.045898438 137.881835938 c 0
+ 430.676757812 169.107421875 430.211914062 202.756835938 430.760742188 239.372070312 c 0
+ 430.606445312 256.223632812 430.46875 268.325195312 429.873046875 285.291992188 c 0
+ 428.930664062 312.129882812 427.474609375 334.295898438 425.728515625 361.344726562 c 0
+ 424.783203125 374.650390625 423.888671875 391.641601562 422.13671875 406.489257812 c 0
+ 421.655273438 407.999023438 422.873046875 410.462890625 425.028320312 413.4609375 c 0
+ 427.133789062 416.38671875 430.340820312 420.090820312 433.598632812 423.547851562 c 0
+ 439.715820312 433.354492188 442.067382812 434.364257812 452.563476562 446.541015625 c 1
+583.501953125 444.262695312 m 2
+ 583.501953125 444.262695312 l 2
+ 585.090820312 444.022460938 585.747070312 442.990234375 585.712890625 440.313476562 c 0
+ 586.916015625 422.25390625 590.0625 400.438476562 592.595703125 380.404296875 c 1
+ 594.858398438 381.452148438 596.653320312 381.603515625 597.428710938 380.220703125 c 0
+ 597.741210938 379.763671875 598.0546875 379.309570312 598.370117188 378.857421875 c 1
+ 598.483398438 378.692382812 l 1
+ 602.423828125 373.0703125 606.54296875 367.76953125 610.732421875 362.692382812 c 0
+ 624.938476562 345.463867188 639.963867188 330.088867188 656.270507812 318.333007812 c 0
+ 660.770507812 315.1875 661.661132812 314.643554688 662.31640625 314.219726562 c 0
+ 662.330078125 314.2109375 664.053710938 313.114257812 667.1484375 311.260742188 c 0
+ 668.9921875 310.15625 671.174804688 309.125976562 673.024414062 307.685546875 c 0
+ 675.291015625 306.471679688 673.944335938 302.017578125 674.498046875 297.171875 c 0
+ 672.083007812 292.66015625 668.928710938 287.708984375 666.4765625 282.294921875 c 0
+ 654.163085938 259.739257812 641.903320312 239.4609375 627.265625 220.818359375 c 0
+ 627.68359375 220.037109375 627.453125 219.1015625 626.727539062 218.092773438 c 0
+ 626.701171875 218.055664062 626.672851562 218.01953125 626.645507812 217.982421875 c 0
+ 625.599609375 216.587890625 623.641601562 215.073242188 621.147460938 213.625 c 0
+ 624.200195312 202.654296875 627.06640625 193.079101562 632.146484375 181.8125 c 0
+ 633.909179688 179.118164062 626.610351562 174.303710938 618.192382812 171.330078125 c 0
+ 609.805664062 168.366210938 600.279296875 166.975585938 598.63671875 169.364257812 c 0
+ 598.510742188 182.086914062 596.491210938 199.82421875 594.559570312 216.787109375 c 0
+ 591.208007812 243.243164062 587.21875 267.43359375 582.305664062 298.6484375 c 0
+ 576.002929688 336.850585938 569.196289062 376.890625 560.416992188 420.61328125 c 0
+ 560.247070312 421.325195312 560.041015625 422.028320312 559.854492188 422.73828125 c 0
+ 558.524414062 425.829101562 562.859375 431.638671875 568.234375 436.356445312 c 0
+ 573.639648438 441.100585938 580.0703125 444.731445312 583.501953125 444.262695312 c 2
+317.743164062 402.401367188 m 1
+ 315.940429688 370.712890625 312.692382812 325.770507812 310.139648438 293.418945312 c 1
+ 316.40625 298.3984375 321.997070312 302.760742188 327.532226562 307.228515625 c 0
+ 332.489257812 311.174804688 337.588867188 315.362304688 342.7421875 320.038085938 c 0
+ 343.482421875 320.70703125 344.2265625 321.390625 344.9765625 322.092773438 c 0
+ 350.055664062 326.7734375 355.764648438 332.625 362.219726562 339.897460938 c 1
+ 356.112304688 349.551757812 350.758789062 356.860351562 344.10546875 366.557617188 c 0
+ 342.513671875 368.848632812 340.899414062 371.19921875 339.27734375 373.625976562 c 0
+ 336.407226562 377.723632812 333.508789062 381.75 330.53515625 385.75 c 0
+ 327.0078125 390.530273438 323.46875 395.190429688 319.870117188 399.791015625 c 0
+ 318.979492188 400.888671875 318.6328125 401.3046875 317.743164062 402.401367188 c 1
+600.3671875 326.380859375 m 1
+ 600.365234375 326.380859375 l 1
+ 605.026367188 295.71875 609.844726562 263.853515625 616.276367188 233.036132812 c 1
+ 618.3984375 235.6328125 620.501953125 238.274414062 622.579101562 240.971679688 c 0
+ 622.66015625 241.075195312 l 0
+ 627.40234375 247.23046875 632.185546875 253.93359375 637.01953125 261.638671875 c 0
+ 639.672851562 265.875976562 644.545898438 271.560546875 645.080078125 277.803710938 c 0
+ 645.284179688 278.68359375 644.913085938 278.795898438 644.016601562 279.693359375 c 0
+ 631.831054688 292.821289062 622.249023438 303.112304688 609.227539062 316.935546875 c 0
+ 609.114257812 317.055664062 l 0
+ 608.09375 318.143554688 601.387695312 325.29296875 600.3671875 326.380859375 c 1
+ 600.3671875 326.380859375 l 1
+EndSplineSet
+EndChar
+
+StartChar: NameMe.1114295
+Encoding: 9995 9995 944
+AltUni2: 00270b.00fe0e.0
+Width: 416
+GlyphClass: 2
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+199.81640625 541.638671875 m 1
+ 199.81640625 541.638671875 l 1
+ 209.056640625 541.5625 218.579101562 536.971679688 223.013671875 529.158203125 c 0
+ 233.456054688 513.421875 222.7265625 497.80078125 229.366210938 382.76171875 c 0
+ 227.743164062 370.674804688 227.485351562 358.49609375 227.720703125 346.293945312 c 0
+ 228.096679688 334.252929688 224.73046875 322.393554688 225.459960938 310.329101562 c 0
+ 227.907226562 308.021484375 231.1328125 305.370117188 232.026367188 310.397460938 c 0
+ 233.0390625 335.234375 230.989257812 360.596679688 237.390625 384.955078125 c 0
+ 250.598632812 437.64453125 230.05859375 474.366210938 244.641601562 494.359375 c 0
+ 252.1484375 509.142578125 276.836914062 510.489257812 285.26171875 495.934570312 c 0
+ 294.864257812 482.224609375 293.6640625 465.064453125 295.452148438 449.321289062 c 0
+ 296.346679688 442.329101562 294.158203125 435.499023438 293.899414062 428.551757812 c 0
+ 293.215820312 415.573242188 294.72265625 402.434570312 291.545898438 389.662109375 c 0
+ 290.88671875 366.013671875 291.874023438 342.272460938 289.12109375 318.69140625 c 0
+ 289.709960938 308.08984375 286.744140625 297.600585938 287.780273438 287.022460938 c 0
+ 286.391601562 276.96875 291.828125 267.486328125 291.357421875 257.43359375 c 0
+ 291.969726562 248.29296875 289.920898438 238.7421875 293.7109375 230.037109375 c 1
+ 299.217773438 238.559570312 309.337890625 245.985351562 307.76171875 257.158203125 c 0
+ 307.125976562 276.991210938 307.69140625 298.149414062 318.1875 315.790039062 c 0
+ 325.200195312 326.186523438 335.745117188 338.274414062 350.077148438 335.783203125 c 0
+ 357.9140625 336.012695312 364.151367188 331.030273438 368.387695312 325.067382812 c 0
+ 372.481445312 315.424804688 369.28125 304.936523438 367.46875 295.180664062 c 0
+ 364.78515625 286.383789062 368.598632812 277.563476562 368.927734375 268.743164062 c 0
+ 369.493164062 256.633789062 374.53125 243.676757812 369 232.046875 c 0
+ 334.958007812 170.763671875 341.877929688 169.443359375 329.413085938 144.990234375 c 0
+ 314.892578125 105.026367188 283.49609375 74.2265625 255.32421875 42.9912109375 c 0
+ 245.346679688 31.521484375 246.5234375 15.9833984375 246.311523438 2 c 0
+ 245.228515625 1.4736328125 243.086914062 0.400390625 242.004882812 -0.1484375 c 2
+ 70.2490234375 -0.125 l 2
+ 64.482421875 2.7080078125 66.0595703125 9.8837890625 65.353515625 15.046875 c 0
+ 66.388671875 27.5 60.2919921875 38.7412109375 56.48046875 50.2119140625 c 0
+ 43.5966796875 96.947265625 30.6943359375 189.243164062 34.828125 243.426757812 c 0
+ 36.380859375 252.177734375 40.076171875 260.405273438 43.18359375 268.69921875 c 1
+ 38.876953125 282.134765625 39.4638671875 296.4609375 41.3955078125 310.26171875 c 0
+ 42.619140625 326.96484375 40.6650390625 343.8046875 42.8076171875 360.485351562 c 0
+ 42.853515625 374.857421875 44.8779296875 389.16015625 43.935546875 403.532226562 c 0
+ 43.27734375 415.89453125 45.4658203125 428.576171875 51.7724609375 439.4296875 c 0
+ 57.6337890625 446.924804688 69.966796875 449.049804688 77.708984375 443.108398438 c 0
+ 90.412109375 432.82421875 85.3857421875 407.306640625 86.7001953125 364.826171875 c 0
+ 89.3359375 343.987304688 94.1142578125 323.353515625 93.97265625 302.263671875 c 1
+ 98.2783203125 303.520507812 104.069335938 304.732421875 104.420898438 310.079101562 c 0
+ 101.856445312 325.16015625 103.59765625 340.446289062 102.657226562 355.6171875 c 0
+ 101.83203125 370.858398438 102.916015625 386.099609375 105.198242188 401.157226562 c 0
+ 104.916015625 415.735351562 105.926757812 430.2890625 106.680664062 444.798828125 c 0
+ 103.314453125 466.00390625 104.209960938 489.538085938 118.77734375 506.904296875 c 0
+ 125.014648438 515.15234375 138.334960938 515.541015625 146.21875 509.41796875 c 0
+ 163.99609375 498.198242188 156.388671875 456.466796875 156.69140625 433.625 c 0
+ 153.680664062 411.370117188 157.822265625 389.275390625 158.268554688 367.020507812 c 0
+ 160.599609375 348.124023438 158.811523438 329.067382812 159.728515625 310.079101562 c 0
+ 162.741210938 310.034179688 165.75390625 310.009765625 168.7890625 309.987304688 c 0
+ 172.483398438 341.084960938 163.563476562 372.870117188 171.071289062 403.647460938 c 1
+ 171.848632812 428.326171875 175.661132812 453.024414062 172.743164062 477.724609375 c 0
+ 169.376953125 496.27734375 170.413085938 516.819335938 181.28515625 533.01953125 c 0
+ 185.610351562 539.028320312 192.627929688 541.698242188 199.81640625 541.638671875 c 1
+EndSplineSet
+EndChar
+
+StartChar: NameMe.1114296
+Encoding: 128167 128167 945
+AltUni2: 01f4a7.00fe0e.0
+Width: 395
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+194.889648438 534.033203125 m 1
+ 226.415039062 416.375976562 359.922851562 265.1953125 355 145.0859375 c 0
+ 352.380859375 81.181640625 303.40234375 -3.830078125 194.889648438 -4.197265625 c 0
+ 86.3759765625 -3.830078125 37.3955078125 81.181640625 34.7763671875 145.0859375 c 0
+ 29.8544921875 265.1953125 163.36328125 416.375976562 194.889648438 534.033203125 c 1
+EndSplineSet
+EndChar
+
+StartChar: NameMe.1114297
+Encoding: 128276 128276 946
+AltUni2: 01f514.00fe0e.0
+Width: 620
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+306.826171875 546.250976562 m 1
+ 353.500976562 548.778320312 361.678710938 493.168945312 356.596679688 491.357421875 c 1
+ 442.057617188 468.458007812 484.735351562 425.03515625 484.735351562 311.959960938 c 0
+ 484.735351562 222.765625 499.802734375 138.655273438 527.958007812 63.4326171875 c 1
+ 540.282226562 63.4326171875 l 2
+ 557.853515625 63.4326171875 572 49.287109375 572 31.71484375 c 0
+ 572 14.1435546875 557.853515625 0 540.282226562 0 c 2
+ 540.282226562 0 362.118164062 -0.02734375 362.119140625 0 c 1
+ 361.223632812 -29.7685546875 336.798828125 -53.6943359375 306.826171875 -53.744140625 c 0
+ 276.85546875 -53.693359375 252.431640625 -29.767578125 251.53515625 0 c 1
+ 73.37109375 0 l 2
+ 55.7998046875 0 41.6533203125 14.1435546875 41.6533203125 31.71484375 c 0
+ 41.6533203125 49.287109375 55.7998046875 63.4326171875 73.37109375 63.4326171875 c 2
+ 85.6962890625 63.4326171875 l 1
+ 113.852539062 138.655273438 128.918945312 222.765625 128.918945312 311.959960938 c 0
+ 128.918945312 425.03515625 171.59765625 468.458007812 257.057617188 491.357421875 c 1
+ 251.9765625 493.168945312 260.15234375 548.778320312 306.826171875 546.250976562 c 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
