@@ -4,14 +4,14 @@ FullName: Scriven
 FamilyName: Scriven
 Weight: Regular
 Copyright: Copyright (c) 2024, Kevin Smith
-Version: 0.0.1
+Version: 0.0.2
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
 Ascent: 650
 Descent: 350
 InvalidEm: 0
-sfntRevision: 0x00010000
+sfntRevision: 0x00020000
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1708861063
-ModificationTime: 1736154349
+ModificationTime: 1736156366
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -86,7 +86,7 @@ Lookup: 4 0 1 "Glyph Composition" { "Variant Selector Sequences"  "Ophidian Comb
 Lookup: 5 0 0 "Sitelen Pona Sizing Context" { "Sitelen Pona Sizing Context-1"  } ['rclt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 1 0 0 "Sizing" { "Sizing-en"  } []
 Lookup: 260 0 0 "Mark Anchors" { "Mark Anchors-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
-Lookup: 258 0 0 "Horizontal Kerning" { "Latin Majuscule-Majuscule" [90,15,0] "Latin Majuscule-miniscule" [90,0,2] "Runes and Cirth" [190,12,2] "Latin miniscule-miniscule" [20,0,0] "Latin miniscule-space/punct" [150,15,4] "tally marks" [150,15,0] "Ophidian Kerning" [150,15,4] "punct-latin miniscule" [150,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
+Lookup: 258 0 0 "Horizontal Kerning" { "Latin Majuscule-Majuscule" [90,15,0] "Latin Majuscule-miniscule" [90,0,2] "Latin miniscule-miniscule" [20,0,0] "punct-latin miniscule" [150,15,4] "Latin miniscule-space/punct" [150,15,4] "Runes and Cirth" [190,12,2] "tally marks" [150,15,0] "Ophidian Kerning" [150,15,4] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > 'runr' <'dflt' > ) ]
 MarkAttachClasses: 2
 "" 0 
 DEI: 91125
