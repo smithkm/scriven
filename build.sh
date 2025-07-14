@@ -6,6 +6,7 @@ cp Scriven.otf ~/.local/share/fonts/
 cp Scriven.woff2 ../smithkm.github.io/runes/
 #fc-cache -f -v
 fontimage \
+    -o docs/scriven.png \
     --pixelsize 128 \
     --text "Scriven᛫ᛋᚳᚱᛁᚢ︆ᛖᚾ" \
     --pixelsize 32 \
